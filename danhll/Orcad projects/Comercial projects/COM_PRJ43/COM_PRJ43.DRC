@@ -1,0 +1,71 @@
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Invalid References
+
+Checking for Duplicate References
+
+Checking for Compatibility with SDT
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+
+Reporting Net Names
+    N00271
+    N00322
+    N00376
+    N002335
+    N002333
+    N002331
+    N005011
+    N005015
+    N005013
+    N005643
+    N005641
+    N005645
+    N006273
+    N006271
+    N006275
+    N006901
+    N006903
+    N006905
+    N007533
+    N007531
+    N007535
+    N011991
+    N013993
+    N012392
+    N011993
+    N013593
+    N012794
+    N011994
+    N012390
+    N012792
+    N011992
+    N012394
+    N013591
+    N013995
+    N012790
+    N011990
+    N013991
+    N011995
+    N013595
+    N01843
+    N01911
+    N02000

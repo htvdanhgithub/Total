@@ -1,0 +1,33 @@
+AutoECO Report
+FILE-A: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ26(10 LED)\COM_PRJ26.MAX
+FILE-B: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ26(10 LED)\COM_PRJ26.MAX
+If "*EOF*" immediately follows, no changes were made
+Net N01172 renamed to N02336
+Deleting U4.1 from net N02336
+Deleting U6.1 from net N02336
+Deleting U5.1 from net N02336
+Deleting U7.1 from net N02336
+Deleting U10.1 from net N02336
+Deleting U8.1 from net N02336
+Deleting U9.1 from net N02336
+Deleting U3.1 from net N02336
+Deleting J1.2 from net N02336
+Deleting U1.1 from net N02336
+Deleting U2.1 from net N02336
+Adding B5.1 to net N02336
+Adding U5.4 to net N02336
+Adding J1.2 to net N01172
+Adding U1.1 to net N01172
+Adding U2.1 to net N01172
+Adding U9.1 to net N01172
+Adding U10.1 to net N01172
+Adding U8.1 to net N01172
+Adding U5.1 to net N01172
+Adding U4.1 to net N01172
+Adding U3.1 to net N01172
+Adding U7.1 to net N01172
+Adding U6.1 to net N01172
+Adding R5.1 to net N02396
+Adding U5.2 to net N02396
+*EOF*
+No errors found

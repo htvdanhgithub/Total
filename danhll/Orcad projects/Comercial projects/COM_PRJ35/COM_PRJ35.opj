@@ -1,0 +1,66 @@
+(ExpressProject "COM_PRJ35"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\com_prj35.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "TRUE")
+    (DRC_SDT_Compatibility "TRUE")
+    (DRC_Report_Off-grid_Objects "TRUE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Report_Netnames "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_Report_File
+       "D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ35\COM_PRJ35.DRC")
+    (Netlist_TAB "5")
+    (LAYOUT_Netlist_File "COM_PRJ35.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (FALSE)
+    (LAYOUT_Units "0")
+    (TRUE))
+  (Folder "Outputs"
+    (File ".\com_prj35.drc"
+      (Type "Report"))
+    (File ".\com_prj35.mnl"
+      (Type "LAYOUT Netlist File")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    ("DIODE BRIDGE"
+      (FullPartName "DIODE BRIDGE.Normal")
+      (LibraryName
+         "D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY ORCAD\THU VIEN ORCAD FULL\CAPTURE FULL\THU VIEN CAPTURE.OLB")
+      (DeviceIndex "0"))
+    (CON5
+      (FullPartName "CON5.Normal")
+      (LibraryName
+         "D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY ORCAD\THU VIEN ORCAD FULL\CAPTURE FULL\THU VIEN CAPTURE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\Danh\Robot\Orcad projects\Comercial projects\COM_PRJ35\com_prj35.dsn")
+      (Path "Design Resources"
+         "D:\Danh\Robot\Orcad projects\Comercial projects\COM_PRJ35\com_prj35.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "D:\Danh\Robot\Orcad projects\Comercial projects\COM_PRJ35\com_prj35.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -30 13 213 19 422"))
+      (Tab 0))))

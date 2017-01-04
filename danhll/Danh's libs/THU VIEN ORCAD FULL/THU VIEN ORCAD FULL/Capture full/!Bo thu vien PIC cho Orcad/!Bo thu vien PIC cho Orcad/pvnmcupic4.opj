@@ -1,0 +1,36 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\pvnmcupic4.olb"
+      (Type "Schematic Library"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\pvnmcupic4.olb")
+      (Select "Design Resources" ".\pvnmcupic4.olb" "PIC18F87J10"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 0 322 0 403"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 88 954 116 549")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "490 403")
+        (Zoom "170"))
+      (Path
+         "E:\MY DOCUMENTS\!!!SPECIAL\!PIC\!BO THU VIEN PIC CHO ORCAD\PVNMCUPIC4.OLB")
+      (Package "PIC18F87J10")))
+  (MPSSessionName "KHOA NAM"))

@@ -1,0 +1,68 @@
+AutoECO Report
+FILE-A: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ38\COM_PRJ38.MAX
+FILE-B: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ38\COM_PRJ38.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding component RR3
+Adding component RG3
+Adding component RB3
+Net N136740 renamed to N13060
+Net N13654 renamed to N16557
+Net N07736 renamed to N16627
+Net N13680 renamed to N16697
+Net N02658 renamed to N02609
+Net N03042 renamed to N15436
+Net N11083 renamed to N15464
+Net N03142 renamed to N15495
+Deleting QG1.1 from net N15464
+Adding J1.4 to net N15464
+Adding RG1.1 to net N15464
+Adding QG1.2 to net N15464
+Deleting QB2.1 from net N16697
+Adding QB1.3 to net N16697
+Adding RB3.2 to net N16697
+Deleting QR1.1 from net N15436
+Adding J1.3 to net N15436
+Adding RR1.1 to net N15436
+Adding QR1.2 to net N15436
+Deleting QB1.1 from net N15495
+Adding J1.5 to net N15495
+Adding RB1.1 to net N15495
+Adding QB1.2 to net N15495
+Deleting QR2.1 from net N16557
+Adding RR3.2 to net N16557
+Adding QR1.3 to net N16557
+Deleting QG2.2 from net N13060
+Adding RR2.1 to net N13060
+Adding J1.2 to net N13060
+Adding J2.2 to net N13060
+Adding RB3.1 to net N13060
+Adding RB2.1 to net N13060
+Adding RG3.1 to net N13060
+Adding RR3.1 to net N13060
+Deleting J1.5 from net N02609
+Adding RR1.2 to net N02609
+Adding QB1.1 to net N02609
+Adding J2.1 to net N02609
+Adding J1.1 to net N02609
+Adding QR1.1 to net N02609
+Adding QG1.1 to net N02609
+Adding RG1.2 to net N02609
+Deleting QR1.3 from net N16627
+Deleting QB1.3 from net N16627
+Deleting J1.2 from net N16627
+Adding J2.4 to net N16627
+Adding RG3.2 to net N16627
+Deleting component QR2
+Deleting component QG2
+Deleting component QB2
+Deleting net N02607
+Deleting net N02559
+Deleting net N13016
+Deleting net N137580
+Deleting net N020102
+Deleting net N020382
+Deleting net N137342
+Deleting net N004632
+Deleting net N13710
+*EOF*
+No errors found

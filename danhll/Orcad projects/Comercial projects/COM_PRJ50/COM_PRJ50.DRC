@@ -1,0 +1,37 @@
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Invalid References
+[DRC0011]  Reference is invalid for this part RB
+                    SCHEMATIC1, PAGE1  (6.70, 2.10) 
+[DRC0011]  Reference is invalid for this part IC
+                    SCHEMATIC1, PAGE1  (5.50, 0.50) 
+[DRC0011]  Reference is invalid for this part QB
+                    SCHEMATIC1, PAGE1  (6.90, 2.40) 
+[DRC0011]  Reference is invalid for this part RR
+                    SCHEMATIC1, PAGE1  (5.30, 2.10) 
+[DRC0011]  Reference is invalid for this part QR
+                    SCHEMATIC1, PAGE1  (5.50, 2.40) 
+[DRC0011]  Reference is invalid for this part RG
+                    SCHEMATIC1, PAGE1  (6.00, 2.10) 
+[DRC0011]  Reference is invalid for this part QG
+                    SCHEMATIC1, PAGE1  (6.20, 2.40) 
+
+Checking for Duplicate References
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals

@@ -1,0 +1,102 @@
+AutoECO Report
+FILE-A: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47.MAX
+FILE-B: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding component G14
+Adding component B16
+Adding component G16
+Adding component U13
+Adding component G15
+Adding component R14
+Adding component R15
+Adding component B13
+Adding component B15
+Adding component R13
+Adding component U15
+Adding component U14
+Adding component B14
+Adding component U16
+Adding component R16
+Adding component G13
+Adding net N16585
+Adding net N16559
+Adding net N16515
+Adding net N16553
+Adding net N16591
+Adding net N16551
+Adding net N19162
+Adding net N19108
+Adding net N19110
+Adding net N19277
+Adding net N19265
+Adding net N19271
+Deleting U12.1 from net N01172
+Deleting U11.1 from net N01172
+Deleting U9.1 from net N01172
+Deleting U10.1 from net N01172
+Deleting U4.1 from net N01172
+Deleting U6.1 from net N01172
+Deleting U5.1 from net N01172
+Deleting U3.1 from net N01172
+Deleting U2.1 from net N01172
+Deleting U7.1 from net N01172
+Deleting U8.1 from net N01172
+Deleting R9.2 from net N01195
+Deleting R8.2 from net N01195
+Deleting R2.2 from net N01195
+Deleting R10.2 from net N01195
+Deleting R11.2 from net N01195
+Deleting R12.2 from net N01195
+Deleting R3.2 from net N01195
+Deleting R4.2 from net N01195
+Deleting R7.2 from net N01195
+Deleting R5.2 from net N01195
+Deleting R6.2 from net N01195
+Deleting B12.2 from net N01251
+Deleting B3.2 from net N01251
+Deleting B6.2 from net N01251
+Deleting B2.2 from net N01251
+Deleting B11.2 from net N01251
+Deleting B10.2 from net N01251
+Deleting B9.2 from net N01251
+Deleting B7.2 from net N01251
+Deleting B8.2 from net N01251
+Deleting B5.2 from net N01251
+Deleting B4.2 from net N01251
+Deleting G6.2 from net N01216
+Deleting G2.2 from net N01216
+Deleting G7.2 from net N01216
+Deleting G8.2 from net N01216
+Deleting G12.2 from net N01216
+Deleting G9.2 from net N01216
+Deleting G10.2 from net N01216
+Deleting G11.2 from net N01216
+Deleting G3.2 from net N01216
+Deleting G5.2 from net N01216
+Deleting G4.2 from net N01216
+Adding B13.1 to net N16585
+Adding U13.4 to net N16585
+Adding G13.1 to net N16559
+Adding U13.3 to net N16559
+Adding R13.1 to net N16515
+Adding U13.2 to net N16515
+Adding U14.2 to net N16553
+Adding R14.1 to net N16553
+Adding U14.3 to net N16591
+Adding G14.1 to net N16591
+Adding U14.4 to net N16551
+Adding B14.1 to net N16551
+Adding R15.1 to net N19162
+Adding U15.2 to net N19162
+Adding B15.1 to net N19108
+Adding U15.4 to net N19108
+Adding G15.1 to net N19110
+Adding U15.3 to net N19110
+Adding G16.1 to net N19277
+Adding U16.3 to net N19277
+Adding B16.1 to net N19265
+Adding U16.4 to net N19265
+Adding R16.1 to net N19271
+Adding U16.2 to net N19271
+*EOF*
+No errors found

@@ -1,0 +1,1995 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"81 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _INDF `Vuc  1 e@0 ]
+"85 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TMR0 `Vuc  1 e@1 ]
+"89 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _PCL `Vuc  1 e@2 ]
+"93 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _STATUS `Vuc  1 e@3 ]
+"95 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CARRY `Vb  1 e@24 ]
+"96 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _DC `Vb  1 e@25 ]
+"97 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _ZERO `Vb  1 e@26 ]
+"98 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _nPD `Vb  1 e@27 ]
+"99 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _nTO `Vb  1 e@28 ]
+"100 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _IRP `Vb  1 e@31 ]
+"101 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RP0 `Vb  1 e@29 ]
+"102 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RP1 `Vb  1 e@30 ]
+"123 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _FSR `Vuc  1 e@4 ]
+"127 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _PORTA `Vuc  1 e@5 ]
+"129 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RA0 `Vb  1 e@40 ]
+"130 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RA1 `Vb  1 e@41 ]
+"131 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RA2 `Vb  1 e@42 ]
+"132 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RA3 `Vb  1 e@43 ]
+"133 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RA4 `Vb  1 e@44 ]
+"134 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RA5 `Vb  1 e@45 ]
+"135 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RA6 `Vb  1 e@46 ]
+"136 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RA7 `Vb  1 e@47 ]
+"153 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _PORTB `Vuc  1 e@6 ]
+"155 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RB0 `Vb  1 e@48 ]
+"156 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RB1 `Vb  1 e@49 ]
+"157 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RB2 `Vb  1 e@50 ]
+"158 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RB3 `Vb  1 e@51 ]
+"159 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RB4 `Vb  1 e@52 ]
+"160 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RB5 `Vb  1 e@53 ]
+"161 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RB6 `Vb  1 e@54 ]
+"162 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RB7 `Vb  1 e@55 ]
+"179 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _PCLATH `Vuc  1 e@10 ]
+"190 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _INTCON `Vuc  1 e@11 ]
+"192 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RBIF `Vb  1 e@88 ]
+"193 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _INTF `Vb  1 e@89 ]
+"194 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _T0IF `Vb  1 e@90 ]
+"195 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RBIE `Vb  1 e@91 ]
+"196 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _INTE `Vb  1 e@92 ]
+"197 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _T0IE `Vb  1 e@93 ]
+"198 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _PEIE `Vb  1 e@94 ]
+"199 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _GIE `Vb  1 e@95 ]
+"200 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TMR0IF `Vb  1 e@90 ]
+"201 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TMR0IE `Vb  1 e@93 ]
+"224 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _PIR1 `Vuc  1 e@12 ]
+"226 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TMR1IF `Vb  1 e@96 ]
+"227 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TMR2IF `Vb  1 e@97 ]
+"228 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CCP1IF `Vb  1 e@98 ]
+"229 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TXIF `Vb  1 e@100 ]
+"230 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RCIF `Vb  1 e@101 ]
+"231 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CMIF `Vb  1 e@102 ]
+"232 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _EEIF `Vb  1 e@103 ]
+"258 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TMR1L `Vuc  1 e@14 ]
+"262 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TMR1H `Vuc  1 e@15 ]
+"266 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TMR1 `Vui  1 e@14 ]
+"269 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _T1CON `Vuc  1 e@16 ]
+"271 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TMR1ON `Vb  1 e@128 ]
+"272 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TMR1CS `Vb  1 e@129 ]
+"273 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _nT1SYNC `Vb  1 e@130 ]
+"274 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _T1OSCEN `Vb  1 e@131 ]
+"275 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _T1CKPS0 `Vb  1 e@132 ]
+"276 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _T1CKPS1 `Vb  1 e@133 ]
+"295 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TMR2 `Vuc  1 e@17 ]
+"299 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _T2CON `Vuc  1 e@18 ]
+"301 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TMR2ON `Vb  1 e@146 ]
+"302 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _T2CKPS0 `Vb  1 e@144 ]
+"303 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _T2CKPS1 `Vb  1 e@145 ]
+"304 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TOUTPS0 `Vb  1 e@147 ]
+"305 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TOUTPS1 `Vb  1 e@148 ]
+"306 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TOUTPS2 `Vb  1 e@149 ]
+"307 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TOUTPS3 `Vb  1 e@150 ]
+"329 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CCPR1L `Vuc  1 e@21 ]
+"333 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CCPR1H `Vuc  1 e@22 ]
+"337 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CCPR1 `Vui  1 e@21 ]
+"340 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CCP1CON `Vuc  1 e@23 ]
+"342 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CCP1Y `Vb  1 e@188 ]
+"343 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CCP1X `Vb  1 e@189 ]
+"344 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CCP1M0 `Vb  1 e@184 ]
+"345 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CCP1M1 `Vb  1 e@185 ]
+"346 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CCP1M2 `Vb  1 e@186 ]
+"347 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CCP1M3 `Vb  1 e@187 ]
+"365 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RCSTA `Vuc  1 e@24 ]
+"367 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RX9D `Vb  1 e@192 ]
+"368 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _OERR `Vb  1 e@193 ]
+"369 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _FERR `Vb  1 e@194 ]
+"370 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _ADEN `Vb  1 e@195 ]
+"371 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CREN `Vb  1 e@196 ]
+"372 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _SREN `Vb  1 e@197 ]
+"373 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RX9 `Vb  1 e@198 ]
+"374 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _SPEN `Vb  1 e@199 ]
+"375 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _ADDEN `Vb  1 e@195 ]
+"396 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TXREG `Vuc  1 e@25 ]
+"400 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RCREG `Vuc  1 e@26 ]
+"404 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CMCON `Vuc  1 e@31 ]
+"406 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CIS `Vb  1 e@251 ]
+"407 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _C1INV `Vb  1 e@252 ]
+"408 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _C2INV `Vb  1 e@253 ]
+"409 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _C1OUT `Vb  1 e@254 ]
+"410 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _C2OUT `Vb  1 e@255 ]
+"411 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CM0 `Vb  1 e@248 ]
+"412 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CM1 `Vb  1 e@249 ]
+"413 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CM2 `Vb  1 e@250 ]
+"438 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _OPTION_REG `Vuc  1 e@129 ]
+"440 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _PSA `Vb  1 e@1035 ]
+"441 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _T0SE `Vb  1 e@1036 ]
+"442 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _T0CS `Vb  1 e@1037 ]
+"443 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _INTEDG `Vb  1 e@1038 ]
+"444 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _nRBPU `Vb  1 e@1039 ]
+"445 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _PS0 `Vb  1 e@1032 ]
+"446 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _PS1 `Vb  1 e@1033 ]
+"447 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _PS2 `Vb  1 e@1034 ]
+"467 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISA `Vuc  1 e@133 ]
+"469 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISA0 `Vb  1 e@1064 ]
+"470 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISA1 `Vb  1 e@1065 ]
+"471 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISA2 `Vb  1 e@1066 ]
+"472 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISA3 `Vb  1 e@1067 ]
+"473 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISA4 `Vb  1 e@1068 ]
+"474 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISA5 `Vb  1 e@1069 ]
+"475 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISA6 `Vb  1 e@1070 ]
+"476 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISA7 `Vb  1 e@1071 ]
+"493 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISB `Vuc  1 e@134 ]
+"495 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISB0 `Vb  1 e@1072 ]
+"496 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISB1 `Vb  1 e@1073 ]
+"497 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISB2 `Vb  1 e@1074 ]
+"498 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISB3 `Vb  1 e@1075 ]
+"499 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISB4 `Vb  1 e@1076 ]
+"500 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISB5 `Vb  1 e@1077 ]
+"501 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISB6 `Vb  1 e@1078 ]
+"502 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRISB7 `Vb  1 e@1079 ]
+"519 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _PIE1 `Vuc  1 e@140 ]
+"521 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TMR1IE `Vb  1 e@1120 ]
+"522 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TMR2IE `Vb  1 e@1121 ]
+"523 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CCP1IE `Vb  1 e@1122 ]
+"524 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TXIE `Vb  1 e@1124 ]
+"525 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RCIE `Vb  1 e@1125 ]
+"526 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CMIE `Vb  1 e@1126 ]
+"527 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _EEIE `Vb  1 e@1127 ]
+"544 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _PCON `Vuc  1 e@142 ]
+"546 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _nBOR `Vb  1 e@1136 ]
+"547 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _nPOR `Vb  1 e@1137 ]
+"548 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _OSCF `Vb  1 e@1139 ]
+"549 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _nBO `Vb  1 e@1136 ]
+"550 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _nBOD `Vb  1 e@1136 ]
+"569 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _PR2 `Vuc  1 e@146 ]
+"573 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TXSTA `Vuc  1 e@152 ]
+"575 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TX9D `Vb  1 e@1216 ]
+"576 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TRMT `Vb  1 e@1217 ]
+"577 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _BRGH `Vb  1 e@1218 ]
+"578 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _SYNC `Vb  1 e@1220 ]
+"579 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TXEN `Vb  1 e@1221 ]
+"580 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _TX9 `Vb  1 e@1222 ]
+"581 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _CSRC `Vb  1 e@1223 ]
+"598 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _SPBRG `Vuc  1 e@153 ]
+"602 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _EEDATA `Vuc  1 e@154 ]
+"606 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _EEADR `Vuc  1 e@155 ]
+"610 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _EECON1 `Vuc  1 e@156 ]
+"612 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _RD `Vb  1 e@1248 ]
+"613 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _WR `Vb  1 e@1249 ]
+"614 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _WREN `Vb  1 e@1250 ]
+"615 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _WRERR `Vb  1 e@1251 ]
+"628 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _EECON2 `Vuc  1 e@157 ]
+"632 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _VRCON `Vuc  1 e@159 ]
+"634 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _VRR `Vb  1 e@1277 ]
+"635 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _VROE `Vb  1 e@1278 ]
+"636 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _VREN `Vb  1 e@1279 ]
+"637 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _VR0 `Vb  1 e@1272 ]
+"638 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _VR1 `Vb  1 e@1273 ]
+"639 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _VR2 `Vb  1 e@1274 ]
+"640 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic16f628a.h
+[v _VR3 `Vb  1 e@1275 ]
+"31 Calling_systemV1.c
+[v _unit `uc  -> 5 `i e ]
+"32 Calling_systemV1.c
+[v _ten `uc  -> 5 `i e ]
+"33 Calling_systemV1.c
+[v _flick `uc  -> 5 `i e ]
+"34 Calling_systemV1.c
+[v _timeout `uc  -> 5 `i e ]
+"35 Calling_systemV1.c
+[v _visible `uc  -> 5 `i e ]
+"37 Calling_systemV1.c
+[v _curNorIndex `uc  1 e ]
+"38 Calling_systemV1.c
+[v _curViewIndex `uc  1 e ]
+"39 Calling_systemV1.c
+[v _numNorCount `uc  1 e ]
+"40 Calling_systemV1.c
+[v _curTick `uc  1 e ]
+"40 Calling_systemV1.c
+[v _curFlipFlopTick `uc  1 e ]
+"41 Calling_systemV1.c
+[v _mode `uc  1 e ]
+"42 Calling_systemV1.c
+[v _moved `uc  1 e ]
+"43 Calling_systemV1.c
+[v _prioritized `uc  1 e ]
+"79 Calling_systemV1.c
+[v _tmp `uc  1 e ]
+"154 C:\Program Files\HI-TECH Software\PICC\9.83\include\pic.h
+[v __delay `(v  0 ef1`ul ]
+[p i __delay ]
+[p mainexit ]
+[; ;stdio.h: 12: typedef int ptrdiff_t;
+[; ;stdio.h: 13: typedef unsigned size_t;
+[; ;stdio.h: 14: typedef unsigned short wchar_t;
+[; ;stdarg.h: 31: typedef void * va_list[1];
+[; ;stdarg.h: 34: extern void * __va_start(void);
+[; ;stdarg.h: 37: extern void * __va_arg(void *, ...);
+[; ;stdio.h: 27: extern int errno;
+[; ;stdio.h: 58: struct __prbuf
+[; ;stdio.h: 59: {
+[; ;stdio.h: 60: char * ptr;
+[; ;stdio.h: 61: void (* func)(char);
+[; ;stdio.h: 62: };
+[; ;conio.h: 17: extern int errno;
+[; ;conio.h: 20: extern void init_uart(void);
+[; ;conio.h: 22: extern char getch(void);
+[; ;conio.h: 23: extern char getche(void);
+[; ;conio.h: 24: extern void putch(char);
+[; ;conio.h: 25: extern void ungetch(char);
+[; ;conio.h: 27: extern bit kbhit(void);
+[; ;conio.h: 31: extern char * cgets(char *);
+[; ;conio.h: 32: extern void cputs(const char *);
+[; ;stdio.h: 103: extern int cprintf(char *, ...);
+[; ;stdio.h: 108: extern int _doprnt(struct __prbuf *, const register char *, register va_list);
+[; ;stdio.h: 195: extern char * gets(char *);
+[; ;stdio.h: 196: extern int puts(const char *);
+[; ;stdio.h: 197: extern int scanf(const char *, ...);
+[; ;stdio.h: 198: extern int sscanf(const char *, const char *, ...);
+[; ;stdio.h: 199: extern int vprintf(const char *, va_list);
+[; ;stdio.h: 200: extern int vsprintf(char *, const char *, va_list);
+[; ;stdio.h: 201: extern int vscanf(const char *, va_list ap);
+[; ;stdio.h: 202: extern int vsscanf(const char *, const char *, va_list);
+[; ;stdio.h: 206: extern int sprintf(char *, const char *, ...);
+[; ;stdio.h: 207: extern int printf(const char *, ...);
+[; ;stdlib.h: 27: typedef struct {
+[; ;stdlib.h: 28: int rem;
+[; ;stdlib.h: 29: int quot;
+[; ;stdlib.h: 30: } div_t;
+[; ;stdlib.h: 31: typedef struct {
+[; ;stdlib.h: 32: unsigned rem;
+[; ;stdlib.h: 33: unsigned quot;
+[; ;stdlib.h: 34: } udiv_t;
+[; ;stdlib.h: 35: typedef struct {
+[; ;stdlib.h: 36: long quot;
+[; ;stdlib.h: 37: long rem;
+[; ;stdlib.h: 38: } ldiv_t;
+[; ;stdlib.h: 39: typedef struct {
+[; ;stdlib.h: 40: unsigned long quot;
+[; ;stdlib.h: 41: unsigned long rem;
+[; ;stdlib.h: 42: } uldiv_t;
+[; ;stdlib.h: 65: extern double atof(const char *);
+[; ;stdlib.h: 66: extern double strtod(const char *, const char **);
+[; ;stdlib.h: 67: extern int atoi(const char *);
+[; ;stdlib.h: 68: extern unsigned xtoi(const char *);
+[; ;stdlib.h: 69: extern long atol(const char *);
+[; ;stdlib.h: 70: extern long strtol(const char *, char **, int);
+[; ;stdlib.h: 72: extern int rand(void);
+[; ;stdlib.h: 73: extern void srand(unsigned int);
+[; ;stdlib.h: 74: extern void * calloc(size_t, size_t);
+[; ;stdlib.h: 75: extern div_t div(int numer, int denom);
+[; ;stdlib.h: 76: extern udiv_t udiv(unsigned numer, unsigned denom);
+[; ;stdlib.h: 77: extern ldiv_t ldiv(long numer, long denom);
+[; ;stdlib.h: 78: extern uldiv_t uldiv(unsigned long numer,unsigned long denom);
+[; ;stdlib.h: 79: extern unsigned long _lrotl(unsigned long value, unsigned int shift);
+[; ;stdlib.h: 80: extern unsigned long _lrotr(unsigned long value, unsigned int shift);
+[; ;stdlib.h: 81: extern unsigned int _rotl(unsigned int value, unsigned int shift);
+[; ;stdlib.h: 82: extern unsigned int _rotr(unsigned int value, unsigned int shift);
+[; ;stdlib.h: 106: extern void * malloc(size_t);
+[; ;stdlib.h: 107: extern void free(void *);
+[; ;stdlib.h: 108: extern void * realloc(void *, size_t);
+[; ;stdlib.h: 122: extern void abort(void);
+[; ;stdlib.h: 123: extern void exit(int);
+[; ;stdlib.h: 124: extern int atexit(void (*)(void));
+[; ;stdlib.h: 125: extern char * getenv(const char *);
+[; ;stdlib.h: 126: extern char ** environ;
+[; ;stdlib.h: 127: extern int system(char *);
+[; ;stdlib.h: 128: extern void qsort(void *, size_t, size_t, int (*)(const void *, const void *));
+[; ;stdlib.h: 129: extern void * bsearch(const void *, void *, size_t, size_t, int(*)(const void *, const void *));
+[; ;stdlib.h: 130: extern int abs(int);
+[; ;stdlib.h: 131: extern long labs(long);
+[; ;stdlib.h: 145: extern char * itoa(char * buf, int val, int base);
+[; ;stdlib.h: 146: extern char * utoa(char * buf, unsigned val, int base);
+[; ;stdlib.h: 147: extern char * ltoa(char * buf, long val, int base);
+[; ;stdlib.h: 148: extern char * ultoa(char * buf, unsigned long val, int base);
+[; ;pic16f628a.h: 81: volatile unsigned char INDF @ 0x000;
+[; ;pic16f628a.h: 85: volatile unsigned char TMR0 @ 0x001;
+[; ;pic16f628a.h: 89: volatile unsigned char PCL @ 0x002;
+[; ;pic16f628a.h: 93: volatile unsigned char STATUS @ 0x003;
+[; ;pic16f628a.h: 95: volatile bit CARRY @ ((unsigned)&STATUS*8)+0;
+[; ;pic16f628a.h: 96: volatile bit DC @ ((unsigned)&STATUS*8)+1;
+[; ;pic16f628a.h: 97: volatile bit ZERO @ ((unsigned)&STATUS*8)+2;
+[; ;pic16f628a.h: 98: volatile bit nPD @ ((unsigned)&STATUS*8)+3;
+[; ;pic16f628a.h: 99: volatile bit nTO @ ((unsigned)&STATUS*8)+4;
+[; ;pic16f628a.h: 100: volatile bit IRP @ ((unsigned)&STATUS*8)+7;
+[; ;pic16f628a.h: 101: volatile bit RP0 @ ((unsigned)&STATUS*8)+5;
+[; ;pic16f628a.h: 102: volatile bit RP1 @ ((unsigned)&STATUS*8)+6;
+[; ;pic16f628a.h: 123: volatile unsigned char FSR @ 0x004;
+[; ;pic16f628a.h: 127: volatile unsigned char PORTA @ 0x005;
+[; ;pic16f628a.h: 129: volatile bit RA0 @ ((unsigned)&PORTA*8)+0;
+[; ;pic16f628a.h: 130: volatile bit RA1 @ ((unsigned)&PORTA*8)+1;
+[; ;pic16f628a.h: 131: volatile bit RA2 @ ((unsigned)&PORTA*8)+2;
+[; ;pic16f628a.h: 132: volatile bit RA3 @ ((unsigned)&PORTA*8)+3;
+[; ;pic16f628a.h: 133: volatile bit RA4 @ ((unsigned)&PORTA*8)+4;
+[; ;pic16f628a.h: 134: volatile bit RA5 @ ((unsigned)&PORTA*8)+5;
+[; ;pic16f628a.h: 135: volatile bit RA6 @ ((unsigned)&PORTA*8)+6;
+[; ;pic16f628a.h: 136: volatile bit RA7 @ ((unsigned)&PORTA*8)+7;
+[; ;pic16f628a.h: 153: volatile unsigned char PORTB @ 0x006;
+[; ;pic16f628a.h: 155: volatile bit RB0 @ ((unsigned)&PORTB*8)+0;
+[; ;pic16f628a.h: 156: volatile bit RB1 @ ((unsigned)&PORTB*8)+1;
+[; ;pic16f628a.h: 157: volatile bit RB2 @ ((unsigned)&PORTB*8)+2;
+[; ;pic16f628a.h: 158: volatile bit RB3 @ ((unsigned)&PORTB*8)+3;
+[; ;pic16f628a.h: 159: volatile bit RB4 @ ((unsigned)&PORTB*8)+4;
+[; ;pic16f628a.h: 160: volatile bit RB5 @ ((unsigned)&PORTB*8)+5;
+[; ;pic16f628a.h: 161: volatile bit RB6 @ ((unsigned)&PORTB*8)+6;
+[; ;pic16f628a.h: 162: volatile bit RB7 @ ((unsigned)&PORTB*8)+7;
+[; ;pic16f628a.h: 179: volatile unsigned char PCLATH @ 0x00A;
+[; ;pic16f628a.h: 190: volatile unsigned char INTCON @ 0x00B;
+[; ;pic16f628a.h: 192: volatile bit RBIF @ ((unsigned)&INTCON*8)+0;
+[; ;pic16f628a.h: 193: volatile bit INTF @ ((unsigned)&INTCON*8)+1;
+[; ;pic16f628a.h: 194: volatile bit T0IF @ ((unsigned)&INTCON*8)+2;
+[; ;pic16f628a.h: 195: volatile bit RBIE @ ((unsigned)&INTCON*8)+3;
+[; ;pic16f628a.h: 196: volatile bit INTE @ ((unsigned)&INTCON*8)+4;
+[; ;pic16f628a.h: 197: volatile bit T0IE @ ((unsigned)&INTCON*8)+5;
+[; ;pic16f628a.h: 198: volatile bit PEIE @ ((unsigned)&INTCON*8)+6;
+[; ;pic16f628a.h: 199: volatile bit GIE @ ((unsigned)&INTCON*8)+7;
+[; ;pic16f628a.h: 200: volatile bit TMR0IF @ ((unsigned)&INTCON*8)+2;
+[; ;pic16f628a.h: 201: volatile bit TMR0IE @ ((unsigned)&INTCON*8)+5;
+[; ;pic16f628a.h: 224: volatile unsigned char PIR1 @ 0x00C;
+[; ;pic16f628a.h: 226: volatile bit TMR1IF @ ((unsigned)&PIR1*8)+0;
+[; ;pic16f628a.h: 227: volatile bit TMR2IF @ ((unsigned)&PIR1*8)+1;
+[; ;pic16f628a.h: 228: volatile bit CCP1IF @ ((unsigned)&PIR1*8)+2;
+[; ;pic16f628a.h: 229: volatile bit TXIF @ ((unsigned)&PIR1*8)+4;
+[; ;pic16f628a.h: 230: volatile bit RCIF @ ((unsigned)&PIR1*8)+5;
+[; ;pic16f628a.h: 231: volatile bit CMIF @ ((unsigned)&PIR1*8)+6;
+[; ;pic16f628a.h: 232: volatile bit EEIF @ ((unsigned)&PIR1*8)+7;
+[; ;pic16f628a.h: 258: volatile unsigned char TMR1L @ 0x00E;
+[; ;pic16f628a.h: 262: volatile unsigned char TMR1H @ 0x00F;
+[; ;pic16f628a.h: 266: volatile unsigned int TMR1 @ 0x00E;
+[; ;pic16f628a.h: 269: volatile unsigned char T1CON @ 0x010;
+[; ;pic16f628a.h: 271: volatile bit TMR1ON @ ((unsigned)&T1CON*8)+0;
+[; ;pic16f628a.h: 272: volatile bit TMR1CS @ ((unsigned)&T1CON*8)+1;
+[; ;pic16f628a.h: 273: volatile bit nT1SYNC @ ((unsigned)&T1CON*8)+2;
+[; ;pic16f628a.h: 274: volatile bit T1OSCEN @ ((unsigned)&T1CON*8)+3;
+[; ;pic16f628a.h: 275: volatile bit T1CKPS0 @ ((unsigned)&T1CON*8)+4;
+[; ;pic16f628a.h: 276: volatile bit T1CKPS1 @ ((unsigned)&T1CON*8)+5;
+[; ;pic16f628a.h: 295: volatile unsigned char TMR2 @ 0x011;
+[; ;pic16f628a.h: 299: volatile unsigned char T2CON @ 0x012;
+[; ;pic16f628a.h: 301: volatile bit TMR2ON @ ((unsigned)&T2CON*8)+2;
+[; ;pic16f628a.h: 302: volatile bit T2CKPS0 @ ((unsigned)&T2CON*8)+0;
+[; ;pic16f628a.h: 303: volatile bit T2CKPS1 @ ((unsigned)&T2CON*8)+1;
+[; ;pic16f628a.h: 304: volatile bit TOUTPS0 @ ((unsigned)&T2CON*8)+3;
+[; ;pic16f628a.h: 305: volatile bit TOUTPS1 @ ((unsigned)&T2CON*8)+4;
+[; ;pic16f628a.h: 306: volatile bit TOUTPS2 @ ((unsigned)&T2CON*8)+5;
+[; ;pic16f628a.h: 307: volatile bit TOUTPS3 @ ((unsigned)&T2CON*8)+6;
+[; ;pic16f628a.h: 329: volatile unsigned char CCPR1L @ 0x015;
+[; ;pic16f628a.h: 333: volatile unsigned char CCPR1H @ 0x016;
+[; ;pic16f628a.h: 337: volatile unsigned int CCPR1 @ 0x015;
+[; ;pic16f628a.h: 340: volatile unsigned char CCP1CON @ 0x017;
+[; ;pic16f628a.h: 342: volatile bit CCP1Y @ ((unsigned)&CCP1CON*8)+4;
+[; ;pic16f628a.h: 343: volatile bit CCP1X @ ((unsigned)&CCP1CON*8)+5;
+[; ;pic16f628a.h: 344: volatile bit CCP1M0 @ ((unsigned)&CCP1CON*8)+0;
+[; ;pic16f628a.h: 345: volatile bit CCP1M1 @ ((unsigned)&CCP1CON*8)+1;
+[; ;pic16f628a.h: 346: volatile bit CCP1M2 @ ((unsigned)&CCP1CON*8)+2;
+[; ;pic16f628a.h: 347: volatile bit CCP1M3 @ ((unsigned)&CCP1CON*8)+3;
+[; ;pic16f628a.h: 365: volatile unsigned char RCSTA @ 0x018;
+[; ;pic16f628a.h: 367: volatile bit RX9D @ ((unsigned)&RCSTA*8)+0;
+[; ;pic16f628a.h: 368: volatile bit OERR @ ((unsigned)&RCSTA*8)+1;
+[; ;pic16f628a.h: 369: volatile bit FERR @ ((unsigned)&RCSTA*8)+2;
+[; ;pic16f628a.h: 370: volatile bit ADEN @ ((unsigned)&RCSTA*8)+3;
+[; ;pic16f628a.h: 371: volatile bit CREN @ ((unsigned)&RCSTA*8)+4;
+[; ;pic16f628a.h: 372: volatile bit SREN @ ((unsigned)&RCSTA*8)+5;
+[; ;pic16f628a.h: 373: volatile bit RX9 @ ((unsigned)&RCSTA*8)+6;
+[; ;pic16f628a.h: 374: volatile bit SPEN @ ((unsigned)&RCSTA*8)+7;
+[; ;pic16f628a.h: 375: volatile bit ADDEN @ ((unsigned)&RCSTA*8)+3;
+[; ;pic16f628a.h: 396: volatile unsigned char TXREG @ 0x019;
+[; ;pic16f628a.h: 400: volatile unsigned char RCREG @ 0x01A;
+[; ;pic16f628a.h: 404: volatile unsigned char CMCON @ 0x01F;
+[; ;pic16f628a.h: 406: volatile bit CIS @ ((unsigned)&CMCON*8)+3;
+[; ;pic16f628a.h: 407: volatile bit C1INV @ ((unsigned)&CMCON*8)+4;
+[; ;pic16f628a.h: 408: volatile bit C2INV @ ((unsigned)&CMCON*8)+5;
+[; ;pic16f628a.h: 409: volatile bit C1OUT @ ((unsigned)&CMCON*8)+6;
+[; ;pic16f628a.h: 410: volatile bit C2OUT @ ((unsigned)&CMCON*8)+7;
+[; ;pic16f628a.h: 411: volatile bit CM0 @ ((unsigned)&CMCON*8)+0;
+[; ;pic16f628a.h: 412: volatile bit CM1 @ ((unsigned)&CMCON*8)+1;
+[; ;pic16f628a.h: 413: volatile bit CM2 @ ((unsigned)&CMCON*8)+2;
+[; ;pic16f628a.h: 438: volatile unsigned char OPTION_REG @ 0x081;
+[; ;pic16f628a.h: 440: volatile bit PSA @ ((unsigned)&OPTION_REG*8)+3;
+[; ;pic16f628a.h: 441: volatile bit T0SE @ ((unsigned)&OPTION_REG*8)+4;
+[; ;pic16f628a.h: 442: volatile bit T0CS @ ((unsigned)&OPTION_REG*8)+5;
+[; ;pic16f628a.h: 443: volatile bit INTEDG @ ((unsigned)&OPTION_REG*8)+6;
+[; ;pic16f628a.h: 444: volatile bit nRBPU @ ((unsigned)&OPTION_REG*8)+7;
+[; ;pic16f628a.h: 445: volatile bit PS0 @ ((unsigned)&OPTION_REG*8)+0;
+[; ;pic16f628a.h: 446: volatile bit PS1 @ ((unsigned)&OPTION_REG*8)+1;
+[; ;pic16f628a.h: 447: volatile bit PS2 @ ((unsigned)&OPTION_REG*8)+2;
+[; ;pic16f628a.h: 467: volatile unsigned char TRISA @ 0x085;
+[; ;pic16f628a.h: 469: volatile bit TRISA0 @ ((unsigned)&TRISA*8)+0;
+[; ;pic16f628a.h: 470: volatile bit TRISA1 @ ((unsigned)&TRISA*8)+1;
+[; ;pic16f628a.h: 471: volatile bit TRISA2 @ ((unsigned)&TRISA*8)+2;
+[; ;pic16f628a.h: 472: volatile bit TRISA3 @ ((unsigned)&TRISA*8)+3;
+[; ;pic16f628a.h: 473: volatile bit TRISA4 @ ((unsigned)&TRISA*8)+4;
+[; ;pic16f628a.h: 474: volatile bit TRISA5 @ ((unsigned)&TRISA*8)+5;
+[; ;pic16f628a.h: 475: volatile bit TRISA6 @ ((unsigned)&TRISA*8)+6;
+[; ;pic16f628a.h: 476: volatile bit TRISA7 @ ((unsigned)&TRISA*8)+7;
+[; ;pic16f628a.h: 493: volatile unsigned char TRISB @ 0x086;
+[; ;pic16f628a.h: 495: volatile bit TRISB0 @ ((unsigned)&TRISB*8)+0;
+[; ;pic16f628a.h: 496: volatile bit TRISB1 @ ((unsigned)&TRISB*8)+1;
+[; ;pic16f628a.h: 497: volatile bit TRISB2 @ ((unsigned)&TRISB*8)+2;
+[; ;pic16f628a.h: 498: volatile bit TRISB3 @ ((unsigned)&TRISB*8)+3;
+[; ;pic16f628a.h: 499: volatile bit TRISB4 @ ((unsigned)&TRISB*8)+4;
+[; ;pic16f628a.h: 500: volatile bit TRISB5 @ ((unsigned)&TRISB*8)+5;
+[; ;pic16f628a.h: 501: volatile bit TRISB6 @ ((unsigned)&TRISB*8)+6;
+[; ;pic16f628a.h: 502: volatile bit TRISB7 @ ((unsigned)&TRISB*8)+7;
+[; ;pic16f628a.h: 519: volatile unsigned char PIE1 @ 0x08C;
+[; ;pic16f628a.h: 521: volatile bit TMR1IE @ ((unsigned)&PIE1*8)+0;
+[; ;pic16f628a.h: 522: volatile bit TMR2IE @ ((unsigned)&PIE1*8)+1;
+[; ;pic16f628a.h: 523: volatile bit CCP1IE @ ((unsigned)&PIE1*8)+2;
+[; ;pic16f628a.h: 524: volatile bit TXIE @ ((unsigned)&PIE1*8)+4;
+[; ;pic16f628a.h: 525: volatile bit RCIE @ ((unsigned)&PIE1*8)+5;
+[; ;pic16f628a.h: 526: volatile bit CMIE @ ((unsigned)&PIE1*8)+6;
+[; ;pic16f628a.h: 527: volatile bit EEIE @ ((unsigned)&PIE1*8)+7;
+[; ;pic16f628a.h: 544: volatile unsigned char PCON @ 0x08E;
+[; ;pic16f628a.h: 546: volatile bit nBOR @ ((unsigned)&PCON*8)+0;
+[; ;pic16f628a.h: 547: volatile bit nPOR @ ((unsigned)&PCON*8)+1;
+[; ;pic16f628a.h: 548: volatile bit OSCF @ ((unsigned)&PCON*8)+3;
+[; ;pic16f628a.h: 549: volatile bit nBO @ ((unsigned)&PCON*8)+0;
+[; ;pic16f628a.h: 550: volatile bit nBOD @ ((unsigned)&PCON*8)+0;
+[; ;pic16f628a.h: 569: volatile unsigned char PR2 @ 0x092;
+[; ;pic16f628a.h: 573: volatile unsigned char TXSTA @ 0x098;
+[; ;pic16f628a.h: 575: volatile bit TX9D @ ((unsigned)&TXSTA*8)+0;
+[; ;pic16f628a.h: 576: volatile bit TRMT @ ((unsigned)&TXSTA*8)+1;
+[; ;pic16f628a.h: 577: volatile bit BRGH @ ((unsigned)&TXSTA*8)+2;
+[; ;pic16f628a.h: 578: volatile bit SYNC @ ((unsigned)&TXSTA*8)+4;
+[; ;pic16f628a.h: 579: volatile bit TXEN @ ((unsigned)&TXSTA*8)+5;
+[; ;pic16f628a.h: 580: volatile bit TX9 @ ((unsigned)&TXSTA*8)+6;
+[; ;pic16f628a.h: 581: volatile bit CSRC @ ((unsigned)&TXSTA*8)+7;
+[; ;pic16f628a.h: 598: volatile unsigned char SPBRG @ 0x099;
+[; ;pic16f628a.h: 602: volatile unsigned char EEDATA @ 0x09A;
+[; ;pic16f628a.h: 606: volatile unsigned char EEADR @ 0x09B;
+[; ;pic16f628a.h: 610: volatile unsigned char EECON1 @ 0x09C;
+[; ;pic16f628a.h: 612: volatile bit RD @ ((unsigned)&EECON1*8)+0;
+[; ;pic16f628a.h: 613: volatile bit WR @ ((unsigned)&EECON1*8)+1;
+[; ;pic16f628a.h: 614: volatile bit WREN @ ((unsigned)&EECON1*8)+2;
+[; ;pic16f628a.h: 615: volatile bit WRERR @ ((unsigned)&EECON1*8)+3;
+[; ;pic16f628a.h: 628: volatile unsigned char EECON2 @ 0x09D;
+[; ;pic16f628a.h: 632: volatile unsigned char VRCON @ 0x09F;
+[; ;pic16f628a.h: 634: volatile bit VRR @ ((unsigned)&VRCON*8)+5;
+[; ;pic16f628a.h: 635: volatile bit VROE @ ((unsigned)&VRCON*8)+6;
+[; ;pic16f628a.h: 636: volatile bit VREN @ ((unsigned)&VRCON*8)+7;
+[; ;pic16f628a.h: 637: volatile bit VR0 @ ((unsigned)&VRCON*8)+0;
+[; ;pic16f628a.h: 638: volatile bit VR1 @ ((unsigned)&VRCON*8)+1;
+[; ;pic16f628a.h: 639: volatile bit VR2 @ ((unsigned)&VRCON*8)+2;
+[; ;pic16f628a.h: 640: volatile bit VR3 @ ((unsigned)&VRCON*8)+3;
+[; ;pic.h: 28: extern void _nop(void);
+[; ;pic.h: 80: extern unsigned int flash_read(unsigned short addr);
+[; ;pic.h: 144: extern void flash_erase(unsigned short addr);
+[; ;eeprom_routines.h: 41: extern unsigned char eeprom_write(unsigned char addr, unsigned char value);
+[; ;eeprom_routines.h: 42: extern unsigned char eeprom_read(unsigned char addr);
+[; ;eeprom_routines.h: 43: extern void eecpymem(volatile unsigned char *to, eeprom unsigned char *from, unsigned char size);
+[; ;eeprom_routines.h: 44: extern void memcpyee(eeprom unsigned char *to, const unsigned char *from, unsigned char size);
+[; ;pic.h: 154: extern void _delay(unsigned long);
+"16 Calling_systemV1.c
+[; ;Calling_systemV1.c: 16: asm("\tpsect config,class=CONFIG,delta=2"); asm("\tdw ""0xDFFF & 0xFFFB & 0xFFF7 & 0xFFFC & 0xFFFF & 0xFF7F & 0xFEFF");
+[; 	psect config,class=CONFIG,delta=2 ;#
+[; 	dw 0xDFFF & 0xFFFB & 0xFFF7 & 0xFFFC & 0xFFFF & 0xFF7F & 0xFEFF ;#
+"31
+[i _unit
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+]
+[; ;Calling_systemV1.c: 31: unsigned char unit[5] = {0, 0, 0, 0, 0};
+"32
+[i _ten
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+]
+[; ;Calling_systemV1.c: 32: unsigned char ten[5] = {0, 0, 0, 0, 0};
+"33
+[i _flick
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+]
+[; ;Calling_systemV1.c: 33: unsigned char flick[5] = {0, 0, 0, 0, 0};
+"34
+[i _timeout
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+]
+[; ;Calling_systemV1.c: 34: unsigned char timeout[5] = {0, 0, 0, 0, 0};
+"35
+[i _visible
+:U ..
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+..
+]
+[; ;Calling_systemV1.c: 35: unsigned char visible[5] = {1, 1, 1, 1, 1};
+"37
+[i _curNorIndex
+-> -> 0 `i `uc
+]
+[; ;Calling_systemV1.c: 37: unsigned char curNorIndex = 0;
+"38
+[i _curViewIndex
+-> -> 0 `i `uc
+]
+[; ;Calling_systemV1.c: 38: unsigned char curViewIndex = 0;
+"39
+[i _numNorCount
+-> -> 0 `i `uc
+]
+[; ;Calling_systemV1.c: 39: unsigned char numNorCount = 0;
+"40
+[i _curTick
+-> -> 0 `i `uc
+]
+[i _curFlipFlopTick
+-> -> 0 `i `uc
+]
+[; ;Calling_systemV1.c: 40: unsigned char curTick = 0, curFlipFlopTick = 0;
+"41
+[i _mode
+-> -> 0 `i `uc
+]
+[; ;Calling_systemV1.c: 41: unsigned char mode = 0;
+"42
+[i _moved
+-> -> 0 `i `uc
+]
+[; ;Calling_systemV1.c: 42: unsigned char moved = 0;
+"43
+[i _prioritized
+-> -> 0 `i `uc
+]
+[; ;Calling_systemV1.c: 43: unsigned char prioritized = 0;
+"46
+[v _Init `(v  1 ef ]
+{
+[; ;Calling_systemV1.c: 45: void Init(void)
+[; ;Calling_systemV1.c: 46: {
+[e :U _Init ]
+[f ]
+[; ;Calling_systemV1.c: 48: OSCF = 1;
+"48
+[e = _OSCF -> -> 1 `i `b ]
+[; ;Calling_systemV1.c: 51: T0IE = 0;
+"51
+[e = _T0IE -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 53: T1OSCEN = 0;
+"53
+[e = _T1OSCEN -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 56: VREN = 0;
+"56
+[e = _VREN -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 59: CMIE = 0;
+"59
+[e = _CMIE -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 61: TRISA = 0b00100000;
+"61
+[e = _TRISA -> -> 32 `i `uc ]
+[; ;Calling_systemV1.c: 63: TRISB = 0b00011111;
+"63
+[e = _TRISB -> -> 31 `i `uc ]
+[; ;Calling_systemV1.c: 65: RB5 = 0;
+"65
+[e = _RB5 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 68: nRBPU = 0;
+"68
+[e = _nRBPU -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 71: RBIE = 1;
+"71
+[e = _RBIE -> -> 1 `i `b ]
+[; ;Calling_systemV1.c: 74: PEIE = 1;
+"74
+[e = _PEIE -> -> 1 `i `b ]
+[; ;Calling_systemV1.c: 77: GIE = 1;
+"77
+[e = _GIE -> -> 1 `i `b ]
+[; ;Calling_systemV1.c: 78: }
+"78
+[e :UE 6 ]
+}
+[; ;Calling_systemV1.c: 79: unsigned char tmp;
+"82
+[v _Display `(v  1 ef2`uc`uc ]
+{
+[; ;Calling_systemV1.c: 81: void Display(unsigned char num, unsigned char pos)
+[; ;Calling_systemV1.c: 82: {
+[e :U _Display ]
+[v _num `uc  1 r1 ]
+[v _pos `uc  1 r2 ]
+[f ]
+[; ;Calling_systemV1.c: 83: switch(num)
+"83
+[e $U 9  ]
+[; ;Calling_systemV1.c: 84: {
+"84
+{
+[; ;Calling_systemV1.c: 85: case 0:
+"85
+[e :U 10 ]
+[; ;Calling_systemV1.c: 86: if(pos == 0)
+"86
+[e $ ! == -> _pos `i -> 0 `i 11  ]
+[; ;Calling_systemV1.c: 87: {
+"87
+{
+[; ;Calling_systemV1.c: 88: RB6 = RB7 = 0;
+"88
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 89: PORTA = 0b01000000;
+"89
+[e = _PORTA -> -> 64 `i `uc ]
+[; ;Calling_systemV1.c: 90: RB7 = 1;
+"90
+[e = _RB7 -> -> 1 `i `b ]
+"91
+}
+[; ;Calling_systemV1.c: 91: }
+[e $U 12  ]
+"92
+[e :U 11 ]
+[; ;Calling_systemV1.c: 92: else
+[; ;Calling_systemV1.c: 93: {
+"93
+{
+[; ;Calling_systemV1.c: 94: RB6 = RB7 = 0;
+"94
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 95: PORTA = 0b01000000;
+"95
+[e = _PORTA -> -> 64 `i `uc ]
+[; ;Calling_systemV1.c: 96: RB6 = 1;
+"96
+[e = _RB6 -> -> 1 `i `b ]
+"98
+}
+[e :U 12 ]
+[; ;Calling_systemV1.c: 98: }
+[; ;Calling_systemV1.c: 99: break;
+"99
+[e $U 8  ]
+[; ;Calling_systemV1.c: 100: case 1:
+"100
+[e :U 13 ]
+[; ;Calling_systemV1.c: 101: if(pos == 0)
+"101
+[e $ ! == -> _pos `i -> 0 `i 14  ]
+[; ;Calling_systemV1.c: 102: {
+"102
+{
+[; ;Calling_systemV1.c: 103: RB6 = RB7 = 0;
+"103
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 104: PORTA = 0b11100111;
+"104
+[e = _PORTA -> -> 231 `i `uc ]
+[; ;Calling_systemV1.c: 105: RB7 = 1;
+"105
+[e = _RB7 -> -> 1 `i `b ]
+"106
+}
+[; ;Calling_systemV1.c: 106: }
+[e $U 15  ]
+"107
+[e :U 14 ]
+[; ;Calling_systemV1.c: 107: else
+[; ;Calling_systemV1.c: 108: {
+"108
+{
+[; ;Calling_systemV1.c: 109: RB6 = RB7 = 0;
+"109
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 110: PORTA = 0b11100111;
+"110
+[e = _PORTA -> -> 231 `i `uc ]
+[; ;Calling_systemV1.c: 111: RB6 = 1;
+"111
+[e = _RB6 -> -> 1 `i `b ]
+"113
+}
+[e :U 15 ]
+[; ;Calling_systemV1.c: 113: }
+[; ;Calling_systemV1.c: 114: break;
+"114
+[e $U 8  ]
+[; ;Calling_systemV1.c: 115: case 2:
+"115
+[e :U 16 ]
+[; ;Calling_systemV1.c: 116: if(pos == 0)
+"116
+[e $ ! == -> _pos `i -> 0 `i 17  ]
+[; ;Calling_systemV1.c: 117: {
+"117
+{
+[; ;Calling_systemV1.c: 118: RB6 = RB7 = 0;
+"118
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 119: PORTA = 0b10010000;
+"119
+[e = _PORTA -> -> 144 `i `uc ]
+[; ;Calling_systemV1.c: 120: RB7 = 1;
+"120
+[e = _RB7 -> -> 1 `i `b ]
+"121
+}
+[; ;Calling_systemV1.c: 121: }
+[e $U 18  ]
+"122
+[e :U 17 ]
+[; ;Calling_systemV1.c: 122: else
+[; ;Calling_systemV1.c: 123: {
+"123
+{
+[; ;Calling_systemV1.c: 124: RB6 = RB7 = 0;
+"124
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 125: PORTA = 0b10010000;
+"125
+[e = _PORTA -> -> 144 `i `uc ]
+[; ;Calling_systemV1.c: 126: RB6 = 1;
+"126
+[e = _RB6 -> -> 1 `i `b ]
+"128
+}
+[e :U 18 ]
+[; ;Calling_systemV1.c: 128: }
+[; ;Calling_systemV1.c: 129: break;
+"129
+[e $U 8  ]
+[; ;Calling_systemV1.c: 130: case 3:
+"130
+[e :U 19 ]
+[; ;Calling_systemV1.c: 131: if(pos == 0)
+"131
+[e $ ! == -> _pos `i -> 0 `i 20  ]
+[; ;Calling_systemV1.c: 132: {
+"132
+{
+[; ;Calling_systemV1.c: 133: RB6 = RB7 = 0;
+"133
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 134: PORTA = 0b10100001;
+"134
+[e = _PORTA -> -> 161 `i `uc ]
+[; ;Calling_systemV1.c: 135: RB7 = 1;
+"135
+[e = _RB7 -> -> 1 `i `b ]
+"136
+}
+[; ;Calling_systemV1.c: 136: }
+[e $U 21  ]
+"137
+[e :U 20 ]
+[; ;Calling_systemV1.c: 137: else
+[; ;Calling_systemV1.c: 138: {
+"138
+{
+[; ;Calling_systemV1.c: 139: RB6 = RB7 = 0;
+"139
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 140: PORTA = 0b10100001;
+"140
+[e = _PORTA -> -> 161 `i `uc ]
+[; ;Calling_systemV1.c: 141: RB6 = 1;
+"141
+[e = _RB6 -> -> 1 `i `b ]
+"143
+}
+[e :U 21 ]
+[; ;Calling_systemV1.c: 143: }
+[; ;Calling_systemV1.c: 144: break;
+"144
+[e $U 8  ]
+[; ;Calling_systemV1.c: 145: case 4:
+"145
+[e :U 22 ]
+[; ;Calling_systemV1.c: 146: if(pos == 0)
+"146
+[e $ ! == -> _pos `i -> 0 `i 23  ]
+[; ;Calling_systemV1.c: 147: {
+"147
+{
+[; ;Calling_systemV1.c: 148: RB6 = RB7 = 0;
+"148
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 149: PORTA = 0b00100111;
+"149
+[e = _PORTA -> -> 39 `i `uc ]
+[; ;Calling_systemV1.c: 150: RB7 = 1;
+"150
+[e = _RB7 -> -> 1 `i `b ]
+"151
+}
+[; ;Calling_systemV1.c: 151: }
+[e $U 24  ]
+"152
+[e :U 23 ]
+[; ;Calling_systemV1.c: 152: else
+[; ;Calling_systemV1.c: 153: {
+"153
+{
+[; ;Calling_systemV1.c: 154: RB6 = RB7 = 0;
+"154
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 155: PORTA = 0b00100111;
+"155
+[e = _PORTA -> -> 39 `i `uc ]
+[; ;Calling_systemV1.c: 156: RB6 = 1;
+"156
+[e = _RB6 -> -> 1 `i `b ]
+"158
+}
+[e :U 24 ]
+[; ;Calling_systemV1.c: 158: }
+[; ;Calling_systemV1.c: 159: break;
+"159
+[e $U 8  ]
+[; ;Calling_systemV1.c: 160: case 5:
+"160
+[e :U 25 ]
+[; ;Calling_systemV1.c: 161: if(pos == 0)
+"161
+[e $ ! == -> _pos `i -> 0 `i 26  ]
+[; ;Calling_systemV1.c: 162: {
+"162
+{
+[; ;Calling_systemV1.c: 163: RB6 = RB7 = 0;
+"163
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 164: PORTA = 0b00101001;
+"164
+[e = _PORTA -> -> 41 `i `uc ]
+[; ;Calling_systemV1.c: 165: RB7 = 1;
+"165
+[e = _RB7 -> -> 1 `i `b ]
+"166
+}
+[; ;Calling_systemV1.c: 166: }
+[e $U 27  ]
+"167
+[e :U 26 ]
+[; ;Calling_systemV1.c: 167: else
+[; ;Calling_systemV1.c: 168: {
+"168
+{
+[; ;Calling_systemV1.c: 169: RB6 = RB7 = 0;
+"169
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 170: PORTA = 0b00101001;
+"170
+[e = _PORTA -> -> 41 `i `uc ]
+[; ;Calling_systemV1.c: 171: RB6 = 1;
+"171
+[e = _RB6 -> -> 1 `i `b ]
+"173
+}
+[e :U 27 ]
+[; ;Calling_systemV1.c: 173: }
+[; ;Calling_systemV1.c: 174: break;
+"174
+[e $U 8  ]
+[; ;Calling_systemV1.c: 175: case 6:
+"175
+[e :U 28 ]
+[; ;Calling_systemV1.c: 176: if(pos == 0)
+"176
+[e $ ! == -> _pos `i -> 0 `i 29  ]
+[; ;Calling_systemV1.c: 177: {
+"177
+{
+[; ;Calling_systemV1.c: 178: RB6 = RB7 = 0;
+"178
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 179: PORTA = 0b00101000;
+"179
+[e = _PORTA -> -> 40 `i `uc ]
+[; ;Calling_systemV1.c: 180: RB7 = 1;
+"180
+[e = _RB7 -> -> 1 `i `b ]
+"181
+}
+[; ;Calling_systemV1.c: 181: }
+[e $U 30  ]
+"182
+[e :U 29 ]
+[; ;Calling_systemV1.c: 182: else
+[; ;Calling_systemV1.c: 183: {
+"183
+{
+[; ;Calling_systemV1.c: 184: RB6 = RB7 = 0;
+"184
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 185: PORTA = 0b00101000;
+"185
+[e = _PORTA -> -> 40 `i `uc ]
+[; ;Calling_systemV1.c: 186: RB6 = 1;
+"186
+[e = _RB6 -> -> 1 `i `b ]
+"188
+}
+[e :U 30 ]
+[; ;Calling_systemV1.c: 188: }
+[; ;Calling_systemV1.c: 189: break;
+"189
+[e $U 8  ]
+[; ;Calling_systemV1.c: 190: case 7:
+"190
+[e :U 31 ]
+[; ;Calling_systemV1.c: 191: if(pos == 0)
+"191
+[e $ ! == -> _pos `i -> 0 `i 32  ]
+[; ;Calling_systemV1.c: 192: {
+"192
+{
+[; ;Calling_systemV1.c: 193: RB6 = RB7 = 0;
+"193
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 194: PORTA = 0b11100011;
+"194
+[e = _PORTA -> -> 227 `i `uc ]
+[; ;Calling_systemV1.c: 195: RB7 = 1;
+"195
+[e = _RB7 -> -> 1 `i `b ]
+"196
+}
+[; ;Calling_systemV1.c: 196: }
+[e $U 33  ]
+"197
+[e :U 32 ]
+[; ;Calling_systemV1.c: 197: else
+[; ;Calling_systemV1.c: 198: {
+"198
+{
+[; ;Calling_systemV1.c: 199: RB6 = RB7 = 0;
+"199
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 200: PORTA = 0b11100011;
+"200
+[e = _PORTA -> -> 227 `i `uc ]
+[; ;Calling_systemV1.c: 201: RB6 = 1;
+"201
+[e = _RB6 -> -> 1 `i `b ]
+"203
+}
+[e :U 33 ]
+[; ;Calling_systemV1.c: 203: }
+[; ;Calling_systemV1.c: 204: break;
+"204
+[e $U 8  ]
+[; ;Calling_systemV1.c: 205: case 8:
+"205
+[e :U 34 ]
+[; ;Calling_systemV1.c: 206: if(pos == 0)
+"206
+[e $ ! == -> _pos `i -> 0 `i 35  ]
+[; ;Calling_systemV1.c: 207: {
+"207
+{
+[; ;Calling_systemV1.c: 208: RB6 = RB7 = 0;
+"208
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 209: PORTA = 0b00000000;
+"209
+[e = _PORTA -> -> 0 `i `uc ]
+[; ;Calling_systemV1.c: 210: RB7 = 1;
+"210
+[e = _RB7 -> -> 1 `i `b ]
+"211
+}
+[; ;Calling_systemV1.c: 211: }
+[e $U 36  ]
+"212
+[e :U 35 ]
+[; ;Calling_systemV1.c: 212: else
+[; ;Calling_systemV1.c: 213: {
+"213
+{
+[; ;Calling_systemV1.c: 214: RB6 = RB7 = 0;
+"214
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 215: PORTA = 0b00000000;
+"215
+[e = _PORTA -> -> 0 `i `uc ]
+[; ;Calling_systemV1.c: 216: RB6 = 1;
+"216
+[e = _RB6 -> -> 1 `i `b ]
+"218
+}
+[e :U 36 ]
+[; ;Calling_systemV1.c: 218: }
+[; ;Calling_systemV1.c: 219: break;
+"219
+[e $U 8  ]
+[; ;Calling_systemV1.c: 220: case 9:
+"220
+[e :U 37 ]
+[; ;Calling_systemV1.c: 221: if(pos == 0)
+"221
+[e $ ! == -> _pos `i -> 0 `i 38  ]
+[; ;Calling_systemV1.c: 222: {
+"222
+{
+[; ;Calling_systemV1.c: 223: RB6 = RB7 = 0;
+"223
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 224: PORTA = 0b00000001;
+"224
+[e = _PORTA -> -> 1 `i `uc ]
+[; ;Calling_systemV1.c: 225: RB7 = 1;
+"225
+[e = _RB7 -> -> 1 `i `b ]
+"226
+}
+[; ;Calling_systemV1.c: 226: }
+[e $U 39  ]
+"227
+[e :U 38 ]
+[; ;Calling_systemV1.c: 227: else
+[; ;Calling_systemV1.c: 228: {
+"228
+{
+[; ;Calling_systemV1.c: 229: RB6 = RB7 = 0;
+"229
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 230: PORTA = 0b00000001;
+"230
+[e = _PORTA -> -> 1 `i `uc ]
+[; ;Calling_systemV1.c: 231: RB6 = 1;
+"231
+[e = _RB6 -> -> 1 `i `b ]
+"233
+}
+[e :U 39 ]
+[; ;Calling_systemV1.c: 233: }
+[; ;Calling_systemV1.c: 234: break;
+"234
+[e $U 8  ]
+"235
+}
+[; ;Calling_systemV1.c: 235: }
+[e $U 8  ]
+"83
+[e :U 9 ]
+[e [\ _num , $ -> -> 0 `i `uc 10
+ , $ -> -> 1 `i `uc 13
+ , $ -> -> 2 `i `uc 16
+ , $ -> -> 3 `i `uc 19
+ , $ -> -> 4 `i `uc 22
+ , $ -> -> 5 `i `uc 25
+ , $ -> -> 6 `i `uc 28
+ , $ -> -> 7 `i `uc 31
+ , $ -> -> 8 `i `uc 34
+ , $ -> -> 9 `i `uc 37
+ 8 ]
+"235
+[e :U 8 ]
+[; ;Calling_systemV1.c: 236: }
+"236
+[e :UE 7 ]
+}
+"238
+[v _InsertNewIndex `(v  1 ef1`uc ]
+{
+[; ;Calling_systemV1.c: 237: void InsertNewIndex(unsigned char num)
+[; ;Calling_systemV1.c: 238: {
+[e :U _InsertNewIndex ]
+[v _num `uc  1 r1 ]
+[f ]
+"239
+[v _t_unit `uc  1 a ]
+[; ;Calling_systemV1.c: 239: unsigned char t_unit = num%10;
+[e = _t_unit -> % -> _num `i -> 10 `i `uc ]
+"240
+[v _t_ten `uc  1 a ]
+[; ;Calling_systemV1.c: 240: unsigned char t_ten = num/10;
+[e = _t_ten -> / -> _num `i -> 10 `i `uc ]
+[; ;Calling_systemV1.c: 242: for(unsigned char i = 0; i < numNorCount; i++)
+"242
+{
+[v _i `uc  1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $U 44  ]
+"243
+[e :U 41 ]
+[; ;Calling_systemV1.c: 243: {
+{
+[; ;Calling_systemV1.c: 244: if(t_unit != unit[i])
+"244
+[e $ ! != -> _t_unit `i -> *U + &U _unit * -> _i `ux -> -> # *U &U _unit `ui `ux `i 45  ]
+[; ;Calling_systemV1.c: 245: {
+"245
+{
+[; ;Calling_systemV1.c: 246: continue;
+"246
+[e $U 43  ]
+"247
+}
+[e :U 45 ]
+[; ;Calling_systemV1.c: 247: }
+[; ;Calling_systemV1.c: 248: if(t_ten != ten[i])
+"248
+[e $ ! != -> _t_ten `i -> *U + &U _ten * -> _i `ux -> -> # *U &U _ten `ui `ux `i 46  ]
+[; ;Calling_systemV1.c: 249: {
+"249
+{
+[; ;Calling_systemV1.c: 250: continue;
+"250
+[e $U 43  ]
+"251
+}
+[e :U 46 ]
+[; ;Calling_systemV1.c: 251: }
+[; ;Calling_systemV1.c: 253: flick[i] = 3;
+"253
+[e = *U + &U _flick * -> _i `ux -> -> # *U &U _flick `ui `ux -> -> 3 `i `uc ]
+[; ;Calling_systemV1.c: 254: timeout[i] = 60;
+"254
+[e = *U + &U _timeout * -> _i `ux -> -> # *U &U _timeout `ui `ux -> -> 60 `i `uc ]
+[; ;Calling_systemV1.c: 256: return;
+"256
+[e $UE 40  ]
+"257
+}
+"242
+[e :U 43 ]
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 44 ]
+[e $ < -> _i `i -> _numNorCount `i 41  ]
+[e :U 42 ]
+"257
+}
+[; ;Calling_systemV1.c: 257: }
+[; ;Calling_systemV1.c: 259: if(numNorCount == 0)
+"259
+[e $ ! == -> _numNorCount `i -> 0 `i 47  ]
+[; ;Calling_systemV1.c: 260: {
+"260
+{
+[; ;Calling_systemV1.c: 261: numNorCount++;
+"261
+[e ++ _numNorCount -> -> 1 `i `uc ]
+"262
+}
+[; ;Calling_systemV1.c: 262: }
+[e $U 48  ]
+"263
+[e :U 47 ]
+[; ;Calling_systemV1.c: 263: else if(numNorCount == 5)
+[e $ ! == -> _numNorCount `i -> 5 `i 49  ]
+[; ;Calling_systemV1.c: 264: {
+"264
+{
+"265
+[v _i `uc  1 a ]
+[; ;Calling_systemV1.c: 265: unsigned char i;
+[; ;Calling_systemV1.c: 266: for(i = 0; i < numNorCount - 1; i++)
+"266
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 53  ]
+"267
+[e :U 50 ]
+[; ;Calling_systemV1.c: 267: {
+{
+[; ;Calling_systemV1.c: 268: unit[i] = unit[i + 1];
+"268
+[e = *U + &U _unit * -> _i `ux -> -> # *U &U _unit `ui `ux *U + &U _unit * -> -> + -> _i `i -> 1 `i `ui `ux -> -> # *U &U _unit `ui `ux ]
+[; ;Calling_systemV1.c: 269: ten[i] = ten[i + 1];
+"269
+[e = *U + &U _ten * -> _i `ux -> -> # *U &U _ten `ui `ux *U + &U _ten * -> -> + -> _i `i -> 1 `i `ui `ux -> -> # *U &U _ten `ui `ux ]
+[; ;Calling_systemV1.c: 270: flick[i] = flick[i + 1];
+"270
+[e = *U + &U _flick * -> _i `ux -> -> # *U &U _flick `ui `ux *U + &U _flick * -> -> + -> _i `i -> 1 `i `ui `ux -> -> # *U &U _flick `ui `ux ]
+[; ;Calling_systemV1.c: 271: timeout[i] = timeout[i + 1];
+"271
+[e = *U + &U _timeout * -> _i `ux -> -> # *U &U _timeout `ui `ux *U + &U _timeout * -> -> + -> _i `i -> 1 `i `ui `ux -> -> # *U &U _timeout `ui `ux ]
+[; ;Calling_systemV1.c: 273: if(curViewIndex == i + 1)
+"273
+[e $ ! == -> _curViewIndex `i + -> _i `i -> 1 `i 54  ]
+[; ;Calling_systemV1.c: 274: {
+"274
+{
+[; ;Calling_systemV1.c: 275: curViewIndex--;
+"275
+[e -- _curViewIndex -> -> 1 `i `uc ]
+[; ;Calling_systemV1.c: 276: moved = 1;
+"276
+[e = _moved -> -> 1 `i `uc ]
+"277
+}
+[e :U 54 ]
+"278
+}
+"266
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 53 ]
+[e $ < -> _i `i - -> _numNorCount `i -> 1 `i 50  ]
+[e :U 51 ]
+"278
+}
+[; ;Calling_systemV1.c: 277: }
+[; ;Calling_systemV1.c: 278: }
+[; ;Calling_systemV1.c: 279: if(curViewIndex == 0)
+"279
+[e $ ! == -> _curViewIndex `i -> 0 `i 55  ]
+[; ;Calling_systemV1.c: 280: {
+"280
+{
+[; ;Calling_systemV1.c: 281: moved = 1;
+"281
+[e = _moved -> -> 1 `i `uc ]
+"282
+}
+[e :U 55 ]
+"283
+}
+[; ;Calling_systemV1.c: 282: }
+[; ;Calling_systemV1.c: 283: }
+[e $U 56  ]
+"284
+[e :U 49 ]
+[; ;Calling_systemV1.c: 284: else
+[; ;Calling_systemV1.c: 285: {
+"285
+{
+[; ;Calling_systemV1.c: 286: curNorIndex++;
+"286
+[e ++ _curNorIndex -> -> 1 `i `uc ]
+[; ;Calling_systemV1.c: 287: numNorCount++;
+"287
+[e ++ _numNorCount -> -> 1 `i `uc ]
+"288
+}
+[e :U 56 ]
+[e :U 48 ]
+[; ;Calling_systemV1.c: 288: }
+[; ;Calling_systemV1.c: 290: unit[curNorIndex] = t_unit;
+"290
+[e = *U + &U _unit * -> _curNorIndex `ux -> -> # *U &U _unit `ui `ux _t_unit ]
+[; ;Calling_systemV1.c: 291: ten[curNorIndex] = t_ten;
+"291
+[e = *U + &U _ten * -> _curNorIndex `ux -> -> # *U &U _ten `ui `ux _t_ten ]
+[; ;Calling_systemV1.c: 292: flick[curNorIndex] = 3;
+"292
+[e = *U + &U _flick * -> _curNorIndex `ux -> -> # *U &U _flick `ui `ux -> -> 3 `i `uc ]
+[; ;Calling_systemV1.c: 293: timeout[curNorIndex] = 60;
+"293
+[e = *U + &U _timeout * -> _curNorIndex `ux -> -> # *U &U _timeout `ui `ux -> -> 60 `i `uc ]
+[; ;Calling_systemV1.c: 295: if(prioritized == 0)
+"295
+[e $ ! == -> _prioritized `i -> 0 `i 57  ]
+[; ;Calling_systemV1.c: 296: {
+"296
+{
+[; ;Calling_systemV1.c: 297: moved = 1;
+"297
+[e = _moved -> -> 1 `i `uc ]
+[; ;Calling_systemV1.c: 298: curViewIndex = curNorIndex;
+"298
+[e = _curViewIndex _curNorIndex ]
+"299
+}
+[e :U 57 ]
+[; ;Calling_systemV1.c: 299: }
+[; ;Calling_systemV1.c: 301: if(numNorCount == 1)
+"301
+[e $ ! == -> _numNorCount `i -> 1 `i 58  ]
+[; ;Calling_systemV1.c: 302: {
+"302
+{
+[; ;Calling_systemV1.c: 303: {RB5 = 1; _delay((unsigned long)((30)*(4000000/4000.0))); RB5 = 0;};
+"303
+{
+[e = _RB5 -> -> 1 `i `b ]
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e = _RB5 -> -> 0 `i `b ]
+}
+"304
+}
+[; ;Calling_systemV1.c: 304: }
+[e $U 59  ]
+"305
+[e :U 58 ]
+[; ;Calling_systemV1.c: 305: else
+[; ;Calling_systemV1.c: 306: {
+"306
+{
+[; ;Calling_systemV1.c: 307: if(moved == 1)
+"307
+[e $ ! == -> _moved `i -> 1 `i 60  ]
+[; ;Calling_systemV1.c: 308: {
+"308
+{
+[; ;Calling_systemV1.c: 309: if(flick[curViewIndex] == 3)
+"309
+[e $ ! == -> *U + &U _flick * -> _curViewIndex `ux -> -> # *U &U _flick `ui `ux `i -> 3 `i 61  ]
+[; ;Calling_systemV1.c: 310: {
+"310
+{
+[; ;Calling_systemV1.c: 311: {RB5 = 1; _delay((unsigned long)((30)*(4000000/4000.0))); RB5 = 0;};
+"311
+{
+[e = _RB5 -> -> 1 `i `b ]
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e = _RB5 -> -> 0 `i `b ]
+}
+"312
+}
+[e :U 61 ]
+"313
+}
+[e :U 60 ]
+"314
+}
+[e :U 59 ]
+[; ;Calling_systemV1.c: 312: }
+[; ;Calling_systemV1.c: 313: }
+[; ;Calling_systemV1.c: 314: }
+[; ;Calling_systemV1.c: 316: }
+"316
+[e :UE 40 ]
+}
+"318
+[v _GetNextIndex `(uc  1 ef1`uc ]
+{
+[; ;Calling_systemV1.c: 317: unsigned char GetNextIndex(unsigned char index)
+[; ;Calling_systemV1.c: 318: {
+[e :U _GetNextIndex ]
+[v _index `uc  1 r1 ]
+[f ]
+[; ;Calling_systemV1.c: 319: if(numNorCount == 0)
+"319
+[e $ ! == -> _numNorCount `i -> 0 `i 63  ]
+[; ;Calling_systemV1.c: 320: {
+"320
+{
+[; ;Calling_systemV1.c: 321: return index;
+"321
+[e ) _index ]
+[e $UE 62  ]
+"322
+}
+[e :U 63 ]
+[; ;Calling_systemV1.c: 322: }
+[; ;Calling_systemV1.c: 323: if(index == numNorCount - 1)
+"323
+[e $ ! == -> _index `i - -> _numNorCount `i -> 1 `i 64  ]
+[; ;Calling_systemV1.c: 324: {
+"324
+{
+[; ;Calling_systemV1.c: 325: return 0;
+"325
+[e ) -> -> 0 `i `uc ]
+[e $UE 62  ]
+"326
+}
+[; ;Calling_systemV1.c: 326: }
+[e $U 65  ]
+"327
+[e :U 64 ]
+[; ;Calling_systemV1.c: 327: else
+[; ;Calling_systemV1.c: 328: {
+"328
+{
+[; ;Calling_systemV1.c: 329: return index + 1;
+"329
+[e ) -> + -> _index `i -> 1 `i `uc ]
+[e $UE 62  ]
+"330
+}
+[e :U 65 ]
+[; ;Calling_systemV1.c: 330: }
+[; ;Calling_systemV1.c: 331: }
+"331
+[e :UE 62 ]
+}
+"333
+[v _DisplayIndex `(v  1 ef1`uc ]
+{
+[; ;Calling_systemV1.c: 332: void DisplayIndex(unsigned char index)
+[; ;Calling_systemV1.c: 333: {
+[e :U _DisplayIndex ]
+[v _index `uc  1 r1 ]
+[f ]
+"334
+[v _j `uc  1 a ]
+[; ;Calling_systemV1.c: 334: unsigned char j;
+[; ;Calling_systemV1.c: 335: curFlipFlopTick++;
+"335
+[e ++ _curFlipFlopTick -> -> 1 `i `uc ]
+[; ;Calling_systemV1.c: 336: if(curFlipFlopTick == 10)
+"336
+[e $ ! == -> _curFlipFlopTick `i -> 10 `i 67  ]
+[; ;Calling_systemV1.c: 337: {
+"337
+{
+[; ;Calling_systemV1.c: 338: curFlipFlopTick = 0;
+"338
+[e = _curFlipFlopTick -> -> 0 `i `uc ]
+[; ;Calling_systemV1.c: 339: if(flick[curViewIndex] > 0)
+"339
+[e $ ! > -> *U + &U _flick * -> _curViewIndex `ux -> -> # *U &U _flick `ui `ux `i -> 0 `i 68  ]
+[; ;Calling_systemV1.c: 340: {
+"340
+{
+[; ;Calling_systemV1.c: 341: visible[curViewIndex] = (visible[curViewIndex] == 0) ? 1: 0;
+"341
+[e = *U + &U _visible * -> _curViewIndex `ux -> -> # *U &U _visible `ui `ux -> ? == -> *U + &U _visible * -> _curViewIndex `ux -> -> # *U &U _visible `ui `ux `i -> 0 `i : -> 1 `i -> 0 `i `uc ]
+"342
+}
+[; ;Calling_systemV1.c: 342: }
+[e $U 69  ]
+"343
+[e :U 68 ]
+[; ;Calling_systemV1.c: 343: else
+[; ;Calling_systemV1.c: 344: {
+"344
+{
+[; ;Calling_systemV1.c: 345: visible[curViewIndex] = 1;
+"345
+[e = *U + &U _visible * -> _curViewIndex `ux -> -> # *U &U _visible `ui `ux -> -> 1 `i `uc ]
+"346
+}
+[e :U 69 ]
+"347
+}
+[e :U 67 ]
+[; ;Calling_systemV1.c: 346: }
+[; ;Calling_systemV1.c: 347: }
+[; ;Calling_systemV1.c: 349: curTick++;
+"349
+[e ++ _curTick -> -> 1 `i `uc ]
+[; ;Calling_systemV1.c: 350: if(curTick == 50)
+"350
+[e $ ! == -> _curTick `i -> 50 `i 70  ]
+[; ;Calling_systemV1.c: 351: {
+"351
+{
+[; ;Calling_systemV1.c: 352: curTick = 0;
+"352
+[e = _curTick -> -> 0 `i `uc ]
+[; ;Calling_systemV1.c: 354: if(flick[curViewIndex] > 0)
+"354
+[e $ ! > -> *U + &U _flick * -> _curViewIndex `ux -> -> # *U &U _flick `ui `ux `i -> 0 `i 71  ]
+[; ;Calling_systemV1.c: 355: {
+"355
+{
+[; ;Calling_systemV1.c: 356: flick[curViewIndex]--;
+"356
+[e -- *U + &U _flick * -> _curViewIndex `ux -> -> # *U &U _flick `ui `ux -> -> 1 `i `uc ]
+[; ;Calling_systemV1.c: 357: prioritized = 1;
+"357
+[e = _prioritized -> -> 1 `i `uc ]
+[; ;Calling_systemV1.c: 358: return;
+"358
+[e $UE 66  ]
+"359
+}
+[e :U 71 ]
+[; ;Calling_systemV1.c: 359: }
+[; ;Calling_systemV1.c: 360: prioritized = 0;
+"360
+[e = _prioritized -> -> 0 `i `uc ]
+[; ;Calling_systemV1.c: 362: if(numNorCount == 0)
+"362
+[e $ ! == -> _numNorCount `i -> 0 `i 72  ]
+[; ;Calling_systemV1.c: 363: {
+"363
+{
+[; ;Calling_systemV1.c: 364: if(timeout[0] == 0)
+"364
+[e $ ! == -> *U + &U _timeout * -> -> -> 0 `i `ui `ux -> -> # *U &U _timeout `ui `ux `i -> 0 `i 73  ]
+[; ;Calling_systemV1.c: 365: {
+"365
+{
+[; ;Calling_systemV1.c: 366: curNorIndex = 0;
+"366
+[e = _curNorIndex -> -> 0 `i `uc ]
+[; ;Calling_systemV1.c: 367: curViewIndex = 0;
+"367
+[e = _curViewIndex -> -> 0 `i `uc ]
+[; ;Calling_systemV1.c: 368: unit[0] = 0;
+"368
+[e = *U + &U _unit * -> -> -> 0 `i `ui `ux -> -> # *U &U _unit `ui `ux -> -> 0 `i `uc ]
+[; ;Calling_systemV1.c: 369: ten[0] = 0;
+"369
+[e = *U + &U _ten * -> -> -> 0 `i `ui `ux -> -> # *U &U _ten `ui `ux -> -> 0 `i `uc ]
+[; ;Calling_systemV1.c: 370: timeout[0] = 0;
+"370
+[e = *U + &U _timeout * -> -> -> 0 `i `ui `ux -> -> # *U &U _timeout `ui `ux -> -> 0 `i `uc ]
+"371
+}
+[; ;Calling_systemV1.c: 371: }
+[e $U 74  ]
+"372
+[e :U 73 ]
+[; ;Calling_systemV1.c: 372: else
+[; ;Calling_systemV1.c: 373: {
+"373
+{
+[; ;Calling_systemV1.c: 374: timeout[0]--;
+"374
+[e -- *U + &U _timeout * -> -> -> 0 `i `ui `ux -> -> # *U &U _timeout `ui `ux -> -> 1 `i `uc ]
+"375
+}
+[e :U 74 ]
+"376
+}
+[; ;Calling_systemV1.c: 375: }
+[; ;Calling_systemV1.c: 376: }
+[e $U 75  ]
+"377
+[e :U 72 ]
+[; ;Calling_systemV1.c: 377: else
+[; ;Calling_systemV1.c: 378: {
+"378
+{
+[; ;Calling_systemV1.c: 379: for(unsigned char i = 0; i < numNorCount; i++)
+"379
+{
+[v _i `uc  1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $U 79  ]
+"380
+[e :U 76 ]
+[; ;Calling_systemV1.c: 380: {
+{
+[; ;Calling_systemV1.c: 381: if(timeout[i] == 0)
+"381
+[e $ ! == -> *U + &U _timeout * -> _i `ux -> -> # *U &U _timeout `ui `ux `i -> 0 `i 80  ]
+[; ;Calling_systemV1.c: 382: {
+"382
+{
+[; ;Calling_systemV1.c: 383: if(i == curViewIndex)
+"383
+[e $ ! == -> _i `i -> _curViewIndex `i 81  ]
+[; ;Calling_systemV1.c: 384: {
+"384
+{
+[; ;Calling_systemV1.c: 385: moved = 1;
+"385
+[e = _moved -> -> 1 `i `uc ]
+"386
+}
+[e :U 81 ]
+[; ;Calling_systemV1.c: 386: }
+[; ;Calling_systemV1.c: 387: for(j = i; j < numNorCount - 1; j++)
+"387
+{
+[e = _j _i ]
+[e $U 85  ]
+"388
+[e :U 82 ]
+[; ;Calling_systemV1.c: 388: {
+{
+[; ;Calling_systemV1.c: 389: if(curViewIndex == j + 1)
+"389
+[e $ ! == -> _curViewIndex `i + -> _j `i -> 1 `i 86  ]
+[; ;Calling_systemV1.c: 390: {
+"390
+{
+[; ;Calling_systemV1.c: 391: curViewIndex = j;
+"391
+[e = _curViewIndex _j ]
+[; ;Calling_systemV1.c: 392: moved = 1;
+"392
+[e = _moved -> -> 1 `i `uc ]
+"393
+}
+[e :U 86 ]
+[; ;Calling_systemV1.c: 393: }
+[; ;Calling_systemV1.c: 394: unit[j] = unit[j + 1];
+"394
+[e = *U + &U _unit * -> _j `ux -> -> # *U &U _unit `ui `ux *U + &U _unit * -> -> + -> _j `i -> 1 `i `ui `ux -> -> # *U &U _unit `ui `ux ]
+[; ;Calling_systemV1.c: 395: ten[j] = ten[j + 1];
+"395
+[e = *U + &U _ten * -> _j `ux -> -> # *U &U _ten `ui `ux *U + &U _ten * -> -> + -> _j `i -> 1 `i `ui `ux -> -> # *U &U _ten `ui `ux ]
+[; ;Calling_systemV1.c: 396: flick[j] = flick[j + 1];
+"396
+[e = *U + &U _flick * -> _j `ux -> -> # *U &U _flick `ui `ux *U + &U _flick * -> -> + -> _j `i -> 1 `i `ui `ux -> -> # *U &U _flick `ui `ux ]
+[; ;Calling_systemV1.c: 397: timeout[j] = timeout[j + 1];
+"397
+[e = *U + &U _timeout * -> _j `ux -> -> # *U &U _timeout `ui `ux *U + &U _timeout * -> -> + -> _j `i -> 1 `i `ui `ux -> -> # *U &U _timeout `ui `ux ]
+"398
+}
+"387
+[e ++ _j -> -> 1 `i `uc ]
+[e :U 85 ]
+[e $ < -> _j `i - -> _numNorCount `i -> 1 `i 82  ]
+[e :U 83 ]
+"398
+}
+[; ;Calling_systemV1.c: 398: }
+[; ;Calling_systemV1.c: 399: numNorCount--;
+"399
+[e -- _numNorCount -> -> 1 `i `uc ]
+[; ;Calling_systemV1.c: 400: curNorIndex = numNorCount - 1;
+"400
+[e = _curNorIndex -> - -> _numNorCount `i -> 1 `i `uc ]
+"402
+}
+[; ;Calling_systemV1.c: 402: }
+[e $U 87  ]
+"403
+[e :U 80 ]
+[; ;Calling_systemV1.c: 403: else
+[; ;Calling_systemV1.c: 404: {
+"404
+{
+[; ;Calling_systemV1.c: 405: timeout[i]--;
+"405
+[e -- *U + &U _timeout * -> _i `ux -> -> # *U &U _timeout `ui `ux -> -> 1 `i `uc ]
+"406
+}
+[e :U 87 ]
+"408
+}
+"379
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 79 ]
+[e $ < -> _i `i -> _numNorCount `i 76  ]
+[e :U 77 ]
+"408
+}
+"410
+}
+[e :U 75 ]
+[; ;Calling_systemV1.c: 406: }
+[; ;Calling_systemV1.c: 408: }
+[; ;Calling_systemV1.c: 410: }
+[; ;Calling_systemV1.c: 411: if(moved == 1)
+"411
+[e $ ! == -> _moved `i -> 1 `i 88  ]
+[; ;Calling_systemV1.c: 412: {
+"412
+{
+[; ;Calling_systemV1.c: 413: if(flick[curViewIndex] == 3)
+"413
+[e $ ! == -> *U + &U _flick * -> _curViewIndex `ux -> -> # *U &U _flick `ui `ux `i -> 3 `i 89  ]
+[; ;Calling_systemV1.c: 414: {
+"414
+{
+[; ;Calling_systemV1.c: 415: {RB5 = 1; _delay((unsigned long)((30)*(4000000/4000.0))); RB5 = 0;};
+"415
+{
+[e = _RB5 -> -> 1 `i `b ]
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e = _RB5 -> -> 0 `i `b ]
+}
+"416
+}
+[e :U 89 ]
+[; ;Calling_systemV1.c: 416: }
+[; ;Calling_systemV1.c: 417: moved = 0;
+"417
+[e = _moved -> -> 0 `i `uc ]
+"418
+}
+[; ;Calling_systemV1.c: 418: }
+[e $U 90  ]
+"419
+[e :U 88 ]
+[; ;Calling_systemV1.c: 419: else
+[; ;Calling_systemV1.c: 420: {
+"420
+{
+[; ;Calling_systemV1.c: 421: curViewIndex = GetNextIndex(curViewIndex);
+"421
+[e = _curViewIndex ( _GetNextIndex (1 _curViewIndex ]
+[; ;Calling_systemV1.c: 423: if(flick[curViewIndex] == 3)
+"423
+[e $ ! == -> *U + &U _flick * -> _curViewIndex `ux -> -> # *U &U _flick `ui `ux `i -> 3 `i 91  ]
+[; ;Calling_systemV1.c: 424: {
+"424
+{
+[; ;Calling_systemV1.c: 425: {RB5 = 1; _delay((unsigned long)((30)*(4000000/4000.0))); RB5 = 0;};
+"425
+{
+[e = _RB5 -> -> 1 `i `b ]
+[e ( __delay (1 -> * -> -> 30 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[e = _RB5 -> -> 0 `i `b ]
+}
+"426
+}
+[e :U 91 ]
+"428
+}
+[e :U 90 ]
+"436
+}
+[e :U 70 ]
+[; ;Calling_systemV1.c: 426: }
+[; ;Calling_systemV1.c: 428: }
+[; ;Calling_systemV1.c: 436: }
+[; ;Calling_systemV1.c: 438: if(visible[curViewIndex] == 1)
+"438
+[e $ ! == -> *U + &U _visible * -> _curViewIndex `ux -> -> # *U &U _visible `ui `ux `i -> 1 `i 92  ]
+[; ;Calling_systemV1.c: 439: {
+"439
+{
+[; ;Calling_systemV1.c: 440: Display(unit[index], 0);
+"440
+[e ( _Display (2 , *U + &U _unit * -> _index `ux -> -> # *U &U _unit `ui `ux -> -> 0 `i `uc ]
+[; ;Calling_systemV1.c: 441: _delay((unsigned long)((10)*(4000000/4000.0)));
+"441
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[; ;Calling_systemV1.c: 442: Display(ten[index], 1);
+"442
+[e ( _Display (2 , *U + &U _ten * -> _index `ux -> -> # *U &U _ten `ui `ux -> -> 1 `i `uc ]
+[; ;Calling_systemV1.c: 443: _delay((unsigned long)((10)*(4000000/4000.0)));
+"443
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"445
+}
+[; ;Calling_systemV1.c: 445: }
+[e $U 93  ]
+"446
+[e :U 92 ]
+[; ;Calling_systemV1.c: 446: else
+[; ;Calling_systemV1.c: 447: {
+"447
+{
+[; ;Calling_systemV1.c: 448: RB6 = RB7 = 0;
+"448
+[e = _RB6 = _RB7 -> -> 0 `i `b ]
+[; ;Calling_systemV1.c: 449: _delay((unsigned long)((20)*(4000000/4000.0)));
+"449
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"450
+}
+[e :U 93 ]
+[; ;Calling_systemV1.c: 450: }
+[; ;Calling_systemV1.c: 460: }
+"460
+[e :UE 66 ]
+}
+"462
+[v _main `(v  1 ef ]
+{
+[; ;Calling_systemV1.c: 461: void main(void)
+[; ;Calling_systemV1.c: 462: {
+[e :U _main ]
+[f ]
+[; ;Calling_systemV1.c: 463: Init();
+"463
+[e ( _Init ..  ]
+[; ;Calling_systemV1.c: 465: while(1)
+"465
+[e :U 96 ]
+[; ;Calling_systemV1.c: 466: {
+"466
+{
+[; ;Calling_systemV1.c: 467: DisplayIndex(curViewIndex);
+"467
+[e ( _DisplayIndex (1 _curViewIndex ]
+"469
+}
+[e :U 95 ]
+"465
+[e $U 96  ]
+[e :U 97 ]
+[; ;Calling_systemV1.c: 469: }
+[; ;Calling_systemV1.c: 487: }
+"487
+[e :UE 94 ]
+}
+"489
+[v F546 `(v  1 tf ]
+[v _Interrupt_Handler `IF546  1 s ]
+{
+[; ;Calling_systemV1.c: 488: static void interrupt Interrupt_Handler(void)
+[; ;Calling_systemV1.c: 489: {
+[e :U _Interrupt_Handler ]
+[f ]
+[; ;Calling_systemV1.c: 490: if(RBIF == 1)
+"490
+[e $ ! == -> _RBIF `i -> 1 `i 99  ]
+[; ;Calling_systemV1.c: 491: {
+"491
+{
+[; ;Calling_systemV1.c: 492: if(RB4 == 1)
+"492
+[e $ ! == -> _RB4 `i -> 1 `i 100  ]
+[; ;Calling_systemV1.c: 493: {
+"493
+{
+[; ;Calling_systemV1.c: 494: InsertNewIndex(PORTB & 0b00001111);
+"494
+[e ( _InsertNewIndex (1 -> & -> _PORTB `i -> 15 `i `uc ]
+"495
+}
+[e :U 100 ]
+[; ;Calling_systemV1.c: 495: }
+[; ;Calling_systemV1.c: 496: RBIF = 0;
+"496
+[e = _RBIF -> -> 0 `i `b ]
+"497
+}
+[e :U 99 ]
+[; ;Calling_systemV1.c: 497: }
+[; ;Calling_systemV1.c: 499: }
+"499
+[e :UE 98 ]
+}

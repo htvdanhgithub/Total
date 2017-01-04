@@ -1,0 +1,38 @@
+AutoECO Report
+FILE-A: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ37\COM_PRJ37.MAX
+FILE-B: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ37\COM_PRJ37.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding package R
+Adding package CON4
+Adding package BC547
+Adding package CON5
+Adding package CON2
+Adding component RB
+Found library footprint with same name as part R
+Adding component J5
+Found footprint J4 from PRT file for part CON4, comp J5
+Adding component QG
+Found library footprint with same name as part BC547
+Adding component QB
+Adding component J4
+Found library footprint with same name as part CON5
+Adding component J7
+Found library footprint with same name as part CON2
+Adding component J6
+Adding component RR
+Adding component QR
+Adding component RG
+Adding net N12429
+Adding net N12407
+Adding net N12340
+Adding net N13786
+Adding net N12485
+Adding net N13739
+Adding net N12971
+Adding net N13703
+Adding net N004632
+Adding net N020382
+Adding net N020102
+Deleting net DEFAULT
+*EOF*
+No errors found

@@ -1,0 +1,74 @@
+AutoECO Report
+FILE-A: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ25(8 LED)\COM_PRJ25.MAX
+FILE-B: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ25(8 LED)\COM_PRJ25.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding package R
+Adding package LEDRGBVUONG
+Adding package CON4
+Adding component B5
+Found footprint R_1/4W from PRT file for part R, comp B5
+Adding component G7
+Adding component U6
+Found footprint LED RGB VUONG from PRT file for part LEDRGBVUONG, comp U6
+Adding component B3
+Adding component U4
+Adding component B6
+Adding component G3
+Adding component G4
+Adding component U5
+Adding component G1
+Adding component B4
+Adding component B8
+Adding component U1
+Adding component B1
+Adding component R4
+Adding component U2
+Adding component U3
+Adding component R1
+Adding component U8
+Adding component B2
+Adding component R7
+Adding component R5
+Adding component R3
+Adding component R8
+Adding component R2
+Adding component B7
+Adding component G8
+Adding component G6
+Adding component G2
+Adding component G5
+Adding component U7
+Adding component J1
+Found footprint J4 from PRT file for part CON4, comp J1
+Adding component R6
+Adding net N05699
+Adding net N05693
+Adding net N05691
+Adding net N01172
+Adding net N01195
+Adding net N01251
+Adding net N01608
+Adding net N01731
+Adding net N02939
+Adding net N01869
+Adding net N02266
+Adding net N04577
+Adding net N02268
+Adding net N02270
+Adding net N03645
+Adding net N02396
+Adding net N01634
+Adding net N04569
+Adding net N01305
+Adding net N01216
+Adding net N01963
+Adding net N04567
+Adding net N01336
+Adding net N01274
+Adding net N01604
+Adding net N03585
+Adding net N02336
+Adding net N03587
+Deleting net DEFAULT
+*EOF*
+No errors found

@@ -1,0 +1,10 @@
+___awdiv: CODE, 899 0 116
+_GetNextIndex: CODE, 1117 0 34
+___awmod: CODE, 1015 0 102
+_main: CODE, 1232 0 9
+_InsertNewIndex: CODE, 388 0 316
+_Interrupt_Handler: CODE, 1151 0 27
+_Init: CODE, 1178 0 25
+_Display: CODE, 704 0 195
+_DisplayIndex: CODE, 17 0 371
+Total: 1195

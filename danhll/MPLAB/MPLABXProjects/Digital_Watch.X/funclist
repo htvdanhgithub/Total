@@ -1,0 +1,12 @@
+_lcd_puts: CODE, 916 0 38
+_CalculateTime: CODE, 544 0 114
+_main: CODE, 838 0 39
+_OutputAllDigits: CODE, 877 0 39
+_lcd_clear: CODE, 980 0 21
+_lcd_goto: CODE, 1017 0 12
+_Interrupt_Handler: CODE, 21 0 362
+_Init: CODE, 748 0 51
+_lcd_write: CODE, 954 0 26
+_lcd_init: CODE, 658 0 90
+_OutDigit: CODE, 383 0 161
+Total: 953

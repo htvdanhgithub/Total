@@ -1,0 +1,589 @@
+
+
+HI-TECH Software PIC LITE Macro Assembler V9.83 build 10920 
+                                                                                               Fri Apr 26 16:21:47 2013
+
+HI-TECH Software Omniscient Code Generator (Lite mode) build 10920
+     1  0000                     opt subtitle "HI-TECH Software Omniscient Code Generator (Lite mode) build 10920"
+     2                           
+     3                           opt pagewidth 120
+     4                           
+     5                           	opt lm
+     6                           
+     7                           	processor	12F629
+     8                           clrc	macro
+     9                           	bcf	3,0
+    10  0000                     	endm
+    11                           clrz	macro
+    12                           	bcf	3,2
+    13  0000                     	endm
+    14                           setc	macro
+    15                           	bsf	3,0
+    16  0000                     	endm
+    17                           setz	macro
+    18                           	bsf	3,2
+    19  0000                     	endm
+    20                           skipc	macro
+    21                           	btfss	3,0
+    22  0000                     	endm
+    23                           skipz	macro
+    24                           	btfss	3,2
+    25  0000                     	endm
+    26                           skipnc	macro
+    27                           	btfsc	3,0
+    28  0000                     	endm
+    29                           skipnz	macro
+    30                           	btfsc	3,2
+    31  0000                     	endm
+    32  0000                     indf	equ	0
+    33  0000                     indf0	equ	0
+    34  0002                     pc	equ	2
+    35  0002                     pcl	equ	2
+    36  0003                     status	equ	3
+    37  0004                     fsr	equ	4
+    38  0004                     fsr0	equ	4
+    39  0001                     c	equ	1
+    40  0000                     z	equ	0
+    41  000A                     pclath	equ	10
+    42                           # 16 "Wireless_Transmitter.c"
+    43                           	psect config,class=CONFIG,delta=2 ;#
+    44                           # 16 "Wireless_Transmitter.c"
+    45  2007  3054               	dw 0x317F & 0x30FF & 0x31DF & 0x31F7 & 0x31FC ;#
+    46                           	FNCALL	_main,_Init
+    47                           	FNROOT	_main
+    48                           	FNCALL	intlevel1,_Interrupt_Handler
+    49                           	global	intlevel1
+    50                           	FNROOT	intlevel1
+    51                           	global	_GPIO
+    52                           psect	text153,local,class=CODE,delta=2
+    53                           global __ptext153
+    54  0000                     __ptext153:
+    55  0005                     _GPIO	set	5
+    56                           	global	_CARRY
+    57  0018                     _CARRY	set	24
+    58                           	global	_CM0
+    59  00C8                     _CM0	set	200
+    60                           	global	_CM1
+    61  00C9                     _CM1	set	201
+    62                           	global	_CM2
+    63  00CA                     _CM2	set	202
+    64                           	global	_GIE
+    65  005F                     _GIE	set	95
+    66                           	global	_GP3
+    67  002B                     _GP3	set	43
+    68                           	global	_GP5
+    69  002D                     _GP5	set	45
+    70                           	global	_GPIE
+    71  005B                     _GPIE	set	91
+    72                           	global	_GPIF
+    73  0058                     _GPIF	set	88
+    74                           	global	_EEADR
+    75  009B                     _EEADR	set	155
+    76                           	global	_EECON1
+    77  009C                     _EECON1	set	156
+    78                           	global	_EECON2
+    79  009D                     _EECON2	set	157
+    80                           	global	_EEDATA
+    81  009A                     _EEDATA	set	154
+    82                           	global	_TRISIO
+    83  0085                     _TRISIO	set	133
+    84                           	global	_ADIE
+    85  0466                     _ADIE	set	1126
+    86                           	global	_CMIE
+    87  0463                     _CMIE	set	1123
+    88                           	global	_IOC3
+    89  04B3                     _IOC3	set	1203
+    90                           	global	_RD
+    91  04E0                     _RD	set	1248
+    92                           	global	_WR
+    93  04E1                     _WR	set	1249
+    94                           	global	_WREN
+    95  04E2                     _WREN	set	1250
+    96                           	file	"C:\DOCUME~1\Admin\LOCALS~1\Temp\s2p8."
+    97                           	line	#
+    98                           psect cinit,class=CODE,delta=2
+    99                           global start_initialization
+   100  005D                     start_initialization:
+   101                           
+   102                           psect cinit,class=CODE,delta=2
+   103                           global end_of_initialization
+   104                           
+   105                           ;End of C runtime variable initialization code
+   106                           
+   107  005D                     end_of_initialization:
+   108  005D  0183               clrf status
+   109  005E  2859               ljmp _main	;jump to C main() function
+   110                           psect	cstackCOMMON,class=COMMON,space=1
+   111                           global __pcstackCOMMON
+   112  0000                     __pcstackCOMMON:
+   113                           	global	??_Init
+   114  0000                     ??_Init:	; 0 bytes @ 0x0
+   115                           	global	??_main
+   116  0000                     ??_main:	; 0 bytes @ 0x0
+   117                           psect	cstackBANK0,class=BANK0,space=1
+   118                           global __pcstackBANK0
+   119  0020                     __pcstackBANK0:
+   120                           	global	?_Init
+   121  0020                     ?_Init:	; 0 bytes @ 0x0
+   122                           	global	?_main
+   123  0020                     ?_main:	; 0 bytes @ 0x0
+   124                           	global	?_Interrupt_Handler
+   125  0020                     ?_Interrupt_Handler:	; 0 bytes @ 0x0
+   126                           	global	??_Interrupt_Handler
+   127  0020                     ??_Interrupt_Handler:	; 0 bytes @ 0x0
+   128  0020                     	ds	7
+   129 ;;Data sizes: Strings 0, constant 0, data 0, bss 0, persistent 0 stack 0
+   130 ;;Auto spaces:   Size  Autos    Used
+   131 ;; COMMON           0      0       0
+   132 ;; BANK0           62      7       7
+   133                           
+   134 ;;
+   135 ;; Pointer list with targets:
+   136                           
+   137                           
+   138                           
+   139 ;;
+   140 ;; Critical Paths under _main in COMMON
+   141 ;;
+   142 ;;   None.
+   143 ;;
+   144 ;; Critical Paths under _Interrupt_Handler in COMMON
+   145 ;;
+   146 ;;   None.
+   147 ;;
+   148 ;; Critical Paths under _main in BANK0
+   149 ;;
+   150 ;;   None.
+   151 ;;
+   152 ;; Critical Paths under _Interrupt_Handler in BANK0
+   153 ;;
+   154 ;;   None.
+   155                           
+   156 ;;
+   157 ;;Main: autosize = 0, tempsize = 0, incstack = 0, save=0
+   158 ;;
+   159                           
+   160 ;;
+   161 ;;Call Graph Tables:
+   162 ;;
+   163 ;; ---------------------------------------------------------------------------------
+   164 ;; (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+   165 ;; ---------------------------------------------------------------------------------
+   166 ;; (0) _main                                                 0     0      0       0
+   167 ;;                               _Init
+   168 ;; ---------------------------------------------------------------------------------
+   169 ;; (1) _Init                                                 0     0      0       0
+   170 ;; ---------------------------------------------------------------------------------
+   171 ;; Estimated maximum stack depth 1
+   172 ;; ---------------------------------------------------------------------------------
+   173 ;; (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+   174 ;; ---------------------------------------------------------------------------------
+   175 ;; (2) _Interrupt_Handler                                    7     7      0       0
+   176 ;;                                              0 BANK0      7     7      0
+   177 ;; ---------------------------------------------------------------------------------
+   178 ;; Estimated maximum stack depth 2
+   179 ;; ---------------------------------------------------------------------------------
+   180                           
+   181 ;; Call Graph Graphs:
+   182                           
+   183 ;; _main (ROOT)
+   184 ;;   _Init
+   185 ;;
+   186 ;; _Interrupt_Handler (ROOT)
+   187 ;;
+   188                           
+   189 ;; Address spaces:
+   190                           
+   191 ;;Name               Size   Autos  Total    Cost      Usage
+   192 ;;BITCOMMON            0      0       0       0        0.0%
+   193 ;;EEDATA              80      0       0       0        0.0%
+   194 ;;NULL                 0      0       0       0        0.0%
+   195 ;;CODE                 0      0       0       0        0.0%
+   196 ;;BITSFR0              0      0       0       1        0.0%
+   197 ;;SFR0                 0      0       0       1        0.0%
+   198 ;;COMMON               0      0       0       1        0.0%
+   199 ;;BITSFR1              0      0       0       2        0.0%
+   200 ;;SFR1                 0      0       0       2        0.0%
+   201 ;;STACK                0      0       1       2        0.0%
+   202 ;;BITBANK0            3E      0       0       3        0.0%
+   203 ;;BANK0               3E      7       7       4       11.3%
+   204 ;;ABS                  0      0       0       5        0.0%
+   205 ;;DATA                 0      0       0       6        0.0%
+   206                           
+   207                           	global	_main
+   208                           psect	maintext,global,class=CODE,delta=2
+   209                           global __pmaintext
+   210  0059                     __pmaintext:
+   211                           
+   212 ;; *************** function _main *****************
+   213 ;; Defined at:
+   214 ;;		line 36 in file "Wireless_Transmitter.c"
+   215 ;; Parameters:    Size  Location     Type
+   216 ;;		None
+   217 ;; Auto vars:     Size  Location     Type
+   218 ;;		None
+   219 ;; Return value:  Size  Location     Type
+   220 ;;		None               void
+   221 ;; Registers used:
+   222 ;;		wreg, status,2, status,0, pclath, cstack
+   223 ;; Tracked objects:
+   224 ;;		On entry : 17F/0
+   225 ;;		On exit  : 0/0
+   226 ;;		Unchanged: 0/0
+   227 ;; Data sizes:     COMMON   BANK0
+   228 ;;      Params:         0       0
+   229 ;;      Locals:         0       0
+   230 ;;      Temps:          0       0
+   231 ;;      Totals:         0       0
+   232 ;;Total ram usage:        0 bytes
+   233 ;; Hardware stack levels required when called:    2
+   234 ;; This function calls:
+   235 ;;		_Init
+   236 ;; This function is called by:
+   237 ;;		Startup code after reset
+   238 ;; This function uses a non-reentrant model
+   239 ;;
+   240                           psect	maintext
+   241                           	file	"Wireless_Transmitter.c"
+   242                           	line	36
+   243                           	global	__size_of_main
+   244  0004                     	__size_of_main	equ	__end_of_main-_main
+   245                           	
+   246  0059                     _main:	
+   247                           	opt	stack 6
+   248                           ; Regs used in _main: [wreg+status,2+status,0+pclath+cstack]
+   249                           	line	37
+   250                           	
+   251  0059                     l1879:	
+   252                           ;Wireless_Transmitter.c: 37: Init();
+   253  0059  203A               	fcall	_Init
+   254  005A  285B               	goto	l271
+   255                           	line	38
+   256                           ;Wireless_Transmitter.c: 38: while(1)
+   257                           	
+   258  005B                     l270:	
+   259                           	line	40
+   260                           ;Wireless_Transmitter.c: 39: {
+   261                           	
+   262  005B                     l271:	
+   263                           	line	38
+   264  005B  285B               	goto	l271
+   265                           	
+   266  005C                     l272:	
+   267                           	line	41
+   268                           	
+   269  005C                     l273:	
+   270                           	global	start
+   271  005C  280F               	ljmp	start
+   272                           	opt stack 0
+   273                           GLOBAL	__end_of_main
+   274  005D                     	__end_of_main:
+   275 ;; =============== function _main ends ============
+   276                           
+   277                           	signat	_main,88
+   278                           	global	_Init
+   279                           psect	text154,local,class=CODE,delta=2
+   280                           global __ptext154
+   281  003A                     __ptext154:
+   282                           
+   283 ;; *************** function _Init *****************
+   284 ;; Defined at:
+   285 ;;		line 25 in file "Wireless_Transmitter.c"
+   286 ;; Parameters:    Size  Location     Type
+   287 ;;		None
+   288 ;; Auto vars:     Size  Location     Type
+   289 ;;		None
+   290 ;; Return value:  Size  Location     Type
+   291 ;;		None               void
+   292 ;; Registers used:
+   293 ;;		wreg
+   294 ;; Tracked objects:
+   295 ;;		On entry : 0/0
+   296 ;;		On exit  : 0/0
+   297 ;;		Unchanged: 0/0
+   298 ;; Data sizes:     COMMON   BANK0
+   299 ;;      Params:         0       0
+   300 ;;      Locals:         0       0
+   301 ;;      Temps:          0       0
+   302 ;;      Totals:         0       0
+   303 ;;Total ram usage:        0 bytes
+   304 ;; Hardware stack levels used:    1
+   305 ;; Hardware stack levels required when called:    1
+   306 ;; This function calls:
+   307 ;;		Nothing
+   308 ;; This function is called by:
+   309 ;;		_main
+   310 ;; This function uses a non-reentrant model
+   311 ;;
+   312                           psect	text154
+   313                           	file	"Wireless_Transmitter.c"
+   314                           	line	25
+   315                           	global	__size_of_Init
+   316  001F                     	__size_of_Init	equ	__end_of_Init-_Init
+   317                           	
+   318  003A                     _Init:	
+   319                           	opt	stack 6
+   320                           ; Regs used in _Init: [wreg]
+   321                           	line	26
+   322                           	
+   323  003A                     l1857:	
+   324                           ;Wireless_Transmitter.c: 26: CM0 = CM1 = CM2 = 1;
+   325  003A  1283               	bcf	status, 5	;RP0=0, select bank0
+   326  003B  1519               	bsf	(202/8),(202)&7
+   327  003C  1919               	btfsc	(202/8),(202)&7
+   328  003D  283F               	goto	u2271
+   329  003E  2842               	goto	u2270
+   330                           	
+   331  003F                     u2271:
+   332  003F  1283               	bcf	status, 5	;RP0=0, select bank0
+   333  0040  1499               	bsf	(201/8),(201)&7
+   334  0041  2844               	goto	u2284
+   335  0042                     u2270:
+   336  0042  1283               	bcf	status, 5	;RP0=0, select bank0
+   337  0043  1099               	bcf	(201/8),(201)&7
+   338  0044                     u2284:
+   339  0044  1899               	btfsc	(201/8),(201)&7
+   340  0045  2847               	goto	u2281
+   341  0046  284A               	goto	u2280
+   342                           	
+   343  0047                     u2281:
+   344  0047  1283               	bcf	status, 5	;RP0=0, select bank0
+   345  0048  1419               	bsf	(200/8),(200)&7
+   346  0049  284C               	goto	u2294
+   347  004A                     u2280:
+   348  004A  1283               	bcf	status, 5	;RP0=0, select bank0
+   349  004B  1019               	bcf	(200/8),(200)&7
+   350  004C                     u2294:
+   351                           	line	27
+   352                           ;Wireless_Transmitter.c: 27: CMIE = 0;
+   353  004C  1683               	bsf	status, 5	;RP0=1, select bank1
+   354  004D  118C               	bcf	(1123/8)^080h,(1123)&7
+   355                           	line	28
+   356                           ;Wireless_Transmitter.c: 28: ADIE = 0;
+   357  004E  130C               	bcf	(1126/8)^080h,(1126)&7
+   358                           	line	29
+   359                           	
+   360  004F                     l1859:	
+   361                           ;Wireless_Transmitter.c: 29: TRISIO = 0b001000;
+   362  004F  3008               	movlw	(08h)
+   363  0050  0085               	movwf	(133)^080h	;volatile
+   364                           	line	30
+   365                           ;Wireless_Transmitter.c: 30: GPIO = 0b111111;
+   366  0051  303F               	movlw	(03Fh)
+   367  0052  1283               	bcf	status, 5	;RP0=0, select bank0
+   368  0053  0085               	movwf	(5)	;volatile
+   369                           	line	31
+   370                           	
+   371  0054                     l1861:	
+   372                           ;Wireless_Transmitter.c: 31: GPIE = 1;
+   373  0054  158B               	bsf	(91/8),(91)&7
+   374                           	line	32
+   375                           	
+   376  0055                     l1863:	
+   377                           ;Wireless_Transmitter.c: 32: IOC3 = 1;
+   378  0055  1683               	bsf	status, 5	;RP0=1, select bank1
+   379  0056  1596               	bsf	(1203/8)^080h,(1203)&7
+   380                           	line	33
+   381                           	
+   382  0057                     l1865:	
+   383                           ;Wireless_Transmitter.c: 33: GIE = 1;
+   384  0057  178B               	bsf	(95/8),(95)&7
+   385                           	line	34
+   386                           	
+   387  0058                     l267:	
+   388  0058  0008               	return
+   389                           	opt stack 0
+   390                           GLOBAL	__end_of_Init
+   391  0059                     	__end_of_Init:
+   392 ;; =============== function _Init ends ============
+   393                           
+   394                           	signat	_Init,88
+   395                           	global	_Interrupt_Handler
+   396                           psect	text155,local,class=CODE,delta=2
+   397                           global __ptext155
+   398  0014                     __ptext155:
+   399                           
+   400 ;; *************** function _Interrupt_Handler *****************
+   401 ;; Defined at:
+   402 ;;		line 44 in file "Wireless_Transmitter.c"
+   403 ;; Parameters:    Size  Location     Type
+   404 ;;		None
+   405 ;; Auto vars:     Size  Location     Type
+   406 ;;		None
+   407 ;; Return value:  Size  Location     Type
+   408 ;;		None               void
+   409 ;; Registers used:
+   410 ;;		wreg
+   411 ;; Tracked objects:
+   412 ;;		On entry : 0/0
+   413 ;;		On exit  : 0/0
+   414 ;;		Unchanged: 0/0
+   415 ;; Data sizes:     COMMON   BANK0
+   416 ;;      Params:         0       0
+   417 ;;      Locals:         0       0
+   418 ;;      Temps:          0       7
+   419 ;;      Totals:         0       7
+   420 ;;Total ram usage:        7 bytes
+   421 ;; Hardware stack levels used:    1
+   422 ;; This function calls:
+   423 ;;		Nothing
+   424 ;; This function is called by:
+   425 ;;		Interrupt level 1
+   426 ;; This function uses a non-reentrant model
+   427 ;;
+   428                           psect	text155
+   429                           	file	"Wireless_Transmitter.c"
+   430                           	line	44
+   431                           	global	__size_of_Interrupt_Handler
+   432  0026                     	__size_of_Interrupt_Handler	equ	__end_of_Interrupt_Handler-_Interrupt_Handler
+   433                           	
+   434  0014                     _Interrupt_Handler:	
+   435                           	opt	stack 6
+   436                           ; Regs used in _Interrupt_Handler: [wreg]
+   437                           psect	intentry,class=CODE,delta=2
+   438                           global __pintentry
+   439  0004                     __pintentry:
+   440                           global interrupt_function
+   441  0004                     interrupt_function:
+   442                           	global saved_w
+   443  005E                     	saved_w	set	btemp+0
+   444  0004  00DE               	movwf	saved_w
+   445  0005  0E03               	swapf	status,w
+   446  0006  1283               	bcf	status, 5	;RP0=0, select bank0
+   447  0007  00A3               	movwf	(??_Interrupt_Handler+3)
+   448  0008  0804               	movf	fsr0,w
+   449  0009  00A4               	movwf	(??_Interrupt_Handler+4)
+   450  000A  080A               	movf	pclath,w
+   451  000B  00A5               	movwf	(??_Interrupt_Handler+5)
+   452  000C  085F               	movf	btemp+1,w
+   453  000D  00A6               	movwf	(??_Interrupt_Handler+6)
+   454  000E  2814               	ljmp	_Interrupt_Handler
+   455                           psect	text155
+   456                           	line	45
+   457                           	
+   458  0014                     i1l1867:	
+   459                           ;Wireless_Transmitter.c: 45: if(GPIF == 1)
+   460  0014  1C0B               	btfss	(88/8),(88)&7
+   461  0015  2817               	goto	u230_21
+   462  0016  2818               	goto	u230_20
+   463  0017                     u230_21:
+   464  0017  282F               	goto	i1l278
+   465  0018                     u230_20:
+   466                           	line	47
+   467                           	
+   468  0018                     i1l1869:	
+   469                           ;Wireless_Transmitter.c: 46: {
+   470                           ;Wireless_Transmitter.c: 47: if(GP3 == 0)
+   471  0018  1985               	btfsc	(43/8),(43)&7
+   472  0019  281B               	goto	u231_21
+   473  001A  281C               	goto	u231_20
+   474  001B                     u231_21:
+   475  001B  282D               	goto	i1l1877
+   476  001C                     u231_20:
+   477                           	line	49
+   478                           	
+   479  001C                     i1l1871:	
+   480                           ;Wireless_Transmitter.c: 48: {
+   481                           ;Wireless_Transmitter.c: 49: {GP5 = 0; _delay((unsigned long)((2000)*(4000000/4000.0)));
+                                  GP5 = 1;};;
+   482  001C  1285               	bcf	(45/8),(45)&7
+   483                           	
+   484  001D                     i1l1873:	
+   485                           	opt asmopt_off
+   486  001D  300B               movlw  11
+   487  001E  00A2               movwf	((??_Interrupt_Handler+0)+0+2),f
+   488  001F  3026               movlw	38
+   489  0020  00A1               movwf	((??_Interrupt_Handler+0)+0+1),f
+   490  0021  3066               	movlw	102
+   491  0022  00A0               movwf	((??_Interrupt_Handler+0)+0),f
+   492  0023                     u232_27:
+   493  0023  0BA0               	decfsz	((??_Interrupt_Handler+0)+0),f
+   494  0024  2823               	goto	u232_27
+   495  0025  0BA1               	decfsz	((??_Interrupt_Handler+0)+0+1),f
+   496  0026  2823               	goto	u232_27
+   497  0027  0BA2               	decfsz	((??_Interrupt_Handler+0)+0+2),f
+   498  0028  2823               	goto	u232_27
+   499  0029  282A               	nop2
+   500                           opt asmopt_on
+   501                           
+   502                           	
+   503  002A                     i1l1875:	
+   504  002A  1283               	bcf	status, 5	;RP0=0, select bank0
+   505  002B  1685               	bsf	(45/8),(45)&7
+   506  002C  282D               	goto	i1l1877
+   507                           	line	50
+   508                           	
+   509  002D                     i1l277:	
+   510                           	line	51
+   511                           	
+   512  002D                     i1l1877:	
+   513                           ;Wireless_Transmitter.c: 50: }
+   514                           ;Wireless_Transmitter.c: 51: GPIF = 0;
+   515  002D  100B               	bcf	(88/8),(88)&7
+   516  002E  282F               	goto	i1l278
+   517                           	line	52
+   518                           	
+   519  002F                     i1l276:	
+   520                           	line	54
+   521                           	
+   522  002F                     i1l278:	
+   523  002F  0826               	movf	(??_Interrupt_Handler+6),w
+   524  0030  00DF               	movwf	btemp+1
+   525  0031  0825               	movf	(??_Interrupt_Handler+5),w
+   526  0032  008A               	movwf	pclath
+   527  0033  0824               	movf	(??_Interrupt_Handler+4),w
+   528  0034  0084               	movwf	fsr0
+   529  0035  0E23               	swapf	(??_Interrupt_Handler+3)^00h,w
+   530  0036  0083               	movwf	status
+   531  0037  0EDE               	swapf	saved_w,f
+   532  0038  0E5E               	swapf	saved_w,w
+   533  0039  0009               	retfie
+   534                           	opt stack 0
+   535                           GLOBAL	__end_of_Interrupt_Handler
+   536  003A                     	__end_of_Interrupt_Handler:
+   537 ;; =============== function _Interrupt_Handler ends ============
+   538                           
+   539                           	signat	_Interrupt_Handler,88
+   540                           psect	text156,local,class=CODE,delta=2
+   541                           global __ptext156
+   542  0000                     __ptext156:
+   543                           	global	btemp
+   544  005E                     	btemp set 05Eh
+   545                           
+   546                           	DABS	1,94,2	;btemp
+   547                           	global	wtemp0
+   548  005E                     	wtemp0 set btemp
+
+
+HI-TECH Software PICC Macro Assembler V9.83 build 10920 
+Symbol Table                                                                                   Fri Apr 26 16:21:47 2013
+
+       ??_Interrupt_Handler 0020                          _RD 04E0                          _WR 04E1  
+                       l270 005B                         l271 005B                         l272 005C  
+                       l273 005C                         l267 0058                         _CM0 00C8  
+                       _CM1 00C9                         _CM2 00CA                         _GP3 002B  
+                       _GP5 002D                         _GIE 005F                         fsr0 0004  
+                      l1861 0054                        l1863 0055                        l1865 0057  
+                      l1857 003A                        l1859 004F                        l1879 0059  
+                      _ADIE 0466                        _CMIE 0463                        _IOC3 04B3  
+                      _GPIE 005B                        _GPIF 0058                        u2270 0042  
+                      u2271 003F                        u2280 004A                        u2281 0047  
+                      _GPIO 0005                        u2284 0044                        u2294 004C  
+ __end_of_Interrupt_Handler 003A                        _WREN 04E2                        _Init 003A  
+                      _main 0059                        btemp 005E                        start 000F  
+                     ?_Init 0020                       ?_main 0020                       _EEADR 009B  
+                     _CARRY 0018                       i1l276 002F                       i1l277 002D  
+                     i1l278 002F                       pclath 000A                       status 0003  
+                     wtemp0 005E                __end_of_Init 0059                __end_of_main 005D  
+                    ??_Init 0000                      ??_main 0000                      _EEDATA 009A  
+                    _EECON1 009C                      _EECON2 009D  __size_of_Interrupt_Handler 0026  
+                    i1l1871 001C                      i1l1873 001D                      i1l1875 002A  
+                    i1l1867 0014                      i1l1877 002D                      i1l1869 0018  
+                    u230_20 0018                      u230_21 0017                      u231_20 001C  
+                    u231_21 001B                      u232_27 0023                      _TRISIO 0085  
+                    saved_w 005E              __pcstackCOMMON 0000                  __pmaintext 0059  
+                __pintentry 0004        end_of_initialization 005D         start_initialization 005D  
+             __pcstackBANK0 0020                   __ptext153 0000                   __ptext154 003A  
+                 __ptext155 0014                   __ptext156 0000           interrupt_function 0004  
+             __size_of_Init 001F               __size_of_main 0004                    intlevel1 0000  
+         _Interrupt_Handler 0014          ?_Interrupt_Handler 0020  

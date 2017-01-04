@@ -1,0 +1,55 @@
+AutoECO Report
+FILE-A: D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ50\COM_PRJ50.MAX
+FILE-B: D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ50\COM_PRJ50.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding package CON2
+Adding package R
+Adding package CAPACITOR_NON-POL
+Adding package CAPACITOR_POL
+Adding package DIODE_ZENER1
+Adding package BC547
+Adding package DIODE
+Adding package PIC12F629
+Adding package CON4
+Adding component J1
+Adding component RB
+Found footprint RESISTOR 1/4W (STANDING) from PRT file for part R, comp RB
+Adding component C1
+Adding component C2
+Adding component R1
+Adding component R2
+Adding component D5
+Adding component QG
+Found library footprint with same name as part BC547
+Adding component D1
+Adding component QB
+Adding component R3
+Adding component C3
+Adding component D2
+Adding component D3
+Adding component C4
+Adding component D4
+Adding component IC
+Adding component RR
+Adding component J2
+Adding component QR
+Adding component RG
+Adding net N01236
+Adding net N02627
+Adding net N00807
+Adding net N03092
+Adding net N00870
+Adding net N01182
+Adding net N02528
+Adding net N01498
+Adding net N03042
+Adding net N01209
+Adding net N03142
+Adding net N01838
+Adding net N02576
+Adding net N020382
+Adding net N004632
+Adding net N020102
+Deleting net DEFAULT
+*EOF*
+No errors found

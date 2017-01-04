@@ -1,0 +1,293 @@
+Fri Apr 26 16:30:15 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 16:30:15 Saved as file BACKUP1.MAX
+Fri Apr 26 16:30:15 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 16:30:15 UserDiv from Layout.INI for AutoECO: 60
+Fri Apr 26 16:30:15 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 16:30:16 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\BCON100T.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\BCON156T.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\BGA.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\CLCC.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DCON050T.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DCON085T.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DIMM050F.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DIMM050T.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DIN.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DIP100B.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DIP100T.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DSUBT.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DSUBT_HD.LLB
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\ECON100T.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\FBUS.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\ISA.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\JUMPER.LLB
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\LAYOUT.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\LCON100T.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\PC104.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\PCI.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\PCON100T.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\PCON156T.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\PGA.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\PLCC.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\QUAD.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\QUADB.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\RELAY.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\RF.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SBUS.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SIMM050F.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SIMM050T.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SIMM100F.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SIMM100T.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SIP.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SM.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SOG.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SOJ.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\STIFF.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TELE.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TM_AXIAL.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TM_CAP_P.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TM_CYLND.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TM_DIODE.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TM_DISC.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TM_RAD.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TO.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TRAINING.LLB
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\VRES.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\WCON100T.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\XT.llb
+Fri Apr 26 16:30:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\ZIGZAG.llb
+Fri Apr 26 16:30:16 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 16:30:16 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 16:30:56 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:30:56 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:30:57 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 16:31:01 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:31:12 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:31:12 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:31:13 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 16:31:17 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:31:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:31:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:31:30 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 16:31:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:31:37 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:31:37 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:31:39 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 16:31:47 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:35:08 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:35:08 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:35:09 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 16:35:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:35:44 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:35:44 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:35:45 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 16:35:50 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:36:17 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 16:36:17 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 16:37:32 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 16:37:33 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 16:38:58 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 16:39:32 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 16:40:14 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 16:41:06 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:41:06 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 16:41:07 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 16:41:29 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\BCON100T.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\BCON100T.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\BCON156T.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\BGA.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\CLCC.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DCON050T.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DCON085T.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DIMM050F.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DIMM050T.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DIN.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DIP100B.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DIP100T.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DSUBT.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\DSUBT_HD.LLB
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\ECON100T.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\FBUS.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\ISA.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\JUMPER.LLB
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\LAYOUT.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\LCON100T.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\PC104.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\PCI.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\PCON100T.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\PCON156T.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\PGA.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\PLCC.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\QUAD.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\QUADB.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\RELAY.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\RF.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SBUS.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SIMM050F.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SIMM050T.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SIMM100F.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SIMM100T.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SIP.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SM.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SOG.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\SOJ.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\STIFF.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TELE.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TM_AXIAL.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TM_CAP_P.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TM_CYLND.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TM_DIODE.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TM_DISC.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TM_RAD.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TO.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\TRAINING.LLB
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\VRES.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\WCON100T.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\XT.llb
+Fri Apr 26 16:41:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\library\ZIGZAG.llb
+Fri Apr 26 16:43:17 Saved as file BACKUP1.MAX
+Fri Apr 26 16:53:47 Saved as file BACKUP1.MAX
+Fri Apr 26 17:04:17 Saved as file BACKUP1.MAX
+Fri Apr 26 17:14:47 Saved as file BACKUP1.MAX
+Fri Apr 26 17:25:17 Saved as file BACKUP1.MAX
+Fri Apr 26 17:35:47 Saved as file BACKUP1.MAX
+Fri Apr 26 17:46:17 Saved as file BACKUP1.MAX
+Fri Apr 26 17:56:47 Saved as file BACKUP1.MAX
+Fri Apr 26 18:07:17 Saved as file BACKUP1.MAX
+Fri Apr 26 18:09:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:09:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:09:18 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 18:09:46 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:10:07 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:10:07 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:10:08 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 18:10:13 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:11:17 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:11:17 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:11:18 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 18:11:21 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:18:47 Saved as file BACKUP1.MAX
+Fri Apr 26 18:25:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:25:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:25:25 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 18:25:28 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:25:56 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:25:56 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:25:57 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 18:26:00 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:26:09 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:26:09 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:26:10 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 18:26:14 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:29:45 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 18:30:47 Saved as file BACKUP1.MAX
+Fri Apr 26 18:30:57 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 18:31:44 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 18:36:33 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 18:40:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:40:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:40:25 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 18:40:30 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:40:32 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:40:49 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:40:49 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:40:50 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 18:40:56 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:40:56 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 18:41:47 Saved as file BACKUP1.MAX
+Fri Apr 26 18:42:11 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 18:42:11 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 18:43:57 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 18:44:58 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 18:49:20 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 18:49:20 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 18:52:47 Saved as file BACKUP1.MAX
+Fri Apr 26 19:00:07 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:01:36 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:03:17 Saved as file BACKUP1.MAX
+Fri Apr 26 19:05:08 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:05:08 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:05:26 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:06:06 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:06:06 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:07:04 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:07:14 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:07:15 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:07:28 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:07:28 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:09:24 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:09:30 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:09:39 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:09:49 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:09:51 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:10:39 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:11:01 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:13:07 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:14:17 Saved as file BACKUP1.MAX
+Fri Apr 26 19:14:44 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:16:17 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:16:17 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:17:26 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:17:55 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:19:51 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:23:36 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:23:37 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:24:19 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:24:47 Saved as file BACKUP1.MAX
+Fri Apr 26 19:25:17 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 19:25:17 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 19:25:18 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 19:25:21 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 19:25:35 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 19:25:35 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 19:25:36 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Fri Apr 26 19:25:39 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 19:25:41 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Fri Apr 26 19:30:29 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:32:44 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:33:04 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:35:45 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:36:18 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:36:47 Saved as file BACKUP1.MAX
+Fri Apr 26 19:37:19 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:37:19 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:37:43 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:38:21 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:38:37 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:39:42 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:39:46 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:40:45 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:41:27 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:41:28 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri Apr 26 19:41:56 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Sat Apr 27 00:09:02 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Sat Apr 27 00:10:52 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Sat Apr 27 00:12:39 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Sat Apr 27 00:13:15 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Sat Apr 27 00:13:28 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Sat Apr 27 00:17:21 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Sat Apr 27 00:17:37 Saved as file BACKUP1.MAX
+Sat Apr 27 00:20:28 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Sat Apr 27 00:28:37 Saved as file BACKUP1.MAX
+Sat Apr 27 00:28:39 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Sat Apr 27 14:25:40 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sat Apr 27 14:25:40 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sat Apr 27 14:25:41 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sat Apr 27 14:25:45 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sat Apr 27 14:25:52 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sat Apr 27 14:25:52 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sat Apr 27 14:25:53 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sat Apr 27 14:25:59 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sat Apr 27 14:31:04 Saved as file BACKUP1.MAX
+Sat Apr 27 14:33:10 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Sat Apr 27 14:34:35 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Sat Apr 27 14:34:39 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Sat Apr 27 14:37:36 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Sat Apr 27 14:40:08 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Thu May 02 22:33:36 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Thu May 02 22:45:49 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Thu May 02 22:50:19 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER.MAX
+Fri May 03 02:54:35 Saved as file BACKUP1.MAX
+Fri May 03 03:05:05 Saved as file BACKUP1.MAX
+Sun May 05 22:17:32 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER_V1.MAX
+Sun May 05 22:25:47 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\WIRELESS_TRANSMITTER\WIRELESS_TRANSMITTER_V1.MAX

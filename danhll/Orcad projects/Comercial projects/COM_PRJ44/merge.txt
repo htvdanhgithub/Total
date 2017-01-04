@@ -1,0 +1,37 @@
+Starting
+Loading merge file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ44\COM_PRJ44.MAX
+Unable to update existing component J1 -- number of pins does not match.
+Component J1 copied and renamed to J1000
+Component J2 copied, existing comp updated
+Component LB1 copied and added
+Component LB2 copied and added
+Component LB3 copied and added
+Component LG1 copied and added
+Component LG2 copied and added
+Component LG3 copied and added
+Component LR1 copied and added
+Component LR2 copied and added
+Component LR3 copied and added
+Component R1 copied, existing comp updated
+Component R2 copied, existing comp updated
+Component R3 copied, existing comp updated
+Component R4 copied and added
+Component R5 copied and added
+Component R6 copied and added
+Component R7 copied and added
+Component R8 copied and added
+Component R9 copied and added
+Net N02360 copied and added
+Net N02391 copied and added
+Net N02422 copied and added
+Net N02453 copied and added
+Net N02484 copied and added
+Net N02515 copied and added
+Net N00832 copied and added
+Net N00675 copied and added
+Net N00782 copied and added
+Net N02577 copied and added
+Net N02608 copied and added
+Net N02561 copied and added
+Net N00725 copied and added
+Complete

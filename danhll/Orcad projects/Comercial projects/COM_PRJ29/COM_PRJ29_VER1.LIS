@@ -1,0 +1,19 @@
+AutoECO Report
+FILE-A: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ29\COM_PRJ29_VER1.MAX
+FILE-B: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ29\COM_PRJ29.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding package CON5
+Adding component J3
+Found library footprint with same name as part CON5
+Deleting J2.4 from net N03142
+Adding J3.4 to net N03142
+Deleting J2.3 from net N03042
+Adding J3.3 to net N03042
+Deleting J2.1 from net N03092
+Adding J3.1 to net N03092
+Adding J3.5 to net N05886
+Deleting J2.2 from net N01660
+Adding J3.2 to net N01660
+Deleting component J2
+*EOF*
+No errors found

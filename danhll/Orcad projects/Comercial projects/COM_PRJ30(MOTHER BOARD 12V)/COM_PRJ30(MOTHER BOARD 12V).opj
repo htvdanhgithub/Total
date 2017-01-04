@@ -1,0 +1,64 @@
+(ExpressProject "COM_PRJ30(MOTHER BOARD 12V)"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\com_prj30(mother board 12v).dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "TRUE")
+    (DRC_Report_Off-grid_Objects "TRUE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Report_Netnames "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_Report_File
+       "D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ30(MOTHER BOARD 12V)\COM_PRJ30(MOTHER BOARD 12V).DRC")
+    (Netlist_TAB "5")
+    (LAYOUT_Netlist_File "COM_PRJ30(MOTHER BOARD 12V).MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (TRUE)
+    (LAYOUT_Units "0")
+    (TRUE))
+  (Folder "Outputs"
+    (File ".\com_prj30(mother board 12v).drc"
+      (Type "Report"))
+    (File ".\com_prj30(mother board 12v).mnl"
+      (Type "LAYOUT Netlist File")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName
+         "D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY ORCAD\THU VIEN ORCAD FULL\CAPTURE FULL\THU VIEN CAPTURE.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName
+         "D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY ORCAD\THU VIEN ORCAD FULL\CAPTURE FULL\THU VIEN CAPTURE.OLB")
+      (DeviceIndex "0"))
+    (CON5
+      (FullPartName "CON5.Normal")
+      (LibraryName
+         "D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY ORCAD\THU VIEN ORCAD FULL\CAPTURE FULL\THU VIEN CAPTURE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 0 200 0 399"))
+      (Tab 0))))

@@ -1,0 +1,14 @@
+K1118
+In   ++    --
+G    D     S
+1    2     3
+
+KSP42
+In   ++    --
+B    C     E
+2    3     1
+
+
+Nhìn tren mat dong
+
++  3   7   6

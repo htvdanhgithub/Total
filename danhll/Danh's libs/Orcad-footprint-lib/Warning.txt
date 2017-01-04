@@ -1,0 +1,1 @@
+﻿Khi dùng footprint của transistor loại SMD (C1815...) của thư viện CHUAN.LLB --> nhớ kiểm tra kĩ thứ tự chân (vì có thể bị sai)

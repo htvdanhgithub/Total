@@ -1,0 +1,69 @@
+Starting (copy all comps)
+Loading merge file D:\DANH\DANH_NEWEST\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ5\COM_PRJ5_OLD_VER1.MAX
+Component C1 copied and renamed to C1000
+Component C2 copied and renamed to C2000
+Component C3 copied and renamed to C3000
+Component C4 copied and renamed to C4000
+Component D1 copied and renamed to D1000
+Component D2 copied and renamed to D2000
+Component D3 copied and renamed to D3000
+Component D4 copied and renamed to D4000
+Component D5 copied and renamed to D5000
+Component IC1 copied and renamed to IC1000
+Component J1 copied and renamed to J1000
+Component Q1 copied and renamed to Q1000
+Component Q2 copied and renamed to Q2000
+Component Q3 copied and renamed to Q3000
+Component R1 copied and renamed to R1000
+Component R2 copied and renamed to R2000
+Component R3 copied and renamed to R3000
+Component R4 copied and renamed to R4000
+Component R5 copied and renamed to R5000
+Component R6 copied and renamed to R6000
+Component R7B copied and renamed to R7B000
+Component R7G copied and renamed to R7G000
+Component R7R copied and renamed to R7R000
+Component R8B copied and renamed to R8B000
+Component R8G copied and renamed to R8G000
+Component R8R copied and renamed to R8R000
+Component R9B copied and renamed to R9B000
+Component R9G copied and renamed to R9G000
+Component R9R copied and renamed to R9R000
+Component U1 copied and renamed to U1000
+Component U2 copied and renamed to U2000
+Component U3 copied and renamed to U3000
+Component 33 copied and renamed to 33000
+Component 34 copied and renamed to 34000
+Component 35 copied and renamed to 35000
+Component 36 copied and renamed to 36000
+Component R7 copied and renamed to R7000
+Component R8 copied and renamed to R8000
+Component R9 copied and renamed to R9000
+Net N00469 merged into existing net
+Net N00503 merged into existing net
+Net N00589 merged into existing net
+Net N00616 merged into existing net
+Net N00643 merged into existing net
+Net N01179 merged into existing net
+Net N01807 merged into existing net
+Net N01843 merged into existing net
+Net N01865 merged into existing net
+Net N01907 merged into existing net
+Net N01930 merged into existing net
+Net N01972 merged into existing net
+Net N02100 merged into existing net
+Net N07266 merged into existing net
+Net N17195 merged into existing net
+Net N17310 merged into existing net
+Net N18227 merged into existing net
+Net N18605 merged into existing net
+Net N18642 merged into existing net
+Net N19012 merged into existing net
+Net N19049 merged into existing net
+Net N19086 merged into existing net
+Net N023000 merged into existing net
+Net N023910 merged into existing net
+Net N024300 merged into existing net
+Net NET_26 merged into existing net
+Net NET_27 merged into existing net
+Complete

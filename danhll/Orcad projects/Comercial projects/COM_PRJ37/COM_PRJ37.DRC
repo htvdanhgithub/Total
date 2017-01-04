@@ -1,0 +1,58 @@
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Invalid References
+[DRC0011]  Reference is invalid for this part RB
+                    SCHEMATIC1, PAGE1  (4.60, 2.50) 
+[DRC0011]  Reference is invalid for this part QB
+                    SCHEMATIC1, PAGE1  (4.80, 2.80) 
+[DRC0011]  Reference is invalid for this part RR
+                    SCHEMATIC1, PAGE1  (3.20, 2.50) 
+[DRC0011]  Reference is invalid for this part QR
+                    SCHEMATIC1, PAGE1  (3.40, 2.80) 
+[DRC0011]  Reference is invalid for this part RG
+                    SCHEMATIC1, PAGE1  (3.90, 2.50) 
+[DRC0011]  Reference is invalid for this part QG
+                    SCHEMATIC1, PAGE1  (4.10, 2.80) 
+
+Checking for Duplicate References
+
+Checking for Compatibility with SDT
+ERROR:  [DRC0021]  More than 1 titleblock exists on this page TitleBlock0
+                    SCHEMATIC1, PAGE1  (6.20, 5.80) 
+ERROR:  [DRC0021]  More than 1 titleblock exists on this page TitleBlock0
+                    SCHEMATIC1, PAGE1  (6.20, 5.80) 
+ERROR:  [DRC0021]  More than 1 titleblock exists on this page TitleBlock0
+                    SCHEMATIC1, PAGE1  (6.20, 5.80) 
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+
+Reporting Net Names
+    N12407
+    N12429
+    N13786
+    N13739
+    N12971
+    N13703
+    N004632
+    N020382
+    N020102
+    N12485
+    N12340

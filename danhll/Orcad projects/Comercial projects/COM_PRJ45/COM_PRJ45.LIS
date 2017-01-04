@@ -1,0 +1,95 @@
+AutoECO Report
+FILE-A: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ45\COM_PRJ45.MAX
+FILE-B: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ45\COM_PRJ45.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding component LR10
+Adding component LR11
+Adding component R32
+Adding component R20
+Adding component LG8
+Adding component LR15
+Adding component R23
+Adding component R29
+Adding component R28
+Adding component R18
+Adding component R25
+Adding component R19
+Adding component R30
+Adding component R22
+Adding component R21
+Adding component R17
+Adding component LG5
+Adding component LG6
+Adding component LB6
+Adding component LB5
+Adding component LR13
+Adding component LR12
+Adding component R27
+Adding component LG7
+Adding component LR9
+Adding component LR16
+Adding component R31
+Adding component R24
+Adding component LB7
+Adding component R26
+Adding component LR14
+Adding component LB8
+Adding net N029551
+Adding net N035051
+Adding net N030551
+Adding net N029271
+Adding net N030791
+Adding net N033331
+Adding net N034811
+Adding net N031271
+Adding net N028991
+Adding net N030051
+Adding net N031031
+Adding net N033591
+Adding net N030291
+Adding net N032251
+Adding net N032551
+Adding net N029791
+Adding LR9.1 to net N00739
+Adding LR10.1 to net N00739
+Adding LG5.1 to net N00739
+Adding LB5.1 to net N00739
+Adding LR11.1 to net N00739
+Adding LR12.1 to net N00739
+Adding LB2.1 to net N00739
+Adding LG6.1 to net N00739
+Adding LB7.1 to net N00739
+Adding LR15.1 to net N00739
+Adding LB6.1 to net N00739
+Adding LR13.1 to net N00739
+Adding LR14.1 to net N00739
+Adding LG7.1 to net N00739
+Adding LR16.1 to net N00739
+Adding LG8.1 to net N00739
+Adding LB8.1 to net N00739
+Adding R13.1 to net N00543
+Adding R14.1 to net N00543
+Adding R10.1 to net N00543
+Adding R9.1 to net N00543
+Adding R30.1 to net N00543
+Adding R29.1 to net N00543
+Adding R17.1 to net N00543
+Adding R18.1 to net N00543
+Adding R25.1 to net N00543
+Adding R22.1 to net N00543
+Adding R21.1 to net N00543
+Adding R26.1 to net N00543
+Adding R11.1 to net N00571
+Adding R15.1 to net N00571
+Adding R31.1 to net N00571
+Adding R19.1 to net N00571
+Adding R27.1 to net N00571
+Adding R23.1 to net N00571
+Adding R16.1 to net N00594
+Adding R12.1 to net N00594
+Adding R32.1 to net N00594
+Adding R28.1 to net N00594
+Adding R24.1 to net N00594
+Adding R20.1 to net N00594
+*EOF*
+No errors found

@@ -1,0 +1,13 @@
+AutoECO Report
+FILE-A: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ35\COM_PRJ35.MAX
+FILE-B: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ35\COM_PRJ35.MNL
+If "*EOF*" immediately follows, no changes were made
+Deleting D1.4 from net N01701
+Adding J1.2 to net N01701
+Deleting D1.1 from net N05889
+Adding J1.1 to net N05889
+Deleting component D1
+Deleting net N16140
+Deleting net N16105
+*EOF*
+No errors found

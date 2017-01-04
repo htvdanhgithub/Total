@@ -1,0 +1,160 @@
+Post Processor Report
+OrCAD FILE: D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.MAX
+Sun Oct 02 12:56:11 2011
+
+*********************************************************
+
+Output file: D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.TOP
+
+Aperture totals for D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.TOP:
+---------------------------------------------------------
+D10:  0.1039 ROUND  --       0 Draws,      18 Flashes
+D11:  0.0620 ROUND  --       0 Draws,       4 Flashes
+D12:  0.0840 ROUND  --       0 Draws,       9 Flashes
+D13:  0.0840 SQUARE --       0 Draws,       3 Flashes
+D14:  0.3150 ROUND  --       0 Draws,       2 Flashes
+D15:  0.0799 ROUND  --       0 Draws,      23 Flashes
+D16:  0.0079 ROUND  --       8 Draws,       0 Flashes
+---------------------------------------------------------
+  7 D-Codes      -----       8 Draws,      59 Flashes
+
+*********************************************************
+
+Output file: D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.BOT
+
+Aperture totals for D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.BOT:
+---------------------------------------------------------
+D10:  0.1039 ROUND  --       0 Draws,      18 Flashes
+D12:  0.0840 ROUND  --       0 Draws,      12 Flashes
+D14:  0.3150 ROUND  --       0 Draws,       2 Flashes
+D15:  0.0799 ROUND  --       0 Draws,      23 Flashes
+D17:  0.0827 ROUND  --       0 Draws,       4 Flashes
+D18:  0.0080 ROUND  --      79 Draws,       0 Flashes
+D19:  0.0120 ROUND  --      22 Draws,       0 Flashes
+D20:  0.0118 ROUND  --       2 Draws,       0 Flashes
+---------------------------------------------------------
+  8 D-Codes      -----     103 Draws,      59 Flashes
+
+*********************************************************
+
+Output file: D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.GND
+
+Aperture totals for D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.GND:
+---------------------------------------------------------
+D21:  0.0700 ROUND  --       0 Draws,       4 Flashes
+D22:  0.0900 ROUND  --       0 Draws,      12 Flashes
+D23:  0.0920 ROUND  --       0 Draws,       2 Flashes
+D24:  0.0720 ROUND  --       0 Draws,      23 Flashes
+---------------------------------------------------------
+  4 D-Codes      -----       0 Draws,      41 Flashes
+
+*********************************************************
+
+Output file: D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.PWR
+
+Aperture totals for D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.PWR:
+---------------------------------------------------------
+D21:  0.0700 ROUND  --       0 Draws,       4 Flashes
+D22:  0.0900 ROUND  --       0 Draws,      12 Flashes
+D23:  0.0920 ROUND  --       0 Draws,       2 Flashes
+D24:  0.0720 ROUND  --       0 Draws,      23 Flashes
+---------------------------------------------------------
+  4 D-Codes      -----       0 Draws,      41 Flashes
+
+*********************************************************
+
+Output file: D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.SMT
+
+Aperture totals for D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.SMT:
+---------------------------------------------------------
+D25:  0.0750 ROUND  --       0 Draws,      18 Flashes
+D26:  0.0670 ROUND  --       0 Draws,       4 Flashes
+D27:  0.0890 ROUND  --       0 Draws,      12 Flashes
+D28:  0.0910 ROUND  --       0 Draws,       2 Flashes
+D29:  0.0520 ROUND  --       0 Draws,      23 Flashes
+---------------------------------------------------------
+  5 D-Codes      -----       0 Draws,      59 Flashes
+
+*********************************************************
+
+Output file: D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.SMB
+
+Aperture totals for D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.SMB:
+---------------------------------------------------------
+D25:  0.0750 ROUND  --       0 Draws,      18 Flashes
+D26:  0.0670 ROUND  --       0 Draws,       4 Flashes
+D27:  0.0890 ROUND  --       0 Draws,      12 Flashes
+D28:  0.0910 ROUND  --       0 Draws,       2 Flashes
+D29:  0.0520 ROUND  --       0 Draws,      23 Flashes
+---------------------------------------------------------
+  5 D-Codes      -----       0 Draws,      59 Flashes
+
+*********************************************************
+
+Output file: D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.SST
+
+Aperture totals for D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.SST:
+---------------------------------------------------------
+D16:  0.0079 ROUND  --       9 Draws,       0 Flashes
+D18:  0.0080 ROUND  --      92 Draws,       0 Flashes
+D20:  0.0118 ROUND  --      31 Draws,       0 Flashes
+D30:  0.0039 ROUND  --      49 Draws,       0 Flashes
+D31:  0.0020 ROUND  --     105 Draws,       0 Flashes
+---------------------------------------------------------
+  5 D-Codes      -----     286 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.AST
+
+Aperture totals for D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.AST:
+---------------------------------------------------------
+D29:  0.0520 ROUND  --       0 Draws,      23 Flashes
+D32:  0.0010 ROUND  --      16 Draws,       0 Flashes
+---------------------------------------------------------
+  2 D-Codes      -----      16 Draws,      23 Flashes
+
+*********************************************************
+
+Output file: D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.DRD
+
+Aperture totals for D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_3LEDS.DRD:
+---------------------------------------------------------
+D33:  0.0100 ROUND  --     823 Draws,       0 Flashes
+---------------------------------------------------------
+  1 D-Codes      -----     823 Draws,       0 Flashes
+
+
+*********************************************************
+
+Aperture totals for entire project:
+---------------------------------------------------------
+D10:  0.1039 ROUND  --       0 Draws,      36 Flashes
+D11:  0.0620 ROUND  --       0 Draws,       4 Flashes
+D12:  0.0840 ROUND  --       0 Draws,      21 Flashes
+D13:  0.0840 SQUARE --       0 Draws,       3 Flashes
+D14:  0.3150 ROUND  --       0 Draws,       4 Flashes
+D15:  0.0799 ROUND  --       0 Draws,      46 Flashes
+D16:  0.0079 ROUND  --      17 Draws,       0 Flashes
+D17:  0.0827 ROUND  --       0 Draws,       4 Flashes
+D18:  0.0080 ROUND  --     171 Draws,       0 Flashes
+D19:  0.0120 ROUND  --      22 Draws,       0 Flashes
+D20:  0.0118 ROUND  --      33 Draws,       0 Flashes
+D21:  0.0700 ROUND  --       0 Draws,       8 Flashes
+D22:  0.0900 ROUND  --       0 Draws,      24 Flashes
+D23:  0.0920 ROUND  --       0 Draws,       4 Flashes
+D24:  0.0720 ROUND  --       0 Draws,      46 Flashes
+D25:  0.0750 ROUND  --       0 Draws,      36 Flashes
+D26:  0.0670 ROUND  --       0 Draws,       8 Flashes
+D27:  0.0890 ROUND  --       0 Draws,      24 Flashes
+D28:  0.0910 ROUND  --       0 Draws,       4 Flashes
+D29:  0.0520 ROUND  --       0 Draws,      69 Flashes
+D30:  0.0039 ROUND  --      49 Draws,       0 Flashes
+D31:  0.0020 ROUND  --     105 Draws,       0 Flashes
+D32:  0.0010 ROUND  --      16 Draws,       0 Flashes
+D33:  0.0100 ROUND  --     823 Draws,       0 Flashes
+---------------------------------------------------------
+ 24 D-Codes      -----    1236 Draws,     341 Flashes
+
+
+No warnings or errors.

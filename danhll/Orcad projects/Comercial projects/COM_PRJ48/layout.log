@@ -1,0 +1,765 @@
+Sun Sep 04 18:01:03 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 18:01:03 Saved as file BACKUP1.MAX
+Sun Sep 04 18:01:03 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 18:01:04 UserDiv from Layout.INI for AutoECO: 60
+Sun Sep 04 18:01:04 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\BCON100T.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\BCON156T.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\BGA.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\CLCC.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DCON050T.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DCON085T.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIMM050F.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIMM050T.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIN.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIP100B.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIP100T.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DSUBT.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DSUBT_HD.LLB
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\ECON100T.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\FBUS.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\ISA.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\JUMPER.LLB
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\LAYOUT.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\LCON100T.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PC104.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PCI.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PCON100T.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PCON156T.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PGA.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PLCC.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\QUAD.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\QUADB.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\RELAY.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\RF.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SBUS.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM050F.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM050T.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM100F.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM100T.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIP.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SM.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SOG.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SOJ.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\STIFF.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TELE.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_AXIAL.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_CAP_P.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_CYLND.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_DIODE.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_DISC.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_RAD.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TO.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TRAINING.LLB
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\VRES.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\WCON100T.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\XT.llb
+Sun Sep 04 18:01:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\ZIGZAG.llb
+Sun Sep 04 18:01:04 Library file not found:USER.PRT
+Sun Sep 04 18:01:04 Library file not found:USER.PRT
+Sun Sep 04 18:01:10 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Sun Sep 04 18:01:10 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Sun Sep 04 18:06:51 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 18:06:57 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 18:07:34 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 18:10:18 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:10:18 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:10:19 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 18:10:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:10:33 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:10:42 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:10:42 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:10:51 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:10:52 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:10:53 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:10:54 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:10:58 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:12:38 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:12:54 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:12:54 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:12:56 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 18:13:09 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:13:11 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:13:12 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:13:30 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 18:13:30 Saved as file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 18:16:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:16:43 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\BCON100T.llb
+Sun Sep 04 18:16:44 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 18:16:50 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:16:56 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:17:19 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:17:29 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:20:03 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 18:20:03 Saved as file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 18:20:49 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 18:20:49 Saved as file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 18:22:04 Saved as file BACKUP1.MAX
+Sun Sep 04 18:32:04 Saved as file BACKUP1.MAX
+Sun Sep 04 18:35:44 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:35:44 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:35:45 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 18:35:48 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:42:04 Saved as file BACKUP1.MAX
+Sun Sep 04 18:50:13 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 18:51:35 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 18:52:04 Saved as file BACKUP1.MAX
+Sun Sep 04 18:55:48 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:55:48 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:55:48 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:55:48 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:55:51 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 18:55:53 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 18:56:24 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:02:04 Saved as file BACKUP1.MAX
+Sun Sep 04 19:12:05 Saved as file BACKUP1.MAX
+Sun Sep 04 19:17:28 Saved as file BACKUP1.MAX
+Sun Sep 04 19:17:28 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:17:29 UserDiv from Layout.INI for AutoECO: 60
+Sun Sep 04 19:17:29 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:17:29 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\BCON100T.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\BCON156T.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\BGA.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\CLCC.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DCON050T.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DCON085T.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIMM050F.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIMM050T.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIN.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIP100B.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIP100T.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DSUBT.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DSUBT_HD.LLB
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\ECON100T.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\FBUS.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\ISA.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\JUMPER.LLB
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\LAYOUT.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\LCON100T.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PC104.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PCI.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PCON100T.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PCON156T.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PGA.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PLCC.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\QUAD.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\QUADB.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\RELAY.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\RF.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SBUS.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM050F.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM050T.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM100F.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM100T.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIP.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SM.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SOG.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SOJ.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\STIFF.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TELE.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_AXIAL.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_CAP_P.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_CYLND.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_DIODE.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_DISC.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_RAD.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TO.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TRAINING.LLB
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\VRES.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\WCON100T.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\XT.llb
+Sun Sep 04 19:17:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\ZIGZAG.llb
+Sun Sep 04 19:17:30 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:17:30 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:17:43 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:17:43 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:17:44 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:17:44 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:17:45 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 19:17:50 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:17:51 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:22:35 Saved as file BACKUP1.MAX
+Sun Sep 04 19:28:26 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:30:25 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:25 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:25 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:25 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:29 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:42 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:42 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:42 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:42 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:43 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:50 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:50 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:50 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:50 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:51 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:58 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:58 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:58 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:58 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:30:59 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:31:03 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:32:35 Saved as file BACKUP1.MAX
+Sun Sep 04 19:35:51 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:37:21 No new connections routed.
+Sun Sep 04 19:37:21 Total is now 0 out of 36 (0%).
+Sun Sep 04 19:37:21 Saved as file SWEEP1.MAX
+Sun Sep 04 19:37:22 Saved as file BACKUP1.MAX
+Sun Sep 04 19:37:22 No new connections routed.
+Sun Sep 04 19:37:22 Total is now 0 out of 36 (0%).
+Sun Sep 04 19:37:22 Saved as file SWEEP2.MAX
+Sun Sep 04 19:37:24 No new connections routed.
+Sun Sep 04 19:37:24 Total is now 0 out of 36 (0%).
+Sun Sep 04 19:37:24 Saved as file SWEEP3.MAX
+Sun Sep 04 19:37:29 No new connections routed.
+Sun Sep 04 19:37:29 Total is now 0 out of 36 (0%).
+Sun Sep 04 19:37:29 Saved as file SWEEP4.MAX
+Sun Sep 04 19:37:33 No new connections routed.
+Sun Sep 04 19:37:33 Total is now 0 out of 36 (0%).
+Sun Sep 04 19:37:33 Saved as file SWEEP5.MAX
+Sun Sep 04 19:37:54 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:39:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:39:32 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:39:33 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 19:39:36 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:39:44 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 19:39:44 Saved as file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 19:39:56 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 19:39:56 Saved as file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 19:40:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:40:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:40:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:40:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:40:29 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 19:40:32 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:40:43 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:40:43 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:40:43 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:40:43 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:41:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:41:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:41:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:41:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:41:24 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:42:52 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:42:52 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:42:52 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:42:52 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:43:02 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:43:35 Saved as file BACKUP1.MAX
+Sun Sep 04 19:45:01 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:45:01 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:45:01 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:45:01 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:45:02 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:11 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:11 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:11 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:11 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:13 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:25 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:34 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:34 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:34 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:34 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:35 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:42 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:42 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:42 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:42 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:46 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:54 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:54 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:54 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:54 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:46:59 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:07 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:07 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:07 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:07 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:09 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:14 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:14 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:14 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:14 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:16 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:24 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:24 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:24 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:24 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:26 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:32 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:32 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:32 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:32 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:47:33 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:48:04 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:48:04 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:48:04 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:48:04 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:48:05 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 19:48:16 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:50:58 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:52:28 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:54:36 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:55:05 Saved as file BACKUP1.MAX
+Sun Sep 04 19:56:01 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:56:10 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:59:16 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 19:59:55 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:55 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:55 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:55 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:55 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:55 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:55 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:55 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:55 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:55 No new connections routed.
+Sun Sep 04 19:59:55 Total is now 0 out of 36 (0%).
+Sun Sep 04 19:59:55 Saved as file SWEEP1.MAX
+Sun Sep 04 19:59:56 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:56 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:56 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:56 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:56 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:56 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:56 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:56 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:56 Saved as file BACKUP1.MAX
+Sun Sep 04 19:59:56 No new connections routed.
+Sun Sep 04 19:59:56 Total is now 0 out of 36 (0%).
+Sun Sep 04 19:59:57 Saved as file SWEEP2.MAX
+Sun Sep 04 19:59:59 No new connections routed.
+Sun Sep 04 19:59:59 Total is now 0 out of 36 (0%).
+Sun Sep 04 19:59:59 Saved as file SWEEP3.MAX
+Sun Sep 04 20:00:04 No new connections routed.
+Sun Sep 04 20:00:04 Total is now 0 out of 36 (0%).
+Sun Sep 04 20:00:04 Saved as file SWEEP4.MAX
+Sun Sep 04 20:00:09 No new connections routed.
+Sun Sep 04 20:00:09 Total is now 0 out of 36 (0%).
+Sun Sep 04 20:00:09 Saved as file SWEEP5.MAX
+Sun Sep 04 20:00:24 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Sep 04 20:44:42 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Sun Sep 04 20:44:45 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:44:46 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:44:50 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:44:56 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:45:16 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:45:17 Saved as file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:48:29 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:48:29 Saved as file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:48:31 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\BCON100T.llb
+Sun Sep 04 20:48:31 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:48:35 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:48:55 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:48:55 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:48:55 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:48:55 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:48:56 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:48:59 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:49:24 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:49:24 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:49:24 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:49:24 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:49:25 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:49:28 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:01 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:01 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:01 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:01 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:03 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\BCON100T.llb
+Sun Sep 04 20:50:04 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:50:06 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:15 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:15 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:15 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:15 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:17 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:50:19 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:29 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:50:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:45 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:45 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:45 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:45 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:50:47 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:50:49 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:51:23 Saved as file BACKUP1.MAX
+Sun Sep 04 20:55:03 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:55:03 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:55:03 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:55:03 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:55:04 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:55:06 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:55:15 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:55:15 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:55:15 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:55:15 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:55:16 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:55:18 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:55:50 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:55:50 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:55:50 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:55:50 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:55:51 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:55:54 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:56:09 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:56:09 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:56:09 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:56:09 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:56:10 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:56:13 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:56:58 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:56:58 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:56:58 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:56:58 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:57:27 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:57:30 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:58:18 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:58:18 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:58:18 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:58:18 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 20:58:19 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Sep 04 20:58:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sun Sep 04 21:02:11 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Sun Sep 04 21:03:23 Saved as file BACKUP1.MAX
+Sun Sep 04 21:08:35 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Sun Sep 04 21:13:23 Saved as file BACKUP1.MAX
+Sun Sep 04 21:23:23 Saved as file BACKUP1.MAX
+Sun Sep 04 21:33:23 Saved as file BACKUP1.MAX
+Sun Sep 04 21:36:23 Error code 0034.912 (266)
+Sun Sep 04 21:36:23 Saved as file Backup0.max
+Sun Sep 04 21:36:23 Windows which were open at time of error:
+Sun Sep 04 21:36:23 	ActiveWindow: &Route
+Sun Sep 04 21:36:23 	Icon: &Components
+Sun Sep 04 21:36:23 	Icon: &Nets
+Sun Sep 04 21:36:23 	Icon: Post Proces&s
+Sun Sep 04 21:36:23 End-of-list
+Sun Sep 04 21:36:25 Error code 0034.912 (266)
+Sun Sep 04 22:04:08 Saved as file BACKUP1.MAX
+Sun Sep 04 22:14:09 Saved as file BACKUP1.MAX
+Sun Sep 04 22:19:33 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PR~1.MAX
+Mon Sep 05 01:04:11 Saved as file BACKUP1.MAX
+Mon Sep 05 01:10:02 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Sep 05 01:10:02 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Sep 05 01:10:02 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Sep 05 01:10:02 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Sep 05 01:10:03 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Sep 05 01:10:06 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Sep 05 01:10:09 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Sep 05 01:10:11 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Sep 05 01:13:47 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Mon Sep 05 01:14:41 Saved as file BACKUP1.MAX
+Mon Sep 05 01:24:43 Saved as file BACKUP1.MAX
+Wed Sep 07 02:15:04 Saved as file BACKUP1.MAX
+Wed Sep 07 02:21:32 Saved as file BACKUP1.MAX
+Wed Sep 07 02:21:32 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 02:21:33 UserDiv from Layout.INI for AutoECO: 60
+Wed Sep 07 02:21:33 Loaded file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 02:21:33 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\BCON100T.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\BCON156T.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\BGA.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\CLCC.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DCON050T.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DCON085T.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIMM050F.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIMM050T.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIN.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIP100B.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DIP100T.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DSUBT.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\DSUBT_HD.LLB
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\ECON100T.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\FBUS.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\ISA.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\JUMPER.LLB
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\LAYOUT.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\LCON100T.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PC104.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PCI.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PCON100T.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PCON156T.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PGA.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\PLCC.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\QUAD.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\QUADB.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\RELAY.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\RF.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SBUS.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM050F.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM050T.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM100F.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM100T.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIP.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SM.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SOG.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SOJ.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\STIFF.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TELE.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_AXIAL.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_CAP_P.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_CYLND.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_DIODE.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_DISC.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_RAD.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TO.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TRAINING.LLB
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\VRES.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\WCON100T.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\XT.llb
+Wed Sep 07 02:21:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\ZIGZAG.llb
+Wed Sep 07 02:21:40 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 02:21:40 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 02:21:41 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 02:21:46 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 02:21:50 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 02:21:51 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 02:22:06 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 02:22:10 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 02:22:14 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 02:22:15 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 02:22:23 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 02:22:24 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 02:22:27 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 02:22:28 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 02:22:30 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 02:22:30 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 02:22:30 Loaded file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 02:25:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:25:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:25:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:25:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:25:33 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 02:25:35 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:26:04 Saved as file BACKUP1.MAX
+Wed Sep 07 02:30:28 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:30:28 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:30:28 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:30:28 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:30:29 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 02:30:32 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:30:32 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:30:34 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:31:27 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 02:35:04 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:35:04 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:35:04 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:35:04 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:35:09 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 02:35:13 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:35:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:35:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:35:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:35:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:35:32 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 02:35:34 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:37:34 Saved as file BACKUP1.MAX
+Wed Sep 07 02:40:39 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:40:39 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:40:39 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:40:39 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:40:41 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 02:40:44 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:41:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:41:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:41:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:41:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:41:30 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 02:41:33 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:45:44 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:45:44 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:45:44 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:45:44 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:45:45 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 02:45:47 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:47:55 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:47:55 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:47:55 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:47:55 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:47:58 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 02:48:02 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:48:34 Saved as file BACKUP1.MAX
+Wed Sep 07 02:54:33 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:54:33 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:54:33 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:54:33 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:54:35 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 02:54:38 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:54:39 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 02:59:04 Saved as file BACKUP1.MAX
+Wed Sep 07 03:06:16 Saved as file BACKUP1.MAX
+Wed Sep 07 03:06:16 No new connections routed.
+Wed Sep 07 03:06:16 Total is now 20 out of 21 (95%).
+Wed Sep 07 03:06:16 Saved as file SWEEP1.MAX
+Wed Sep 07 03:06:16 Saved as file BACKUP1.MAX
+Wed Sep 07 03:06:16 No new connections routed.
+Wed Sep 07 03:06:16 Total is now 20 out of 21 (95%).
+Wed Sep 07 03:06:16 Saved as file SWEEP2.MAX
+Wed Sep 07 03:06:17 No new connections routed.
+Wed Sep 07 03:06:17 Total is now 20 out of 21 (95%).
+Wed Sep 07 03:06:17 Saved as file SWEEP3.MAX
+Wed Sep 07 03:06:18 Routed 1 connections in 1 seconds.
+Wed Sep 07 03:06:18 Total is now 21 out of 21 (100%).
+Wed Sep 07 03:06:18 Saved as file SWEEP4.MAX
+Wed Sep 07 03:06:18 No new connections routed.
+Wed Sep 07 03:06:18 Total is now 21 out of 21 (100%).
+Wed Sep 07 03:06:18 Saved as file SWEEP5.MAX
+Wed Sep 07 03:06:53 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:07:05 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\BACKUP5.MAX
+Wed Sep 07 03:07:15 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\SWEEP5.MAX
+Wed Sep 07 03:07:20 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\SWEEP4.MAX
+Wed Sep 07 03:07:24 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\SWEEP2.MAX
+Wed Sep 07 03:07:56 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\SWEEP5.MAX
+Wed Sep 07 03:08:46 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:08:46 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:08:48 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:08:50 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:10:34 Saved as file BACKUP1.MAX
+Wed Sep 07 03:16:04 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\SWEEP5.MAX
+Wed Sep 07 03:16:23 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\SWEEP5.MAX
+Wed Sep 07 03:16:23 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\SWEEP5.MAX
+Wed Sep 07 03:16:30 No new connections routed.
+Wed Sep 07 03:16:30 Total is now 0 out of 21 (0%).
+Wed Sep 07 03:16:30 Saved as file SWEEP1.MAX
+Wed Sep 07 03:16:31 Saved as file BACKUP1.MAX
+Wed Sep 07 03:16:31 Routed 20 connections in 0 seconds.
+Wed Sep 07 03:16:31 Total is now 20 out of 21 (95%).
+Wed Sep 07 03:16:31 Saved as file SWEEP2.MAX
+Wed Sep 07 03:16:31 Routed 1 connections in 0 seconds.
+Wed Sep 07 03:16:31 Total is now 21 out of 21 (100%).
+Wed Sep 07 03:16:31 Saved as file SWEEP3.MAX
+Wed Sep 07 03:16:31 No new connections routed.
+Wed Sep 07 03:16:31 Total is now 21 out of 21 (100%).
+Wed Sep 07 03:16:31 Saved as file SWEEP4.MAX
+Wed Sep 07 03:16:31 No new connections routed.
+Wed Sep 07 03:16:31 Total is now 21 out of 21 (100%).
+Wed Sep 07 03:16:31 Saved as file SWEEP5.MAX
+Wed Sep 07 03:17:08 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:19:46 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:20:00 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:20:00 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:20:01 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:20:05 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:20:08 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:20:14 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:20:25 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:20:25 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:20:27 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:20:34 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:20:45 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:20:51 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:20:51 Saved as file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:22:04 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:22:05 Saved as file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:22:06 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:22:07 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\BCON100T.llb
+Wed Sep 07 03:22:08 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:22:12 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:22:19 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:22:19 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:22:20 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:22:23 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Sep 07 03:22:34 Error code 5226.020 (0)
+Wed Sep 07 03:22:34 Windows which were open at time of error:
+Wed Sep 07 03:22:34 	ActiveWindow: &Route
+Wed Sep 07 03:22:34 	Icon: &Components
+Wed Sep 07 03:22:34 	Icon: &Nets
+Wed Sep 07 03:22:34 	Icon: Post Proces&s
+Wed Sep 07 03:22:34 End-of-list
+Wed Sep 07 03:22:35 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:23:00 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:23:00 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:23:01 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:23:03 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:23:06 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:23:31 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:23:31 Saved as file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:23:37 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:23:37 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:23:38 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:23:41 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:26:49 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:31:55 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:31:55 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:31:55 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:31:55 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:31:56 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:32:00 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:32:01 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:32:02 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:32:28 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:32:28 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:32:28 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:32:28 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:32:29 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Sep 07 03:32:32 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:32:32 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:32:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:32:34 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Sep 07 03:33:35 Saved as file BACKUP1.MAX
+Wed Sep 07 03:38:34 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:38:34 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:38:35 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:41:46 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:41:47 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:41:47 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:42:21 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:42:37 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:42:59 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:44:02 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:44:20 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Wed Sep 07 03:49:13 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 03:49:16 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 03:49:26 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 03:50:10 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 03:50:42 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 03:50:48 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 03:50:55 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 20:00:14 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 20:04:27 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 20:08:53 Saved as file BACKUP1.MAX
+Wed Sep 07 20:10:12 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 20:10:32 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Wed Sep 07 20:10:42 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Thu Sep 08 01:41:21 Saved as file BACKUP1.MAX
+Thu Sep 08 01:48:05 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Thu Sep 08 01:49:07 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Thu Sep 08 01:50:08 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Thu Sep 08 01:51:21 Saved as file BACKUP1.MAX
+Thu Sep 08 01:52:51 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0F4~1\COM_PR~1.MAX
+Thu Sep 08 01:55:15 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Thu Sep 08 01:56:40 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Thu Sep 08 01:59:27 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Thu Sep 08 01:59:28 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Thu Sep 08 01:59:44 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Thu Sep 08 02:00:19 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Thu Sep 08 02:01:07 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Thu Sep 08 02:01:15 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Thu Sep 08 02:01:51 Saved as file BACKUP1.MAX
+Thu Sep 08 02:04:44 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Thu Sep 08 02:04:44 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Thu Sep 08 02:11:51 Saved as file BACKUP1.MAX
+Thu Sep 08 02:19:51 Error code 0034.912 (266)
+Thu Sep 08 02:19:51 Saved as file Backup0.max
+Thu Sep 08 02:19:51 Windows which were open at time of error:
+Thu Sep 08 02:19:51 	ActiveWindow: &Route
+Thu Sep 08 02:19:51 	Icon: &Components
+Thu Sep 08 02:19:51 	Icon: &Nets
+Thu Sep 08 02:19:51 	Icon: Post Proces&s
+Thu Sep 08 02:19:51 End-of-list
+Thu Sep 08 02:19:52 Error code 0034.912 (266)
+Sun Oct 02 10:33:40 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX
+Sun Oct 02 10:56:54 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48\COM_PRJ48.MAX

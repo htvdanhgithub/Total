@@ -1,0 +1,59 @@
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Invalid References
+[DRC0011]  Reference is invalid for this part RB
+                    SCHEMATIC1, PAGE1  (6.70, 2.20) 
+[DRC0011]  Reference is invalid for this part IC
+                    SCHEMATIC1, PAGE1  (5.50, 0.60) 
+[DRC0011]  Reference is invalid for this part QB
+                    SCHEMATIC1, PAGE1  (6.90, 2.50) 
+[DRC0011]  Reference is invalid for this part RR
+                    SCHEMATIC1, PAGE1  (5.30, 2.20) 
+[DRC0011]  Reference is invalid for this part QR
+                    SCHEMATIC1, PAGE1  (5.50, 2.50) 
+[DRC0011]  Reference is invalid for this part RG
+                    SCHEMATIC1, PAGE1  (6.00, 2.20) 
+[DRC0011]  Reference is invalid for this part QG
+                    SCHEMATIC1, PAGE1  (6.20, 2.50) 
+
+Checking for Duplicate References
+
+Checking for Compatibility with SDT
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+
+Reporting Net Names
+    N00807
+    N00870
+    N01236
+    N01838
+    N02627
+    N02528
+    N020382
+    N004632
+    N020102
+    N02576
+    N01182
+    N01209
+    N03092
+    N03142
+    N03042
+    N01498

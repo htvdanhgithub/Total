@@ -1,0 +1,146 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sat Apr 30 17:56:45 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0007ea
+                   .cinit    romdata   0x0003f5    program   0x000004
+.config_2007_BUILD/DEFAULT/PRODUCTION/RGB101G       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0003f6      
+                            0x002007    0x002007      
+            1016 out of 1158 program addresses used, program memory utilization is 87%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+             _.org_0_0142   0x000142    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+             _.org_0_0199   0x000199    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+             _.org_0_01A7   0x0001a7    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+             _.org_0_01B5   0x0001b5    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                   _Bfade   0x0001b2    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                   _Gfade   0x0001a4    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                   _Rfade   0x000196    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                  _advEnd   0x000078    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+               _advLookup   0x00008f    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+            _advResetBase   0x000086    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                  _advSeq   0x00006f    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                    _babs   0x0000be    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                    _base   0x0001cd    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_main.asm
+                _calcFade   0x0000a1    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+             _calcLargest   0x0000bf    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+              _checksumOK   0x000027    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_start.inc
+                   _chkGB   0x0000ca    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                 _clrNext   0x000012    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_start.inc
+               _compSeqNo   0x00002b    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_start.inc
+                    _done   0x0000cf    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                  _eeRead   0x0000fc    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                 _eeWrite   0x0000f1    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                 _essInit   0x000122    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                  _essRun   0x00010e    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                 _essSave   0x000114    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                 _fadeDir   0x000093    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+               _fadeState   0x00018d    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                  _fading   0x000192    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+               _findNoSeq   0x00001d    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_start.inc
+                    _gabs   0x0000b6    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+             _getSavedSeq   0x000022    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_start.inc
+             _holdSeqNext   0x0001ca    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                 _holding   0x0001c1    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+              _initEEPROM   0x000102    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                _initLoop   0x000109    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+            _noRolloverHi   0x000047    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+              _pwmDriveHi   0x000036    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                    _rabs   0x0000ae    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+              _readEEPROM   0x000140    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                 _seqData   0x000051    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+               _seqLookup   0x00006b    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+              _seqNxtData   0x000058    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+              _seqRestart   0x000066    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                  _seqSet   0x000031    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_start.inc
+               _seqSwDown   0x00016b    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                 _seqSwUp   0x00016f    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                   _sleep   0x0000d5    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                 _startup   0x000000    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_start.inc
+                 _swDelay   0x0000e9    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+           _swDoubleClick   0x000180    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                 _swShort   0x000175    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                 _swapFSR   0x00013a    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+             _switchCheck   0x000166    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                _timerOut   0x000156    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+               _waitSleep   0x0000eb    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+          _waitSwRelSleep   0x0000da    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+           _waitSwRelWake   0x0000e6    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 _startup   0x000000    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_start.inc
+                 _clrNext   0x000012    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_start.inc
+               _findNoSeq   0x00001d    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_start.inc
+             _getSavedSeq   0x000022    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_start.inc
+              _checksumOK   0x000027    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_start.inc
+               _compSeqNo   0x00002b    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_start.inc
+                  _seqSet   0x000031    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_start.inc
+              _pwmDriveHi   0x000036    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+            _noRolloverHi   0x000047    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                 _seqData   0x000051    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+              _seqNxtData   0x000058    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+              _seqRestart   0x000066    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+               _seqLookup   0x00006b    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                  _advSeq   0x00006f    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                  _advEnd   0x000078    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+            _advResetBase   0x000086    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+               _advLookup   0x00008f    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                 _fadeDir   0x000093    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                _calcFade   0x0000a1    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                    _rabs   0x0000ae    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                    _gabs   0x0000b6    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                    _babs   0x0000be    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+             _calcLargest   0x0000bf    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                   _chkGB   0x0000ca    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                    _done   0x0000cf    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                   _sleep   0x0000d5    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+          _waitSwRelSleep   0x0000da    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+           _waitSwRelWake   0x0000e6    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                 _swDelay   0x0000e9    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+               _waitSleep   0x0000eb    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                 _eeWrite   0x0000f1    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                  _eeRead   0x0000fc    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+              _initEEPROM   0x000102    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                _initLoop   0x000109    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                  _essRun   0x00010e    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                 _essSave   0x000114    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                 _essInit   0x000122    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                 _swapFSR   0x00013a    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+              _readEEPROM   0x000140    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+             _.org_0_0142   0x000142    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_func.inc
+                _timerOut   0x000156    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+             _switchCheck   0x000166    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+               _seqSwDown   0x00016b    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                 _seqSwUp   0x00016f    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                 _swShort   0x000175    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+           _swDoubleClick   0x000180    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+               _fadeState   0x00018d    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                  _fading   0x000192    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                   _Rfade   0x000196    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+             _.org_0_0199   0x000199    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                   _Gfade   0x0001a4    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+             _.org_0_01A7   0x0001a7    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                   _Bfade   0x0001b2    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+             _.org_0_01B5   0x0001b5    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                 _holding   0x0001c1    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+             _holdSeqNext   0x0001ca    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_tout.inc
+                    _base   0x0001cd    program     static D:\Working\working\danhll\MPLAB\COM_RGBDRIVER_TEST.X\rgb101g3_main.asm
+
+

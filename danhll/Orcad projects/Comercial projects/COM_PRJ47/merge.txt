@@ -1,0 +1,134 @@
+Starting (copy all comps)
+Loading merge file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ47\COM_PRJ47_4LEDS.MAX
+Component B1 copied and added
+Component B3 copied and added
+Component B5 copied and added
+Component B7 copied and renamed to B7000
+Component G1 copied and added
+Component G5 copied and renamed to G5000
+Component G7 copied and renamed to G7000
+Component J1 copied and renamed to J1000
+Component R1 copied and added
+Component R3 copied and added
+Component R5 copied and renamed to R5000
+Component R7 copied and renamed to R7000
+Component U1 copied and added
+Component U3 copied and added
+Component U5 copied and renamed to U5000
+Component U7 copied and renamed to U7000
+Component 66 copied and added
+Component 67 copied and renamed to 67000
+Component 68 copied and renamed to 68000
+Component 69 copied and renamed to 69000
+Component 70 copied and renamed to 70000
+Component 71 copied and renamed to 71000
+Component 72 copied and renamed to 72000
+Component 73 copied and renamed to 73000
+Component 74 copied and renamed to 74000
+Component 75 copied and renamed to 75000
+Component 76 copied and renamed to 76000
+Component 77 copied and renamed to 77000
+Component 78 copied and renamed to 78000
+Component 79 copied and renamed to 79000
+Component 80 copied and renamed to 80000
+Component 81 copied and renamed to 81000
+Component 82 copied and renamed to 82000
+Component 83 copied and renamed to 83000
+Component 84 copied and renamed to 84000
+Component 85 copied and renamed to 85000
+Component 86 copied and renamed to 86000
+Component 87 copied and renamed to 87000
+Component 88 copied and renamed to 88000
+Component 89 copied and renamed to 89000
+Component 90 copied and renamed to 90000
+Component R4 copied and added
+Net N00807 merged into existing net
+Net N00870 merged into existing net
+Net N01172 merged into existing net
+Net N01182 merged into existing net
+Net N01195 merged into existing net
+Net N01209 merged into existing net
+Net N01216 merged into existing net
+Net N01236 merged into existing net
+Net N01251 merged into existing net
+Net N01274 merged into existing net
+Net N01305 merged into existing net
+Net N01336 merged into existing net
+Net N01498 merged into existing net
+Net N01604 merged into existing net
+Net N01608 merged into existing net
+Net N01634 merged into existing net
+Net N01731 merged into existing net
+Net N01838 merged into existing net
+Net N01869 merged into existing net
+Net N01963 merged into existing net
+Net N02266 merged into existing net
+Net N02268 merged into existing net
+Net N02270 merged into existing net
+Net N02336 merged into existing net
+Net N02396 merged into existing net
+Net N02528 merged into existing net
+Net N02576 merged into existing net
+Net N02627 merged into existing net
+Net N02939 merged into existing net
+Net N03042 merged into existing net
+Net N03092 merged into existing net
+Net N03142 merged into existing net
+Net N03585 merged into existing net
+Net N03587 merged into existing net
+Net N03645 merged into existing net
+Net N04567 merged into existing net
+Net N04569 merged into existing net
+Net N04577 merged into existing net
+Net N004632 merged into existing net
+Net N05691 merged into existing net
+Net N05693 merged into existing net
+Net N05699 merged into existing net
+Net N06432 merged into existing net
+Net N06934 merged into existing net
+Net N07104 merged into existing net
+Net N07800 merged into existing net
+Net N07856 merged into existing net
+Net N07858 merged into existing net
+Net N11308 merged into existing net
+Net N11312 merged into existing net
+Net N11388 merged into existing net
+Net N11390 merged into existing net
+Net N11512 merged into existing net
+Net N11516 merged into existing net
+Net N16515 merged into existing net
+Net N16551 merged into existing net
+Net N16553 merged into existing net
+Net N16559 merged into existing net
+Net N16585 merged into existing net
+Net N16591 merged into existing net
+Net N19108 merged into existing net
+Net N19110 merged into existing net
+Net N19162 merged into existing net
+Net N19265 merged into existing net
+Net N19271 merged into existing net
+Net N19277 merged into existing net
+Net N020102 merged into existing net
+Net N020382 merged into existing net
+Net NET_53 merged into existing net
+Net NET_54 merged into existing net
+Net NET_55 merged into existing net
+Net NET_56 merged into existing net
+Net NET_57 merged into existing net
+Net NET_58 merged into existing net
+Net NET_59 merged into existing net
+Net NET_60 merged into existing net
+Net NET_61 merged into existing net
+Net NET_62 merged into existing net
+Net NET_63 merged into existing net
+Net NET_64 merged into existing net
+Net NET_65 merged into existing net
+Net NET_66 merged into existing net
+Net NET_67 merged into existing net
+Net NET_84 merged into existing net
+Net NET_85 merged into existing net
+Net NET_86 merged into existing net
+Net NET_87 merged into existing net
+Net NET_88 merged into existing net
+Net NET_89 merged into existing net
+Complete

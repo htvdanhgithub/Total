@@ -1,0 +1,48 @@
+AutoECO Report
+FILE-A: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ32\COM_PRJ32.MAX
+FILE-B: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ32\COM_PRJ32.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding package CON2
+Adding package 78L05
+Adding package R
+Adding package CON3
+Adding package BC547
+Adding package PIC12F629
+Adding package E:\DANH\ROBOT\ORCAD LIBS\CAPTURE\[MEGASHARE.VNN.VN]LIBRARY%20ORCAD\LIBRARY ORCAD\LIBRARYCAPTURE\CONNECTOR.OLB/CON2
+Adding component J5
+Found library footprint with same name as part CON2
+Adding component U2
+Found library footprint with same name as part 78L05
+Adding component RB1
+Found library footprint with same name as part R
+Adding component J6
+Found library footprint with same name as part CON3
+Adding component RR2
+Adding component QG
+Found library footprint with same name as part BC547
+Adding component QB
+Adding component R3
+Adding component RG2
+Adding component IC
+Found footprint IC 8 PIN from PRT file for part PIC12F629, comp IC
+Adding component RB2
+Adding component RR1
+Adding component J1
+Adding component QR
+Adding component RG1
+Adding net N02576
+Adding net N03042
+Adding net N02627
+Adding net N01660
+Adding net N01838
+Adding net N02528
+Adding net N01701
+Adding net N020102
+Adding net N004632
+Adding net N020382
+Adding net N11237
+Adding net N11239
+Adding net N11241
+Deleting net DEFAULT
+*EOF*
+No errors found

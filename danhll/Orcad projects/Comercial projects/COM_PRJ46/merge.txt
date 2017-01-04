@@ -1,0 +1,54 @@
+Starting (copy all comps)
+Loading merge file D:\DANH\DANHLL\DANHLL\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Component C1 copied and added
+Component C2 copied and added
+Component C3 copied and added
+Component C4 copied and added
+Component D1 copied and added
+Component D2 copied and added
+Component D3 copied and added
+Component D4 copied and added
+Component D5 copied and added
+Component IC copied and added
+Component J1 copied and added
+Component J2 copied and added
+Component QB copied and added
+Component QG copied and added
+Component QR copied and added
+Component R1 copied and added
+Component R2 copied and added
+Component R3 copied and added
+Component RB copied and added
+Component RG copied and added
+Component RR copied and added
+Component 22 copied and added
+Component 23 copied and added
+Component 24 copied and added
+Component 25 copied and added
+Component 26 copied and added
+Component 27 copied and added
+Component 28 copied and added
+Component 29 copied and added
+Component 30 copied and added
+Component 31 copied and added
+Component 32 copied and added
+Net N01209 merged into existing net
+Net N03042 merged into existing net
+Net N01182 merged into existing net
+Net N02576 merged into existing net
+Net N01838 merged into existing net
+Net N02627 merged into existing net
+Net N01498 merged into existing net
+Net N00807 merged into existing net
+Net N03092 merged into existing net
+Net N00870 merged into existing net
+Net N03142 merged into existing net
+Net N02528 merged into existing net
+Net N01236 merged into existing net
+Net N004632 merged into existing net
+Net N020382 merged into existing net
+Net N020102 merged into existing net
+Net NET_17 merged into existing net
+Net NET_18 merged into existing net
+Net NET_19 merged into existing net
+Complete

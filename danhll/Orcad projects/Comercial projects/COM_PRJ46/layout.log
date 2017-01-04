@@ -1,0 +1,1300 @@
+Wed Jun 15 07:11:08 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 07:11:08 Saved as file BACKUP1.MAX
+Wed Jun 15 07:11:08 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 07:11:08 UserDiv from Layout.INI for AutoECO: 60
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\THUVIEN1\TIEN.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\THUVIEN\LAYOUTMT.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY ORCAD\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY ORCAD\THU VIEN ORCAD FULL\THU VIEN.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\BCON100T.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\BCON156T.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\BGA.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\CLCC.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\DCON050T.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\DCON085T.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\DIMM050F.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\DIMM050T.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\DIN.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\DIP100B.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\DIP100T.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\DSUBT.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\DSUBT_HD.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\ECON100T.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\EMPTY.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\EX_GUI.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\FBUS.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\ISA.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\JUMPER.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\LAYOUT.LLB
+Wed Jun 15 07:11:08 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\LCON100T.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\LINH KIEN.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\METRIC.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\PADSTACK.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\PC104.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\PCI.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\PCON100T.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\PCON156T.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\PGA.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\PLCC.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\QUAD.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\QUADB.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\RELAY.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\RF.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\SBUS.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\SIMM050F.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\SIMM050T.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\SIMM100F.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\SIMM100T.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\SIP.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\SM.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\SOG.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\SOJ.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\STIFF.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\TELE.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\TM_AXIAL.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\TM_CAP_P.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\TM_CYLND.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\TM_DIODE.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\TM_DISC.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\TM_RAD.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\TO.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\TRAINING.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\VRES.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\WCON100T.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\XT.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY\ZIGZAG.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\HOA DOAN\HOADOAN.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\THU VIEN\THU VIEN.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THU VIEN\THU VIEN.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\ORCAD LAYOUT\T2L LAYOUT.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THU VIEN\THU VIEN.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\HOA DOAN\HOADOAN.LLB
+Wed Jun 15 07:11:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:11:39 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:11:39 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:11:43 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:11:49 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:11:58 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY ORCAD\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Wed Jun 15 07:12:05 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:12:05 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:12:09 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:12:15 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:12:18 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THU VIEN\THU VIEN.LLB
+Wed Jun 15 07:12:18 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:12:18 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\THUVIEN1\TIEN.LLB
+Wed Jun 15 07:12:18 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY ORCAD\THU VIEN ORCAD FULL\THU VIEN LAYOUT BETA 3.LLB
+Wed Jun 15 07:12:18 Loaded file D:\DANH\ROBOT\ORCAD LIBS\THUVIENORCAD\THUVIENORCAD\LIBRARY ORCAD\THU VIEN ORCAD FULL\THU VIEN.LLB
+Wed Jun 15 07:12:18 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 07:12:18 Loaded file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 07:13:30 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 07:14:02 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:14:02 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:14:02 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:14:02 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:14:06 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:14:07 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:14:28 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:14:28 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:14:28 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:14:28 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:14:31 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:14:32 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:15:00 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 07:16:00 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:16:00 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:16:00 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:16:00 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:16:03 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:16:10 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:16:12 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:16:24 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:16:24 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:16:26 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:16:30 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:16:57 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:17:14 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:18:13 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:18:13 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:18:13 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:18:13 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:18:14 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:18:14 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:18:14 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:18:14 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:18:14 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:18:14 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:18:14 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:18:14 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:18:21 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:18:39 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Wed Jun 15 07:19:00 Error code 5226.074 (2)
+Wed Jun 15 07:19:00 Windows which were open at time of error:
+Wed Jun 15 07:19:00 	ActiveWindow: &Place
+Wed Jun 15 07:19:00 	Icon: &Components
+Wed Jun 15 07:19:00 	Icon: &Nets
+Wed Jun 15 07:19:00 	Icon: Post Proces&s
+Wed Jun 15 07:19:00 End-of-list
+Wed Jun 15 07:19:00 Loaded file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 07:19:09 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:19:09 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:19:09 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:19:09 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:19:12 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:19:17 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:19:38 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:19:38 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:19:38 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:19:38 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:19:48 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:19:51 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:19:52 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:21:28 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:21:28 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:21:32 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:21:41 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:21:45 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:22:16 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:22:16 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:22:16 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:22:16 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:22:19 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:22:23 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:22:30 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 07:23:11 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:23:11 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:23:11 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:23:11 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:23:14 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:23:15 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:23:23 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:23:23 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:23:23 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:23:23 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:23:25 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:23:27 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:26:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:26:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:26:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:26:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:26:06 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:26:11 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:26:19 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 07:26:32 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:26:32 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:26:32 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:26:32 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:26:34 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Wed Jun 15 07:26:38 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Wed Jun 15 07:26:46 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 07:29:03 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 07:29:30 Saved as file BACKUP1.MAX
+Wed Jun 15 07:33:39 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 07:33:40 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 07:33:43 No new connections routed.
+Wed Jun 15 07:33:43 Total is now 0 out of 35 (0%).
+Wed Jun 15 07:33:43 Saved as file SWEEP1.MAX
+Wed Jun 15 07:33:44 Saved as file BACKUP1.MAX
+Wed Jun 15 07:33:44 Saved as file BACKUP1.MAX
+Wed Jun 15 07:33:44 Saved as file BACKUP1.MAX
+Wed Jun 15 07:33:44 Routed 42 connections in 0 seconds.
+Wed Jun 15 07:33:44 Total is now 34 out of 35 (97%).
+Wed Jun 15 07:33:44 Saved as file SWEEP2.MAX
+Wed Jun 15 07:33:44 No new connections routed.
+Wed Jun 15 07:33:44 Total is now 34 out of 35 (97%).
+Wed Jun 15 07:33:44 Saved as file SWEEP3.MAX
+Wed Jun 15 07:33:45 Routed 1 connections in 0 seconds.
+Wed Jun 15 07:33:45 Total is now 34 out of 35 (97%).
+Wed Jun 15 07:33:45 Saved as file SWEEP4.MAX
+Wed Jun 15 07:33:46 Routed 1 connections in 1 seconds.
+Wed Jun 15 07:33:46 Total is now 34 out of 35 (97%).
+Wed Jun 15 07:33:46 Saved as file SWEEP5.MAX
+Wed Jun 15 07:35:17 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Jun 15 23:52:40 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Thu Jun 16 00:02:36 Saved as file BACKUP1.MAX
+Thu Jun 16 00:12:05 Loaded file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Thu Jun 16 00:13:06 Saved as file BACKUP1.MAX
+Thu Jun 16 00:18:06 Removed unused footprint: DIODE 4007
+Thu Jun 16 00:18:06 Removed unused footprint: R_1/4W
+Thu Jun 16 00:18:06 Removed unused footprint: AC 220
+Thu Jun 16 00:18:06 Removed unused footprint: DIODE
+Thu Jun 16 00:18:06 Removed unused footprint: R
+Thu Jun 16 00:18:06 Removed unused footprint: CON2
+Thu Jun 16 00:18:06 Removed unused footprint: DEFAULT
+Thu Jun 16 00:18:08 Removed unused padstack: 75R59
+Thu Jun 16 00:18:08 Removed unused padstack: 75S55
+Thu Jun 16 00:18:08 Removed unused padstack: TM_AXIAL.llb_pad2
+Thu Jun 16 00:18:08 Removed unused padstack: T1_2_4_1_1_1_1_1
+Thu Jun 16 00:18:08 Removed unused padstack: T6_2_3_1_1_1_1_1
+Thu Jun 16 00:18:08 Removed unused padstack: T7
+Thu Jun 16 00:18:08 Removed unused padstack: T2
+Thu Jun 16 00:18:08 Removed unused padstack: T1
+Thu Jun 16 00:19:15 Loaded file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Thu Jun 16 00:23:36 Saved as file BACKUP1.MAX
+Thu Jun 16 00:34:36 Saved as file BACKUP1.MAX
+Thu Jun 16 00:45:06 Saved as file BACKUP1.MAX
+Thu Jun 16 00:55:36 Saved as file BACKUP1.MAX
+Thu Jun 16 01:04:27 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:04:27 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:04:28 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:04:28 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:04:32 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 01:04:47 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:06:36 Saved as file BACKUP1.MAX
+Thu Jun 16 01:17:06 Saved as file BACKUP1.MAX
+Thu Jun 16 01:20:39 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:20:39 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:20:39 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:20:39 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:20:41 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 01:20:43 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:21:03 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:21:03 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:21:03 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:21:03 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:21:06 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 01:28:06 Saved as file BACKUP1.MAX
+Thu Jun 16 01:38:36 Saved as file BACKUP1.MAX
+Thu Jun 16 01:49:06 Saved as file BACKUP1.MAX
+Thu Jun 16 01:56:10 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Thu Jun 16 01:59:36 Saved as file BACKUP1.MAX
+Thu Jun 16 02:10:06 Saved as file BACKUP1.MAX
+Thu Jun 16 02:11:05 Removed unused net: NET_17
+Thu Jun 16 02:11:07 Removed unused footprint: BC547_HOR
+Thu Jun 16 02:11:07 Removed unused footprint: DIODE 4007
+Thu Jun 16 02:11:07 Removed unused footprint: R_1/4W
+Thu Jun 16 02:11:07 Removed unused footprint: AC 220
+Thu Jun 16 02:11:07 Removed unused footprint: DIODE
+Thu Jun 16 02:11:07 Removed unused footprint: BC547
+Thu Jun 16 02:11:07 Removed unused footprint: R
+Thu Jun 16 02:11:07 Removed unused footprint: CON2
+Thu Jun 16 02:11:07 Removed unused footprint: DEFAULT
+Thu Jun 16 02:11:09 Removed unused padstack: 75R59
+Thu Jun 16 02:11:09 Removed unused padstack: 75S55
+Thu Jun 16 02:11:09 Removed unused padstack: TM_AXIAL.llb_pad2
+Thu Jun 16 02:11:09 Removed unused padstack: T1_2_4_1_1_1_1_1
+Thu Jun 16 02:11:09 Removed unused padstack: T6_2_3_1_1_1_1_1
+Thu Jun 16 02:11:09 Removed unused padstack: T7
+Thu Jun 16 02:11:09 Removed unused padstack: T2
+Thu Jun 16 02:11:09 Removed unused padstack: T1
+Thu Jun 16 02:20:36 Saved as file BACKUP1.MAX
+Thu Jun 16 02:25:28 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:25:28 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:25:30 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:25:35 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:26:08 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:26:56 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:26:56 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:26:56 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:26:56 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:26:58 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:27:03 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:28:08 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:28:08 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:28:08 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:28:08 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:28:11 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:28:14 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:28:38 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Thu Jun 16 02:29:01 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:29:01 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:29:04 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:29:06 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:29:46 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:29:47 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:30:02 Loaded file C:\Program Files\Orcad\Layout_Plus\library\padstack.llb
+Thu Jun 16 02:30:51 Loaded file C:\Program Files\Orcad\Layout_Plus\library\padstack.llb
+Thu Jun 16 02:31:17 Loaded file C:\Program Files\Orcad\Layout_Plus\library\padstack.llb
+Thu Jun 16 02:32:26 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:32:26 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:32:27 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:32:27 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:32:32 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:32:34 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:33:13 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:34:03 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:03 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:31 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:31 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:31 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:31 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:32 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:32 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:32 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:32 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:32 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:32 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:32 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:32 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:32 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:32 Saved as file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:36 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:34:37 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:34:47 Loaded file D:\DANH\ROBOT\ORCAD LIBS\ORCAD LAYOUT\T2L LAYOUT.LLB
+Thu Jun 16 02:34:48 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:34:51 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:35:06 Saved as file BACKUP1.MAX
+Thu Jun 16 02:35:46 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Thu Jun 16 02:36:09 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:36:09 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:36:15 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:36:18 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:37:19 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:37:19 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:37:21 Loaded file D:\DANH\ROBOT\ORCAD LIBS\DANHLIB.LLB
+Thu Jun 16 02:37:27 Loaded file C:\Program Files\Orcad\Layout_Plus\data\template.imp
+Thu Jun 16 02:46:06 Saved as file BACKUP1.MAX
+Thu Jun 16 02:56:36 Saved as file BACKUP1.MAX
+Thu Jun 16 02:59:39 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Thu Jun 16 02:59:39 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Thu Jul 21 06:05:30 Saved as file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Mon Jul 25 01:35:39 Loaded file C:\Program Files\Orcad\Layout_Plus\data\DEFAULT.MAX
+Wed Jul 27 01:12:06 Loaded file D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Thu Sep 01 08:54:28 Saved as file BACKUP1.MAX
+Fri Sep 02 08:50:59 Saved as file BACKUP1.MAX
+Wed Nov 02 08:19:31 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Nov 02 08:20:12 Merge file: Starting
+Wed Nov 02 08:20:12 Merge file: Loading merge file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Nov 02 08:20:12 Merge file: Component C1 copied and added
+Wed Nov 02 08:20:12 Merge file: Component C2 copied and added
+Wed Nov 02 08:20:12 Merge file: Component C3 copied and added
+Wed Nov 02 08:20:12 Merge file: Component C4 copied and added
+Wed Nov 02 08:20:12 Merge file: Component D1 copied and added
+Wed Nov 02 08:20:12 Merge file: Component D2 copied and added
+Wed Nov 02 08:20:12 Merge file: Component D3 copied and added
+Wed Nov 02 08:20:12 Merge file: Component D4 copied and added
+Wed Nov 02 08:20:12 Merge file: Component D5 copied and added
+Wed Nov 02 08:20:12 Merge file: Component IC copied and added
+Wed Nov 02 08:20:12 Merge file: Unable to update existing component J1 -- number of pins does not match.
+Wed Nov 02 08:20:12 Merge file: Component J1 copied and renamed to J1000
+Wed Nov 02 08:20:12 Merge file: Component J2 copied and added
+Wed Nov 02 08:20:12 Merge file: Component QB copied and added
+Wed Nov 02 08:20:12 Merge file: Component QG copied and added
+Wed Nov 02 08:20:12 Merge file: Component QR copied and added
+Wed Nov 02 08:20:12 Merge file: Component R1 copied, existing comp updated
+Wed Nov 02 08:20:12 Merge file: Component R2 copied, existing comp updated
+Wed Nov 02 08:20:12 Merge file: Component R3 copied, existing comp updated
+Wed Nov 02 08:20:12 Merge file: Component RB copied and added
+Wed Nov 02 08:20:12 Merge file: Component RG copied and added
+Wed Nov 02 08:20:12 Merge file: Component RR copied and added
+Wed Nov 02 08:20:12 Merge file: Component 22 copied and added
+Wed Nov 02 08:20:12 Merge file: Component 23 copied and added
+Wed Nov 02 08:20:12 Merge file: Component 24 copied and added
+Wed Nov 02 08:20:12 Merge file: Component 25 copied and added
+Wed Nov 02 08:20:12 Merge file: Component 26 copied and added
+Wed Nov 02 08:20:12 Merge file: Component 27 copied and added
+Wed Nov 02 08:20:12 Merge file: Component 28 copied and added
+Wed Nov 02 08:20:12 Merge file: Component 29 copied and added
+Wed Nov 02 08:20:12 Merge file: Component 30 copied, existing comp updated
+Wed Nov 02 08:20:12 Merge file: Component 31 copied, existing comp updated
+Wed Nov 02 08:20:12 Merge file: Component 32 copied, existing comp updated
+Wed Nov 02 08:20:12 Merge file: Net N01209 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N03042 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N01182 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N02576 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N01838 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N02627 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N01498 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N00807 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N03092 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N00870 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N03142 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N02528 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N01236 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N004632 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N020382 copied and added
+Wed Nov 02 08:20:12 Merge file: Net N020102 copied and added
+Wed Nov 02 08:20:12 Merge file: Net NET_17 copied and added
+Wed Nov 02 08:20:12 Merge file: Net NET_18 copied and added
+Wed Nov 02 08:20:12 Merge file: Net NET_19 copied and added
+Wed Nov 02 08:20:12 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Nov 02 08:20:12 Merge file: Complete
+Wed Nov 02 08:23:08 Merge file: Starting (copy all comps)
+Wed Nov 02 08:23:08 Merge file: Loading merge file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Nov 02 08:23:08 Merge file: Component C1 copied and added
+Wed Nov 02 08:23:08 Merge file: Component C2 copied and added
+Wed Nov 02 08:23:08 Merge file: Component C3 copied and added
+Wed Nov 02 08:23:08 Merge file: Component C4 copied and added
+Wed Nov 02 08:23:08 Merge file: Component D1 copied and added
+Wed Nov 02 08:23:08 Merge file: Component D2 copied and added
+Wed Nov 02 08:23:08 Merge file: Component D3 copied and added
+Wed Nov 02 08:23:08 Merge file: Component D4 copied and added
+Wed Nov 02 08:23:08 Merge file: Component D5 copied and added
+Wed Nov 02 08:23:08 Merge file: Component IC copied and added
+Wed Nov 02 08:23:08 Merge file: Component J1 copied and renamed to J1000
+Wed Nov 02 08:23:08 Merge file: Component J2 copied and added
+Wed Nov 02 08:23:08 Merge file: Component QB copied and added
+Wed Nov 02 08:23:08 Merge file: Component QG copied and added
+Wed Nov 02 08:23:08 Merge file: Component QR copied and added
+Wed Nov 02 08:23:08 Merge file: Component R1 copied and renamed to R1000
+Wed Nov 02 08:23:08 Merge file: Component R2 copied and renamed to R2000
+Wed Nov 02 08:23:08 Merge file: Component R3 copied and renamed to R3000
+Wed Nov 02 08:23:08 Merge file: Component RB copied and added
+Wed Nov 02 08:23:08 Merge file: Component RG copied and added
+Wed Nov 02 08:23:08 Merge file: Component RR copied and added
+Wed Nov 02 08:23:08 Merge file: Component 22 copied and added
+Wed Nov 02 08:23:08 Merge file: Component 23 copied and added
+Wed Nov 02 08:23:08 Merge file: Component 24 copied and added
+Wed Nov 02 08:23:08 Merge file: Component 25 copied and added
+Wed Nov 02 08:23:08 Merge file: Component 26 copied and added
+Wed Nov 02 08:23:08 Merge file: Component 27 copied and added
+Wed Nov 02 08:23:08 Merge file: Component 28 copied and added
+Wed Nov 02 08:23:08 Merge file: Component 29 copied and added
+Wed Nov 02 08:23:08 Merge file: Component 30 copied and renamed to 30000
+Wed Nov 02 08:23:08 Merge file: Component 31 copied and renamed to 31000
+Wed Nov 02 08:23:08 Merge file: Component 32 copied and renamed to 32000
+Wed Nov 02 08:23:08 Merge file: Net N01209 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N03042 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N01182 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N02576 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N01838 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N02627 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N01498 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N00807 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N03092 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N00870 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N03142 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N02528 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N01236 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N004632 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N020382 copied and added
+Wed Nov 02 08:23:08 Merge file: Net N020102 copied and added
+Wed Nov 02 08:23:08 Merge file: Net NET_17 copied and added
+Wed Nov 02 08:23:08 Merge file: Net NET_18 copied and added
+Wed Nov 02 08:23:08 Merge file: Net NET_19 copied and added
+Wed Nov 02 08:23:08 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Nov 02 08:23:08 Merge file: Complete
+Wed Dec 21 00:19:05 Saved as file BACKUP1.MAX
+Wed Dec 21 00:23:00 Error code 0034.912 (266)
+Wed Dec 21 00:23:00 Saved as file Backup0.max
+Wed Dec 21 00:23:00 Windows which were open at time of error:
+Wed Dec 21 00:23:00 	ActiveWindow: &Route
+Wed Dec 21 00:23:00 	Icon: &Components
+Wed Dec 21 00:23:00 	Icon: &Nets
+Wed Dec 21 00:23:00 	Icon: Post Proces&s
+Wed Dec 21 00:23:00 End-of-list
+Wed Dec 21 00:23:00 Error code 0034.912 (266)
+Wed Dec 21 00:37:15 Saved as file BACKUP1.MAX
+Wed Dec 21 00:47:15 Saved as file BACKUP1.MAX
+Wed Dec 21 00:57:15 Saved as file BACKUP1.MAX
+Wed Dec 21 00:58:45 Error code 0034.912 (266)
+Wed Dec 21 00:58:45 Saved as file Backup0.max
+Wed Dec 21 00:58:45 Windows which were open at time of error:
+Wed Dec 21 00:58:45 	ActiveWindow: &Route
+Wed Dec 21 00:58:45 	Icon: &Components
+Wed Dec 21 00:58:45 	Icon: &Nets
+Wed Dec 21 00:58:45 	Icon: Post Proces&s
+Wed Dec 21 00:58:45 End-of-list
+Wed Dec 21 00:58:46 Error code 0034.912 (266)
+Wed Dec 21 07:28:35 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0D4~1\COM_PR~1.MAX
+Wed Dec 21 07:47:37 Saved as file D:\DANH\ORCADP~1\COMERC~1\COF0D4~1\COM_PR~1.MAX
+Wed Dec 21 07:53:17 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Dec 21 07:53:17 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Dec 21 07:53:23 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TRAINING.LLB
+Wed Dec 21 07:53:25 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Dec 21 07:53:27 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\VRES.llb
+Wed Dec 21 07:53:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\WCON100T.llb
+Wed Dec 21 07:53:30 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\XT.llb
+Wed Dec 21 07:53:34 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\ZIGZAG.llb
+Wed Dec 21 07:53:37 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TO.llb
+Wed Dec 21 07:53:42 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_RAD.llb
+Wed Dec 21 07:53:43 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_DISC.llb
+Wed Dec 21 07:53:44 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_DIODE.llb
+Wed Dec 21 07:53:45 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_CYLND.llb
+Wed Dec 21 07:53:48 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_CAP_P.llb
+Wed Dec 21 07:53:49 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TM_AXIAL.llb
+Wed Dec 21 07:53:50 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\TELE.llb
+Wed Dec 21 07:53:51 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\STIFF.llb
+Wed Dec 21 07:53:54 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SOJ.llb
+Wed Dec 21 07:53:55 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SOG.llb
+Wed Dec 21 07:53:57 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SM.llb
+Wed Dec 21 07:54:02 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIP.llb
+Wed Dec 21 07:54:03 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM100T.llb
+Wed Dec 21 07:54:04 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM100F.llb
+Wed Dec 21 07:54:07 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM050T.llb
+Wed Dec 21 07:54:08 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SIMM050F.llb
+Wed Dec 21 07:54:09 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\SBUS.llb
+Wed Dec 21 07:54:10 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\RF.llb
+Wed Dec 21 07:54:13 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\RELAY.llb
+Wed Dec 21 07:54:14 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\QUADB.llb
+Wed Dec 21 07:54:14 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\QUAD.llb
+Wed Dec 21 07:54:19 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\library\LAYOUT.llb
+Wed Dec 21 07:54:31 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Sun Jan 01 08:50:43 Saved as file BACKUP1.MAX
+Sun Jan 01 09:00:45 Saved as file BACKUP1.MAX
+Sat Jul 21 16:46:36 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER1.MAX
+Sat Jul 21 16:47:40 Saved as file BACKUP1.MAX
+Sat Jul 21 16:48:29 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sat Jul 21 16:48:29 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sat Jul 21 16:48:29 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sat Jul 21 16:48:29 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Sat Jul 21 17:59:06 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 21 18:05:40 Saved as file BACKUP1.MAX
+Sat Jul 21 18:15:40 Saved as file BACKUP1.MAX
+Mon Jul 23 18:27:18 Saved as file BACKUP1.MAX
+Mon Jul 23 18:33:45 Error code 0034.912 (266)
+Mon Jul 23 18:33:45 Saved as file Backup0.max
+Mon Jul 23 18:33:45 Windows which were open at time of error:
+Mon Jul 23 18:33:45 	ActiveWindow: &Route
+Mon Jul 23 18:33:45 	Icon: &Components
+Mon Jul 23 18:33:45 	Icon: &Nets
+Mon Jul 23 18:33:45 	Icon: Post Proces&s
+Mon Jul 23 18:33:45 End-of-list
+Mon Jul 23 18:33:46 Error code 0034.912 (266)
+Mon Jul 23 18:44:48 Saved as file BACKUP1.MAX
+Mon Jul 23 18:50:11 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Jul 23 18:50:11 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Jul 23 18:50:13 Loaded file D:\MICA AND BOARD\DANH\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Jul 23 18:50:19 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Jul 23 18:50:33 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Jul 23 18:50:33 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Jul 23 18:50:37 Loaded file D:\MICA AND BOARD\DANH\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Jul 23 18:50:42 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Jul 23 18:52:20 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Jul 23 18:52:20 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Jul 23 18:52:23 Loaded file D:\MICA AND BOARD\DANH\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Jul 23 18:52:31 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Jul 23 18:55:48 Saved as file BACKUP1.MAX
+Mon Jul 23 19:59:26 Saved as file BACKUP1.MAX
+Mon Jul 23 20:03:23 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:03:23 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:03:23 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:03:24 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:06:34 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:06:35 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:06:35 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:09:56 Saved as file BACKUP1.MAX
+Mon Jul 23 20:10:47 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:10:47 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:10:47 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:10:47 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:10:48 Loaded file D:\MICA AND BOARD\DANH\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Jul 23 20:10:53 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:11:05 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:11:05 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:11:05 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:11:06 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:11:07 Loaded file D:\MICA AND BOARD\DANH\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Jul 23 20:11:11 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:11:22 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:11:22 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:11:22 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:11:22 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:11:24 Loaded file D:\MICA AND BOARD\DANH\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Jul 23 20:11:26 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:14:30 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:14:30 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:14:30 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:14:30 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:14:31 Loaded file D:\MICA AND BOARD\DANH\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Jul 23 20:14:35 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:14:35 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:14:47 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:14:47 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:14:47 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:14:47 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:14:48 Loaded file D:\MICA AND BOARD\DANH\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Jul 23 20:14:50 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:17:29 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:17:29 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:17:30 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:21:19 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:21:20 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:21:20 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:21:26 Saved as file BACKUP1.MAX
+Mon Jul 23 20:22:48 Error code 5255.048 (1737)
+Mon Jul 23 20:22:48 Saved as file Backup0.max
+Mon Jul 23 20:22:48 Windows which were open at time of error:
+Mon Jul 23 20:22:48 	ActiveWindow: &Design
+Mon Jul 23 20:22:48 	Icon: &Components
+Mon Jul 23 20:22:48 	Icon: &Nets
+Mon Jul 23 20:22:48 	Icon: Post Proces&s
+Mon Jul 23 20:22:48 End-of-list
+Mon Jul 23 20:22:49 Loaded file BACKUP0.MAX
+Mon Jul 23 20:22:55 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:23:31 Error code 5255.048 (1737)
+Mon Jul 23 20:23:31 Saved as file Backup0.max
+Mon Jul 23 20:23:31 Windows which were open at time of error:
+Mon Jul 23 20:23:31 	ActiveWindow: &Design
+Mon Jul 23 20:23:31 	Icon: &Components
+Mon Jul 23 20:23:31 	Icon: &Nets
+Mon Jul 23 20:23:31 	Icon: Post Proces&s
+Mon Jul 23 20:23:31 End-of-list
+Mon Jul 23 20:23:32 Loaded file BACKUP0.MAX
+Mon Jul 23 20:23:36 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:23:36 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:26:25 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:26:25 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:26:26 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:28:01 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:28:01 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:28:02 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:32:40 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:35:02 Saved as file BACKUP1.MAX
+Mon Jul 23 20:36:42 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:36:42 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:36:43 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:37:52 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:39:36 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:40:51 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:40:52 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:41:16 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:41:16 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:41:18 Loaded file D:\MICA AND BOARD\DANH\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Jul 23 20:41:21 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:41:23 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:41:33 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:41:34 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:41:35 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:41:36 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:42:24 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:42:24 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:42:25 Loaded file D:\MICA AND BOARD\DANH\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Jul 23 20:42:29 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:42:31 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:43:03 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:43:03 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:43:04 Loaded file D:\MICA AND BOARD\DANH\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Jul 23 20:43:07 Loaded file C:\PROGRAM FILES\ORCAD\LAYOUT_PLUS\data\template.imp
+Mon Jul 23 20:44:54 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:44:55 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:44:55 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:45:36 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:47:27 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:47:28 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:47:32 Saved as file BACKUP1.MAX
+Mon Jul 23 20:47:42 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:53:12 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:53:13 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:53:13 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:53:30 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:53:31 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:53:32 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:53:40 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:54:11 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:54:11 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:54:50 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:54:51 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:55:19 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:55:38 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:55:39 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:56:10 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:56:10 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:56:10 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:56:46 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 20:58:02 Saved as file BACKUP1.MAX
+Mon Jul 23 21:08:32 Saved as file BACKUP1.MAX
+Mon Jul 23 21:17:51 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 21:17:52 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 21:19:32 Saved as file BACKUP1.MAX
+Mon Jul 23 21:19:37 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 21:19:37 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Mon Jul 23 21:19:37 Saved as file D:\MICA AND BOARD\DANH\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:09:15 Error code 5255.048 (1737)
+Sat Jul 28 21:09:15 Saved as file Backup0.max
+Sat Jul 28 21:09:15 Windows which were open at time of error:
+Sat Jul 28 21:09:15 	ActiveWindow: &Route
+Sat Jul 28 21:09:15 	Icon: &Components
+Sat Jul 28 21:09:15 	Icon: &Nets
+Sat Jul 28 21:09:15 	Icon: Post Proces&s
+Sat Jul 28 21:09:15 End-of-list
+Sat Jul 28 21:09:16 Loaded file BACKUP0.MAX
+Sat Jul 28 21:09:21 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:09:22 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:13:46 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:13:46 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:13:46 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:14:15 Error code 5255.048 (1737)
+Sat Jul 28 21:14:15 Saved as file Backup0.max
+Sat Jul 28 21:14:15 Windows which were open at time of error:
+Sat Jul 28 21:14:15 	ActiveWindow: &Design
+Sat Jul 28 21:14:15 	Icon: &Components
+Sat Jul 28 21:14:15 	Icon: &Nets
+Sat Jul 28 21:14:15 	Icon: Post Proces&s
+Sat Jul 28 21:14:15 End-of-list
+Sat Jul 28 21:14:15 Loaded file BACKUP0.MAX
+Sat Jul 28 21:14:19 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:14:19 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:14:20 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:17:46 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:17:46 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:19:20 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:19:21 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:22:07 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:22:59 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:26:15 Saved as file BACKUP1.MAX
+Sat Jul 28 21:33:40 Error code 5255.048 (1737)
+Sat Jul 28 21:33:40 Saved as file Backup0.max
+Sat Jul 28 21:33:40 Windows which were open at time of error:
+Sat Jul 28 21:33:40 	ActiveWindow: &Design
+Sat Jul 28 21:33:40 	Icon: &Components
+Sat Jul 28 21:33:40 	Icon: &Nets
+Sat Jul 28 21:33:40 	Icon: Post Proces&s
+Sat Jul 28 21:33:40 End-of-list
+Sat Jul 28 21:33:40 Loaded file BACKUP0.MAX
+Sat Jul 28 21:33:44 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:33:45 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:33:45 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:34:14 Error code 5255.048 (1737)
+Sat Jul 28 21:34:14 Saved as file Backup0.max
+Sat Jul 28 21:34:14 Windows which were open at time of error:
+Sat Jul 28 21:34:14 	ActiveWindow: &Design
+Sat Jul 28 21:34:14 	Icon: &Components
+Sat Jul 28 21:34:14 	Icon: &Nets
+Sat Jul 28 21:34:14 	Icon: Post Proces&s
+Sat Jul 28 21:34:14 End-of-list
+Sat Jul 28 21:34:14 Loaded file BACKUP0.MAX
+Sat Jul 28 21:34:17 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:34:17 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:35:09 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:35:09 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:35:10 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:35:38 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:35:38 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:35:39 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:35:39 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:37:05 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:37:48 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:37:50 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:37:50 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:38:51 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:38:51 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:40:36 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:40:36 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:41:44 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:41:45 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:42:03 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:42:03 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Jul 28 21:44:11 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:44:11 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:44:35 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:44:36 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Jul 28 21:44:36 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:02:36 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_AND_11_LEDS.MAX
+Wed Aug 01 07:02:54 Merge file: Starting (copy all comps)
+Wed Aug 01 07:02:54 Merge file: Loading merge file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Wed Aug 01 07:02:54 Merge file: Component C1 copied and renamed to C1000
+Wed Aug 01 07:02:54 Merge file: Component C2 copied and renamed to C2000
+Wed Aug 01 07:02:54 Merge file: Component C3 copied and renamed to C3000
+Wed Aug 01 07:02:54 Merge file: Component C4 copied and renamed to C4000
+Wed Aug 01 07:02:54 Merge file: Component D1 copied and renamed to D1000
+Wed Aug 01 07:02:54 Merge file: Component D2 copied and renamed to D2000
+Wed Aug 01 07:02:54 Merge file: Component D3 copied and renamed to D3000
+Wed Aug 01 07:02:54 Merge file: Component D4 copied and renamed to D4000
+Wed Aug 01 07:02:54 Merge file: Component D5 copied and renamed to D5000
+Wed Aug 01 07:02:54 Merge file: Component IC copied and renamed to IC000
+Wed Aug 01 07:02:54 Merge file: Component J1 copied and renamed to J1000
+Wed Aug 01 07:02:54 Merge file: Component QB copied and renamed to QB000
+Wed Aug 01 07:02:54 Merge file: Component QG copied and renamed to QG000
+Wed Aug 01 07:02:54 Merge file: Component QR copied and renamed to QR000
+Wed Aug 01 07:02:54 Merge file: Component R1 copied and renamed to R1000
+Wed Aug 01 07:02:54 Merge file: Component R2 copied and renamed to R2000
+Wed Aug 01 07:02:54 Merge file: Component R3 copied and renamed to R3000
+Wed Aug 01 07:02:54 Merge file: Component RB copied and renamed to RB000
+Wed Aug 01 07:02:54 Merge file: Component RG copied and renamed to RG000
+Wed Aug 01 07:02:54 Merge file: Component RR copied and renamed to RR000
+Wed Aug 01 07:02:54 Merge file: Component 22 copied and renamed to 22000
+Wed Aug 01 07:02:54 Merge file: Component 23 copied and renamed to 23000
+Wed Aug 01 07:02:54 Merge file: Component 24 copied and renamed to 24000
+Wed Aug 01 07:02:54 Merge file: Component 25 copied and renamed to 25000
+Wed Aug 01 07:02:54 Merge file: Component 26 copied and renamed to 26000
+Wed Aug 01 07:02:54 Merge file: Component 27 copied and renamed to 27000
+Wed Aug 01 07:02:54 Merge file: Component 28 copied and renamed to 28000
+Wed Aug 01 07:02:54 Merge file: Component RG2 copied and renamed to RG2000
+Wed Aug 01 07:02:54 Merge file: Component RG3 copied and renamed to RG3000
+Wed Aug 01 07:02:54 Merge file: Component RG4 copied and renamed to RG4000
+Wed Aug 01 07:02:54 Merge file: Component 31 copied and renamed to 31000
+Wed Aug 01 07:02:54 Merge file: Component 32 copied and renamed to 32000
+Wed Aug 01 07:02:54 Merge file: Component 33 copied and renamed to 33000
+Wed Aug 01 07:02:54 Merge file: Component 34 copied and renamed to 34000
+Wed Aug 01 07:02:54 Merge file: Component 29 copied and added
+Wed Aug 01 07:02:54 Merge file: Component 30 copied and added
+Wed Aug 01 07:02:54 Merge file: Component 35 copied and added
+Wed Aug 01 07:02:54 Merge file: Component 36 copied and added
+Wed Aug 01 07:02:54 Merge file: Net N00807 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N00870 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N01182 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N01209 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N01236 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N01498 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N01838 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N02528 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N02576 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N02627 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N03042 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N03092 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N03142 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N004632 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N020102 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net N020382 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_17 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_18 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_19 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_20 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_21 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_22 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_23 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_24 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_25 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_26 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_27 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_28 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_29 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_30 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_31 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_32 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_33 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_34 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_35 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_36 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_37 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_38 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_39 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_40 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_41 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_42 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_43 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_44 merged into existing net
+Wed Aug 01 07:02:54 Merge file: Net NET_45 copied and added
+Wed Aug 01 07:02:54 Merge file: Net NET_46 copied and added
+Wed Aug 01 07:02:54 Merge file: Net NET_47 copied and added
+Wed Aug 01 07:02:54 Merge file: Net NET_48 copied and added
+Wed Aug 01 07:02:54 Merge file: Net NET_49 copied and added
+Wed Aug 01 07:02:54 Merge file: Net NET_50 copied and added
+Wed Aug 01 07:02:54 Merge file: Net NET_51 copied and added
+Wed Aug 01 07:02:54 Merge file: Net NET_52 copied and added
+Wed Aug 01 07:02:54 Merge file: Net NET_53 copied and added
+Wed Aug 01 07:02:54 Merge file: Net NET_54 copied and added
+Wed Aug 01 07:02:54 Merge file: Net NET_55 copied and added
+Wed Aug 01 07:02:54 Merge file: Net NET_56 copied and added
+Wed Aug 01 07:02:54 Merge file: Net NET_57 copied and added
+Wed Aug 01 07:02:54 Merge file: Net NET_58 copied and added
+Wed Aug 01 07:02:54 Merge file: Net NET_59 copied and added
+Wed Aug 01 07:02:54 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Wed Aug 01 07:02:54 Merge file: Complete
+Wed Aug 01 07:05:27 Merge file: Starting (copy all comps)
+Wed Aug 01 07:05:27 Merge file: Loading merge file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Wed Aug 01 07:05:27 Merge file: Component C1 copied and renamed to C1000
+Wed Aug 01 07:05:27 Merge file: Component C2 copied and renamed to C2000
+Wed Aug 01 07:05:27 Merge file: Component C3 copied and renamed to C3000
+Wed Aug 01 07:05:27 Merge file: Component C4 copied and renamed to C4000
+Wed Aug 01 07:05:27 Merge file: Component D1 copied and renamed to D1000
+Wed Aug 01 07:05:27 Merge file: Component D2 copied and renamed to D2000
+Wed Aug 01 07:05:27 Merge file: Component D3 copied and renamed to D3000
+Wed Aug 01 07:05:27 Merge file: Component D4 copied and renamed to D4000
+Wed Aug 01 07:05:27 Merge file: Component D5 copied and renamed to D5000
+Wed Aug 01 07:05:27 Merge file: Component IC copied and renamed to IC000
+Wed Aug 01 07:05:27 Merge file: Component J1 copied and renamed to J1000
+Wed Aug 01 07:05:27 Merge file: Component QB copied and renamed to QB000
+Wed Aug 01 07:05:27 Merge file: Component QG copied and renamed to QG000
+Wed Aug 01 07:05:27 Merge file: Component QR copied and renamed to QR000
+Wed Aug 01 07:05:27 Merge file: Component R1 copied and renamed to R1000
+Wed Aug 01 07:05:27 Merge file: Component R2 copied and renamed to R2000
+Wed Aug 01 07:05:27 Merge file: Component R3 copied and renamed to R3000
+Wed Aug 01 07:05:27 Merge file: Component RB copied and renamed to RB000
+Wed Aug 01 07:05:27 Merge file: Component RG copied and renamed to RG000
+Wed Aug 01 07:05:27 Merge file: Component RR copied and renamed to RR000
+Wed Aug 01 07:05:27 Merge file: Component 22 copied and renamed to 22000
+Wed Aug 01 07:05:27 Merge file: Component 23 copied and renamed to 23000
+Wed Aug 01 07:05:27 Merge file: Component 24 copied and renamed to 24000
+Wed Aug 01 07:05:27 Merge file: Component 25 copied and renamed to 25000
+Wed Aug 01 07:05:27 Merge file: Component 26 copied and renamed to 26000
+Wed Aug 01 07:05:27 Merge file: Component 27 copied and renamed to 27000
+Wed Aug 01 07:05:27 Merge file: Component 28 copied and renamed to 28000
+Wed Aug 01 07:05:27 Merge file: Component RG2 copied and renamed to RG2000
+Wed Aug 01 07:05:27 Merge file: Component RG3 copied and renamed to RG3000
+Wed Aug 01 07:05:27 Merge file: Component RG4 copied and renamed to RG4000
+Wed Aug 01 07:05:27 Merge file: Component 31 copied and renamed to 31000
+Wed Aug 01 07:05:27 Merge file: Component 32 copied and renamed to 32000
+Wed Aug 01 07:05:27 Merge file: Component 33 copied and renamed to 33000
+Wed Aug 01 07:05:27 Merge file: Component 34 copied and renamed to 34000
+Wed Aug 01 07:05:27 Merge file: Component 29 copied and added
+Wed Aug 01 07:05:27 Merge file: Component 30 copied and added
+Wed Aug 01 07:05:27 Merge file: Component 35 copied and added
+Wed Aug 01 07:05:27 Merge file: Component 36 copied and added
+Wed Aug 01 07:05:27 Merge file: Net N00807 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N00870 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N01182 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N01209 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N01236 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N01498 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N01838 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N02528 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N02576 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N02627 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N03042 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N03092 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N03142 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N004632 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N020102 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net N020382 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_17 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_18 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_19 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_20 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_21 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_22 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_23 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_24 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_25 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_26 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_27 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_28 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_29 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_30 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_31 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_32 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_33 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_34 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_35 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_36 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_37 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_38 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_39 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_40 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_41 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_42 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_43 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_44 merged into existing net
+Wed Aug 01 07:05:27 Merge file: Net NET_45 copied and added
+Wed Aug 01 07:05:27 Merge file: Net NET_46 copied and added
+Wed Aug 01 07:05:27 Merge file: Net NET_47 copied and added
+Wed Aug 01 07:05:27 Merge file: Net NET_48 copied and added
+Wed Aug 01 07:05:27 Merge file: Net NET_49 copied and added
+Wed Aug 01 07:05:27 Merge file: Net NET_50 copied and added
+Wed Aug 01 07:05:27 Merge file: Net NET_51 copied and added
+Wed Aug 01 07:05:27 Merge file: Net NET_52 copied and added
+Wed Aug 01 07:05:27 Merge file: Net NET_53 copied and added
+Wed Aug 01 07:05:27 Merge file: Net NET_54 copied and added
+Wed Aug 01 07:05:27 Merge file: Net NET_55 copied and added
+Wed Aug 01 07:05:27 Merge file: Net NET_56 copied and added
+Wed Aug 01 07:05:27 Merge file: Net NET_57 copied and added
+Wed Aug 01 07:05:27 Merge file: Net NET_58 copied and added
+Wed Aug 01 07:05:27 Merge file: Net NET_59 copied and added
+Wed Aug 01 07:05:27 Loaded file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Wed Aug 01 07:05:27 Merge file: Complete
+Wed Aug 01 07:14:03 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_AND_11_LEDS.MAX
+Wed Aug 01 07:14:04 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_AND_11_LEDS.MAX
+Wed Aug 01 07:14:04 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_AND_11_LEDS.MAX
+Wed Aug 01 07:14:13 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Aug 01 07:14:13 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Aug 01 07:18:22 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Aug 01 07:18:22 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Aug 01 07:18:22 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Aug 01 07:18:22 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Aug 01 07:18:23 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Wed Aug 01 07:18:27 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Wed Aug 01 07:24:36 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:24:36 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:29:09 Saved as file BACKUP1.MAX
+Wed Aug 01 07:35:04 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:35:05 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:42:08 Saved as file BACKUP1.MAX
+Wed Aug 01 07:43:09 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:43:09 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:43:10 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:43:20 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:43:21 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:45:46 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:45:47 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:46:08 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:46:09 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:46:09 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:46:10 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:46:10 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:46:28 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:47:27 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:47:28 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:47:40 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:47:40 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:47:57 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:47:58 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:48:06 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:48:07 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:48:20 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:48:21 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:48:21 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:48:24 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:48:24 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Wed Aug 01 07:48:42 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Wed Aug 01 07:52:39 Saved as file BACKUP1.MAX
+Wed Aug 01 08:03:08 Saved as file BACKUP1.MAX
+Wed Aug 01 08:05:00 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Wed Aug 01 08:05:01 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Wed Aug 01 08:05:01 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Wed Aug 01 08:05:01 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Wed Aug 01 08:05:02 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Wed Aug 01 08:06:24 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Wed Aug 01 08:06:24 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 18:41:58 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 18:41:58 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 18:43:12 Saved as file BACKUP1.MAX
+Sat Aug 04 18:46:57 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 18:49:51 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 18:50:24 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 18:50:24 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 18:51:08 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 18:51:21 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 18:51:22 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 18:51:42 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 18:51:42 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 18:54:42 Saved as file BACKUP1.MAX
+Sat Aug 04 18:56:29 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Aug 04 18:56:47 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_7_LEDS.MAX
+Sat Aug 04 19:00:02 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 19:00:07 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 19:00:29 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Sat Aug 04 19:00:30 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER2_11_LEDS.MAX
+Mon Oct 15 01:16:38 Saved as file BACKUP1.MAX
+Mon Oct 15 01:17:45 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 01:17:49 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Oct 15 01:17:49 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Oct 15 01:17:50 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Oct 15 01:17:57 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Oct 15 01:27:08 Saved as file BACKUP1.MAX
+Mon Oct 15 01:31:16 Error code 0034.912 (266)
+Mon Oct 15 01:31:16 Saved as file Backup0.max
+Mon Oct 15 01:31:16 Windows which were open at time of error:
+Mon Oct 15 01:31:16 	ActiveWindow: &Place
+Mon Oct 15 01:31:16 	Icon: &Components
+Mon Oct 15 01:31:16 	Icon: &Nets
+Mon Oct 15 01:31:16 	Icon: Post Proces&s
+Mon Oct 15 01:31:16 End-of-list
+Mon Oct 15 01:31:17 Error code 0034.912 (266)
+Mon Oct 15 01:46:55 Saved as file BACKUP1.MAX
+Mon Oct 15 01:46:56 Error code 0034.912 (266)
+Mon Oct 15 01:46:56 Saved as file Backup0.max
+Mon Oct 15 01:46:56 Windows which were open at time of error:
+Mon Oct 15 01:46:56 	ActiveWindow: &Route
+Mon Oct 15 01:46:56 	Icon: &Components
+Mon Oct 15 01:46:56 	Icon: &Nets
+Mon Oct 15 01:46:56 	Icon: Post Proces&s
+Mon Oct 15 01:46:56 End-of-list
+Mon Oct 15 01:46:56 Error code 0034.912 (266)
+Mon Oct 15 02:02:49 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Oct 15 02:02:49 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Oct 15 02:02:55 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Oct 15 02:03:11 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Oct 15 02:11:59 Saved as file BACKUP1.MAX
+Mon Oct 15 02:21:19 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Oct 15 02:21:19 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Oct 15 02:21:20 Loaded file D:\DANH\DANH'S LIBS\DANHLIB.LLB
+Mon Oct 15 02:21:39 Loaded file C:\Program Files\OrCAD\Layout_Plus\data\template.imp
+Mon Oct 15 02:22:24 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:22:24 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:22:59 Saved as file BACKUP1.MAX
+Mon Oct 15 02:29:02 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:29:02 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:33:40 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:33:40 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:34:33 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:36:29 Saved as file BACKUP1.MAX
+Mon Oct 15 02:41:09 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:44:19 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:44:20 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:47:39 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:47:39 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:50:26 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:50:26 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:54:16 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:54:28 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:54:28 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 02:58:26 Saved as file BACKUP1.MAX
+Mon Oct 15 03:04:43 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 03:06:55 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 03:06:56 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 03:08:56 Saved as file BACKUP1.MAX
+Mon Oct 15 03:09:25 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 03:09:43 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 03:13:44 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 03:13:44 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 03:13:45 Saved as file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Mon Oct 15 03:19:26 Saved as file BACKUP1.MAX
+Mon Oct 15 03:29:56 Saved as file BACKUP1.MAX
+Mon Oct 15 03:40:26 Saved as file BACKUP1.MAX
+Mon Oct 15 03:50:56 Saved as file BACKUP1.MAX
+Tue Oct 23 23:57:10 Saved as file BACKUP1.MAX
+Wed Oct 24 00:07:40 Saved as file BACKUP1.MAX
+Wed Oct 24 00:17:40 Saved as file BACKUP1.MAX
+Wed Nov 06 00:04:15 Saved as file BACKUP1.MAX
+Wed Nov 06 00:14:45 Saved as file BACKUP1.MAX
+Wed Nov 06 00:25:15 Saved as file BACKUP1.MAX
+Wed Nov 06 00:35:45 Saved as file BACKUP1.MAX
+Wed Nov 06 00:46:15 Saved as file BACKUP1.MAX
+Wed Nov 06 00:56:45 Saved as file BACKUP1.MAX
+Wed Nov 06 01:07:15 Saved as file BACKUP1.MAX
+Wed Nov 06 01:17:45 Saved as file BACKUP1.MAX
+Wed Nov 06 01:28:15 Saved as file BACKUP1.MAX
+Wed Nov 06 01:38:45 Saved as file BACKUP1.MAX
+Wed Nov 06 01:49:15 Saved as file BACKUP1.MAX
+Wed Nov 06 01:59:45 Saved as file BACKUP1.MAX
+Sun Feb 23 13:43:40 Saved as file BACKUP1.MAX
+Sun Feb 23 13:50:04 Merge file: Starting (copy all comps)
+Sun Feb 23 13:50:04 Merge file: Loading merge file D:\DANH\DANHLL\DANHLL\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Sun Feb 23 13:50:04 Merge file: Component 36 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 37 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 38 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 39 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 40 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 41 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 42 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 43 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 44 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 45 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 46 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 47 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 48 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 49 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 50 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 51 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 52 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 53 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 55 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 57 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 59 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 61 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 63 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 65 copied and added
+Sun Feb 23 13:50:04 Merge file: Component 66 copied and added
+Sun Feb 23 13:50:04 Merge file: Net N00807 copied and added
+Sun Feb 23 13:50:04 Merge file: Net N00870 copied and added
+Sun Feb 23 13:50:04 Merge file: Net N01182 copied and added
+Sun Feb 23 13:50:04 Merge file: Net N01209 copied and added
+Sun Feb 23 13:50:04 Merge file: Net N01236 copied and added
+Sun Feb 23 13:50:04 Merge file: Net N01498 copied and added
+Sun Feb 23 13:50:04 Merge file: Net N01838 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net N020102 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net N020382 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net N02528 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net N02576 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net N02627 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net N03042 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net N03092 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net N03142 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net N004632 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_17 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_18 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_19 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_20 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_21 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_22 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_23 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_24 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_25 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_26 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_27 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_28 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_29 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_30 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_31 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_32 merged into existing net
+Sun Feb 23 13:50:04 Merge file: Net NET_33 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_34 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_35 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_36 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_37 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_38 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_39 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_40 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_41 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_42 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_43 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_44 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_45 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_46 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_47 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_48 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_49 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_50 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_51 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_52 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_53 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_54 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_55 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_56 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_57 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_58 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_59 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_60 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_61 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_62 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_63 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_64 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_65 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_66 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_67 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_68 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_69 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_70 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_71 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_72 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_73 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_74 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_75 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_76 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_77 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_78 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_79 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_80 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_81 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_82 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_83 copied and added
+Sun Feb 23 13:50:04 Merge file: Net NET_84 copied and added
+Sun Feb 23 13:50:04 Loaded file D:\DANH\DANHLL\DANHLL\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46_VER3_7_LEDS.MAX
+Sun Feb 23 13:50:04 Merge file: Complete
+Wed Apr 30 10:40:29 Merge file: Starting (copy all comps)
+Wed Apr 30 10:40:29 Merge file: Loading merge file D:\DANH\DANHLL\DANHLL\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Apr 30 10:40:29 Merge file: Component C1 copied and added
+Wed Apr 30 10:40:29 Merge file: Component C2 copied and added
+Wed Apr 30 10:40:29 Merge file: Component C3 copied and added
+Wed Apr 30 10:40:29 Merge file: Component C4 copied and added
+Wed Apr 30 10:40:29 Merge file: Component D1 copied and added
+Wed Apr 30 10:40:29 Merge file: Component D2 copied and added
+Wed Apr 30 10:40:29 Merge file: Component D3 copied and added
+Wed Apr 30 10:40:29 Merge file: Component D4 copied and added
+Wed Apr 30 10:40:29 Merge file: Component D5 copied and added
+Wed Apr 30 10:40:29 Merge file: Component IC copied and added
+Wed Apr 30 10:40:29 Merge file: Component J1 copied and added
+Wed Apr 30 10:40:29 Merge file: Component J2 copied and added
+Wed Apr 30 10:40:29 Merge file: Component QB copied and added
+Wed Apr 30 10:40:29 Merge file: Component QG copied and added
+Wed Apr 30 10:40:29 Merge file: Component QR copied and added
+Wed Apr 30 10:40:29 Merge file: Component R1 copied and added
+Wed Apr 30 10:40:29 Merge file: Component R2 copied and added
+Wed Apr 30 10:40:29 Merge file: Component R3 copied and added
+Wed Apr 30 10:40:29 Merge file: Component RB copied and added
+Wed Apr 30 10:40:29 Merge file: Component RG copied and added
+Wed Apr 30 10:40:29 Merge file: Component RR copied and added
+Wed Apr 30 10:40:29 Merge file: Component 22 copied and added
+Wed Apr 30 10:40:29 Merge file: Component 23 copied and added
+Wed Apr 30 10:40:29 Merge file: Component 24 copied and added
+Wed Apr 30 10:40:29 Merge file: Component 25 copied and added
+Wed Apr 30 10:40:29 Merge file: Component 26 copied and added
+Wed Apr 30 10:40:29 Merge file: Component 27 copied and added
+Wed Apr 30 10:40:29 Merge file: Component 28 copied and added
+Wed Apr 30 10:40:29 Merge file: Component 29 copied and added
+Wed Apr 30 10:40:29 Merge file: Component 30 copied and added
+Wed Apr 30 10:40:29 Merge file: Component 31 copied and added
+Wed Apr 30 10:40:29 Merge file: Component 32 copied and added
+Wed Apr 30 10:40:29 Merge file: Net N01209 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N03042 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N01182 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N02576 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N01838 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N02627 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N01498 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N00807 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N03092 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N00870 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N03142 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N02528 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N01236 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N004632 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N020382 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net N020102 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net NET_17 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net NET_18 merged into existing net
+Wed Apr 30 10:40:29 Merge file: Net NET_19 merged into existing net
+Wed Apr 30 10:40:29 Loaded file D:\DANH\DANHLL\DANHLL\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ46\COM_PRJ46.MAX
+Wed Apr 30 10:40:29 Merge file: Complete

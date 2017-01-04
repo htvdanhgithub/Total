@@ -1,0 +1,42 @@
+(ExpressProject "COM_PRJ21"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\com_prj21.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 0 200 0 399"))
+      (Tab 0)))
+  (PartMRUSelector
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName
+         "E:\DANH\ROBOT\ORCAD LIBS\CAPTURE\LIBRARY\LIBRARY\LIBRARY_CAPTURE\THU VIEN CAPTURE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "E:\DANH\ROBOT\ORCAD LIBS\CAPTURE\LIBRARY\LIBRARY\LIBRARY_CAPTURE\THU VIEN CAPTURE.OLB")
+      (DeviceIndex "0"))
+    (LEDRGBVUONG
+      (FullPartName "LEDRGBVUONG.Normal")
+      (LibraryName "E:\DANH\ROBOT\ORCAD LIBS\CAPTURE\DANHLIB.OLB")
+      (DeviceIndex "0"))
+    (CON5
+      (FullPartName "CON5.Normal")
+      (LibraryName
+         "E:\DANH\ROBOT\ORCAD LIBS\CAPTURE\LIBRARY\LIBRARY\LIBRARY_CAPTURE\THU VIEN CAPTURE.OLB")
+      (DeviceIndex "0"))))

@@ -1,0 +1,66 @@
+(ExpressProject "COM_PRJ50"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\com_prj50.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "TRUE")
+    (DRC_Report_File
+       "D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ50\COM_PRJ50.DRC")
+    (Netlist_TAB "5")
+    (LAYOUT_Netlist_File
+       "D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ50\COM_PRJ50.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    ( "FALSE")
+    (LAYOUT_Units "0"))
+  (Folder "Outputs"
+    (File ".\com_prj50.drc"
+      (Type "Report"))
+    (File ".\com_prj50.mnl"
+      (Type "LAYOUT Netlist File")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ50\com_prj50.dsn")
+      (Path "Design Resources"
+         "D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ50\com_prj50.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ50\com_prj50.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 0 200 2 405"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 198 1068 45 482")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ50\COM_PRJ50.dsn")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

@@ -1,0 +1,179 @@
+Starting (copy all comps)
+Loading merge file D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\CALLING_SYSTEMV1\CALLING_SYSTEM_SIGNAL.MAX
+Component 2 copied and added
+Component 3 copied and added
+Component 19 copied and added
+Component 27 copied and added
+Component 30 copied and added
+Component 39 copied and renamed to 39000
+Component 17 copied and added
+Component SIGNAL copied and added
+Component 20 copied and added
+Component POWER copied and added
+Component 41 copied and renamed to 41000
+Component 42 copied and renamed to 42000
+Component 43 copied and renamed to 43000
+Component 44 copied and added
+Component 45 copied and added
+Component 31 copied and added
+Component 46 copied and added
+Net NET_1 merged into existing net
+Net NET_2 merged into existing net
+Net NET_3 merged into existing net
+Net NET_4 merged into existing net
+Net NET_5 merged into existing net
+Net NET_6 merged into existing net
+Net NET_7 merged into existing net
+Net NET_8 merged into existing net
+Net NET_9 merged into existing net
+Net NET_10 merged into existing net
+Net NET_11 merged into existing net
+Net NET_12 merged into existing net
+Net NET_13 merged into existing net
+Net NET_14 merged into existing net
+Net NET_15 merged into existing net
+Net NET_16 merged into existing net
+Net NET_17 merged into existing net
+Net NET_18 merged into existing net
+Net NET_19 merged into existing net
+Net NET_20 merged into existing net
+Net NET_21 merged into existing net
+Net NET_22 merged into existing net
+Net NET_23 merged into existing net
+Net NET_24 merged into existing net
+Net NET_25 merged into existing net
+Net NET_26 merged into existing net
+Net NET_27 merged into existing net
+Net NET_28 merged into existing net
+Net NET_29 merged into existing net
+Net NET_30 merged into existing net
+Net NET_31 merged into existing net
+Net NET_32 merged into existing net
+Net NET_33 merged into existing net
+Net NET_34 merged into existing net
+Net NET_35 merged into existing net
+Net NET_36 merged into existing net
+Net NET_37 merged into existing net
+Net NET_38 merged into existing net
+Net NET_39 merged into existing net
+Net NET_40 merged into existing net
+Net NET_41 merged into existing net
+Net NET_42 merged into existing net
+Net NET_43 merged into existing net
+Net NET_44 merged into existing net
+Net NET_45 merged into existing net
+Net NET_46 merged into existing net
+Net NET_47 merged into existing net
+Net NET_48 merged into existing net
+Net NET_49 merged into existing net
+Net NET_50 merged into existing net
+Net NET_51 merged into existing net
+Net NET_52 merged into existing net
+Net NET_53 merged into existing net
+Net NET_54 merged into existing net
+Net NET_55 merged into existing net
+Net NET_56 merged into existing net
+Net NET_57 merged into existing net
+Net NET_58 merged into existing net
+Net NET_59 merged into existing net
+Net NET_60 merged into existing net
+Net NET_61 merged into existing net
+Net NET_62 merged into existing net
+Net NET_63 merged into existing net
+Net NET_64 merged into existing net
+Net NET_65 merged into existing net
+Net NET_66 merged into existing net
+Net NET_67 merged into existing net
+Net NET_68 merged into existing net
+Net NET_69 merged into existing net
+Net NET_70 merged into existing net
+Net NET_71 merged into existing net
+Net NET_72 merged into existing net
+Net NET_73 merged into existing net
+Net NET_74 merged into existing net
+Net NET_75 merged into existing net
+Net NET_76 merged into existing net
+Net NET_77 merged into existing net
+Net NET_78 merged into existing net
+Net NET_79 merged into existing net
+Net NET_80 merged into existing net
+Net NET_81 merged into existing net
+Net NET_82 merged into existing net
+Net NET_83 merged into existing net
+Net NET_84 merged into existing net
+Net NET_85 merged into existing net
+Net NET_86 merged into existing net
+Net NET_87 merged into existing net
+Net NET_88 merged into existing net
+Net NET_89 merged into existing net
+Net NET_90 merged into existing net
+Net NET_91 merged into existing net
+Net NET_92 merged into existing net
+Net NET_93 merged into existing net
+Net NET_94 merged into existing net
+Net NET_95 merged into existing net
+Net NET_96 merged into existing net
+Net NET_97 merged into existing net
+Net NET_98 merged into existing net
+Net NET_99 merged into existing net
+Net NET_100 merged into existing net
+Net NET_101 merged into existing net
+Net NET_102 merged into existing net
+Net NET_103 merged into existing net
+Net NET_104 merged into existing net
+Net NET_105 merged into existing net
+Net NET_106 merged into existing net
+Net NET_107 merged into existing net
+Net NET_108 merged into existing net
+Net NET_109 merged into existing net
+Net NET_110 merged into existing net
+Net NET_111 merged into existing net
+Net NET_112 merged into existing net
+Net NET_113 merged into existing net
+Net NET_114 merged into existing net
+Net NET_115 merged into existing net
+Net NET_116 merged into existing net
+Net NET_117 merged into existing net
+Net NET_118 merged into existing net
+Net NET_119 merged into existing net
+Net NET_120 merged into existing net
+Net NET_121 merged into existing net
+Net NET_122 merged into existing net
+Net NET_123 merged into existing net
+Net NET_124 merged into existing net
+Net NET_125 merged into existing net
+Net NET_126 merged into existing net
+Net NET_127 merged into existing net
+Net NET_128 merged into existing net
+Net NET_129 merged into existing net
+Net NET_130 merged into existing net
+Net NET_131 merged into existing net
+Net NET_132 merged into existing net
+Net NET_133 merged into existing net
+Net NET_134 merged into existing net
+Net NET_135 merged into existing net
+Net NET_136 merged into existing net
+Net NET_137 merged into existing net
+Net NET_138 merged into existing net
+Net NET_139 merged into existing net
+Net NET_140 merged into existing net
+Net NET_141 merged into existing net
+Net NET_142 merged into existing net
+Net NET_143 merged into existing net
+Net NET_144 merged into existing net
+Net NET_145 merged into existing net
+Net NET_146 merged into existing net
+Net NET_147 merged into existing net
+Net NET_148 merged into existing net
+Net NET_149 merged into existing net
+Net NET_150 merged into existing net
+Net NET_151 merged into existing net
+Net NET_152 merged into existing net
+Net NET_153 merged into existing net
+Net NET_154 merged into existing net
+Net NET_155 merged into existing net
+Net NET_156 merged into existing net
+Net NET_157 merged into existing net
+Net NET_158 merged into existing net
+Net NET_159 merged into existing net
+Complete

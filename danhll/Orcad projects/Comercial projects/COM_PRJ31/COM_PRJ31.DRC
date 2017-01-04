@@ -1,0 +1,54 @@
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Checking for Invalid References
+[DRC0011]  Reference is invalid for this part RB
+                    SCHEMATIC1, PAGE1  (3.40, 1.70) 
+[DRC0011]  Reference is invalid for this part QB
+                    SCHEMATIC1, PAGE1  (3.60, 2.00) 
+[DRC0011]  Reference is invalid for this part RR
+                    SCHEMATIC1, PAGE1  (2.00, 1.70) 
+[DRC0011]  Reference is invalid for this part QR
+                    SCHEMATIC1, PAGE1  (2.20, 2.00) 
+[DRC0011]  Reference is invalid for this part RG
+                    SCHEMATIC1, PAGE1  (2.70, 1.70) 
+[DRC0011]  Reference is invalid for this part QG
+                    SCHEMATIC1, PAGE1  (2.90, 2.00) 
+
+Checking for Duplicate References
+
+Checking for Compatibility with SDT
+ERROR:  [DRC00031]  Package has same name but different source library. J1 E:\DANH\ROBOT\ORCAD LIBS\CAPTURE\[MEGASHARE.VNN.VN]LIBRARY%20ORCAD\LIBRARY ORCAD\LIBRARYCAPTURE\CONNECTOR.OLB/CON2
+                    SCHEMATIC1, PAGE1  (1.30, 0.70) 
+
+Reporting Off-Grid Objects
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+
+Reporting Net Names
+    N03142
+    N07749
+    N03042
+    N02609
+    N07780
+    N07720
+    N03092
+    N020382
+    N004632
+    N020102
+    N10349

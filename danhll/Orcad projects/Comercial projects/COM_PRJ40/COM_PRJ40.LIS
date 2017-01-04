@@ -1,0 +1,27 @@
+AutoECO Report
+FILE-A: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ40\COM_PRJ40.MAX
+FILE-B: D:\DANH\ROBOT\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ40\COM_PRJ40.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding package CAPACITOR_NON-POL
+Adding package CON2
+Adding package R
+Adding package DIODE
+Adding component C1
+Adding component J2
+Found library footprint with same name as part CON2
+Adding component R1
+Found library footprint with same name as part R
+Adding component D1
+Found library footprint with same name as part DIODE
+Adding component D2
+Adding component D3
+Adding component D4
+Adding component J1
+Adding net N00807
+Adding net N01236
+Adding net N00870
+Adding net N01182
+Adding net N01209
+Deleting net DEFAULT
+*EOF*
+No errors found

@@ -1,0 +1,104 @@
+{Environment
+	{FilesPath  D:\DANH\ORCAD PROJECTS\COMERCIAL PROJECTS\COM_PRJ48}
+}
+{Layers
+	{Layer  1
+		{File        COM_PRJ48.TOP}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  red}
+		{DrawColor   red}
+		{Type        Top}
+	}
+	{Layer  2
+		{File        COM_PRJ48.BOT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  yellow}
+		{DrawColor   yellow}
+		{Type        Bottom}
+	}
+	{Layer  3
+		{File        COM_PRJ48.GND}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  tan}
+		{DrawColor   tan}
+		{Type        Plane}
+	}
+	{Layer  4
+		{File        COM_PRJ48.PWR}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  green}
+		{DrawColor   green}
+		{Type        Plane}
+	}
+	{Layer  5
+		{File        COM_PRJ48.SMT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  orange}
+		{DrawColor   orange}
+		{Type        Other}
+	}
+	{Layer  6
+		{File        COM_PRJ48.SMB}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  blue}
+		{DrawColor   blue}
+		{Type        Other}
+	}
+	{Layer  7
+		{File        COM_PRJ48.SST}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  cyan}
+		{DrawColor   cyan}
+		{Type        Other}
+	}
+	{Layer  8
+		{File        COM_PRJ48.AST}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  purple}
+		{DrawColor   purple}
+		{Type        Other}
+	}
+	{Layer  9
+		{File        COM_PRJ48.DRD}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  pink}
+		{DrawColor   pink}
+		{Type        Other}
+	}
+}
+{Format Gerber
+	{Dialect           RS274X}
+	{m.n               3.4}
+	{Mode              Absolute}
+	{ZeroSuppression   Leading}
+	{Terminator        0x2a, 0xD, 0xA}
+	{Metric            No}
+	{Modal             No}
+	{UserData          Yes}
+	{Nets              No}
+	{Gcmds             Yes}
+	{CharSet           ASCII}
+	{Arcs360           No}
+	{ArcsModal         Yes}
+	{HonorCrLf         No}
+	{Comments          Yes}
+	{Flags             0}
+}

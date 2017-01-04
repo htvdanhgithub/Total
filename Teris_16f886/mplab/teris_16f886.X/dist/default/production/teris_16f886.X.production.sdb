@@ -1,0 +1,869 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F886 ]
+[d frameptr 6 ]
+"779 D:\Working\working\MyLocalRepositorywc\Teris_16f886\mplab\teris_16f886.X\teris_16f886.c
+[e E1889 . `uc
+OK 0
+GAME_OVER 1
+LEFT_OVER_BOUNDARY 2
+RIGHT_OVER_BOUNDARY 3
+HIT_LAND 4
+]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"492 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\memcpy.c
+[v _memcpy memcpy `(*.5v  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\memset.c
+[v _memset memset `(*.5v  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\rand.c
+[v _srand srand `(v  1 e 1 0 ]
+"12
+[v _rand rand `(i  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"287 D:\Working\working\MyLocalRepositorywc\Teris_16f886\mplab\teris_16f886.X\teris_16f886.c
+[v _debug_str debug_str `(v  1 e 1 0 ]
+"297
+[v _debug_line debug_line `(v  1 e 1 0 ]
+"310
+[v _debug_int1 debug_int1 `(v  1 e 1 0 ]
+"323
+[v _debug_int2 debug_int2 `(v  1 e 1 0 ]
+"350
+[v _printf_debug_MATRIX44 printf_debug_MATRIX44 `(v  1 e 1 0 ]
+"111
+[s S186 . 16 `[4][4]uc 1 data 16 0 ]
+"388
+[v _get_MATRIX44 get_MATRIX44 `(*.25S186  1 e 1 0 ]
+"412
+[v _SPI1_write SPI1_write `(v  1 e 1 0 ]
+"437
+[v _Write_Byte Write_Byte `(v  1 e 1 0 ]
+"445
+[v _max7219_init1 max7219_init1 `(v  1 e 1 0 ]
+"454
+[v _MATRIX88_to_MATRIX7219 MATRIX88_to_MATRIX7219 `(v  1 e 1 0 ]
+"473
+[v _printf_debug_MATRIX88 printf_debug_MATRIX88 `(v  1 e 1 0 ]
+"532
+[v _printf_MATRIX7219 printf_MATRIX7219 `(v  1 e 1 0 ]
+"545
+[v _printf_MATRIX88 printf_MATRIX88 `(v  1 e 1 0 ]
+"572
+[v _printf_Screen printf_Screen `(v  1 e 1 0 ]
+"588
+[v _Clear_Matrix Clear_Matrix `(v  1 e 1 0 ]
+"594
+[v _is_row_full is_row_full `(uc  1 e 1 0 ]
+"605
+[v _delete_row delete_row `(v  1 e 1 0 ]
+"628
+[v _delete_matrix delete_matrix `(uc  1 e 1 0 ]
+"649
+[v _get_num_removed_rows get_num_removed_rows `(uc  1 e 1 0 ]
+"665
+[v _is_row_empty is_row_empty `(uc  1 e 1 0 ]
+"687
+[v _hit_land hit_land `(uc  1 e 1 0 ]
+"722
+[v _is_valid is_valid `(uc  1 e 1 0 ]
+"766
+[v _is_left_boundary is_left_boundary `(uc  1 e 1 0 ]
+"786
+[v _is_right_boundary is_right_boundary `(uc  1 e 1 0 ]
+"806
+[v _fall_off fall_off `(uc  1 e 1 0 ]
+"838
+[v _clear clear `(v  1 e 1 0 ]
+"851
+[v _merge merge `(v  1 e 1 0 ]
+"864
+[v _merge1 merge1 `(v  1 e 1 0 ]
+"885
+[v _get_num_of_orphan get_num_of_orphan `(ui  1 e 2 0 ]
+"917
+[v _get_heavy get_heavy `(ui  1 e 2 0 ]
+"960
+[v _char_info_index_rand char_info_index_rand `(uc  1 e 1 0 ]
+"964
+[v _left_most left_most `(c  1 e 1 0 ]
+"978
+[v _right_most right_most `(c  1 e 1 0 ]
+"992
+[v _get_high get_high `(uc  1 e 1 0 ]
+"1006
+[v _get_high_after_merge get_high_after_merge `(uc  1 e 1 0 ]
+"1027
+[v _get_holes_after_merge get_holes_after_merge `(uc  1 e 1 0 ]
+"1103
+[v _find_best_solution find_best_solution `(uc  1 e 1 0 ]
+"1302
+[v _main main `(i  1 e 2 0 ]
+"31 D:\Working\working\MyLocalRepositorywc\Teris_16f886\mplab\teris_16f886.X\usart_pic16.c
+[v _USARTInit USARTInit `(v  1 e 1 0 ]
+"70
+[v _USARTWriteChar USARTWriteChar `(v  1 e 1 0 ]
+"76
+[v _USARTWriteString USARTWriteString `(v  1 e 1 0 ]
+"117
+[v _USARTReadData USARTReadData `(uc  1 e 1 0 ]
+"140
+[v _USARTDataAvailable USARTDataAvailable `(uc  1 e 1 0 ]
+[s S104 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"462 C:\Program Files (x86)\Microchip\xc8\v1.37\include\pic16f886.h
+[u S112 . 1 `S104 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES112  1 e 1 @12 ]
+[s S57 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"963
+[s S66 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S70 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S73 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[u S76 . 1 `S57 1 . 1 0 `S66 1 . 1 0 `S70 1 . 1 0 `S73 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES76  1 e 1 @24 ]
+"1027
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1033
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+[s S233 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1318
+[u S242 . 1 `S233 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES242  1 e 1 @133 ]
+[s S20 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2371
+[s S29 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S33 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[u S36 . 1 `S20 1 . 1 0 `S29 1 . 1 0 `S33 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES36  1 e 1 @152 ]
+"2430
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+[s S254 . 1 `uc 1 ANS0 1 0 :1:0 
+`uc 1 ANS1 1 0 :1:1 
+`uc 1 ANS2 1 0 :1:2 
+`uc 1 ANS3 1 0 :1:3 
+`uc 1 ANS4 1 0 :1:4 
+]
+"3172
+[u S260 . 1 `S254 1 . 1 0 ]
+[v _ANSELbits ANSELbits `VES260  1 e 1 @392 ]
+"3526
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"3622
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"3650
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"3652
+[v _RA2 RA2 `VEb  1 e 0 @42 ]
+"3654
+[v _RA3 RA3 `VEb  1 e 0 @43 ]
+"3710
+[v _RCIE RCIE `VEb  1 e 0 @1125 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+[v _dpowers dpowers `DCC[5]ui  1 s 10 dpowers ]
+"362
+[v _hexpowers hexpowers `DCC[4]ui  1 s 8 hexpowers ]
+"369
+[v _octpowers octpowers `DCC[6]ui  1 s 12 octpowers ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\rand.c
+[v _randx randx `l  1 s 4 randx ]
+[s S181 . 3 `uc 1 start_index 1 0 `uc 1 cur_index 1 1 `uc 1 num 1 2 ]
+"133 D:\Working\working\MyLocalRepositorywc\Teris_16f886\mplab\teris_16f886.X\teris_16f886.c
+[v _g_char_info g_char_info `[9]S181  1 e 27 0 ]
+"154
+[v _g_char_info_index g_char_info_index `uc  1 e 1 0 ]
+[s S186 . 16 `[4][4]uc 1 data 16 0 ]
+"155
+[v _g_cur_matrix44 g_cur_matrix44 `*.25S186  1 e 2 0 ]
+"159
+[v _g_matrix44 g_matrix44 `DCC[24]S186  1 e 384 0 ]
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+"268
+[v _g_matrix88 g_matrix88 `S189  1 e 64 0 ]
+"279
+[v _cur_x cur_x `c  1 e 1 0 ]
+"280
+[v _cur_y cur_y `c  1 e 1 0 ]
+"285
+[v _g_debug g_debug `[32]uc  1 e 32 0 ]
+"1101
+[v _temp_cur_matrix44 temp_cur_matrix44 `*.25S186  1 e 2 0 ]
+"1102
+[v _temp_matrix88 temp_matrix88 `S189  1 e 64 0 ]
+"38 D:\Working\working\MyLocalRepositorywc\Teris_16f886\mplab\teris_16f886.X\usart_pic16.h
+[v _URBuff URBuff `VE[32]uc  1 e 32 0 ]
+"39
+[v _UQFront UQFront `VEc  1 e 1 0 ]
+"40
+[v _UQEnd UQEnd `VEc  1 e 1 0 ]
+"1302 D:\Working\working\MyLocalRepositorywc\Teris_16f886\mplab\teris_16f886.X\teris_16f886.c
+[v _main main `(i  1 e 2 0 ]
+{
+"1336
+[v main@Seed Seed `ui  1 a 2 54 ]
+"1304
+[v main@hit_res hit_res `uc  1 a 1 56 ]
+"1404
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\rand.c
+[v _srand srand `(v  1 e 1 0 ]
+{
+[v srand@x x `ui  1 p 2 0 ]
+"9
+} 0
+"473 D:\Working\working\MyLocalRepositorywc\Teris_16f886\mplab\teris_16f886.X\teris_16f886.c
+[v _printf_debug_MATRIX88 printf_debug_MATRIX88 `(v  1 e 1 0 ]
+{
+"483
+[v printf_debug_MATRIX88@col col `uc  1 a 1 12 ]
+"481
+[v printf_debug_MATRIX88@row row `uc  1 a 1 11 ]
+"473
+[v printf_debug_MATRIX88@lable lable `*.25DCCuc  1 p 2 5 ]
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v printf_debug_MATRIX88@matrix matrix `*.5DCCS189  1 p 1 7 ]
+"497
+} 0
+"287
+[v _debug_str debug_str `(v  1 e 1 0 ]
+{
+[v debug_str@str str `*.25DCCuc  1 p 2 3 ]
+"296
+} 0
+"297
+[v _debug_line debug_line `(v  1 e 1 0 ]
+{
+[v debug_line@str str `*.25DCCuc  1 p 2 3 ]
+"308
+} 0
+"76 D:\Working\working\MyLocalRepositorywc\Teris_16f886\mplab\teris_16f886.X\usart_pic16.c
+[v _USARTWriteString USARTWriteString `(v  1 e 1 0 ]
+{
+[v USARTWriteString@str str `*.26DCCuc  1 p 2 1 ]
+"81
+} 0
+"70
+[v _USARTWriteChar USARTWriteChar `(v  1 e 1 0 ]
+{
+[v USARTWriteChar@ch ch `uc  1 a 1 wreg ]
+[v USARTWriteChar@ch ch `uc  1 a 1 wreg ]
+[v USARTWriteChar@ch ch `uc  1 a 1 0 ]
+"74
+} 0
+"851 D:\Working\working\MyLocalRepositorywc\Teris_16f886\mplab\teris_16f886.X\teris_16f886.c
+[v _merge merge `(v  1 e 1 0 ]
+{
+[v merge@x x `c  1 a 1 wreg ]
+"855
+[v merge@col col `uc  1 a 1 10 ]
+"853
+[v merge@row row `uc  1 a 1 9 ]
+"851
+[v merge@x x `c  1 a 1 wreg ]
+[v merge@y y `c  1 p 1 0 ]
+[s S186 . 16 `[4][4]uc 1 data 16 0 ]
+[v merge@matrix44 matrix44 `*.25DCCS186  1 p 2 1 ]
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v merge@matrix88 matrix88 `*.5S189  1 p 1 3 ]
+"853
+[v merge@x x `c  1 a 1 8 ]
+"863
+} 0
+"445
+[v _max7219_init1 max7219_init1 `(v  1 e 1 0 ]
+{
+"452
+} 0
+"687
+[v _hit_land hit_land `(uc  1 e 1 0 ]
+{
+[v hit_land@x x `c  1 a 1 wreg ]
+"695
+[v hit_land@col col `c  1 a 1 9 ]
+"693
+[v hit_land@row row `c  1 a 1 10 ]
+"687
+[v hit_land@x x `c  1 a 1 wreg ]
+[v hit_land@y y `c  1 p 1 0 ]
+[s S186 . 16 `[4][4]uc 1 data 16 0 ]
+[v hit_land@matrix44 matrix44 `*.25DCCS186  1 p 2 1 ]
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v hit_land@matrix88 matrix88 `*.5DCCS189  1 p 1 3 ]
+"693
+[v hit_land@x x `c  1 a 1 8 ]
+"721
+} 0
+"1103
+[v _find_best_solution find_best_solution `(uc  1 e 1 0 ]
+{
+"1125
+[v find_best_solution@temp_x temp_x `c  1 a 1 40 ]
+"1119
+[v find_best_solution@tem_sub_index tem_sub_index `uc  1 a 1 39 ]
+"1116
+[v find_best_solution@temp_high temp_high `ui  1 a 2 36 ]
+"1115
+[v find_best_solution@temp_risk temp_risk `i  1 a 2 33 ]
+"1113
+[v find_best_solution@temp_pre_risk temp_pre_risk `i  1 a 2 27 ]
+"1114
+[v find_best_solution@temp_y temp_y `c  1 a 1 38 ]
+"1109
+[v find_best_solution@res res `uc  1 a 1 35 ]
+"1112
+[v find_best_solution@tem_pre_sub_index tem_pre_sub_index `c  1 a 1 32 ]
+[v find_best_solution@temp_pre_x temp_pre_x `c  1 a 1 31 ]
+"1110
+[v find_best_solution@right_most_index right_most_index `c  1 a 1 30 ]
+[v find_best_solution@left_most_index left_most_index `c  1 a 1 29 ]
+"1215
+} 0
+"978
+[v _right_most right_most `(c  1 e 1 0 ]
+{
+[v right_most@x x `c  1 a 1 wreg ]
+[v right_most@x x `c  1 a 1 wreg ]
+[s S186 . 16 `[4][4]uc 1 data 16 0 ]
+[v right_most@matrix44 matrix44 `*.25DCCS186  1 p 2 10 ]
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v right_most@matrix88 matrix88 `*.5DCCS189  1 p 1 12 ]
+[v right_most@x x `c  1 a 1 0 ]
+"991
+} 0
+"786
+[v _is_right_boundary is_right_boundary `(uc  1 e 1 0 ]
+{
+[v is_right_boundary@x x `c  1 a 1 wreg ]
+"790
+[v is_right_boundary@col col `c  1 a 1 9 ]
+"788
+[v is_right_boundary@row row `c  1 a 1 8 ]
+"786
+[v is_right_boundary@x x `c  1 a 1 wreg ]
+[s S186 . 16 `[4][4]uc 1 data 16 0 ]
+[v is_right_boundary@matrix44 matrix44 `*.25DCCS186  1 p 2 0 ]
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v is_right_boundary@matrix88 matrix88 `*.5DCCS189  1 p 1 2 ]
+"788
+[v is_right_boundary@x x `c  1 a 1 7 ]
+"805
+} 0
+"864
+[v _merge1 merge1 `(v  1 e 1 0 ]
+{
+[v merge1@x x `c  1 a 1 wreg ]
+"876
+[v merge1@col col `uc  1 a 1 8 ]
+"874
+[v merge1@row row `uc  1 a 1 7 ]
+"869
+[v merge1@len len `ui  1 a 2 4 ]
+"864
+[v merge1@x x `c  1 a 1 wreg ]
+[v merge1@y y `c  1 p 1 7 ]
+[s S186 . 16 `[4][4]uc 1 data 16 0 ]
+[v merge1@matrix44 matrix44 `*.25DCCS186  1 p 2 8 ]
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v merge1@matrix88_in matrix88_in `*.5DCCS189  1 p 1 10 ]
+[v merge1@matrix88_out matrix88_out `*.5S189  1 p 1 11 ]
+"871
+[v merge1@x x `c  1 a 1 6 ]
+"884
+} 0
+"964
+[v _left_most left_most `(c  1 e 1 0 ]
+{
+[v left_most@x x `c  1 a 1 wreg ]
+[v left_most@x x `c  1 a 1 wreg ]
+[s S186 . 16 `[4][4]uc 1 data 16 0 ]
+[v left_most@matrix44 matrix44 `*.25DCCS186  1 p 2 11 ]
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v left_most@matrix88 matrix88 `*.5DCCS189  1 p 1 13 ]
+[v left_most@x x `c  1 a 1 1 ]
+"977
+} 0
+"766
+[v _is_left_boundary is_left_boundary `(uc  1 e 1 0 ]
+{
+[v is_left_boundary@x x `c  1 a 1 wreg ]
+"770
+[v is_left_boundary@col col `c  1 a 1 10 ]
+"768
+[v is_left_boundary@row row `c  1 a 1 9 ]
+"766
+[v is_left_boundary@x x `c  1 a 1 wreg ]
+[s S186 . 16 `[4][4]uc 1 data 16 0 ]
+[v is_left_boundary@matrix44 matrix44 `*.25DCCS186  1 p 2 0 ]
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v is_left_boundary@matrix88 matrix88 `*.5DCCS189  1 p 1 2 ]
+"768
+[v is_left_boundary@x x `c  1 a 1 8 ]
+"785
+} 0
+"722
+[v _is_valid is_valid `(uc  1 e 1 0 ]
+{
+[v is_valid@x x `c  1 a 1 wreg ]
+"729
+[v is_valid@col col `c  1 a 1 10 ]
+"727
+[v is_valid@row row `c  1 a 1 9 ]
+"722
+[v is_valid@x x `c  1 a 1 wreg ]
+[v is_valid@y y `c  1 p 1 0 ]
+[s S186 . 16 `[4][4]uc 1 data 16 0 ]
+[v is_valid@matrix44 matrix44 `*.25DCCS186  1 p 2 1 ]
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v is_valid@matrix88 matrix88 `*.5DCCS189  1 p 1 3 ]
+"727
+[v is_valid@x x `c  1 a 1 8 ]
+"765
+} 0
+"649
+[v _get_num_removed_rows get_num_removed_rows `(uc  1 e 1 0 ]
+{
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v get_num_removed_rows@matrix matrix `*.5S189  1 a 1 wreg ]
+"652
+[v get_num_removed_rows@row row `c  1 a 1 9 ]
+"651
+[v get_num_removed_rows@count count `uc  1 a 1 7 ]
+"649
+[v get_num_removed_rows@matrix matrix `*.5S189  1 a 1 wreg ]
+"651
+"649
+[v get_num_removed_rows@matrix matrix `*.5S189  1 a 1 8 ]
+"663
+} 0
+"885
+[v _get_num_of_orphan get_num_of_orphan `(ui  1 e 2 0 ]
+{
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v get_num_of_orphan@matrix matrix `*.5DCCS189  1 a 1 wreg ]
+"892
+[v get_num_of_orphan@row row `c  1 a 1 11 ]
+"889
+[v get_num_of_orphan@col col `uc  1 a 1 10 ]
+"887
+[v get_num_of_orphan@risk risk `ui  1 a 2 6 ]
+"888
+[v get_num_of_orphan@full full `uc  1 a 1 8 ]
+"885
+[v get_num_of_orphan@matrix matrix `*.5DCCS189  1 a 1 wreg ]
+"887
+"885
+[v get_num_of_orphan@matrix matrix `*.5DCCS189  1 a 1 9 ]
+"916
+} 0
+"1027
+[v _get_holes_after_merge get_holes_after_merge `(uc  1 e 1 0 ]
+{
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v get_holes_after_merge@matrix matrix `*.5S189  1 a 1 wreg ]
+"1035
+[v get_holes_after_merge@row row `c  1 a 1 11 ]
+"1032
+[v get_holes_after_merge@col col `c  1 a 1 10 ]
+"1029
+[v get_holes_after_merge@start start `c  1 a 1 8 ]
+"1030
+[v get_holes_after_merge@stop stop `c  1 a 1 7 ]
+"1031
+[v get_holes_after_merge@num_hole num_hole `uc  1 a 1 6 ]
+"1027
+[v get_holes_after_merge@matrix matrix `*.5S189  1 a 1 wreg ]
+"1029
+"1027
+[v get_holes_after_merge@matrix matrix `*.5S189  1 a 1 9 ]
+"1100
+} 0
+"1006
+[v _get_high_after_merge get_high_after_merge `(uc  1 e 1 0 ]
+{
+[v get_high_after_merge@y y `c  1 a 1 wreg ]
+"1013
+[v get_high_after_merge@col col `c  1 a 1 7 ]
+"1011
+[v get_high_after_merge@row row `c  1 a 1 8 ]
+"1006
+[v get_high_after_merge@y y `c  1 a 1 wreg ]
+[s S186 . 16 `[4][4]uc 1 data 16 0 ]
+[v get_high_after_merge@matrix matrix `*.25S186  1 p 2 0 ]
+"1011
+[v get_high_after_merge@y y `c  1 a 1 6 ]
+"1026
+} 0
+"992
+[v _get_high get_high `(uc  1 e 1 0 ]
+{
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v get_high@matrix matrix `*.5S189  1 a 1 wreg ]
+"994
+[v get_high@row row `c  1 a 1 8 ]
+"992
+[v get_high@matrix matrix `*.5S189  1 a 1 wreg ]
+"994
+"992
+[v get_high@matrix matrix `*.5S189  1 a 1 7 ]
+"1005
+} 0
+"665
+[v _is_row_empty is_row_empty `(uc  1 e 1 0 ]
+{
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v is_row_empty@matrix matrix `*.5DCCS189  1 a 1 wreg ]
+"667
+[v is_row_empty@col col `uc  1 a 1 5 ]
+"665
+[v is_row_empty@matrix matrix `*.5DCCS189  1 a 1 wreg ]
+[v is_row_empty@row row `uc  1 p 1 0 ]
+"667
+"665
+[v is_row_empty@matrix matrix `*.5DCCS189  1 a 1 4 ]
+"675
+} 0
+"917
+[v _get_heavy get_heavy `(ui  1 e 2 0 ]
+{
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v get_heavy@matrix matrix `*.5DCCS189  1 a 1 wreg ]
+"926
+[v get_heavy@row row `c  1 a 1 12 ]
+"922
+[v get_heavy@col col `uc  1 a 1 11 ]
+"920
+[v get_heavy@risk risk `ui  1 a 2 6 ]
+"921
+[v get_heavy@pre pre `uc  1 a 1 10 ]
+"919
+[v get_heavy@start start `uc  1 a 1 8 ]
+"917
+[v get_heavy@matrix matrix `*.5DCCS189  1 a 1 wreg ]
+"920
+"917
+[v get_heavy@matrix matrix `*.5DCCS189  1 a 1 9 ]
+"958
+} 0
+"806
+[v _fall_off fall_off `(uc  1 e 1 0 ]
+{
+[v fall_off@x x `c  1 a 1 wreg ]
+"812
+[v fall_off@col col `c  1 a 1 9 ]
+"810
+[v fall_off@row row `c  1 a 1 10 ]
+"806
+[v fall_off@x x `c  1 a 1 wreg ]
+[v fall_off@y y `c  1 p 1 0 ]
+[s S186 . 16 `[4][4]uc 1 data 16 0 ]
+[v fall_off@matrix44 matrix44 `*.25DCCS186  1 p 2 1 ]
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v fall_off@matrix88 matrix88 `*.5DCCS189  1 p 1 3 ]
+[v fall_off@x x `c  1 a 1 8 ]
+"837
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 12 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 2 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 3 ]
+"51
+} 0
+"628 D:\Working\working\MyLocalRepositorywc\Teris_16f886\mplab\teris_16f886.X\teris_16f886.c
+[v _delete_matrix delete_matrix `(uc  1 e 1 0 ]
+{
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v delete_matrix@matrix matrix `*.5S189  1 a 1 wreg ]
+"631
+[v delete_matrix@row row `c  1 a 1 6 ]
+"630
+[v delete_matrix@count count `uc  1 a 1 4 ]
+"628
+[v delete_matrix@matrix matrix `*.5S189  1 a 1 wreg ]
+"630
+"628
+[v delete_matrix@matrix matrix `*.5S189  1 a 1 5 ]
+"648
+} 0
+"594
+[v _is_row_full is_row_full `(uc  1 e 1 0 ]
+{
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v is_row_full@matrix matrix `*.5DCCS189  1 a 1 wreg ]
+"596
+[v is_row_full@col col `uc  1 a 1 5 ]
+"594
+[v is_row_full@matrix matrix `*.5DCCS189  1 a 1 wreg ]
+[v is_row_full@row row `uc  1 p 1 0 ]
+"596
+"594
+[v is_row_full@matrix matrix `*.5DCCS189  1 a 1 4 ]
+"604
+} 0
+"605
+[v _delete_row delete_row `(v  1 e 1 0 ]
+{
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v delete_row@matrix matrix `*.5S189  1 a 1 wreg ]
+"616
+[v delete_row@len len `ui  1 a 2 0 ]
+"607
+[v delete_row@i i `c  1 a 1 3 ]
+"605
+[v delete_row@matrix matrix `*.5S189  1 a 1 wreg ]
+[v delete_row@row row `uc  1 p 1 7 ]
+"607
+"605
+[v delete_row@matrix matrix `*.5S189  1 a 1 2 ]
+"627
+} 0
+"11 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\memcpy.c
+[v _memcpy memcpy `(*.5v  1 e 1 0 ]
+{
+[v memcpy@d1 d1 `*.5v  1 a 1 wreg ]
+"20
+[v memcpy@s s `*.5DCCuc  1 a 1 5 ]
+"18
+[v memcpy@d d `*.5uc  1 a 1 4 ]
+"11
+[v memcpy@d1 d1 `*.5v  1 a 1 wreg ]
+[v memcpy@s1 s1 `*.5DCCv  1 p 1 0 ]
+[v memcpy@n n `ui  1 p 2 1 ]
+"24
+[v memcpy@d1 d1 `*.5v  1 a 1 6 ]
+"32
+} 0
+"838 D:\Working\working\MyLocalRepositorywc\Teris_16f886\mplab\teris_16f886.X\teris_16f886.c
+[v _clear clear `(v  1 e 1 0 ]
+{
+[v clear@x x `c  1 a 1 wreg ]
+"842
+[v clear@col col `uc  1 a 1 10 ]
+"840
+[v clear@row row `uc  1 a 1 9 ]
+"838
+[v clear@x x `c  1 a 1 wreg ]
+[v clear@y y `c  1 p 1 0 ]
+[s S186 . 16 `[4][4]uc 1 data 16 0 ]
+[v clear@matrix44 matrix44 `*.25DCCS186  1 p 2 1 ]
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v clear@matrix88 matrix88 `*.5S189  1 p 1 3 ]
+"840
+[v clear@x x `c  1 a 1 8 ]
+"850
+} 0
+"960
+[v _char_info_index_rand char_info_index_rand `(uc  1 e 1 0 ]
+{
+"963
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\rand.c
+[v _rand rand `(i  1 e 2 0 ]
+{
+"17
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 9 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 12 ]
+[v ___awmod@counter counter `uc  1 a 1 11 ]
+"6
+[v ___awmod@divisor divisor `i  1 p 2 7 ]
+[v ___awmod@dividend dividend `i  1 p 2 9 ]
+"35
+} 0
+"31 D:\Working\working\MyLocalRepositorywc\Teris_16f886\mplab\teris_16f886.X\usart_pic16.c
+[v _USARTInit USARTInit `(v  1 e 1 0 ]
+{
+[v USARTInit@baud_rate baud_rate `ui  1 p 2 0 ]
+"68
+} 0
+"588 D:\Working\working\MyLocalRepositorywc\Teris_16f886\mplab\teris_16f886.X\teris_16f886.c
+[v _Clear_Matrix Clear_Matrix `(v  1 e 1 0 ]
+{
+"592
+} 0
+"572
+[v _printf_Screen printf_Screen `(v  1 e 1 0 ]
+{
+"575
+} 0
+"545
+[v _printf_MATRIX88 printf_MATRIX88 `(v  1 e 1 0 ]
+{
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v printf_MATRIX88@matrix88 matrix88 `*.5DCCS189  1 a 1 wreg ]
+[s S207 . 8 `[8]uc 1 col 8 0 ]
+"567
+[v printf_MATRIX88@matrix7219 matrix7219 `S207  1 a 8 1 ]
+"545
+[v printf_MATRIX88@matrix88 matrix88 `*.5DCCS189  1 a 1 wreg ]
+"568
+"545
+[v printf_MATRIX88@matrix88 matrix88 `*.5DCCS189  1 a 1 0 ]
+"571
+} 0
+"532
+[v _printf_MATRIX7219 printf_MATRIX7219 `(v  1 e 1 0 ]
+{
+[s S207 . 8 `[8]uc 1 col 8 0 ]
+[v printf_MATRIX7219@matrix matrix `*.4DCCS207  1 a 1 wreg ]
+"534
+[v printf_MATRIX7219@col col `uc  1 a 1 9 ]
+"532
+[v printf_MATRIX7219@matrix matrix `*.4DCCS207  1 a 1 wreg ]
+"536
+"532
+[v printf_MATRIX7219@matrix matrix `*.4DCCS207  1 a 1 8 ]
+"540
+} 0
+"437
+[v _Write_Byte Write_Byte `(v  1 e 1 0 ]
+{
+[v Write_Byte@myColumn myColumn `uc  1 a 1 wreg ]
+[v Write_Byte@myColumn myColumn `uc  1 a 1 wreg ]
+[v Write_Byte@myValue myValue `uc  1 p 1 4 ]
+"439
+[v Write_Byte@myColumn myColumn `uc  1 a 1 5 ]
+"443
+} 0
+"412
+[v _SPI1_write SPI1_write `(v  1 e 1 0 ]
+{
+[v SPI1_write@data data `uc  1 a 1 wreg ]
+"415
+[v SPI1_write@i i `uc  1 a 1 3 ]
+"414
+[v SPI1_write@mask mask `uc  1 a 1 2 ]
+"412
+[v SPI1_write@data data `uc  1 a 1 wreg ]
+"414
+[v SPI1_write@data data `uc  1 a 1 1 ]
+"434
+} 0
+"454
+[v _MATRIX88_to_MATRIX7219 MATRIX88_to_MATRIX7219 `(v  1 e 1 0 ]
+{
+[s S189 . 64 `[8][8]uc 1 data 64 0 ]
+[v MATRIX88_to_MATRIX7219@matrix88 matrix88 `*.5DCCS189  1 a 1 wreg ]
+"462
+[v MATRIX88_to_MATRIX7219@row row `uc  1 a 1 6 ]
+"458
+[v MATRIX88_to_MATRIX7219@col col `uc  1 a 1 7 ]
+"456
+[v MATRIX88_to_MATRIX7219@mask mask `uc  1 a 1 5 ]
+"454
+[v MATRIX88_to_MATRIX7219@matrix88 matrix88 `*.5DCCS189  1 a 1 wreg ]
+[s S207 . 8 `[8]uc 1 col 8 0 ]
+[v MATRIX88_to_MATRIX7219@matrix7219 matrix7219 `*.4S207  1 p 1 0 ]
+"456
+"454
+[v MATRIX88_to_MATRIX7219@matrix88 matrix88 `*.5DCCS189  1 a 1 4 ]
+"471
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\memset.c
+[v _memset memset `(*.5v  1 e 1 0 ]
+{
+[v memset@p1 p1 `*.5v  1 a 1 wreg ]
+"15
+[v memset@p p `*.5uc  1 a 1 5 ]
+"8
+[v memset@p1 p1 `*.5v  1 a 1 wreg ]
+[v memset@c c `i  1 p 2 0 ]
+[v memset@n n `ui  1 p 2 2 ]
+"18
+[v memset@p1 p1 `*.5v  1 a 1 6 ]
+"22
+} 0

@@ -1,0 +1,3557 @@
+
+
+HI-TECH Software PIC LITE Macro Assembler V9.83 build 10920 
+                                                                                               Tue Mar 26 21:56:31 2013
+
+HI-TECH Software Omniscient Code Generator (Lite mode) build 10920
+     1  0000                     opt subtitle "HI-TECH Software Omniscient Code Generator (Lite mode) build 10920"
+     2                           
+     3                           opt pagewidth 120
+     4                           
+     5                           	opt lm
+     6                           
+     7                           	processor	16F877A
+     8                           clrc	macro
+     9                           	bcf	3,0
+    10  0000                     	endm
+    11                           clrz	macro
+    12                           	bcf	3,2
+    13  0000                     	endm
+    14                           setc	macro
+    15                           	bsf	3,0
+    16  0000                     	endm
+    17                           setz	macro
+    18                           	bsf	3,2
+    19  0000                     	endm
+    20                           skipc	macro
+    21                           	btfss	3,0
+    22  0000                     	endm
+    23                           skipz	macro
+    24                           	btfss	3,2
+    25  0000                     	endm
+    26                           skipnc	macro
+    27                           	btfsc	3,0
+    28  0000                     	endm
+    29                           skipnz	macro
+    30                           	btfsc	3,2
+    31  0000                     	endm
+    32  0000                     indf	equ	0
+    33  0000                     indf0	equ	0
+    34  0002                     pc	equ	2
+    35  0002                     pcl	equ	2
+    36  0003                     status	equ	3
+    37  0004                     fsr	equ	4
+    38  0004                     fsr0	equ	4
+    39  0001                     c	equ	1
+    40  0000                     z	equ	0
+    41  000A                     pclath	equ	10
+    42                           # 16 "Digital_Watch.c"
+    43                           	psect config,class=CONFIG,delta=2 ;#
+    44                           # 16 "Digital_Watch.c"
+    45  2007  DEF8               	dw 0xFFFB & 0xFEFF & 0xDFFF & 0xFFFC ;#
+    46                           	FNCALL	_main,_Init
+    47                           	FNCALL	_main,_lcd_goto
+    48                           	FNCALL	_main,_lcd_puts
+    49                           	FNCALL	_main,_OutputAllDigits
+    50                           	FNCALL	_Init,_lcd_init
+    51                           	FNCALL	_lcd_init,_lcd_write
+    52                           	FNCALL	_lcd_init,_lcd_clear
+    53                           	FNCALL	_lcd_clear,_lcd_write
+    54                           	FNCALL	_lcd_puts,_lcd_write
+    55                           	FNCALL	_lcd_goto,_lcd_write
+    56                           	FNCALL	_OutputAllDigits,_OutDigit
+    57                           	FNROOT	_main
+    58                           	FNCALL	_Interrupt_Handler,_CalculateTime
+    59                           	FNCALL	intlevel1,_Interrupt_Handler
+    60                           	global	intlevel1
+    61                           	FNROOT	intlevel1
+    62                           	global	_digits
+    63                           	global	_visible
+    64                           	global	_mode
+    65                           psect	nvBANK0,class=BANK0,space=1
+    66                           global __pnvBANK0
+    67  0032                     __pnvBANK0:
+    68  0032                     _mode:
+    69  0032                            ds      1
+    70                           
+    71                           	global	_PORTA
+    72  0005                     _PORTA	set	5
+    73                           	global	_PORTC
+    74  0007                     _PORTC	set	7
+    75                           	global	_PORTD
+    76  0008                     _PORTD	set	8
+    77                           	global	_CARRY
+    78  0018                     _CARRY	set	24
+    79                           	global	_GIE
+    80  005F                     _GIE	set	95
+    81                           	global	_PEIE
+    82  005E                     _PEIE	set	94
+    83                           	global	_RB4
+    84  0034                     _RB4	set	52
+    85                           	global	_RB5
+    86  0035                     _RB5	set	53
+    87                           	global	_RB6
+    88  0036                     _RB6	set	54
+    89                           	global	_RBIE
+    90  005B                     _RBIE	set	91
+    91                           	global	_RBIF
+    92  0058                     _RBIF	set	88
+    93                           	global	_RE0
+    94  0048                     _RE0	set	72
+    95                           	global	_RE1
+    96  0049                     _RE1	set	73
+    97                           	global	_RE2
+    98  004A                     _RE2	set	74
+    99                           	global	_TMR0IE
+   100  005D                     _TMR0IE	set	93
+   101                           	global	_TMR0IF
+   102  005A                     _TMR0IF	set	90
+   103                           	global	_ADCON1
+   104  009F                     _ADCON1	set	159
+   105                           	global	_TRISA
+   106  0085                     _TRISA	set	133
+   107                           	global	_TRISC
+   108  0087                     _TRISC	set	135
+   109                           	global	_TRISD
+   110  0088                     _TRISD	set	136
+   111                           	global	_TRISE
+   112  0089                     _TRISE	set	137
+   113                           	global	_PCFG0
+   114  04F8                     _PCFG0	set	1272
+   115                           	global	_PCFG1
+   116  04F9                     _PCFG1	set	1273
+   117                           	global	_PCFG2
+   118  04FA                     _PCFG2	set	1274
+   119                           	global	_PCFG3
+   120  04FB                     _PCFG3	set	1275
+   121                           	global	_PS0
+   122  0408                     _PS0	set	1032
+   123                           	global	_PS1
+   124  0409                     _PS1	set	1033
+   125                           	global	_PS2
+   126  040A                     _PS2	set	1034
+   127                           	global	_PSA
+   128  040B                     _PSA	set	1035
+   129                           	global	_T0CS
+   130  040D                     _T0CS	set	1037
+   131                           	global	_T0SE
+   132  040C                     _T0SE	set	1036
+   133                           	global	_EEADR
+   134  010D                     _EEADR	set	269
+   135                           	global	_EEDATA
+   136  010C                     _EEDATA	set	268
+   137                           	global	_EECON1
+   138  018C                     _EECON1	set	396
+   139                           	global	_EECON2
+   140  018D                     _EECON2	set	397
+   141                           	global	_RD
+   142  0C60                     _RD	set	3168
+   143                           	global	_WR
+   144  0C61                     _WR	set	3169
+   145                           	global	_WREN
+   146  0C62                     _WREN	set	3170
+   147                           psect	strings,class=STRING,delta=2
+   148                           global __pstrings
+   149  031F                     __pstrings:
+   150                           ;	global	stringdir,stringtab,__stringbase
+   151  031F                     stringtab:
+   152                           ;	String table - string pointers are 1 byte each
+   153  031F                     stringcode:stringdir:
+      + 031F                     stringdir:	
+   154  031F  3003               movlw high(stringdir)
+   155  0320  008A               movwf pclath
+   156  0321  0804               movf fsr,w
+   157  0322  0A84               incf fsr
+   158  0323  0782               	addwf pc
+   159  0324                     __stringbase:
+   160  0324  3400               	retlw	0
+   161                           psect	strings
+   162                           	
+   163  0325                     STR_1:	
+   164  0325  347E               	retlw	126	;'~'
+   165  0326  3421               	retlw	33	;'!'
+   166  0327  3440               	retlw	64	;'@'
+   167  0328  3423               	retlw	35	;'#'
+   168  0329  3424               	retlw	36	;'$'
+   169  032A  3425               	retlw	37	;'%'
+   170  032B  345E               	retlw	94	;'^'
+   171  032C  3426               	retlw	38	;'&'
+   172  032D  342A               	retlw	42	;'*'
+   173  032E  3428               	retlw	40	;'('
+   174  032F  3429               	retlw	41	;')'
+   175  0330  345F               	retlw	95	;'_'
+   176  0331  342B               	retlw	43	;'+'
+   177  0332  343D               	retlw	61	;'='
+   178  0333  342D               	retlw	45	;'-'
+   179  0334  347B               	retlw	123	;'{'
+   180  0335  347D               	retlw	125	;'}'
+   181  0336  345B               	retlw	91	;'['
+   182  0337  345D               	retlw	93	;']'
+   183  0338  343B               	retlw	59	;';'
+   184  0339  3400               	retlw	0
+   185                           psect	strings
+   186                           	
+   187  033A                     STR_2:	
+   188  033A  3448               	retlw	72	;'H'
+   189  033B  3465               	retlw	101	;'e'
+   190  033C  346C               	retlw	108	;'l'
+   191  033D  346C               	retlw	108	;'l'
+   192  033E  346F               	retlw	111	;'o'
+   193  033F  3420               	retlw	32	;' '
+   194  0340  3477               	retlw	119	;'w'
+   195  0341  346F               	retlw	111	;'o'
+   196  0342  3472               	retlw	114	;'r'
+   197  0343  346C               	retlw	108	;'l'
+   198  0344  3464               	retlw	100	;'d'
+   199  0345  3400               	retlw	0
+   200                           psect	strings
+   201                           	file	"C:\DOCUME~1\Admin\LOCALS~1\Temp\s3oo."
+   202                           	line	#
+   203                           psect cinit,class=CODE,delta=2
+   204                           global start_initialization
+   205  03E9                     start_initialization:
+   206                           
+   207                           psect	bssBANK0,class=BANK0,space=1
+   208                           global __pbssBANK0
+   209  0020                     __pbssBANK0:
+   210  0020                     _digits:
+   211  0020                            ds      6
+   212                           
+   213  0026                     _visible:
+   214  0026                            ds      6
+   215                           
+   216                           ; Clear objects allocated to BANK0
+   217                           psect cinit,class=CODE,delta=2
+   218  03E9  01A0               	clrf	((__pbssBANK0)+0)&07Fh
+   219  03EA  01A1               	clrf	((__pbssBANK0)+1)&07Fh
+   220  03EB  01A2               	clrf	((__pbssBANK0)+2)&07Fh
+   221  03EC  01A3               	clrf	((__pbssBANK0)+3)&07Fh
+   222  03ED  01A4               	clrf	((__pbssBANK0)+4)&07Fh
+   223  03EE  01A5               	clrf	((__pbssBANK0)+5)&07Fh
+   224  03EF  01A6               	clrf	((__pbssBANK0)+6)&07Fh
+   225  03F0  01A7               	clrf	((__pbssBANK0)+7)&07Fh
+   226  03F1  01A8               	clrf	((__pbssBANK0)+8)&07Fh
+   227  03F2  01A9               	clrf	((__pbssBANK0)+9)&07Fh
+   228  03F3  01AA               	clrf	((__pbssBANK0)+10)&07Fh
+   229  03F4  01AB               	clrf	((__pbssBANK0)+11)&07Fh
+   230                           psect cinit,class=CODE,delta=2
+   231                           global end_of_initialization
+   232                           
+   233                           ;End of C runtime variable initialization code
+   234                           
+   235  03F5                     end_of_initialization:
+   236  03F5  0183               clrf status
+   237  03F6  120A  118A  2B46   ljmp _main	;jump to C main() function
+   238                           psect	cstackCOMMON,class=COMMON,space=1
+   239                           global __pcstackCOMMON
+   240  0070                     __pcstackCOMMON:
+   241                           	global	?_lcd_init
+   242  0070                     ?_lcd_init:	; 0 bytes @ 0x0
+   243                           	global	?_lcd_goto
+   244  0070                     ?_lcd_goto:	; 0 bytes @ 0x0
+   245                           	global	?_lcd_puts
+   246  0070                     ?_lcd_puts:	; 0 bytes @ 0x0
+   247                           	global	?_Init
+   248  0070                     ?_Init:	; 0 bytes @ 0x0
+   249                           	global	?_OutputAllDigits
+   250  0070                     ?_OutputAllDigits:	; 0 bytes @ 0x0
+   251                           	global	?_CalculateTime
+   252  0070                     ?_CalculateTime:	; 0 bytes @ 0x0
+   253                           	global	??_CalculateTime
+   254  0070                     ??_CalculateTime:	; 0 bytes @ 0x0
+   255                           	global	?_main
+   256  0070                     ?_main:	; 0 bytes @ 0x0
+   257                           	global	?_Interrupt_Handler
+   258  0070                     ?_Interrupt_Handler:	; 0 bytes @ 0x0
+   259                           	global	?_lcd_write
+   260  0070                     ?_lcd_write:	; 0 bytes @ 0x0
+   261                           	global	?_lcd_clear
+   262  0070                     ?_lcd_clear:	; 0 bytes @ 0x0
+   263  0070                     	ds	1
+   264                           	global	??_Interrupt_Handler
+   265  0071                     ??_Interrupt_Handler:	; 0 bytes @ 0x1
+   266  0071                     	ds	5
+   267                           	global	?_OutDigit
+   268  0076                     ?_OutDigit:	; 0 bytes @ 0x6
+   269                           	global	??_lcd_write
+   270  0076                     ??_lcd_write:	; 0 bytes @ 0x6
+   271                           	global	OutDigit@num
+   272  0076                     OutDigit@num:	; 1 bytes @ 0x6
+   273  0076                     	ds	1
+   274                           	global	??_OutDigit
+   275  0077                     ??_OutDigit:	; 0 bytes @ 0x7
+   276                           	global	OutDigit@digit
+   277  0077                     OutDigit@digit:	; 1 bytes @ 0x7
+   278                           	global	lcd_write@c
+   279  0077                     lcd_write@c:	; 1 bytes @ 0x7
+   280  0077                     	ds	1
+   281                           	global	??_lcd_goto
+   282  0078                     ??_lcd_goto:	; 0 bytes @ 0x8
+   283                           	global	??_main
+   284  0078                     ??_main:	; 0 bytes @ 0x8
+   285                           psect	cstackBANK0,class=BANK0,space=1
+   286                           global __pcstackBANK0
+   287  002C                     __pcstackBANK0:
+   288                           	global	??_lcd_puts
+   289  002C                     ??_lcd_puts:	; 0 bytes @ 0x0
+   290                           	global	??_OutputAllDigits
+   291  002C                     ??_OutputAllDigits:	; 0 bytes @ 0x0
+   292                           	global	??_lcd_clear
+   293  002C                     ??_lcd_clear:	; 0 bytes @ 0x0
+   294                           	global	lcd_goto@pos
+   295  002C                     lcd_goto@pos:	; 1 bytes @ 0x0
+   296  002C                     	ds	1
+   297                           	global	OutputAllDigits@i
+   298  002D                     OutputAllDigits@i:	; 1 bytes @ 0x1
+   299                           	global	lcd_puts@s
+   300  002D                     lcd_puts@s:	; 1 bytes @ 0x1
+   301  002D                     	ds	1
+   302                           	global	??_lcd_init
+   303  002E                     ??_lcd_init:	; 0 bytes @ 0x2
+   304  002E                     	ds	2
+   305                           	global	lcd_init@init_value
+   306  0030                     lcd_init@init_value:	; 1 bytes @ 0x4
+   307  0030                     	ds	1
+   308                           	global	??_Init
+   309  0031                     ??_Init:	; 0 bytes @ 0x5
+   310  0031                     	ds	1
+   311 ;;Data sizes: Strings 33, constant 0, data 0, bss 12, persistent 1 stack 0
+   312 ;;Auto spaces:   Size  Autos    Used
+   313 ;; COMMON          14      8       8
+   314 ;; BANK0           80      6      19
+   315 ;; BANK1           80      0       0
+   316 ;; BANK3           96      0       0
+   317 ;; BANK2           96      0       0
+   318                           
+   319 ;;
+   320 ;; Pointer list with targets:
+   321                           
+   322 ;; lcd_puts@s	PTR const unsigned char  size(1) Largest target is 21
+   323 ;;		 -> STR_2(CODE[12]), STR_1(CODE[21]), 
+   324 ;;
+   325                           
+   326                           
+   327 ;;
+   328 ;; Critical Paths under _main in COMMON
+   329 ;;
+   330 ;;   _lcd_init->_lcd_write
+   331 ;;   _lcd_clear->_lcd_write
+   332 ;;   _lcd_puts->_lcd_write
+   333 ;;   _lcd_goto->_lcd_write
+   334 ;;   _OutputAllDigits->_OutDigit
+   335 ;;
+   336 ;; Critical Paths under _Interrupt_Handler in COMMON
+   337 ;;
+   338 ;;   _Interrupt_Handler->_CalculateTime
+   339 ;;
+   340 ;; Critical Paths under _main in BANK0
+   341 ;;
+   342 ;;   _main->_Init
+   343 ;;   _Init->_lcd_init
+   344 ;;   _lcd_init->_lcd_clear
+   345 ;;
+   346 ;; Critical Paths under _Interrupt_Handler in BANK0
+   347 ;;
+   348 ;;   None.
+   349 ;;
+   350 ;; Critical Paths under _main in BANK1
+   351 ;;
+   352 ;;   None.
+   353 ;;
+   354 ;; Critical Paths under _Interrupt_Handler in BANK1
+   355 ;;
+   356 ;;   None.
+   357 ;;
+   358 ;; Critical Paths under _main in BANK3
+   359 ;;
+   360 ;;   None.
+   361 ;;
+   362 ;; Critical Paths under _Interrupt_Handler in BANK3
+   363 ;;
+   364 ;;   None.
+   365 ;;
+   366 ;; Critical Paths under _main in BANK2
+   367 ;;
+   368 ;;   None.
+   369 ;;
+   370 ;; Critical Paths under _Interrupt_Handler in BANK2
+   371 ;;
+   372 ;;   None.
+   373                           
+   374 ;;
+   375 ;;Main: autosize = 0, tempsize = 0, incstack = 0, save=0
+   376 ;;
+   377                           
+   378 ;;
+   379 ;;Call Graph Tables:
+   380 ;;
+   381 ;; ---------------------------------------------------------------------------------
+   382 ;; (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+   383 ;; ---------------------------------------------------------------------------------
+   384 ;; (0) _main                                                 0     0      0     422
+   385 ;;                               _Init
+   386 ;;                           _lcd_goto
+   387 ;;                           _lcd_puts
+   388 ;;                    _OutputAllDigits
+   389 ;; ---------------------------------------------------------------------------------
+   390 ;; (1) _Init                                                 1     1      0     111
+   391 ;;                                              5 BANK0      1     1      0
+   392 ;;                           _lcd_init
+   393 ;; ---------------------------------------------------------------------------------
+   394 ;; (2) _lcd_init                                             3     3      0     111
+   395 ;;                                              2 BANK0      3     3      0
+   396 ;;                          _lcd_write
+   397 ;;                          _lcd_clear
+   398 ;; ---------------------------------------------------------------------------------
+   399 ;; (3) _lcd_clear                                            2     2      0      44
+   400 ;;                                              0 BANK0      2     2      0
+   401 ;;                          _lcd_write
+   402 ;; ---------------------------------------------------------------------------------
+   403 ;; (1) _lcd_puts                                             2     2      0      89
+   404 ;;                                              0 BANK0      2     2      0
+   405 ;;                          _lcd_write
+   406 ;; ---------------------------------------------------------------------------------
+   407 ;; (1) _lcd_goto                                             1     1      0      66
+   408 ;;                                              0 BANK0      1     1      0
+   409 ;;                          _lcd_write
+   410 ;; ---------------------------------------------------------------------------------
+   411 ;; (2) _lcd_write                                            2     2      0      44
+   412 ;;                                              6 COMMON     2     2      0
+   413 ;; ---------------------------------------------------------------------------------
+   414 ;; (1) _OutputAllDigits                                      2     2      0     156
+   415 ;;                                              0 BANK0      2     2      0
+   416 ;;                           _OutDigit
+   417 ;; ---------------------------------------------------------------------------------
+   418 ;; (2) _OutDigit                                             2     1      1      66
+   419 ;;                                              6 COMMON     2     1      1
+   420 ;; ---------------------------------------------------------------------------------
+   421 ;; Estimated maximum stack depth 3
+   422 ;; ---------------------------------------------------------------------------------
+   423 ;; (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+   424 ;; ---------------------------------------------------------------------------------
+   425 ;; (5) _Interrupt_Handler                                    5     5      0       0
+   426 ;;                                              1 COMMON     5     5      0
+   427 ;;                      _CalculateTime
+   428 ;; ---------------------------------------------------------------------------------
+   429 ;; (6) _CalculateTime                                        1     1      0       0
+   430 ;;                                              0 COMMON     1     1      0
+   431 ;; ---------------------------------------------------------------------------------
+   432 ;; Estimated maximum stack depth 6
+   433 ;; ---------------------------------------------------------------------------------
+   434                           
+   435 ;; Call Graph Graphs:
+   436                           
+   437 ;; _main (ROOT)
+   438 ;;   _Init
+   439 ;;     _lcd_init
+   440 ;;       _lcd_write
+   441 ;;       _lcd_clear
+   442 ;;         _lcd_write
+   443 ;;   _lcd_goto
+   444 ;;     _lcd_write
+   445 ;;   _lcd_puts
+   446 ;;     _lcd_write
+   447 ;;   _OutputAllDigits
+   448 ;;     _OutDigit
+   449 ;;
+   450 ;; _Interrupt_Handler (ROOT)
+   451 ;;   _CalculateTime
+   452 ;;
+   453                           
+   454 ;; Address spaces:
+   455                           
+   456 ;;Name               Size   Autos  Total    Cost      Usage
+   457 ;;BITCOMMON            E      0       0       0        0.0%
+   458 ;;EEDATA             100      0       0       0        0.0%
+   459 ;;NULL                 0      0       0       0        0.0%
+   460 ;;CODE                 0      0       0       0        0.0%
+   461 ;;COMMON               E      8       8       1       57.1%
+   462 ;;BITSFR0              0      0       0       1        0.0%
+   463 ;;SFR0                 0      0       0       1        0.0%
+   464 ;;BITSFR1              0      0       0       2        0.0%
+   465 ;;SFR1                 0      0       0       2        0.0%
+   466 ;;STACK                0      0       8       2        0.0%
+   467 ;;ABS                  0      0      1B       3        0.0%
+   468 ;;BITBANK0            50      0       0       4        0.0%
+   469 ;;BITSFR3              0      0       0       4        0.0%
+   470 ;;SFR3                 0      0       0       4        0.0%
+   471 ;;BANK0               50      6      13       5       23.8%
+   472 ;;BITSFR2              0      0       0       5        0.0%
+   473 ;;SFR2                 0      0       0       5        0.0%
+   474 ;;BITBANK1            50      0       0       6        0.0%
+   475 ;;BANK1               50      0       0       7        0.0%
+   476 ;;BITBANK3            60      0       0       8        0.0%
+   477 ;;BANK3               60      0       0       9        0.0%
+   478 ;;BITBANK2            60      0       0      10        0.0%
+   479 ;;BANK2               60      0       0      11        0.0%
+   480 ;;DATA                 0      0      23      12        0.0%
+   481                           
+   482                           	global	_main
+   483                           psect	maintext,global,class=CODE,delta=2
+   484                           global __pmaintext
+   485  0346                     __pmaintext:
+   486                           
+   487 ;; *************** function _main *****************
+   488 ;; Defined at:
+   489 ;;		line 214 in file "Digital_Watch.c"
+   490 ;; Parameters:    Size  Location     Type
+   491 ;;		None
+   492 ;; Auto vars:     Size  Location     Type
+   493 ;;		None
+   494 ;; Return value:  Size  Location     Type
+   495 ;;		None               void
+   496 ;; Registers used:
+   497 ;;		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+   498 ;; Tracked objects:
+   499 ;;		On entry : 17F/0
+   500 ;;		On exit  : 0/0
+   501 ;;		Unchanged: 0/0
+   502 ;; Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+   503 ;;      Params:         0       0       0       0       0
+   504 ;;      Locals:         0       0       0       0       0
+   505 ;;      Temps:          0       0       0       0       0
+   506 ;;      Totals:         0       0       0       0       0
+   507 ;;Total ram usage:        0 bytes
+   508 ;; Hardware stack levels required when called:    6
+   509 ;; This function calls:
+   510 ;;		_Init
+   511 ;;		_lcd_goto
+   512 ;;		_lcd_puts
+   513 ;;		_OutputAllDigits
+   514 ;; This function is called by:
+   515 ;;		Startup code after reset
+   516 ;; This function uses a non-reentrant model
+   517 ;;
+   518                           psect	maintext
+   519                           	file	"Digital_Watch.c"
+   520                           	line	214
+   521                           	global	__size_of_main
+   522  0027                     	__size_of_main	equ	__end_of_main-_main
+   523                           	
+   524  0346                     _main:	
+   525                           	opt	stack 2
+   526                           ; Regs used in _main: [wreg-fsr0h+status,2+status,0+pclath+cstack]
+   527                           	line	215
+   528                           	
+   529  0346                     l4012:	
+   530                           ;Digital_Watch.c: 215: Init();
+   531  0346  120A  118A  22EC   	fcall	_Init
+              120A  118A         
+   532                           	line	217
+   533                           ;Digital_Watch.c: 217: lcd_goto(0);
+   534  034B  3000               	movlw	(0)
+   535  034C  120A  118A  23F9   	fcall	_lcd_goto
+              120A  118A         
+   536                           	line	218
+   537                           	
+   538  0351                     l4014:	
+   539                           ;Digital_Watch.c: 218: lcd_puts("~!@#$%^&*()_+=-{}[];");
+   540  0351  3001               	movlw	((STR_1-__stringbase))&0ffh
+   541  0352  120A  118A  2394   	fcall	_lcd_puts
+              120A  118A         
+   542                           	line	219
+   543                           	
+   544  0357                     l4016:	
+   545                           ;Digital_Watch.c: 219: lcd_goto(0x40);
+   546  0357  3040               	movlw	(040h)
+   547  0358  120A  118A  23F9   	fcall	_lcd_goto
+              120A  118A         
+   548                           	line	220
+   549                           ;Digital_Watch.c: 220: lcd_puts("Hello world");
+   550  035D  3016               	movlw	((STR_2-__stringbase))&0ffh
+   551  035E  120A  118A  2394   	fcall	_lcd_puts
+              120A  118A         
+   552                           	line	222
+   553                           ;Digital_Watch.c: 222: while(1)
+   554                           	
+   555  0363                     l673:	
+   556                           	line	224
+   557                           ;Digital_Watch.c: 223: {
+   558                           ;Digital_Watch.c: 224: OutputAllDigits();
+   559  0363  120A  118A  236D   	fcall	_OutputAllDigits
+              120A  118A         
+   560  0368  2B63               	goto	l673
+   561                           	line	226
+   562                           	
+   563  0369                     l674:	
+   564                           	line	222
+   565  0369  2B63               	goto	l673
+   566                           	
+   567  036A                     l675:	
+   568                           	line	228
+   569                           	
+   570  036A                     l676:	
+   571                           	global	start
+   572  036A  120A  118A  2812   	ljmp	start
+   573                           	opt stack 0
+   574                           GLOBAL	__end_of_main
+   575  036D                     	__end_of_main:
+   576 ;; =============== function _main ends ============
+   577                           
+   578                           	signat	_main,88
+   579                           	global	_Init
+   580                           psect	text297,local,class=CODE,delta=2
+   581                           global __ptext297
+   582  02EC                     __ptext297:
+   583                           
+   584 ;; *************** function _Init *****************
+   585 ;; Defined at:
+   586 ;;		line 42 in file "Digital_Watch.c"
+   587 ;; Parameters:    Size  Location     Type
+   588 ;;		None
+   589 ;; Auto vars:     Size  Location     Type
+   590 ;;		None
+   591 ;; Return value:  Size  Location     Type
+   592 ;;		None               void
+   593 ;; Registers used:
+   594 ;;		wreg, status,2, status,0, pclath, cstack
+   595 ;; Tracked objects:
+   596 ;;		On entry : 0/0
+   597 ;;		On exit  : 0/0
+   598 ;;		Unchanged: 0/0
+   599 ;; Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+   600 ;;      Params:         0       0       0       0       0
+   601 ;;      Locals:         0       0       0       0       0
+   602 ;;      Temps:          0       1       0       0       0
+   603 ;;      Totals:         0       1       0       0       0
+   604 ;;Total ram usage:        1 bytes
+   605 ;; Hardware stack levels used:    1
+   606 ;; Hardware stack levels required when called:    5
+   607 ;; This function calls:
+   608 ;;		_lcd_init
+   609 ;; This function is called by:
+   610 ;;		_main
+   611 ;; This function uses a non-reentrant model
+   612 ;;
+   613                           psect	text297
+   614                           	file	"Digital_Watch.c"
+   615                           	line	42
+   616                           	global	__size_of_Init
+   617  0033                     	__size_of_Init	equ	__end_of_Init-_Init
+   618                           	
+   619  02EC                     _Init:	
+   620                           	opt	stack 2
+   621                           ; Regs used in _Init: [wreg+status,2+status,0+pclath+cstack]
+   622                           	line	44
+   623                           	
+   624  02EC                     l3996:	
+   625                           ;Digital_Watch.c: 44: PCFG0 = 0;
+   626  02EC  1683               	bsf	status, 5	;RP0=1, select bank1
+   627  02ED  1303               	bcf	status, 6	;RP1=0, select bank1
+   628  02EE  101F               	bcf	(1272/8)^080h,(1272)&7
+   629                           	line	45
+   630                           ;Digital_Watch.c: 45: PCFG1 = 1;
+   631  02EF  149F               	bsf	(1273/8)^080h,(1273)&7
+   632                           	line	46
+   633                           ;Digital_Watch.c: 46: PCFG2 = 1;
+   634  02F0  151F               	bsf	(1274/8)^080h,(1274)&7
+   635                           	line	47
+   636                           ;Digital_Watch.c: 47: PCFG3 = 0;
+   637  02F1  119F               	bcf	(1275/8)^080h,(1275)&7
+   638                           	line	51
+   639                           ;Digital_Watch.c: 51: RBIE = 1;
+   640  02F2  158B               	bsf	(91/8),(91)&7
+   641                           	line	54
+   642                           ;Digital_Watch.c: 54: TMR0IE = 1;
+   643  02F3  168B               	bsf	(93/8),(93)&7
+   644                           	line	55
+   645                           ;Digital_Watch.c: 55: T0CS = 0;
+   646  02F4  1281               	bcf	(1037/8)^080h,(1037)&7
+   647                           	line	56
+   648                           ;Digital_Watch.c: 56: T0SE = 1;
+   649  02F5  1601               	bsf	(1036/8)^080h,(1036)&7
+   650                           	line	57
+   651                           ;Digital_Watch.c: 57: PSA = 0;
+   652  02F6  1181               	bcf	(1035/8)^080h,(1035)&7
+   653                           	line	63
+   654                           ;Digital_Watch.c: 63: PS2 = 1;
+   655  02F7  1501               	bsf	(1034/8)^080h,(1034)&7
+   656                           	line	64
+   657                           ;Digital_Watch.c: 64: PS1 = 1;
+   658  02F8  1481               	bsf	(1033/8)^080h,(1033)&7
+   659                           	line	65
+   660                           ;Digital_Watch.c: 65: PS0 = 1;
+   661  02F9  1401               	bsf	(1032/8)^080h,(1032)&7
+   662                           	line	68
+   663                           ;Digital_Watch.c: 68: PEIE = 0;
+   664  02FA  130B               	bcf	(94/8),(94)&7
+   665                           	line	69
+   666                           ;Digital_Watch.c: 69: GIE = 1;
+   667  02FB  178B               	bsf	(95/8),(95)&7
+   668                           	line	71
+   669                           	
+   670  02FC                     l3998:	
+   671                           ;Digital_Watch.c: 71: TRISC = 0b00000000;
+   672  02FC  0187               	clrf	(135)^080h	;volatile
+   673                           	line	72
+   674                           	
+   675  02FD                     l4000:	
+   676                           ;Digital_Watch.c: 72: TRISD = 0b11000000;
+   677  02FD  30C0               	movlw	(0C0h)
+   678  02FE  0088               	movwf	(136)^080h	;volatile
+   679                           	line	74
+   680                           	
+   681  02FF                     l4002:	
+   682                           ;Digital_Watch.c: 74: PORTC = 0b01111111;
+   683  02FF  307F               	movlw	(07Fh)
+   684  0300  1283               	bcf	status, 5	;RP0=0, select bank0
+   685  0301  1303               	bcf	status, 6	;RP1=0, select bank0
+   686  0302  0087               	movwf	(7)	;volatile
+   687                           	line	76
+   688                           	
+   689  0303                     l4004:	
+   690                           ;Digital_Watch.c: 76: digits[0] = digits[1] = digits[2] = digits[3] = digits[4] = digits
+                                 [5] = 0;
+   691  0303  3000               	movlw	(0)
+   692  0304  00A5               	movwf	0+(_digits)+05h
+   693  0305  00A4               	movwf	0+(_digits)+04h
+   694  0306  00A3               	movwf	0+(_digits)+03h
+   695  0307  00A2               	movwf	0+(_digits)+02h
+   696  0308  00A1               	movwf	0+(_digits)+01h
+   697  0309  00B1               	movwf	(??_Init+0)+0
+   698  030A  0831               	movf	(??_Init+0)+0,w
+   699  030B  00A0               	movwf	(_digits)
+   700                           	line	77
+   701                           	
+   702  030C                     l4006:	
+   703                           ;Digital_Watch.c: 77: mode = 3;
+   704  030C  3003               	movlw	(03h)
+   705  030D  00B1               	movwf	(??_Init+0)+0
+   706  030E  0831               	movf	(??_Init+0)+0,w
+   707  030F  00B2               	movwf	(_mode)
+   708                           	line	78
+   709                           	
+   710  0310                     l4008:	
+   711                           ;Digital_Watch.c: 78: visible[0] = visible[1] = visible[2] = visible[3] = visible[4] = v
+                                 isible[5] = 1;
+   712  0310  3001               	movlw	(01h)
+   713  0311  00AB               	movwf	0+(_visible)+05h
+   714  0312  00AA               	movwf	0+(_visible)+04h
+   715  0313  00A9               	movwf	0+(_visible)+03h
+   716  0314  00A8               	movwf	0+(_visible)+02h
+   717  0315  00A7               	movwf	0+(_visible)+01h
+   718  0316  00B1               	movwf	(??_Init+0)+0
+   719  0317  0831               	movf	(??_Init+0)+0,w
+   720  0318  00A6               	movwf	(_visible)
+   721                           	line	81
+   722                           	
+   723  0319                     l4010:	
+   724                           ;Digital_Watch.c: 81: lcd_init();
+   725  0319  120A  118A  2292   	fcall	_lcd_init
+              120A  118A         
+   726                           	line	82
+   727                           	
+   728  031E                     l627:	
+   729  031E  0008               	return
+   730                           	opt stack 0
+   731                           GLOBAL	__end_of_Init
+   732  031F                     	__end_of_Init:
+   733 ;; =============== function _Init ends ============
+   734                           
+   735                           	signat	_Init,88
+   736                           	global	_lcd_init
+   737                           psect	text298,local,class=CODE,delta=2
+   738                           global __ptext298
+   739  0292                     __ptext298:
+   740                           
+   741 ;; *************** function _lcd_init *****************
+   742 ;; Defined at:
+   743 ;;		line 93 in file "lcd.c"
+   744 ;; Parameters:    Size  Location     Type
+   745 ;;		None
+   746 ;; Auto vars:     Size  Location     Type
+   747 ;;  init_value      1    4[BANK0 ] unsigned char 
+   748 ;; Return value:  Size  Location     Type
+   749 ;;		None               void
+   750 ;; Registers used:
+   751 ;;		wreg, status,2, status,0, pclath, cstack
+   752 ;; Tracked objects:
+   753 ;;		On entry : 0/0
+   754 ;;		On exit  : 0/0
+   755 ;;		Unchanged: 0/0
+   756 ;; Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+   757 ;;      Params:         0       0       0       0       0
+   758 ;;      Locals:         0       1       0       0       0
+   759 ;;      Temps:          0       2       0       0       0
+   760 ;;      Totals:         0       3       0       0       0
+   761 ;;Total ram usage:        3 bytes
+   762 ;; Hardware stack levels used:    1
+   763 ;; Hardware stack levels required when called:    4
+   764 ;; This function calls:
+   765 ;;		_lcd_write
+   766 ;;		_lcd_clear
+   767 ;; This function is called by:
+   768 ;;		_Init
+   769 ;; This function uses a non-reentrant model
+   770 ;;
+   771                           psect	text298
+   772                           	file	"lcd.c"
+   773                           	line	93
+   774                           	global	__size_of_lcd_init
+   775  005A                     	__size_of_lcd_init	equ	__end_of_lcd_init-_lcd_init
+   776                           	
+   777  0292                     _lcd_init:	
+   778                           	opt	stack 2
+   779                           ; Regs used in _lcd_init: [wreg+status,2+status,0+pclath+cstack]
+   780                           	line	96
+   781                           	
+   782  0292                     l3960:	
+   783                           ;lcd.c: 94: char init_value;
+   784                           ;lcd.c: 96: ADCON1 = 0x06;
+   785  0292  3006               	movlw	(06h)
+   786  0293  1683               	bsf	status, 5	;RP0=1, select bank1
+   787  0294  1303               	bcf	status, 6	;RP1=0, select bank1
+   788  0295  009F               	movwf	(159)^080h	;volatile
+   789                           	line	98
+   790                           ;lcd.c: 98: init_value = 0x3;
+   791  0296  3003               	movlw	(03h)
+   792  0297  1283               	bcf	status, 5	;RP0=0, select bank0
+   793  0298  1303               	bcf	status, 6	;RP1=0, select bank0
+   794  0299  00AE               	movwf	(??_lcd_init+0)+0
+   795  029A  082E               	movf	(??_lcd_init+0)+0,w
+   796  029B  00B0               	movwf	(lcd_init@init_value)
+   797                           	line	99
+   798                           	
+   799  029C                     l3962:	
+   800                           ;lcd.c: 99: TRISA=0;
+   801  029C  1683               	bsf	status, 5	;RP0=1, select bank1
+   802  029D  1303               	bcf	status, 6	;RP1=0, select bank1
+   803  029E  0185               	clrf	(133)^080h	;volatile
+   804                           	line	100
+   805                           	
+   806  029F                     l3964:	
+   807                           ;lcd.c: 100: TRISE=0;
+   808  029F  0189               	clrf	(137)^080h	;volatile
+   809                           	line	101
+   810                           	
+   811  02A0                     l3966:	
+   812                           ;lcd.c: 101: RE2 = 0;
+   813  02A0  1283               	bcf	status, 5	;RP0=0, select bank0
+   814  02A1  1303               	bcf	status, 6	;RP1=0, select bank0
+   815  02A2  1109               	bcf	(74/8),(74)&7
+   816                           	line	102
+   817                           	
+   818  02A3                     l3968:	
+   819                           ;lcd.c: 102: RE0 = 0;
+   820  02A3  1009               	bcf	(72/8),(72)&7
+   821                           	line	103
+   822                           	
+   823  02A4                     l3970:	
+   824                           ;lcd.c: 103: RE1 = 0;
+   825  02A4  1089               	bcf	(73/8),(73)&7
+   826                           	line	105
+   827                           ;lcd.c: 105: _delay((unsigned long)((15)*(4000000/4000.0)));
+   828                           	opt asmopt_off
+   829  02A5  3014               movlw	20
+   830  02A6  00AF               movwf	((??_lcd_init+0)+0+1),f
+   831  02A7  3079               	movlw	121
+   832  02A8  00AE               movwf	((??_lcd_init+0)+0),f
+   833  02A9                     u3047:
+   834  02A9  0BAE               	decfsz	((??_lcd_init+0)+0),f
+   835  02AA  2AA9               	goto	u3047
+   836  02AB  0BAF               	decfsz	((??_lcd_init+0)+0+1),f
+   837  02AC  2AA9               	goto	u3047
+   838  02AD  2AAE               	nop2
+   839                           opt asmopt_on
+   840                           
+   841                           	line	106
+   842                           ;lcd.c: 106: PORTA = init_value;
+   843  02AE  1283               	bcf	status, 5	;RP0=0, select bank0
+   844  02AF  1303               	bcf	status, 6	;RP1=0, select bank0
+   845  02B0  0830               	movf	(lcd_init@init_value),w
+   846  02B1  0085               	movwf	(5)	;volatile
+   847                           	line	107
+   848                           	
+   849  02B2                     l3972:	
+   850                           ;lcd.c: 107: ((RE0 = 1),(RE0=0));
+   851  02B2  1409               	bsf	(72/8),(72)&7
+   852                           	
+   853  02B3                     l3974:	
+   854  02B3  1009               	bcf	(72/8),(72)&7
+   855                           	line	108
+   856                           ;lcd.c: 108: _delay((unsigned long)((5)*(4000000/4000.0)));
+   857                           	opt asmopt_off
+   858  02B4  3007               movlw	7
+   859  02B5  00AF               movwf	((??_lcd_init+0)+0+1),f
+   860  02B6  307D               	movlw	125
+   861  02B7  00AE               movwf	((??_lcd_init+0)+0),f
+   862  02B8                     u3057:
+   863  02B8  0BAE               	decfsz	((??_lcd_init+0)+0),f
+   864  02B9  2AB8               	goto	u3057
+   865  02BA  0BAF               	decfsz	((??_lcd_init+0)+0+1),f
+   866  02BB  2AB8               	goto	u3057
+   867                           opt asmopt_on
+   868                           
+   869                           	line	109
+   870                           	
+   871  02BC                     l3976:	
+   872                           ;lcd.c: 109: ((RE0 = 1),(RE0=0));
+   873  02BC  1283               	bcf	status, 5	;RP0=0, select bank0
+   874  02BD  1303               	bcf	status, 6	;RP1=0, select bank0
+   875  02BE  1409               	bsf	(72/8),(72)&7
+   876                           	
+   877  02BF                     l3978:	
+   878  02BF  1009               	bcf	(72/8),(72)&7
+   879                           	line	110
+   880                           ;lcd.c: 110: _delay((unsigned long)((200)*(4000000/4000000.0)));
+   881                           	opt asmopt_off
+   882  02C0  3042               movlw	66
+   883  02C1  00AE               movwf	(??_lcd_init+0)+0,f
+   884  02C2                     u3067:
+   885  02C2  0BAE               decfsz	(??_lcd_init+0)+0,f
+   886  02C3  2AC2               	goto	u3067
+   887  02C4  0064               	clrwdt
+   888                           opt asmopt_on
+   889                           
+   890                           	line	111
+   891                           	
+   892  02C5                     l3980:	
+   893                           ;lcd.c: 111: ((RE0 = 1),(RE0=0));
+   894  02C5  1283               	bcf	status, 5	;RP0=0, select bank0
+   895  02C6  1303               	bcf	status, 6	;RP1=0, select bank0
+   896  02C7  1409               	bsf	(72/8),(72)&7
+   897                           	
+   898  02C8                     l3982:	
+   899  02C8  1009               	bcf	(72/8),(72)&7
+   900                           	line	112
+   901                           ;lcd.c: 112: _delay((unsigned long)((200)*(4000000/4000000.0)));
+   902                           	opt asmopt_off
+   903  02C9  3042               movlw	66
+   904  02CA  00AE               movwf	(??_lcd_init+0)+0,f
+   905  02CB                     u3077:
+   906  02CB  0BAE               decfsz	(??_lcd_init+0)+0,f
+   907  02CC  2ACB               	goto	u3077
+   908  02CD  0064               	clrwdt
+   909                           opt asmopt_on
+   910                           
+   911                           	line	113
+   912                           ;lcd.c: 113: PORTA = 2;
+   913  02CE  3002               	movlw	(02h)
+   914  02CF  1283               	bcf	status, 5	;RP0=0, select bank0
+   915  02D0  1303               	bcf	status, 6	;RP1=0, select bank0
+   916  02D1  0085               	movwf	(5)	;volatile
+   917                           	line	114
+   918                           	
+   919  02D2                     l3984:	
+   920                           ;lcd.c: 114: ((RE0 = 1),(RE0=0));
+   921  02D2  1409               	bsf	(72/8),(72)&7
+   922                           	
+   923  02D3                     l3986:	
+   924  02D3  1009               	bcf	(72/8),(72)&7
+   925                           	line	116
+   926                           	
+   927  02D4                     l3988:	
+   928                           ;lcd.c: 116: lcd_write(0x28);
+   929  02D4  3028               	movlw	(028h)
+   930  02D5  120A  118A  23BA   	fcall	_lcd_write
+              120A  118A         
+   931                           	line	117
+   932                           	
+   933  02DA                     l3990:	
+   934                           ;lcd.c: 117: lcd_write(0xF);
+   935  02DA  300F               	movlw	(0Fh)
+   936  02DB  120A  118A  23BA   	fcall	_lcd_write
+              120A  118A         
+   937                           	line	118
+   938                           	
+   939  02E0                     l3992:	
+   940                           ;lcd.c: 118: lcd_clear();
+   941  02E0  120A  118A  23D4   	fcall	_lcd_clear
+              120A  118A         
+   942                           	line	119
+   943                           	
+   944  02E5                     l3994:	
+   945                           ;lcd.c: 119: lcd_write(0x6);
+   946  02E5  3006               	movlw	(06h)
+   947  02E6  120A  118A  23BA   	fcall	_lcd_write
+              120A  118A         
+   948                           	line	120
+   949                           	
+   950  02EB                     l1441:	
+   951  02EB  0008               	return
+   952                           	opt stack 0
+   953                           GLOBAL	__end_of_lcd_init
+   954  02EC                     	__end_of_lcd_init:
+   955 ;; =============== function _lcd_init ends ============
+   956                           
+   957                           	signat	_lcd_init,88
+   958                           	global	_lcd_clear
+   959                           psect	text299,local,class=CODE,delta=2
+   960                           global __ptext299
+   961  03D4                     __ptext299:
+   962                           
+   963 ;; *************** function _lcd_clear *****************
+   964 ;; Defined at:
+   965 ;;		line 53 in file "lcd.c"
+   966 ;; Parameters:    Size  Location     Type
+   967 ;;		None
+   968 ;; Auto vars:     Size  Location     Type
+   969 ;;		None
+   970 ;; Return value:  Size  Location     Type
+   971 ;;		None               void
+   972 ;; Registers used:
+   973 ;;		wreg, status,2, status,0, pclath, cstack
+   974 ;; Tracked objects:
+   975 ;;		On entry : 0/0
+   976 ;;		On exit  : 0/0
+   977 ;;		Unchanged: 0/0
+   978 ;; Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+   979 ;;      Params:         0       0       0       0       0
+   980 ;;      Locals:         0       0       0       0       0
+   981 ;;      Temps:          0       2       0       0       0
+   982 ;;      Totals:         0       2       0       0       0
+   983 ;;Total ram usage:        2 bytes
+   984 ;; Hardware stack levels used:    1
+   985 ;; Hardware stack levels required when called:    3
+   986 ;; This function calls:
+   987 ;;		_lcd_write
+   988 ;; This function is called by:
+   989 ;;		_lcd_init
+   990 ;; This function uses a non-reentrant model
+   991 ;;
+   992                           psect	text299
+   993                           	file	"lcd.c"
+   994                           	line	53
+   995                           	global	__size_of_lcd_clear
+   996  0015                     	__size_of_lcd_clear	equ	__end_of_lcd_clear-_lcd_clear
+   997                           	
+   998  03D4                     _lcd_clear:	
+   999                           	opt	stack 2
+  1000                           ; Regs used in _lcd_clear: [wreg+status,2+status,0+pclath+cstack]
+  1001                           	line	54
+  1002                           	
+  1003  03D4                     l3954:	
+  1004                           ;lcd.c: 54: RE2 = 0;
+  1005  03D4  1283               	bcf	status, 5	;RP0=0, select bank0
+  1006  03D5  1303               	bcf	status, 6	;RP1=0, select bank0
+  1007  03D6  1109               	bcf	(74/8),(74)&7
+  1008                           	line	55
+  1009                           	
+  1010  03D7                     l3956:	
+  1011                           ;lcd.c: 55: lcd_write(0x1);
+  1012  03D7  3001               	movlw	(01h)
+  1013  03D8  120A  118A  23BA   	fcall	_lcd_write
+              120A  118A         
+  1014                           	line	56
+  1015                           	
+  1016  03DD                     l3958:	
+  1017                           ;lcd.c: 56: _delay((unsigned long)((2)*(4000000/4000.0)));
+  1018                           	opt asmopt_off
+  1019  03DD  3003               movlw	3
+  1020  03DE  1283               	bcf	status, 5	;RP0=0, select bank0
+  1021  03DF  1303               	bcf	status, 6	;RP1=0, select bank0
+  1022  03E0  00AD               movwf	((??_lcd_clear+0)+0+1),f
+  1023  03E1  3097               	movlw	151
+  1024  03E2  00AC               movwf	((??_lcd_clear+0)+0),f
+  1025  03E3                     u3087:
+  1026  03E3  0BAC               	decfsz	((??_lcd_clear+0)+0),f
+  1027  03E4  2BE3               	goto	u3087
+  1028  03E5  0BAD               	decfsz	((??_lcd_clear+0)+0+1),f
+  1029  03E6  2BE3               	goto	u3087
+  1030  03E7  2BE8               	nop2
+  1031                           opt asmopt_on
+  1032                           
+  1033                           	line	57
+  1034                           	
+  1035  03E8                     l1426:	
+  1036  03E8  0008               	return
+  1037                           	opt stack 0
+  1038                           GLOBAL	__end_of_lcd_clear
+  1039  03E9                     	__end_of_lcd_clear:
+  1040 ;; =============== function _lcd_clear ends ============
+  1041                           
+  1042                           	signat	_lcd_clear,88
+  1043                           	global	_lcd_puts
+  1044                           psect	text300,local,class=CODE,delta=2
+  1045                           global __ptext300
+  1046  0394                     __ptext300:
+  1047                           
+  1048 ;; *************** function _lcd_puts *****************
+  1049 ;; Defined at:
+  1050 ;;		line 63 in file "lcd.c"
+  1051 ;; Parameters:    Size  Location     Type
+  1052 ;;  s               1    wreg     PTR const unsigned char 
+  1053 ;;		 -> STR_2(12), STR_1(21), 
+  1054 ;; Auto vars:     Size  Location     Type
+  1055 ;;  s               1    1[BANK0 ] PTR const unsigned char 
+  1056 ;;		 -> STR_2(12), STR_1(21), 
+  1057 ;; Return value:  Size  Location     Type
+  1058 ;;		None               void
+  1059 ;; Registers used:
+  1060 ;;		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+  1061 ;; Tracked objects:
+  1062 ;;		On entry : 0/0
+  1063 ;;		On exit  : 0/0
+  1064 ;;		Unchanged: 0/0
+  1065 ;; Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+  1066 ;;      Params:         0       0       0       0       0
+  1067 ;;      Locals:         0       1       0       0       0
+  1068 ;;      Temps:          0       1       0       0       0
+  1069 ;;      Totals:         0       2       0       0       0
+  1070 ;;Total ram usage:        2 bytes
+  1071 ;; Hardware stack levels used:    1
+  1072 ;; Hardware stack levels required when called:    3
+  1073 ;; This function calls:
+  1074 ;;		_lcd_write
+  1075 ;; This function is called by:
+  1076 ;;		_main
+  1077 ;; This function uses a non-reentrant model
+  1078 ;;
+  1079                           psect	text300
+  1080                           	file	"lcd.c"
+  1081                           	line	63
+  1082                           	global	__size_of_lcd_puts
+  1083  0026                     	__size_of_lcd_puts	equ	__end_of_lcd_puts-_lcd_puts
+  1084                           	
+  1085  0394                     _lcd_puts:	
+  1086                           	opt	stack 4
+  1087                           ; Regs used in _lcd_puts: [wreg-fsr0h+status,2+status,0+pclath+cstack]
+  1088                           ;lcd_puts@s stored from wreg
+  1089  0394  1283               	bcf	status, 5	;RP0=0, select bank0
+  1090  0395  1303               	bcf	status, 6	;RP1=0, select bank0
+  1091  0396  00AD               	movwf	(lcd_puts@s)
+  1092                           	line	64
+  1093                           	
+  1094  0397                     l3946:	
+  1095                           ;lcd.c: 64: RE2 = 1;
+  1096  0397  1509               	bsf	(74/8),(74)&7
+  1097                           	line	65
+  1098                           ;lcd.c: 65: while(*s)
+  1099  0398  2BAC               	goto	l3952
+  1100                           	
+  1101  0399                     l1430:	
+  1102                           	line	66
+  1103                           	
+  1104  0399                     l3948:	
+  1105                           ;lcd.c: 66: lcd_write(*s++);
+  1106  0399  082D               	movf	(lcd_puts@s),w
+  1107  039A  0084               	movwf	fsr0
+  1108  039B  120A  118A  231F   	fcall	stringdir
+              120A  118A         
+  1109  03A0  120A  118A  23BA   	fcall	_lcd_write
+              120A  118A         
+  1110                           	
+  1111  03A5                     l3950:	
+  1112  03A5  3001               	movlw	(01h)
+  1113  03A6  1283               	bcf	status, 5	;RP0=0, select bank0
+  1114  03A7  1303               	bcf	status, 6	;RP1=0, select bank0
+  1115  03A8  00AC               	movwf	(??_lcd_puts+0)+0
+  1116  03A9  082C               	movf	(??_lcd_puts+0)+0,w
+  1117  03AA  07AD               	addwf	(lcd_puts@s),f
+  1118  03AB  2BAC               	goto	l3952
+  1119                           	
+  1120  03AC                     l1429:	
+  1121                           	line	65
+  1122                           	
+  1123  03AC                     l3952:	
+  1124  03AC  082D               	movf	(lcd_puts@s),w
+  1125  03AD  0084               	movwf	fsr0
+  1126  03AE  120A  118A  231F   	fcall	stringdir
+              120A  118A         
+  1127  03B3  3800               	iorlw	0
+  1128  03B4  1D03               	skipz
+  1129  03B5  2BB7               	goto	u3031
+  1130  03B6  2BB8               	goto	u3030
+  1131  03B7                     u3031:
+  1132  03B7  2B99               	goto	l3948
+  1133  03B8                     u3030:
+  1134  03B8  2BB9               	goto	l1432
+  1135                           	
+  1136  03B9                     l1431:	
+  1137                           	line	67
+  1138                           	
+  1139  03B9                     l1432:	
+  1140  03B9  0008               	return
+  1141                           	opt stack 0
+  1142                           GLOBAL	__end_of_lcd_puts
+  1143  03BA                     	__end_of_lcd_puts:
+  1144 ;; =============== function _lcd_puts ends ============
+  1145                           
+  1146                           	signat	_lcd_puts,4216
+  1147                           	global	_lcd_goto
+  1148                           psect	text301,local,class=CODE,delta=2
+  1149                           global __ptext301
+  1150  03F9                     __ptext301:
+  1151                           
+  1152 ;; *************** function _lcd_goto *****************
+  1153 ;; Defined at:
+  1154 ;;		line 85 in file "lcd.c"
+  1155 ;; Parameters:    Size  Location     Type
+  1156 ;;  pos             1    wreg     unsigned char 
+  1157 ;; Auto vars:     Size  Location     Type
+  1158 ;;  pos             1    0[BANK0 ] unsigned char 
+  1159 ;; Return value:  Size  Location     Type
+  1160 ;;		None               void
+  1161 ;; Registers used:
+  1162 ;;		wreg, status,2, status,0, pclath, cstack
+  1163 ;; Tracked objects:
+  1164 ;;		On entry : 0/0
+  1165 ;;		On exit  : 0/0
+  1166 ;;		Unchanged: 0/0
+  1167 ;; Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+  1168 ;;      Params:         0       0       0       0       0
+  1169 ;;      Locals:         0       1       0       0       0
+  1170 ;;      Temps:          0       0       0       0       0
+  1171 ;;      Totals:         0       1       0       0       0
+  1172 ;;Total ram usage:        1 bytes
+  1173 ;; Hardware stack levels used:    1
+  1174 ;; Hardware stack levels required when called:    3
+  1175 ;; This function calls:
+  1176 ;;		_lcd_write
+  1177 ;; This function is called by:
+  1178 ;;		_main
+  1179 ;; This function uses a non-reentrant model
+  1180 ;;
+  1181                           psect	text301
+  1182                           	file	"lcd.c"
+  1183                           	line	85
+  1184                           	global	__size_of_lcd_goto
+  1185  000C                     	__size_of_lcd_goto	equ	__end_of_lcd_goto-_lcd_goto
+  1186                           	
+  1187  03F9                     _lcd_goto:	
+  1188                           	opt	stack 4
+  1189                           ; Regs used in _lcd_goto: [wreg+status,2+status,0+pclath+cstack]
+  1190                           ;lcd_goto@pos stored from wreg
+  1191  03F9  1283               	bcf	status, 5	;RP0=0, select bank0
+  1192  03FA  1303               	bcf	status, 6	;RP1=0, select bank0
+  1193  03FB  00AC               	movwf	(lcd_goto@pos)
+  1194                           	line	86
+  1195                           	
+  1196  03FC                     l3942:	
+  1197                           ;lcd.c: 86: RE2 = 0;
+  1198  03FC  1109               	bcf	(74/8),(74)&7
+  1199                           	line	87
+  1200                           	
+  1201  03FD                     l3944:	
+  1202                           ;lcd.c: 87: lcd_write(0x80+pos);
+  1203  03FD  082C               	movf	(lcd_goto@pos),w
+  1204  03FE  3E80               	addlw	080h
+  1205  03FF  120A  118A  23BA   	fcall	_lcd_write
+              120A  118A         
+  1206                           	line	88
+  1207                           	
+  1208  0404                     l1438:	
+  1209  0404  0008               	return
+  1210                           	opt stack 0
+  1211                           GLOBAL	__end_of_lcd_goto
+  1212  0405                     	__end_of_lcd_goto:
+  1213 ;; =============== function _lcd_goto ends ============
+  1214                           
+  1215                           	signat	_lcd_goto,4216
+  1216                           	global	_lcd_write
+  1217                           psect	text302,local,class=CODE,delta=2
+  1218                           global __ptext302
+  1219  03BA                     __ptext302:
+  1220                           
+  1221 ;; *************** function _lcd_write *****************
+  1222 ;; Defined at:
+  1223 ;;		line 39 in file "lcd.c"
+  1224 ;; Parameters:    Size  Location     Type
+  1225 ;;  c               1    wreg     unsigned char 
+  1226 ;; Auto vars:     Size  Location     Type
+  1227 ;;  c               1    7[COMMON] unsigned char 
+  1228 ;; Return value:  Size  Location     Type
+  1229 ;;		None               void
+  1230 ;; Registers used:
+  1231 ;;		wreg, status,2, status,0
+  1232 ;; Tracked objects:
+  1233 ;;		On entry : 0/0
+  1234 ;;		On exit  : 0/0
+  1235 ;;		Unchanged: 0/0
+  1236 ;; Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+  1237 ;;      Params:         0       0       0       0       0
+  1238 ;;      Locals:         1       0       0       0       0
+  1239 ;;      Temps:          1       0       0       0       0
+  1240 ;;      Totals:         2       0       0       0       0
+  1241 ;;Total ram usage:        2 bytes
+  1242 ;; Hardware stack levels used:    1
+  1243 ;; Hardware stack levels required when called:    2
+  1244 ;; This function calls:
+  1245 ;;		Nothing
+  1246 ;; This function is called by:
+  1247 ;;		_lcd_clear
+  1248 ;;		_lcd_puts
+  1249 ;;		_lcd_goto
+  1250 ;;		_lcd_init
+  1251 ;;		_lcd_putch
+  1252 ;; This function uses a non-reentrant model
+  1253 ;;
+  1254                           psect	text302
+  1255                           	file	"lcd.c"
+  1256                           	line	39
+  1257                           	global	__size_of_lcd_write
+  1258  001A                     	__size_of_lcd_write	equ	__end_of_lcd_write-_lcd_write
+  1259                           	
+  1260  03BA                     _lcd_write:	
+  1261                           	opt	stack 4
+  1262                           ; Regs used in _lcd_write: [wreg+status,2+status,0]
+  1263                           ;lcd_write@c stored from wreg
+  1264  03BA  00F7               	movwf	(lcd_write@c)
+  1265                           	line	40
+  1266                           	
+  1267  03BB                     l3928:	
+  1268                           ;lcd.c: 40: _delay((unsigned long)((40)*(4000000/4000000.0)));
+  1269                           	opt asmopt_off
+  1270  03BB  300D               movlw	13
+  1271  03BC  00F6               movwf	(??_lcd_write+0)+0,f
+  1272  03BD                     u3097:
+  1273  03BD  0BF6               decfsz	(??_lcd_write+0)+0,f
+  1274  03BE  2BBD               	goto	u3097
+  1275                           opt asmopt_on
+  1276                           
+  1277                           	line	41
+  1278                           	
+  1279  03BF                     l3930:	
+  1280                           ;lcd.c: 41: PORTA = ( ( c >> 4 ) & 0x0F );
+  1281  03BF  0877               	movf	(lcd_write@c),w
+  1282  03C0  00F6               	movwf	(??_lcd_write+0)+0
+  1283  03C1  3004               	movlw	04h
+  1284  03C2                     u3025:
+  1285  03C2  1003               	clrc
+  1286  03C3  0CF6               	rrf	(??_lcd_write+0)+0,f
+  1287  03C4  3EFF               	addlw	-1
+  1288  03C5  1D03               	skipz
+  1289  03C6  2BC2               	goto	u3025
+  1290  03C7  0876               	movf	0+(??_lcd_write+0)+0,w
+  1291  03C8  390F               	andlw	0Fh
+  1292  03C9  1283               	bcf	status, 5	;RP0=0, select bank0
+  1293  03CA  1303               	bcf	status, 6	;RP1=0, select bank0
+  1294  03CB  0085               	movwf	(5)	;volatile
+  1295                           	line	42
+  1296                           	
+  1297  03CC                     l3932:	
+  1298                           ;lcd.c: 42: ((RE0 = 1),(RE0=0));
+  1299  03CC  1409               	bsf	(72/8),(72)&7
+  1300                           	
+  1301  03CD                     l3934:	
+  1302  03CD  1009               	bcf	(72/8),(72)&7
+  1303                           	line	43
+  1304                           	
+  1305  03CE                     l3936:	
+  1306                           ;lcd.c: 43: PORTA = ( c & 0x0F );
+  1307  03CE  0877               	movf	(lcd_write@c),w
+  1308  03CF  390F               	andlw	0Fh
+  1309  03D0  0085               	movwf	(5)	;volatile
+  1310                           	line	44
+  1311                           	
+  1312  03D1                     l3938:	
+  1313                           ;lcd.c: 44: ((RE0 = 1),(RE0=0));
+  1314  03D1  1409               	bsf	(72/8),(72)&7
+  1315                           	
+  1316  03D2                     l3940:	
+  1317  03D2  1009               	bcf	(72/8),(72)&7
+  1318                           	line	45
+  1319                           	
+  1320  03D3                     l1423:	
+  1321  03D3  0008               	return
+  1322                           	opt stack 0
+  1323                           GLOBAL	__end_of_lcd_write
+  1324  03D4                     	__end_of_lcd_write:
+  1325 ;; =============== function _lcd_write ends ============
+  1326                           
+  1327                           	signat	_lcd_write,4216
+  1328                           	global	_OutputAllDigits
+  1329                           psect	text303,local,class=CODE,delta=2
+  1330                           global __ptext303
+  1331  036D                     __ptext303:
+  1332                           
+  1333 ;; *************** function _OutputAllDigits *****************
+  1334 ;; Defined at:
+  1335 ;;		line 152 in file "Digital_Watch.c"
+  1336 ;; Parameters:    Size  Location     Type
+  1337 ;;		None
+  1338 ;; Auto vars:     Size  Location     Type
+  1339 ;;  i               1    1[BANK0 ] unsigned char 
+  1340 ;; Return value:  Size  Location     Type
+  1341 ;;		None               void
+  1342 ;; Registers used:
+  1343 ;;		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+  1344 ;; Tracked objects:
+  1345 ;;		On entry : 0/0
+  1346 ;;		On exit  : 0/0
+  1347 ;;		Unchanged: 0/0
+  1348 ;; Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+  1349 ;;      Params:         0       0       0       0       0
+  1350 ;;      Locals:         0       1       0       0       0
+  1351 ;;      Temps:          0       1       0       0       0
+  1352 ;;      Totals:         0       2       0       0       0
+  1353 ;;Total ram usage:        2 bytes
+  1354 ;; Hardware stack levels used:    1
+  1355 ;; Hardware stack levels required when called:    3
+  1356 ;; This function calls:
+  1357 ;;		_OutDigit
+  1358 ;; This function is called by:
+  1359 ;;		_main
+  1360 ;; This function uses a non-reentrant model
+  1361 ;;
+  1362                           psect	text303
+  1363                           	file	"Digital_Watch.c"
+  1364                           	line	152
+  1365                           	global	__size_of_OutputAllDigits
+  1366  0027                     	__size_of_OutputAllDigits	equ	__end_of_OutputAllDigits-_OutputAllDigits
+  1367                           	
+  1368  036D                     _OutputAllDigits:	
+  1369                           	opt	stack 4
+  1370                           ; Regs used in _OutputAllDigits: [wreg-fsr0h+status,2+status,0+pclath+cstack]
+  1371                           	line	153
+  1372                           	
+  1373  036D                     l3916:	
+  1374                           ;Digital_Watch.c: 153: for(unsigned char i = 0; i < 6; i++)
+  1375  036D  1283               	bcf	status, 5	;RP0=0, select bank0
+  1376  036E  1303               	bcf	status, 6	;RP1=0, select bank0
+  1377  036F  01AD               	clrf	(OutputAllDigits@i)
+  1378                           	
+  1379  0370                     l3918:	
+  1380  0370  3006               	movlw	(06h)
+  1381  0371  022D               	subwf	(OutputAllDigits@i),w
+  1382  0372  1C03               	skipc
+  1383  0373  2B75               	goto	u3001
+  1384  0374  2B76               	goto	u3000
+  1385  0375                     u3001:
+  1386  0375  2B78               	goto	l3922
+  1387  0376                     u3000:
+  1388  0376  2B93               	goto	l656
+  1389                           	
+  1390  0377                     l3920:	
+  1391  0377  2B93               	goto	l656
+  1392                           	line	154
+  1393                           	
+  1394  0378                     l654:	
+  1395                           	line	155
+  1396                           	
+  1397  0378                     l3922:	
+  1398                           ;Digital_Watch.c: 154: {
+  1399                           ;Digital_Watch.c: 155: OutDigit(i, digits[i]);
+  1400  0378  082D               	movf	(OutputAllDigits@i),w
+  1401  0379  3E20               	addlw	_digits&0ffh
+  1402  037A  0084               	movwf	fsr0
+  1403  037B  1383               	bcf	status, 7	;select IRP bank0
+  1404  037C  0800               	movf	indf,w
+  1405  037D  00AC               	movwf	(??_OutputAllDigits+0)+0
+  1406  037E  082C               	movf	(??_OutputAllDigits+0)+0,w
+  1407  037F  00F6               	movwf	(?_OutDigit)
+  1408  0380  082D               	movf	(OutputAllDigits@i),w
+  1409  0381  120A  118A  217F   	fcall	_OutDigit
+              120A  118A         
+  1410                           	line	153
+  1411                           	
+  1412  0386                     l3924:	
+  1413  0386  3001               	movlw	(01h)
+  1414  0387  1283               	bcf	status, 5	;RP0=0, select bank0
+  1415  0388  1303               	bcf	status, 6	;RP1=0, select bank0
+  1416  0389  00AC               	movwf	(??_OutputAllDigits+0)+0
+  1417  038A  082C               	movf	(??_OutputAllDigits+0)+0,w
+  1418  038B  07AD               	addwf	(OutputAllDigits@i),f
+  1419                           	
+  1420  038C                     l3926:	
+  1421  038C  3006               	movlw	(06h)
+  1422  038D  022D               	subwf	(OutputAllDigits@i),w
+  1423  038E  1C03               	skipc
+  1424  038F  2B91               	goto	u3011
+  1425  0390  2B92               	goto	u3010
+  1426  0391                     u3011:
+  1427  0391  2B78               	goto	l3922
+  1428  0392                     u3010:
+  1429  0392  2B93               	goto	l656
+  1430                           	
+  1431  0393                     l655:	
+  1432                           	line	158
+  1433                           	
+  1434  0393                     l656:	
+  1435  0393  0008               	return
+  1436                           	opt stack 0
+  1437                           GLOBAL	__end_of_OutputAllDigits
+  1438  0394                     	__end_of_OutputAllDigits:
+  1439 ;; =============== function _OutputAllDigits ends ============
+  1440                           
+  1441                           	signat	_OutputAllDigits,88
+  1442                           	global	_OutDigit
+  1443                           psect	text304,local,class=CODE,delta=2
+  1444                           global __ptext304
+  1445  017F                     __ptext304:
+  1446                           
+  1447 ;; *************** function _OutDigit *****************
+  1448 ;; Defined at:
+  1449 ;;		line 84 in file "Digital_Watch.c"
+  1450 ;; Parameters:    Size  Location     Type
+  1451 ;;  digit           1    wreg     unsigned char 
+  1452 ;;  num             1    6[COMMON] unsigned char 
+  1453 ;; Auto vars:     Size  Location     Type
+  1454 ;;  digit           1    7[COMMON] unsigned char 
+  1455 ;; Return value:  Size  Location     Type
+  1456 ;;		None               void
+  1457 ;; Registers used:
+  1458 ;;		wreg, fsr0l, fsr0h, status,2, status,0
+  1459 ;; Tracked objects:
+  1460 ;;		On entry : 0/0
+  1461 ;;		On exit  : 0/0
+  1462 ;;		Unchanged: 0/0
+  1463 ;; Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+  1464 ;;      Params:         1       0       0       0       0
+  1465 ;;      Locals:         1       0       0       0       0
+  1466 ;;      Temps:          0       0       0       0       0
+  1467 ;;      Totals:         2       0       0       0       0
+  1468 ;;Total ram usage:        2 bytes
+  1469 ;; Hardware stack levels used:    1
+  1470 ;; Hardware stack levels required when called:    2
+  1471 ;; This function calls:
+  1472 ;;		Nothing
+  1473 ;; This function is called by:
+  1474 ;;		_OutputAllDigits
+  1475 ;; This function uses a non-reentrant model
+  1476 ;;
+  1477                           psect	text304
+  1478                           	file	"Digital_Watch.c"
+  1479                           	line	84
+  1480                           	global	__size_of_OutDigit
+  1481  00A1                     	__size_of_OutDigit	equ	__end_of_OutDigit-_OutDigit
+  1482                           	
+  1483  017F                     _OutDigit:	
+  1484                           	opt	stack 4
+  1485                           ; Regs used in _OutDigit: [wreg-fsr0h+status,2+status,0]
+  1486                           ;OutDigit@digit stored from wreg
+  1487  017F  00F7               	movwf	(OutDigit@digit)
+  1488                           	line	85
+  1489                           	
+  1490  0180                     l3682:	
+  1491                           ;Digital_Watch.c: 85: TRISD = 0b11111111;
+  1492  0180  30FF               	movlw	(0FFh)
+  1493  0181  1683               	bsf	status, 5	;RP0=1, select bank1
+  1494  0182  1303               	bcf	status, 6	;RP1=0, select bank1
+  1495  0183  0088               	movwf	(136)^080h	;volatile
+  1496                           	line	86
+  1497                           	
+  1498  0184                     l3684:	
+  1499                           ;Digital_Watch.c: 86: if(visible[digit] == 0)
+  1500  0184  0877               	movf	(OutDigit@digit),w
+  1501  0185  3E26               	addlw	_visible&0ffh
+  1502  0186  0084               	movwf	fsr0
+  1503  0187  1383               	bcf	status, 7	;select IRP bank0
+  1504  0188  0880               	movf	indf,f
+  1505  0189  1D03               	skipz
+  1506  018A  298C               	goto	u2631
+  1507  018B  298D               	goto	u2630
+  1508  018C                     u2631:
+  1509  018C  29B9               	goto	l3710
+  1510  018D                     u2630:
+  1511  018D  2A1F               	goto	l631
+  1512                           	line	88
+  1513                           	
+  1514  018E                     l3686:	
+  1515                           ;Digital_Watch.c: 87: {
+  1516                           ;Digital_Watch.c: 88: return;
+  1517  018E  2A1F               	goto	l631
+  1518                           	line	89
+  1519                           	
+  1520  018F                     l630:	
+  1521                           	line	90
+  1522                           ;Digital_Watch.c: 89: }
+  1523                           ;Digital_Watch.c: 90: switch(num)
+  1524  018F  29B9               	goto	l3710
+  1525                           	line	92
+  1526                           ;Digital_Watch.c: 91: {
+  1527                           ;Digital_Watch.c: 92: case 0:
+  1528                           	
+  1529  0190                     l633:	
+  1530                           	line	93
+  1531                           	
+  1532  0190                     l3688:	
+  1533                           ;Digital_Watch.c: 93: PORTC = 0b00111111;
+  1534  0190  303F               	movlw	(03Fh)
+  1535  0191  1283               	bcf	status, 5	;RP0=0, select bank0
+  1536  0192  0087               	movwf	(7)	;volatile
+  1537                           	line	94
+  1538                           ;Digital_Watch.c: 94: break;
+  1539  0193  2A0B               	goto	l3726
+  1540                           	line	95
+  1541                           ;Digital_Watch.c: 95: case 1:
+  1542                           	
+  1543  0194                     l635:	
+  1544                           	line	96
+  1545                           	
+  1546  0194                     l3690:	
+  1547                           ;Digital_Watch.c: 96: PORTC = 0b00000110;
+  1548  0194  3006               	movlw	(06h)
+  1549  0195  1283               	bcf	status, 5	;RP0=0, select bank0
+  1550  0196  0087               	movwf	(7)	;volatile
+  1551                           	line	97
+  1552                           ;Digital_Watch.c: 97: break;
+  1553  0197  2A0B               	goto	l3726
+  1554                           	line	98
+  1555                           ;Digital_Watch.c: 98: case 2:
+  1556                           	
+  1557  0198                     l636:	
+  1558                           	line	99
+  1559                           	
+  1560  0198                     l3692:	
+  1561                           ;Digital_Watch.c: 99: PORTC = 0b01011011;
+  1562  0198  305B               	movlw	(05Bh)
+  1563  0199  1283               	bcf	status, 5	;RP0=0, select bank0
+  1564  019A  0087               	movwf	(7)	;volatile
+  1565                           	line	100
+  1566                           ;Digital_Watch.c: 100: break;
+  1567  019B  2A0B               	goto	l3726
+  1568                           	line	101
+  1569                           ;Digital_Watch.c: 101: case 3:
+  1570                           	
+  1571  019C                     l637:	
+  1572                           	line	102
+  1573                           	
+  1574  019C                     l3694:	
+  1575                           ;Digital_Watch.c: 102: PORTC = 0b01001111;
+  1576  019C  304F               	movlw	(04Fh)
+  1577  019D  1283               	bcf	status, 5	;RP0=0, select bank0
+  1578  019E  0087               	movwf	(7)	;volatile
+  1579                           	line	103
+  1580                           ;Digital_Watch.c: 103: break;
+  1581  019F  2A0B               	goto	l3726
+  1582                           	line	104
+  1583                           ;Digital_Watch.c: 104: case 4:
+  1584                           	
+  1585  01A0                     l638:	
+  1586                           	line	105
+  1587                           	
+  1588  01A0                     l3696:	
+  1589                           ;Digital_Watch.c: 105: PORTC = 0b01100110;
+  1590  01A0  3066               	movlw	(066h)
+  1591  01A1  1283               	bcf	status, 5	;RP0=0, select bank0
+  1592  01A2  0087               	movwf	(7)	;volatile
+  1593                           	line	106
+  1594                           ;Digital_Watch.c: 106: break;
+  1595  01A3  2A0B               	goto	l3726
+  1596                           	line	107
+  1597                           ;Digital_Watch.c: 107: case 5:
+  1598                           	
+  1599  01A4                     l639:	
+  1600                           	line	108
+  1601                           	
+  1602  01A4                     l3698:	
+  1603                           ;Digital_Watch.c: 108: PORTC = 0b01101101;
+  1604  01A4  306D               	movlw	(06Dh)
+  1605  01A5  1283               	bcf	status, 5	;RP0=0, select bank0
+  1606  01A6  0087               	movwf	(7)	;volatile
+  1607                           	line	109
+  1608                           ;Digital_Watch.c: 109: break;
+  1609  01A7  2A0B               	goto	l3726
+  1610                           	line	110
+  1611                           ;Digital_Watch.c: 110: case 6:
+  1612                           	
+  1613  01A8                     l640:	
+  1614                           	line	111
+  1615                           	
+  1616  01A8                     l3700:	
+  1617                           ;Digital_Watch.c: 111: PORTC = 0b01111101;
+  1618  01A8  307D               	movlw	(07Dh)
+  1619  01A9  1283               	bcf	status, 5	;RP0=0, select bank0
+  1620  01AA  0087               	movwf	(7)	;volatile
+  1621                           	line	112
+  1622                           ;Digital_Watch.c: 112: break;
+  1623  01AB  2A0B               	goto	l3726
+  1624                           	line	113
+  1625                           ;Digital_Watch.c: 113: case 7:
+  1626                           	
+  1627  01AC                     l641:	
+  1628                           	line	114
+  1629                           	
+  1630  01AC                     l3702:	
+  1631                           ;Digital_Watch.c: 114: PORTC = 0b00000111;
+  1632  01AC  3007               	movlw	(07h)
+  1633  01AD  1283               	bcf	status, 5	;RP0=0, select bank0
+  1634  01AE  0087               	movwf	(7)	;volatile
+  1635                           	line	115
+  1636                           ;Digital_Watch.c: 115: break;
+  1637  01AF  2A0B               	goto	l3726
+  1638                           	line	116
+  1639                           ;Digital_Watch.c: 116: case 8:
+  1640                           	
+  1641  01B0                     l642:	
+  1642                           	line	117
+  1643                           	
+  1644  01B0                     l3704:	
+  1645                           ;Digital_Watch.c: 117: PORTC = 0b01111111;
+  1646  01B0  307F               	movlw	(07Fh)
+  1647  01B1  1283               	bcf	status, 5	;RP0=0, select bank0
+  1648  01B2  0087               	movwf	(7)	;volatile
+  1649                           	line	118
+  1650                           ;Digital_Watch.c: 118: break;
+  1651  01B3  2A0B               	goto	l3726
+  1652                           	line	119
+  1653                           ;Digital_Watch.c: 119: case 9:
+  1654                           	
+  1655  01B4                     l643:	
+  1656                           	line	120
+  1657                           	
+  1658  01B4                     l3706:	
+  1659                           ;Digital_Watch.c: 120: PORTC = 0b01101111;
+  1660  01B4  306F               	movlw	(06Fh)
+  1661  01B5  1283               	bcf	status, 5	;RP0=0, select bank0
+  1662  01B6  0087               	movwf	(7)	;volatile
+  1663                           	line	121
+  1664                           ;Digital_Watch.c: 121: break;
+  1665  01B7  2A0B               	goto	l3726
+  1666                           	line	122
+  1667                           	
+  1668  01B8                     l3708:	
+  1669                           ;Digital_Watch.c: 122: }
+  1670  01B8  2A0B               	goto	l3726
+  1671                           	line	90
+  1672                           	
+  1673  01B9                     l632:	
+  1674                           	
+  1675  01B9                     l3710:	
+  1676  01B9  0876               	movf	(OutDigit@num),w
+  1677                           	; Switch size 1, requested type "space"
+  1678                           ; Number of cases is 10, Range of values is 0 to 9
+  1679                           ; switch strategies available:
+  1680                           ; Name         Instructions Cycles
+  1681                           ; simple_byte           31    16 (average)
+  1682                           ; direct_byte           38     8 (fixed)
+  1683                           ; jumptable            260     6 (fixed)
+  1684                           ; rangetable            14     6 (fixed)
+  1685                           ; spacedrange           26     9 (fixed)
+  1686                           ; locatedrange          10     3 (fixed)
+  1687                           ;	Chosen strategy is simple_byte
+  1688                           
+  1689                           	opt asmopt_off
+  1690  01BA  3A00               	xorlw	0^0	; case 0
+  1691  01BB  1903               	skipnz
+  1692  01BC  2990               	goto	l3688
+  1693  01BD  3A01               	xorlw	1^0	; case 1
+  1694  01BE  1903               	skipnz
+  1695  01BF  2994               	goto	l3690
+  1696  01C0  3A03               	xorlw	2^1	; case 2
+  1697  01C1  1903               	skipnz
+  1698  01C2  2998               	goto	l3692
+  1699  01C3  3A01               	xorlw	3^2	; case 3
+  1700  01C4  1903               	skipnz
+  1701  01C5  299C               	goto	l3694
+  1702  01C6  3A07               	xorlw	4^3	; case 4
+  1703  01C7  1903               	skipnz
+  1704  01C8  29A0               	goto	l3696
+  1705  01C9  3A01               	xorlw	5^4	; case 5
+  1706  01CA  1903               	skipnz
+  1707  01CB  29A4               	goto	l3698
+  1708  01CC  3A03               	xorlw	6^5	; case 6
+  1709  01CD  1903               	skipnz
+  1710  01CE  29A8               	goto	l3700
+  1711  01CF  3A01               	xorlw	7^6	; case 7
+  1712  01D0  1903               	skipnz
+  1713  01D1  29AC               	goto	l3702
+  1714  01D2  3A0F               	xorlw	8^7	; case 8
+  1715  01D3  1903               	skipnz
+  1716  01D4  29B0               	goto	l3704
+  1717  01D5  3A01               	xorlw	9^8	; case 9
+  1718  01D6  1903               	skipnz
+  1719  01D7  29B4               	goto	l3706
+  1720  01D8  2A0B               	goto	l3726
+  1721                           	opt asmopt_on
+  1722                           
+  1723                           	line	122
+  1724                           	
+  1725  01D9                     l634:	
+  1726                           	line	123
+  1727                           ;Digital_Watch.c: 123: switch(digit)
+  1728  01D9  2A0B               	goto	l3726
+  1729                           	line	125
+  1730                           ;Digital_Watch.c: 124: {
+  1731                           ;Digital_Watch.c: 125: case 0:
+  1732                           	
+  1733  01DA                     l645:	
+  1734                           	line	126
+  1735                           	
+  1736  01DA                     l3712:	
+  1737                           ;Digital_Watch.c: 126: PORTD = 0b1111110;
+  1738  01DA  307E               	movlw	(07Eh)
+  1739  01DB  1283               	bcf	status, 5	;RP0=0, select bank0
+  1740  01DC  0088               	movwf	(8)	;volatile
+  1741                           	line	127
+  1742                           ;Digital_Watch.c: 127: TRISD = 0b11111110;
+  1743  01DD  30FE               	movlw	(0FEh)
+  1744  01DE  1683               	bsf	status, 5	;RP0=1, select bank1
+  1745  01DF  1303               	bcf	status, 6	;RP1=0, select bank1
+  1746  01E0  0088               	movwf	(136)^080h	;volatile
+  1747                           	line	128
+  1748                           ;Digital_Watch.c: 128: break;
+  1749  01E1  2A1F               	goto	l631
+  1750                           	line	129
+  1751                           ;Digital_Watch.c: 129: case 1:
+  1752                           	
+  1753  01E2                     l647:	
+  1754                           	line	130
+  1755                           	
+  1756  01E2                     l3714:	
+  1757                           ;Digital_Watch.c: 130: PORTD = 0b1111101;
+  1758  01E2  307D               	movlw	(07Dh)
+  1759  01E3  1283               	bcf	status, 5	;RP0=0, select bank0
+  1760  01E4  0088               	movwf	(8)	;volatile
+  1761                           	line	131
+  1762                           ;Digital_Watch.c: 131: TRISD = 0b11111101;
+  1763  01E5  30FD               	movlw	(0FDh)
+  1764  01E6  1683               	bsf	status, 5	;RP0=1, select bank1
+  1765  01E7  1303               	bcf	status, 6	;RP1=0, select bank1
+  1766  01E8  0088               	movwf	(136)^080h	;volatile
+  1767                           	line	132
+  1768                           ;Digital_Watch.c: 132: break;
+  1769  01E9  2A1F               	goto	l631
+  1770                           	line	133
+  1771                           ;Digital_Watch.c: 133: case 2:
+  1772                           	
+  1773  01EA                     l648:	
+  1774                           	line	134
+  1775                           	
+  1776  01EA                     l3716:	
+  1777                           ;Digital_Watch.c: 134: PORTD = 0b1111011;
+  1778  01EA  307B               	movlw	(07Bh)
+  1779  01EB  1283               	bcf	status, 5	;RP0=0, select bank0
+  1780  01EC  0088               	movwf	(8)	;volatile
+  1781                           	line	135
+  1782                           ;Digital_Watch.c: 135: TRISD = 0b11111011;
+  1783  01ED  30FB               	movlw	(0FBh)
+  1784  01EE  1683               	bsf	status, 5	;RP0=1, select bank1
+  1785  01EF  1303               	bcf	status, 6	;RP1=0, select bank1
+  1786  01F0  0088               	movwf	(136)^080h	;volatile
+  1787                           	line	136
+  1788                           ;Digital_Watch.c: 136: break;
+  1789  01F1  2A1F               	goto	l631
+  1790                           	line	137
+  1791                           ;Digital_Watch.c: 137: case 3:
+  1792                           	
+  1793  01F2                     l649:	
+  1794                           	line	138
+  1795                           	
+  1796  01F2                     l3718:	
+  1797                           ;Digital_Watch.c: 138: PORTD = 0b1110111;
+  1798  01F2  3077               	movlw	(077h)
+  1799  01F3  1283               	bcf	status, 5	;RP0=0, select bank0
+  1800  01F4  0088               	movwf	(8)	;volatile
+  1801                           	line	139
+  1802                           ;Digital_Watch.c: 139: TRISD = 0b11110111;
+  1803  01F5  30F7               	movlw	(0F7h)
+  1804  01F6  1683               	bsf	status, 5	;RP0=1, select bank1
+  1805  01F7  1303               	bcf	status, 6	;RP1=0, select bank1
+  1806  01F8  0088               	movwf	(136)^080h	;volatile
+  1807                           	line	140
+  1808                           ;Digital_Watch.c: 140: break;
+  1809  01F9  2A1F               	goto	l631
+  1810                           	line	141
+  1811                           ;Digital_Watch.c: 141: case 4:
+  1812                           	
+  1813  01FA                     l650:	
+  1814                           	line	142
+  1815                           	
+  1816  01FA                     l3720:	
+  1817                           ;Digital_Watch.c: 142: PORTD = 0b1101111;
+  1818  01FA  306F               	movlw	(06Fh)
+  1819  01FB  1283               	bcf	status, 5	;RP0=0, select bank0
+  1820  01FC  0088               	movwf	(8)	;volatile
+  1821                           	line	143
+  1822                           ;Digital_Watch.c: 143: TRISD = 0b11101111;
+  1823  01FD  30EF               	movlw	(0EFh)
+  1824  01FE  1683               	bsf	status, 5	;RP0=1, select bank1
+  1825  01FF  1303               	bcf	status, 6	;RP1=0, select bank1
+  1826  0200  0088               	movwf	(136)^080h	;volatile
+  1827                           	line	144
+  1828                           ;Digital_Watch.c: 144: break;
+  1829  0201  2A1F               	goto	l631
+  1830                           	line	145
+  1831                           ;Digital_Watch.c: 145: case 5:
+  1832                           	
+  1833  0202                     l651:	
+  1834                           	line	146
+  1835                           	
+  1836  0202                     l3722:	
+  1837                           ;Digital_Watch.c: 146: PORTD = 0b1011111;
+  1838  0202  305F               	movlw	(05Fh)
+  1839  0203  1283               	bcf	status, 5	;RP0=0, select bank0
+  1840  0204  0088               	movwf	(8)	;volatile
+  1841                           	line	147
+  1842                           ;Digital_Watch.c: 147: TRISD = 0b11011111;
+  1843  0205  30DF               	movlw	(0DFh)
+  1844  0206  1683               	bsf	status, 5	;RP0=1, select bank1
+  1845  0207  1303               	bcf	status, 6	;RP1=0, select bank1
+  1846  0208  0088               	movwf	(136)^080h	;volatile
+  1847                           	line	148
+  1848                           ;Digital_Watch.c: 148: break;
+  1849  0209  2A1F               	goto	l631
+  1850                           	line	149
+  1851                           	
+  1852  020A                     l3724:	
+  1853                           ;Digital_Watch.c: 149: }
+  1854  020A  2A1F               	goto	l631
+  1855                           	line	123
+  1856                           	
+  1857  020B                     l644:	
+  1858                           	
+  1859  020B                     l3726:	
+  1860  020B  0877               	movf	(OutDigit@digit),w
+  1861                           	; Switch size 1, requested type "space"
+  1862                           ; Number of cases is 6, Range of values is 0 to 5
+  1863                           ; switch strategies available:
+  1864                           ; Name         Instructions Cycles
+  1865                           ; simple_byte           19    10 (average)
+  1866                           ; direct_byte           26     8 (fixed)
+  1867                           ; jumptable            260     6 (fixed)
+  1868                           ; rangetable            10     6 (fixed)
+  1869                           ; spacedrange           18     9 (fixed)
+  1870                           ; locatedrange           6     3 (fixed)
+  1871                           ;	Chosen strategy is simple_byte
+  1872                           
+  1873                           	opt asmopt_off
+  1874  020C  3A00               	xorlw	0^0	; case 0
+  1875  020D  1903               	skipnz
+  1876  020E  29DA               	goto	l3712
+  1877  020F  3A01               	xorlw	1^0	; case 1
+  1878  0210  1903               	skipnz
+  1879  0211  29E2               	goto	l3714
+  1880  0212  3A03               	xorlw	2^1	; case 2
+  1881  0213  1903               	skipnz
+  1882  0214  29EA               	goto	l3716
+  1883  0215  3A01               	xorlw	3^2	; case 3
+  1884  0216  1903               	skipnz
+  1885  0217  29F2               	goto	l3718
+  1886  0218  3A07               	xorlw	4^3	; case 4
+  1887  0219  1903               	skipnz
+  1888  021A  29FA               	goto	l3720
+  1889  021B  3A01               	xorlw	5^4	; case 5
+  1890  021C  1903               	skipnz
+  1891  021D  2A02               	goto	l3722
+  1892  021E  2A1F               	goto	l631
+  1893                           	opt asmopt_on
+  1894                           
+  1895                           	line	149
+  1896                           	
+  1897  021F                     l646:	
+  1898                           	line	150
+  1899                           	
+  1900  021F                     l631:	
+  1901  021F  0008               	return
+  1902                           	opt stack 0
+  1903                           GLOBAL	__end_of_OutDigit
+  1904  0220                     	__end_of_OutDigit:
+  1905 ;; =============== function _OutDigit ends ============
+  1906                           
+  1907                           	signat	_OutDigit,8312
+  1908                           	global	_Interrupt_Handler
+  1909                           psect	text305,local,class=CODE,delta=2
+  1910                           global __ptext305
+  1911  0015                     __ptext305:
+  1912                           
+  1913 ;; *************** function _Interrupt_Handler *****************
+  1914 ;; Defined at:
+  1915 ;;		line 230 in file "Digital_Watch.c"
+  1916 ;; Parameters:    Size  Location     Type
+  1917 ;;		None
+  1918 ;; Auto vars:     Size  Location     Type
+  1919 ;;		None
+  1920 ;; Return value:  Size  Location     Type
+  1921 ;;		None               void
+  1922 ;; Registers used:
+  1923 ;;		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+  1924 ;; Tracked objects:
+  1925 ;;		On entry : 0/0
+  1926 ;;		On exit  : 0/0
+  1927 ;;		Unchanged: 0/0
+  1928 ;; Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+  1929 ;;      Params:         0       0       0       0       0
+  1930 ;;      Locals:         0       0       0       0       0
+  1931 ;;      Temps:          5       0       0       0       0
+  1932 ;;      Totals:         5       0       0       0       0
+  1933 ;;Total ram usage:        5 bytes
+  1934 ;; Hardware stack levels used:    1
+  1935 ;; Hardware stack levels required when called:    1
+  1936 ;; This function calls:
+  1937 ;;		_CalculateTime
+  1938 ;; This function is called by:
+  1939 ;;		Interrupt level 1
+  1940 ;; This function uses a non-reentrant model
+  1941 ;;
+  1942                           psect	text305
+  1943                           	file	"Digital_Watch.c"
+  1944                           	line	230
+  1945                           	global	__size_of_Interrupt_Handler
+  1946  016A                     	__size_of_Interrupt_Handler	equ	__end_of_Interrupt_Handler-_Interrupt_Handler
+  1947                           	
+  1948  0015                     _Interrupt_Handler:	
+  1949                           	opt	stack 2
+  1950                           ; Regs used in _Interrupt_Handler: [wreg-fsr0h+status,2+status,0+pclath+cstack]
+  1951                           psect	intentry,class=CODE,delta=2
+  1952                           global __pintentry
+  1953  0004                     __pintentry:
+  1954                           global interrupt_function
+  1955  0004                     interrupt_function:
+  1956                           	global saved_w
+  1957  007E                     	saved_w	set	btemp+0
+  1958  0004  00FE               	movwf	saved_w
+  1959  0005  0E03               	swapf	status,w
+  1960  0006  00F2               	movwf	(??_Interrupt_Handler+1)
+  1961  0007  0804               	movf	fsr0,w
+  1962  0008  00F3               	movwf	(??_Interrupt_Handler+2)
+  1963  0009  080A               	movf	pclath,w
+  1964  000A  00F4               	movwf	(??_Interrupt_Handler+3)
+  1965  000B  1283               	bcf	status, 5	;RP0=0, select bank0
+  1966  000C  1303               	bcf	status, 6	;RP1=0, select bank0
+  1967  000D  087F               	movf	btemp+1,w
+  1968  000E  00F5               	movwf	(??_Interrupt_Handler+4)
+  1969  000F  120A  118A  2815   	ljmp	_Interrupt_Handler
+  1970                           psect	text305
+  1971                           	line	231
+  1972                           	
+  1973  0015                     i1l3778:	
+  1974                           ;Digital_Watch.c: 231: if(TMR0IF == 1)
+  1975  0015  1D0B               	btfss	(90/8),(90)&7
+  1976  0016  2818               	goto	u274_21
+  1977  0017  2819               	goto	u274_20
+  1978  0018                     u274_21:
+  1979  0018  287B               	goto	i1l3810
+  1980  0019                     u274_20:
+  1981                           	line	233
+  1982                           	
+  1983  0019                     i1l3780:	
+  1984                           ;Digital_Watch.c: 232: {
+  1985                           ;Digital_Watch.c: 233: CalculateTime();
+  1986  0019  120A  118A  2220   	fcall	_CalculateTime
+              120A  118A         
+  1987                           	line	234
+  1988                           	
+  1989  001E                     i1l3782:	
+  1990                           ;Digital_Watch.c: 234: if(mode == 0)
+  1991  001E  1283               	bcf	status, 5	;RP0=0, select bank0
+  1992  001F  1303               	bcf	status, 6	;RP1=0, select bank0
+  1993  0020  08B2               	movf	(_mode),f
+  1994  0021  1D03               	skipz
+  1995  0022  2824               	goto	u275_21
+  1996  0023  2825               	goto	u275_20
+  1997  0024                     u275_21:
+  1998  0024  2837               	goto	i1l3790
+  1999  0025                     u275_20:
+  2000                           	line	236
+  2001                           	
+  2002  0025                     i1l3784:	
+  2003                           ;Digital_Watch.c: 235: {
+  2004                           ;Digital_Watch.c: 236: if(visible[0] == 0)
+  2005  0025  08A6               	movf	(_visible),f
+  2006  0026  1D03               	skipz
+  2007  0027  2829               	goto	u276_21
+  2008  0028  282A               	goto	u276_20
+  2009  0029                     u276_21:
+  2010  0029  2830               	goto	i1l3788
+  2011  002A                     u276_20:
+  2012                           	line	238
+  2013                           	
+  2014  002A                     i1l3786:	
+  2015                           ;Digital_Watch.c: 237: {
+  2016                           ;Digital_Watch.c: 238: visible[0] = visible[1] = 1;
+  2017  002A  3001               	movlw	(01h)
+  2018  002B  00A7               	movwf	0+(_visible)+01h
+  2019  002C  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2020  002D  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2021  002E  00A6               	movwf	(_visible)
+  2022                           	line	239
+  2023                           ;Digital_Watch.c: 239: }
+  2024  002F  2879               	goto	i1l3808
+  2025                           	line	240
+  2026                           	
+  2027  0030                     i1l681:	
+  2028                           	line	242
+  2029                           	
+  2030  0030                     i1l3788:	
+  2031                           ;Digital_Watch.c: 240: else
+  2032                           ;Digital_Watch.c: 241: {
+  2033                           ;Digital_Watch.c: 242: visible[0] = visible[1] = 0;
+  2034  0030  3000               	movlw	(0)
+  2035  0031  00A7               	movwf	0+(_visible)+01h
+  2036  0032  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2037  0033  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2038  0034  00A6               	movwf	(_visible)
+  2039  0035  2879               	goto	i1l3808
+  2040                           	line	243
+  2041                           	
+  2042  0036                     i1l682:	
+  2043                           	line	244
+  2044                           ;Digital_Watch.c: 243: }
+  2045                           ;Digital_Watch.c: 244: }
+  2046  0036  2879               	goto	i1l3808
+  2047                           	line	245
+  2048                           	
+  2049  0037                     i1l680:	
+  2050                           	line	247
+  2051                           	
+  2052  0037                     i1l3790:	
+  2053                           ;Digital_Watch.c: 245: else
+  2054                           ;Digital_Watch.c: 246: {
+  2055                           ;Digital_Watch.c: 247: visible[0] = visible[1] = 1;
+  2056  0037  3001               	movlw	(01h)
+  2057  0038  00A7               	movwf	0+(_visible)+01h
+  2058  0039  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2059  003A  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2060  003B  00A6               	movwf	(_visible)
+  2061                           	line	249
+  2062                           ;Digital_Watch.c: 249: if(mode == 1)
+  2063  003C  0832               	movf	(_mode),w
+  2064  003D  3A01               	xorlw	01h
+  2065  003E  1D03               	skipz
+  2066  003F  2841               	goto	u277_21
+  2067  0040  2842               	goto	u277_20
+  2068  0041                     u277_21:
+  2069  0041  2854               	goto	i1l3798
+  2070  0042                     u277_20:
+  2071                           	line	251
+  2072                           	
+  2073  0042                     i1l3792:	
+  2074                           ;Digital_Watch.c: 250: {
+  2075                           ;Digital_Watch.c: 251: if(visible[2] == 0)
+  2076  0042  08A8               	movf	0+(_visible)+02h,f
+  2077  0043  1D03               	skipz
+  2078  0044  2846               	goto	u278_21
+  2079  0045  2847               	goto	u278_20
+  2080  0046                     u278_21:
+  2081  0046  284D               	goto	i1l3796
+  2082  0047                     u278_20:
+  2083                           	line	253
+  2084                           	
+  2085  0047                     i1l3794:	
+  2086                           ;Digital_Watch.c: 252: {
+  2087                           ;Digital_Watch.c: 253: visible[2] = visible[3] = 1;
+  2088  0047  3001               	movlw	(01h)
+  2089  0048  00A9               	movwf	0+(_visible)+03h
+  2090  0049  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2091  004A  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2092  004B  00A8               	movwf	0+(_visible)+02h
+  2093                           	line	254
+  2094                           ;Digital_Watch.c: 254: }
+  2095  004C  2879               	goto	i1l3808
+  2096                           	line	255
+  2097                           	
+  2098  004D                     i1l685:	
+  2099                           	line	257
+  2100                           	
+  2101  004D                     i1l3796:	
+  2102                           ;Digital_Watch.c: 255: else
+  2103                           ;Digital_Watch.c: 256: {
+  2104                           ;Digital_Watch.c: 257: visible[2] = visible[3] = 0;
+  2105  004D  3000               	movlw	(0)
+  2106  004E  00A9               	movwf	0+(_visible)+03h
+  2107  004F  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2108  0050  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2109  0051  00A8               	movwf	0+(_visible)+02h
+  2110  0052  2879               	goto	i1l3808
+  2111                           	line	258
+  2112                           	
+  2113  0053                     i1l686:	
+  2114                           	line	259
+  2115                           ;Digital_Watch.c: 258: }
+  2116                           ;Digital_Watch.c: 259: }
+  2117  0053  2879               	goto	i1l3808
+  2118                           	line	260
+  2119                           	
+  2120  0054                     i1l684:	
+  2121                           	line	262
+  2122                           	
+  2123  0054                     i1l3798:	
+  2124                           ;Digital_Watch.c: 260: else
+  2125                           ;Digital_Watch.c: 261: {
+  2126                           ;Digital_Watch.c: 262: visible[2] = visible[3] = 1;
+  2127  0054  3001               	movlw	(01h)
+  2128  0055  00A9               	movwf	0+(_visible)+03h
+  2129  0056  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2130  0057  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2131  0058  00A8               	movwf	0+(_visible)+02h
+  2132                           	line	264
+  2133                           ;Digital_Watch.c: 264: if(mode == 2)
+  2134  0059  0832               	movf	(_mode),w
+  2135  005A  3A02               	xorlw	02h
+  2136  005B  1D03               	skipz
+  2137  005C  285E               	goto	u279_21
+  2138  005D  285F               	goto	u279_20
+  2139  005E                     u279_21:
+  2140  005E  2871               	goto	i1l3806
+  2141  005F                     u279_20:
+  2142                           	line	266
+  2143                           	
+  2144  005F                     i1l3800:	
+  2145                           ;Digital_Watch.c: 265: {
+  2146                           ;Digital_Watch.c: 266: if(visible[4] == 0)
+  2147  005F  08AA               	movf	0+(_visible)+04h,f
+  2148  0060  1D03               	skipz
+  2149  0061  2863               	goto	u280_21
+  2150  0062  2864               	goto	u280_20
+  2151  0063                     u280_21:
+  2152  0063  286A               	goto	i1l3804
+  2153  0064                     u280_20:
+  2154                           	line	268
+  2155                           	
+  2156  0064                     i1l3802:	
+  2157                           ;Digital_Watch.c: 267: {
+  2158                           ;Digital_Watch.c: 268: visible[4] = visible[5] = 1;
+  2159  0064  3001               	movlw	(01h)
+  2160  0065  00AB               	movwf	0+(_visible)+05h
+  2161  0066  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2162  0067  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2163  0068  00AA               	movwf	0+(_visible)+04h
+  2164                           	line	269
+  2165                           ;Digital_Watch.c: 269: }
+  2166  0069  2879               	goto	i1l3808
+  2167                           	line	270
+  2168                           	
+  2169  006A                     i1l689:	
+  2170                           	line	272
+  2171                           	
+  2172  006A                     i1l3804:	
+  2173                           ;Digital_Watch.c: 270: else
+  2174                           ;Digital_Watch.c: 271: {
+  2175                           ;Digital_Watch.c: 272: visible[4] = visible[5] = 0;
+  2176  006A  3000               	movlw	(0)
+  2177  006B  00AB               	movwf	0+(_visible)+05h
+  2178  006C  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2179  006D  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2180  006E  00AA               	movwf	0+(_visible)+04h
+  2181  006F  2879               	goto	i1l3808
+  2182                           	line	273
+  2183                           	
+  2184  0070                     i1l690:	
+  2185                           	line	274
+  2186                           ;Digital_Watch.c: 273: }
+  2187                           ;Digital_Watch.c: 274: }
+  2188  0070  2879               	goto	i1l3808
+  2189                           	line	275
+  2190                           	
+  2191  0071                     i1l688:	
+  2192                           	line	277
+  2193                           	
+  2194  0071                     i1l3806:	
+  2195                           ;Digital_Watch.c: 275: else
+  2196                           ;Digital_Watch.c: 276: {
+  2197                           ;Digital_Watch.c: 277: visible[4] = visible[5] = 1;
+  2198  0071  3001               	movlw	(01h)
+  2199  0072  00AB               	movwf	0+(_visible)+05h
+  2200  0073  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2201  0074  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2202  0075  00AA               	movwf	0+(_visible)+04h
+  2203  0076  2879               	goto	i1l3808
+  2204                           	line	278
+  2205                           	
+  2206  0077                     i1l691:	
+  2207  0077  2879               	goto	i1l3808
+  2208                           	line	280
+  2209                           	
+  2210  0078                     i1l687:	
+  2211  0078  2879               	goto	i1l3808
+  2212                           	line	281
+  2213                           	
+  2214  0079                     i1l683:	
+  2215                           	line	283
+  2216                           	
+  2217  0079                     i1l3808:	
+  2218                           ;Digital_Watch.c: 278: }
+  2219                           ;Digital_Watch.c: 280: }
+  2220                           ;Digital_Watch.c: 281: }
+  2221                           ;Digital_Watch.c: 283: TMR0IF = 0;
+  2222  0079  110B               	bcf	(90/8),(90)&7
+  2223  007A  287B               	goto	i1l3810
+  2224                           	line	284
+  2225                           	
+  2226  007B                     i1l679:	
+  2227                           	line	286
+  2228                           	
+  2229  007B                     i1l3810:	
+  2230                           ;Digital_Watch.c: 284: }
+  2231                           ;Digital_Watch.c: 286: if(RBIF == 1)
+  2232  007B  1C0B               	btfss	(88/8),(88)&7
+  2233  007C  287E               	goto	u281_21
+  2234  007D  287F               	goto	u281_20
+  2235  007E                     u281_21:
+  2236  007E  2974               	goto	i1l697
+  2237  007F                     u281_20:
+  2238                           	line	288
+  2239                           	
+  2240  007F                     i1l3812:	
+  2241                           ;Digital_Watch.c: 287: {
+  2242                           ;Digital_Watch.c: 288: if(RB4 == 0)
+  2243  007F  1A06               	btfsc	(52/8),(52)&7
+  2244  0080  2882               	goto	u282_21
+  2245  0081  2883               	goto	u282_20
+  2246  0082                     u282_21:
+  2247  0082  2890               	goto	i1l3820
+  2248  0083                     u282_20:
+  2249                           	line	290
+  2250                           	
+  2251  0083                     i1l3814:	
+  2252                           ;Digital_Watch.c: 289: {
+  2253                           ;Digital_Watch.c: 290: mode++;
+  2254  0083  3001               	movlw	(01h)
+  2255  0084  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2256  0085  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2257  0086  07B2               	addwf	(_mode),f
+  2258                           	line	291
+  2259                           	
+  2260  0087                     i1l3816:	
+  2261                           ;Digital_Watch.c: 291: if(mode > 3)
+  2262  0087  3004               	movlw	(04h)
+  2263  0088  0232               	subwf	(_mode),w
+  2264  0089  1C03               	skipc
+  2265  008A  288C               	goto	u283_21
+  2266  008B  288D               	goto	u283_20
+  2267  008C                     u283_21:
+  2268  008C  2972               	goto	i1l695
+  2269  008D                     u283_20:
+  2270                           	line	293
+  2271                           	
+  2272  008D                     i1l3818:	
+  2273                           ;Digital_Watch.c: 292: {
+  2274                           ;Digital_Watch.c: 293: mode = 0;
+  2275  008D  01B2               	clrf	(_mode)
+  2276  008E  2972               	goto	i1l695
+  2277                           	line	294
+  2278                           	
+  2279  008F                     i1l694:	
+  2280                           	line	295
+  2281                           ;Digital_Watch.c: 294: }
+  2282                           ;Digital_Watch.c: 295: }
+  2283  008F  2972               	goto	i1l695
+  2284                           	line	296
+  2285                           	
+  2286  0090                     i1l693:	
+  2287                           	line	298
+  2288                           	
+  2289  0090                     i1l3820:	
+  2290                           ;Digital_Watch.c: 296: else
+  2291                           ;Digital_Watch.c: 297: {
+  2292                           ;Digital_Watch.c: 298: if(mode == 3)
+  2293  0090  0832               	movf	(_mode),w
+  2294  0091  3A03               	xorlw	03h
+  2295  0092  1D03               	skipz
+  2296  0093  2895               	goto	u284_21
+  2297  0094  2896               	goto	u284_20
+  2298  0095                     u284_21:
+  2299  0095  2898               	goto	i1l696
+  2300  0096                     u284_20:
+  2301                           	line	300
+  2302                           	
+  2303  0096                     i1l3822:	
+  2304                           ;Digital_Watch.c: 299: {
+  2305                           ;Digital_Watch.c: 300: RBIF = 0;
+  2306  0096  100B               	bcf	(88/8),(88)&7
+  2307                           	line	301
+  2308                           ;Digital_Watch.c: 301: return;
+  2309  0097  2974               	goto	i1l697
+  2310                           	line	302
+  2311                           	
+  2312  0098                     i1l696:	
+  2313                           	line	303
+  2314                           ;Digital_Watch.c: 302: }
+  2315                           ;Digital_Watch.c: 303: if(RB5 == 0)
+  2316  0098  1A86               	btfsc	(53/8),(53)&7
+  2317  0099  289B               	goto	u285_21
+  2318  009A  289C               	goto	u285_20
+  2319  009B                     u285_21:
+  2320  009B  2900               	goto	i1l698
+  2321  009C                     u285_20:
+  2322  009C  28F4               	goto	i1l3864
+  2323                           	line	305
+  2324                           	
+  2325  009D                     i1l3824:	
+  2326                           ;Digital_Watch.c: 304: {
+  2327                           ;Digital_Watch.c: 305: switch(mode)
+  2328  009D  28F4               	goto	i1l3864
+  2329                           	line	307
+  2330                           ;Digital_Watch.c: 306: {
+  2331                           ;Digital_Watch.c: 307: case 0:
+  2332                           	
+  2333  009E                     i1l700:	
+  2334                           	line	308
+  2335                           	
+  2336  009E                     i1l3826:	
+  2337                           ;Digital_Watch.c: 308: if(digits[0] == 0)
+  2338  009E  08A0               	movf	(_digits),f
+  2339  009F  1D03               	skipz
+  2340  00A0  28A2               	goto	u286_21
+  2341  00A1  28A3               	goto	u286_20
+  2342  00A2                     u286_21:
+  2343  00A2  28B5               	goto	i1l3836
+  2344  00A3                     u286_20:
+  2345                           	line	310
+  2346                           	
+  2347  00A3                     i1l3828:	
+  2348                           ;Digital_Watch.c: 309: {
+  2349                           ;Digital_Watch.c: 310: digits[0] = 9;
+  2350  00A3  3009               	movlw	(09h)
+  2351  00A4  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2352  00A5  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2353  00A6  00A0               	movwf	(_digits)
+  2354                           	line	312
+  2355                           	
+  2356  00A7                     i1l3830:	
+  2357                           ;Digital_Watch.c: 312: if(digits[1] == 0)
+  2358  00A7  08A1               	movf	0+(_digits)+01h,f
+  2359  00A8  1D03               	skipz
+  2360  00A9  28AB               	goto	u287_21
+  2361  00AA  28AC               	goto	u287_20
+  2362  00AB                     u287_21:
+  2363  00AB  28B1               	goto	i1l3834
+  2364  00AC                     u287_20:
+  2365                           	line	314
+  2366                           	
+  2367  00AC                     i1l3832:	
+  2368                           ;Digital_Watch.c: 313: {
+  2369                           ;Digital_Watch.c: 314: digits[1] = 5;
+  2370  00AC  3005               	movlw	(05h)
+  2371  00AD  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2372  00AE  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2373  00AF  00A1               	movwf	0+(_digits)+01h
+  2374                           	line	315
+  2375                           ;Digital_Watch.c: 315: }
+  2376  00B0  2972               	goto	i1l695
+  2377                           	line	316
+  2378                           	
+  2379  00B1                     i1l702:	
+  2380                           	line	318
+  2381                           	
+  2382  00B1                     i1l3834:	
+  2383                           ;Digital_Watch.c: 316: else
+  2384                           ;Digital_Watch.c: 317: {
+  2385                           ;Digital_Watch.c: 318: digits[1]--;
+  2386  00B1  3001               	movlw	low(01h)
+  2387  00B2  02A1               	subwf	0+(_digits)+01h,f
+  2388  00B3  2972               	goto	i1l695
+  2389                           	line	319
+  2390                           	
+  2391  00B4                     i1l703:	
+  2392                           	line	320
+  2393                           ;Digital_Watch.c: 319: }
+  2394                           ;Digital_Watch.c: 320: }
+  2395  00B4  2972               	goto	i1l695
+  2396                           	line	321
+  2397                           	
+  2398  00B5                     i1l701:	
+  2399                           	line	323
+  2400                           	
+  2401  00B5                     i1l3836:	
+  2402                           ;Digital_Watch.c: 321: else
+  2403                           ;Digital_Watch.c: 322: {
+  2404                           ;Digital_Watch.c: 323: digits[0]--;
+  2405  00B5  3001               	movlw	low(01h)
+  2406  00B6  02A0               	subwf	(_digits),f
+  2407  00B7  2972               	goto	i1l695
+  2408                           	line	324
+  2409                           	
+  2410  00B8                     i1l704:	
+  2411                           	line	325
+  2412                           ;Digital_Watch.c: 324: }
+  2413                           ;Digital_Watch.c: 325: break;
+  2414  00B8  2972               	goto	i1l695
+  2415                           	line	326
+  2416                           ;Digital_Watch.c: 326: case 1:
+  2417                           	
+  2418  00B9                     i1l706:	
+  2419                           	line	327
+  2420                           	
+  2421  00B9                     i1l3838:	
+  2422                           ;Digital_Watch.c: 327: if(digits[2] == 0)
+  2423  00B9  08A2               	movf	0+(_digits)+02h,f
+  2424  00BA  1D03               	skipz
+  2425  00BB  28BD               	goto	u288_21
+  2426  00BC  28BE               	goto	u288_20
+  2427  00BD                     u288_21:
+  2428  00BD  28D0               	goto	i1l3848
+  2429  00BE                     u288_20:
+  2430                           	line	329
+  2431                           	
+  2432  00BE                     i1l3840:	
+  2433                           ;Digital_Watch.c: 328: {
+  2434                           ;Digital_Watch.c: 329: digits[2] = 9;
+  2435  00BE  3009               	movlw	(09h)
+  2436  00BF  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2437  00C0  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2438  00C1  00A2               	movwf	0+(_digits)+02h
+  2439                           	line	331
+  2440                           	
+  2441  00C2                     i1l3842:	
+  2442                           ;Digital_Watch.c: 331: if(digits[3] == 0)
+  2443  00C2  08A3               	movf	0+(_digits)+03h,f
+  2444  00C3  1D03               	skipz
+  2445  00C4  28C6               	goto	u289_21
+  2446  00C5  28C7               	goto	u289_20
+  2447  00C6                     u289_21:
+  2448  00C6  28CC               	goto	i1l3846
+  2449  00C7                     u289_20:
+  2450                           	line	333
+  2451                           	
+  2452  00C7                     i1l3844:	
+  2453                           ;Digital_Watch.c: 332: {
+  2454                           ;Digital_Watch.c: 333: digits[3] = 5;
+  2455  00C7  3005               	movlw	(05h)
+  2456  00C8  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2457  00C9  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2458  00CA  00A3               	movwf	0+(_digits)+03h
+  2459                           	line	334
+  2460                           ;Digital_Watch.c: 334: }
+  2461  00CB  2972               	goto	i1l695
+  2462                           	line	335
+  2463                           	
+  2464  00CC                     i1l708:	
+  2465                           	line	337
+  2466                           	
+  2467  00CC                     i1l3846:	
+  2468                           ;Digital_Watch.c: 335: else
+  2469                           ;Digital_Watch.c: 336: {
+  2470                           ;Digital_Watch.c: 337: digits[3]--;
+  2471  00CC  3001               	movlw	low(01h)
+  2472  00CD  02A3               	subwf	0+(_digits)+03h,f
+  2473  00CE  2972               	goto	i1l695
+  2474                           	line	338
+  2475                           	
+  2476  00CF                     i1l709:	
+  2477                           	line	339
+  2478                           ;Digital_Watch.c: 338: }
+  2479                           ;Digital_Watch.c: 339: }
+  2480  00CF  2972               	goto	i1l695
+  2481                           	line	340
+  2482                           	
+  2483  00D0                     i1l707:	
+  2484                           	line	342
+  2485                           	
+  2486  00D0                     i1l3848:	
+  2487                           ;Digital_Watch.c: 340: else
+  2488                           ;Digital_Watch.c: 341: {
+  2489                           ;Digital_Watch.c: 342: digits[2]--;
+  2490  00D0  3001               	movlw	low(01h)
+  2491  00D1  02A2               	subwf	0+(_digits)+02h,f
+  2492  00D2  2972               	goto	i1l695
+  2493                           	line	343
+  2494                           	
+  2495  00D3                     i1l710:	
+  2496                           	line	344
+  2497                           ;Digital_Watch.c: 343: }
+  2498                           ;Digital_Watch.c: 344: break;
+  2499  00D3  2972               	goto	i1l695
+  2500                           	line	345
+  2501                           ;Digital_Watch.c: 345: case 2:
+  2502                           	
+  2503  00D4                     i1l711:	
+  2504                           	line	346
+  2505                           	
+  2506  00D4                     i1l3850:	
+  2507                           ;Digital_Watch.c: 346: if(digits[4] == 0)
+  2508  00D4  08A4               	movf	0+(_digits)+04h,f
+  2509  00D5  1D03               	skipz
+  2510  00D6  28D8               	goto	u290_21
+  2511  00D7  28D9               	goto	u290_20
+  2512  00D8                     u290_21:
+  2513  00D8  28EF               	goto	i1l3860
+  2514  00D9                     u290_20:
+  2515                           	line	348
+  2516                           	
+  2517  00D9                     i1l3852:	
+  2518                           ;Digital_Watch.c: 347: {
+  2519                           ;Digital_Watch.c: 348: if(digits[5] == 0)
+  2520  00D9  08A5               	movf	0+(_digits)+05h,f
+  2521  00DA  1D03               	skipz
+  2522  00DB  28DD               	goto	u291_21
+  2523  00DC  28DE               	goto	u291_20
+  2524  00DD                     u291_21:
+  2525  00DD  28E7               	goto	i1l3856
+  2526  00DE                     u291_20:
+  2527                           	line	350
+  2528                           	
+  2529  00DE                     i1l3854:	
+  2530                           ;Digital_Watch.c: 349: {
+  2531                           ;Digital_Watch.c: 350: digits[4] = 3;
+  2532  00DE  3003               	movlw	(03h)
+  2533  00DF  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2534  00E0  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2535  00E1  00A4               	movwf	0+(_digits)+04h
+  2536                           	line	351
+  2537                           ;Digital_Watch.c: 351: digits[5] = 2;
+  2538  00E2  3002               	movlw	(02h)
+  2539  00E3  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2540  00E4  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2541  00E5  00A5               	movwf	0+(_digits)+05h
+  2542                           	line	352
+  2543                           ;Digital_Watch.c: 352: }
+  2544  00E6  2972               	goto	i1l695
+  2545                           	line	353
+  2546                           	
+  2547  00E7                     i1l713:	
+  2548                           	line	355
+  2549                           	
+  2550  00E7                     i1l3856:	
+  2551                           ;Digital_Watch.c: 353: else
+  2552                           ;Digital_Watch.c: 354: {
+  2553                           ;Digital_Watch.c: 355: digits[4] = 9;
+  2554  00E7  3009               	movlw	(09h)
+  2555  00E8  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2556  00E9  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2557  00EA  00A4               	movwf	0+(_digits)+04h
+  2558                           	line	356
+  2559                           	
+  2560  00EB                     i1l3858:	
+  2561                           ;Digital_Watch.c: 356: digits[5]--;
+  2562  00EB  3001               	movlw	low(01h)
+  2563  00EC  02A5               	subwf	0+(_digits)+05h,f
+  2564  00ED  2972               	goto	i1l695
+  2565                           	line	357
+  2566                           	
+  2567  00EE                     i1l714:	
+  2568                           	line	358
+  2569                           ;Digital_Watch.c: 357: }
+  2570                           ;Digital_Watch.c: 358: }
+  2571  00EE  2972               	goto	i1l695
+  2572                           	line	359
+  2573                           	
+  2574  00EF                     i1l712:	
+  2575                           	line	361
+  2576                           	
+  2577  00EF                     i1l3860:	
+  2578                           ;Digital_Watch.c: 359: else
+  2579                           ;Digital_Watch.c: 360: {
+  2580                           ;Digital_Watch.c: 361: digits[4]--;
+  2581  00EF  3001               	movlw	low(01h)
+  2582  00F0  02A4               	subwf	0+(_digits)+04h,f
+  2583  00F1  2972               	goto	i1l695
+  2584                           	line	362
+  2585                           	
+  2586  00F2                     i1l715:	
+  2587                           	line	363
+  2588                           ;Digital_Watch.c: 362: }
+  2589                           ;Digital_Watch.c: 363: break;
+  2590  00F2  2972               	goto	i1l695
+  2591                           	line	364
+  2592                           	
+  2593  00F3                     i1l3862:	
+  2594                           ;Digital_Watch.c: 364: }
+  2595  00F3  2972               	goto	i1l695
+  2596                           	line	305
+  2597                           	
+  2598  00F4                     i1l699:	
+  2599                           	
+  2600  00F4                     i1l3864:	
+  2601  00F4  0832               	movf	(_mode),w
+  2602                           	; Switch size 1, requested type "space"
+  2603                           ; Number of cases is 3, Range of values is 0 to 2
+  2604                           ; switch strategies available:
+  2605                           ; Name         Instructions Cycles
+  2606                           ; simple_byte           10     6 (average)
+  2607                           ; direct_byte           17     8 (fixed)
+  2608                           ; jumptable            260     6 (fixed)
+  2609                           ; rangetable             7     6 (fixed)
+  2610                           ; spacedrange           12     9 (fixed)
+  2611                           ; locatedrange           3     3 (fixed)
+  2612                           ;	Chosen strategy is simple_byte
+  2613                           
+  2614                           	opt asmopt_off
+  2615  00F5  3A00               	xorlw	0^0	; case 0
+  2616  00F6  1903               	skipnz
+  2617  00F7  289E               	goto	i1l3826
+  2618  00F8  3A01               	xorlw	1^0	; case 1
+  2619  00F9  1903               	skipnz
+  2620  00FA  28B9               	goto	i1l3838
+  2621  00FB  3A03               	xorlw	2^1	; case 2
+  2622  00FC  1903               	skipnz
+  2623  00FD  28D4               	goto	i1l3850
+  2624  00FE  2972               	goto	i1l695
+  2625                           	opt asmopt_on
+  2626                           
+  2627                           	line	364
+  2628                           	
+  2629  00FF                     i1l705:	
+  2630                           	line	365
+  2631                           ;Digital_Watch.c: 365: }
+  2632  00FF  2972               	goto	i1l695
+  2633                           	line	366
+  2634                           	
+  2635  0100                     i1l698:	
+  2636                           ;Digital_Watch.c: 366: else if(RB6 == 0)
+  2637  0100  1B06               	btfsc	(54/8),(54)&7
+  2638  0101  2903               	goto	u292_21
+  2639  0102  2904               	goto	u292_20
+  2640  0103                     u292_21:
+  2641  0103  2972               	goto	i1l695
+  2642  0104                     u292_20:
+  2643  0104  2965               	goto	i1l3910
+  2644                           	line	368
+  2645                           	
+  2646  0105                     i1l3866:	
+  2647                           ;Digital_Watch.c: 367: {
+  2648                           ;Digital_Watch.c: 368: switch(mode)
+  2649  0105  2965               	goto	i1l3910
+  2650                           	line	370
+  2651                           ;Digital_Watch.c: 369: {
+  2652                           ;Digital_Watch.c: 370: case 0:
+  2653                           	
+  2654  0106                     i1l719:	
+  2655                           	line	371
+  2656                           	
+  2657  0106                     i1l3868:	
+  2658                           ;Digital_Watch.c: 371: if(digits[0] == 9)
+  2659  0106  0820               	movf	(_digits),w
+  2660  0107  3A09               	xorlw	09h
+  2661  0108  1D03               	skipz
+  2662  0109  290B               	goto	u293_21
+  2663  010A  290C               	goto	u293_20
+  2664  010B                     u293_21:
+  2665  010B  291B               	goto	i1l3878
+  2666  010C                     u293_20:
+  2667                           	line	373
+  2668                           	
+  2669  010C                     i1l3870:	
+  2670                           ;Digital_Watch.c: 372: {
+  2671                           ;Digital_Watch.c: 373: digits[0] = 0;
+  2672  010C  01A0               	clrf	(_digits)
+  2673                           	line	375
+  2674                           	
+  2675  010D                     i1l3872:	
+  2676                           ;Digital_Watch.c: 375: if(digits[1] == 5)
+  2677  010D  0821               	movf	0+(_digits)+01h,w
+  2678  010E  3A05               	xorlw	05h
+  2679  010F  1D03               	skipz
+  2680  0110  2912               	goto	u294_21
+  2681  0111  2913               	goto	u294_20
+  2682  0112                     u294_21:
+  2683  0112  2915               	goto	i1l3876
+  2684  0113                     u294_20:
+  2685                           	line	377
+  2686                           	
+  2687  0113                     i1l3874:	
+  2688                           ;Digital_Watch.c: 376: {
+  2689                           ;Digital_Watch.c: 377: digits[1] = 0;
+  2690  0113  01A1               	clrf	0+(_digits)+01h
+  2691                           	line	378
+  2692                           ;Digital_Watch.c: 378: }
+  2693  0114  2972               	goto	i1l695
+  2694                           	line	379
+  2695                           	
+  2696  0115                     i1l721:	
+  2697                           	line	381
+  2698                           	
+  2699  0115                     i1l3876:	
+  2700                           ;Digital_Watch.c: 379: else
+  2701                           ;Digital_Watch.c: 380: {
+  2702                           ;Digital_Watch.c: 381: digits[1]++;
+  2703  0115  3001               	movlw	(01h)
+  2704  0116  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2705  0117  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2706  0118  07A1               	addwf	0+(_digits)+01h,f
+  2707  0119  2972               	goto	i1l695
+  2708                           	line	382
+  2709                           	
+  2710  011A                     i1l722:	
+  2711                           	line	383
+  2712                           ;Digital_Watch.c: 382: }
+  2713                           ;Digital_Watch.c: 383: }
+  2714  011A  2972               	goto	i1l695
+  2715                           	line	384
+  2716                           	
+  2717  011B                     i1l720:	
+  2718                           	line	386
+  2719                           	
+  2720  011B                     i1l3878:	
+  2721                           ;Digital_Watch.c: 384: else
+  2722                           ;Digital_Watch.c: 385: {
+  2723                           ;Digital_Watch.c: 386: digits[0]++;
+  2724  011B  3001               	movlw	(01h)
+  2725  011C  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2726  011D  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2727  011E  07A0               	addwf	(_digits),f
+  2728  011F  2972               	goto	i1l695
+  2729                           	line	387
+  2730                           	
+  2731  0120                     i1l723:	
+  2732                           	line	388
+  2733                           ;Digital_Watch.c: 387: }
+  2734                           ;Digital_Watch.c: 388: break;
+  2735  0120  2972               	goto	i1l695
+  2736                           	line	389
+  2737                           ;Digital_Watch.c: 389: case 1:
+  2738                           	
+  2739  0121                     i1l725:	
+  2740                           	line	390
+  2741                           	
+  2742  0121                     i1l3880:	
+  2743                           ;Digital_Watch.c: 390: if(digits[2] == 9)
+  2744  0121  0822               	movf	0+(_digits)+02h,w
+  2745  0122  3A09               	xorlw	09h
+  2746  0123  1D03               	skipz
+  2747  0124  2926               	goto	u295_21
+  2748  0125  2927               	goto	u295_20
+  2749  0126                     u295_21:
+  2750  0126  2936               	goto	i1l3890
+  2751  0127                     u295_20:
+  2752                           	line	392
+  2753                           	
+  2754  0127                     i1l3882:	
+  2755                           ;Digital_Watch.c: 391: {
+  2756                           ;Digital_Watch.c: 392: digits[2] = 0;
+  2757  0127  01A2               	clrf	0+(_digits)+02h
+  2758                           	line	394
+  2759                           	
+  2760  0128                     i1l3884:	
+  2761                           ;Digital_Watch.c: 394: if(digits[3] == 5)
+  2762  0128  0823               	movf	0+(_digits)+03h,w
+  2763  0129  3A05               	xorlw	05h
+  2764  012A  1D03               	skipz
+  2765  012B  292D               	goto	u296_21
+  2766  012C  292E               	goto	u296_20
+  2767  012D                     u296_21:
+  2768  012D  2930               	goto	i1l3888
+  2769  012E                     u296_20:
+  2770                           	line	396
+  2771                           	
+  2772  012E                     i1l3886:	
+  2773                           ;Digital_Watch.c: 395: {
+  2774                           ;Digital_Watch.c: 396: digits[3] = 0;
+  2775  012E  01A3               	clrf	0+(_digits)+03h
+  2776                           	line	397
+  2777                           ;Digital_Watch.c: 397: }
+  2778  012F  2972               	goto	i1l695
+  2779                           	line	398
+  2780                           	
+  2781  0130                     i1l727:	
+  2782                           	line	400
+  2783                           	
+  2784  0130                     i1l3888:	
+  2785                           ;Digital_Watch.c: 398: else
+  2786                           ;Digital_Watch.c: 399: {
+  2787                           ;Digital_Watch.c: 400: digits[3]++;
+  2788  0130  3001               	movlw	(01h)
+  2789  0131  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2790  0132  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2791  0133  07A3               	addwf	0+(_digits)+03h,f
+  2792  0134  2972               	goto	i1l695
+  2793                           	line	401
+  2794                           	
+  2795  0135                     i1l728:	
+  2796                           	line	402
+  2797                           ;Digital_Watch.c: 401: }
+  2798                           ;Digital_Watch.c: 402: }
+  2799  0135  2972               	goto	i1l695
+  2800                           	line	403
+  2801                           	
+  2802  0136                     i1l726:	
+  2803                           	line	405
+  2804                           	
+  2805  0136                     i1l3890:	
+  2806                           ;Digital_Watch.c: 403: else
+  2807                           ;Digital_Watch.c: 404: {
+  2808                           ;Digital_Watch.c: 405: digits[2]++;
+  2809  0136  3001               	movlw	(01h)
+  2810  0137  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2811  0138  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2812  0139  07A2               	addwf	0+(_digits)+02h,f
+  2813  013A  2972               	goto	i1l695
+  2814                           	line	406
+  2815                           	
+  2816  013B                     i1l729:	
+  2817                           	line	407
+  2818                           ;Digital_Watch.c: 406: }
+  2819                           ;Digital_Watch.c: 407: break;
+  2820  013B  2972               	goto	i1l695
+  2821                           	line	408
+  2822                           ;Digital_Watch.c: 408: case 2:
+  2823                           	
+  2824  013C                     i1l730:	
+  2825                           	line	409
+  2826                           	
+  2827  013C                     i1l3892:	
+  2828                           ;Digital_Watch.c: 409: if(digits[4] == 3)
+  2829  013C  0824               	movf	0+(_digits)+04h,w
+  2830  013D  3A03               	xorlw	03h
+  2831  013E  1D03               	skipz
+  2832  013F  2941               	goto	u297_21
+  2833  0140  2942               	goto	u297_20
+  2834  0141                     u297_21:
+  2835  0141  2951               	goto	i1l3900
+  2836  0142                     u297_20:
+  2837                           	line	411
+  2838                           	
+  2839  0142                     i1l3894:	
+  2840                           ;Digital_Watch.c: 410: {
+  2841                           ;Digital_Watch.c: 411: if(digits[5] == 2)
+  2842  0142  0825               	movf	0+(_digits)+05h,w
+  2843  0143  3A02               	xorlw	02h
+  2844  0144  1D03               	skipz
+  2845  0145  2947               	goto	u298_21
+  2846  0146  2948               	goto	u298_20
+  2847  0147                     u298_21:
+  2848  0147  294B               	goto	i1l3898
+  2849  0148                     u298_20:
+  2850                           	line	413
+  2851                           	
+  2852  0148                     i1l3896:	
+  2853                           ;Digital_Watch.c: 412: {
+  2854                           ;Digital_Watch.c: 413: digits[4] = 0;
+  2855  0148  01A4               	clrf	0+(_digits)+04h
+  2856                           	line	414
+  2857                           ;Digital_Watch.c: 414: digits[5] = 0;
+  2858  0149  01A5               	clrf	0+(_digits)+05h
+  2859                           	line	415
+  2860                           ;Digital_Watch.c: 415: }
+  2861  014A  2972               	goto	i1l695
+  2862                           	line	416
+  2863                           	
+  2864  014B                     i1l732:	
+  2865                           	line	418
+  2866                           	
+  2867  014B                     i1l3898:	
+  2868                           ;Digital_Watch.c: 416: else
+  2869                           ;Digital_Watch.c: 417: {
+  2870                           ;Digital_Watch.c: 418: digits[4]++;
+  2871  014B  3001               	movlw	(01h)
+  2872  014C  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2873  014D  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2874  014E  07A4               	addwf	0+(_digits)+04h,f
+  2875  014F  2972               	goto	i1l695
+  2876                           	line	419
+  2877                           	
+  2878  0150                     i1l733:	
+  2879                           	line	420
+  2880                           ;Digital_Watch.c: 419: }
+  2881                           ;Digital_Watch.c: 420: }
+  2882  0150  2972               	goto	i1l695
+  2883                           	line	421
+  2884                           	
+  2885  0151                     i1l731:	
+  2886                           	
+  2887  0151                     i1l3900:	
+  2888                           ;Digital_Watch.c: 421: else if(digits[4] == 9)
+  2889  0151  0824               	movf	0+(_digits)+04h,w
+  2890  0152  3A09               	xorlw	09h
+  2891  0153  1D03               	skipz
+  2892  0154  2956               	goto	u299_21
+  2893  0155  2957               	goto	u299_20
+  2894  0156                     u299_21:
+  2895  0156  295D               	goto	i1l3906
+  2896  0157                     u299_20:
+  2897                           	line	423
+  2898                           	
+  2899  0157                     i1l3902:	
+  2900                           ;Digital_Watch.c: 422: {
+  2901                           ;Digital_Watch.c: 423: digits[4] = 0;
+  2902  0157  01A4               	clrf	0+(_digits)+04h
+  2903                           	line	424
+  2904                           	
+  2905  0158                     i1l3904:	
+  2906                           ;Digital_Watch.c: 424: digits[5]++;
+  2907  0158  3001               	movlw	(01h)
+  2908  0159  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2909  015A  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2910  015B  07A5               	addwf	0+(_digits)+05h,f
+  2911                           	line	425
+  2912                           ;Digital_Watch.c: 425: }
+  2913  015C  2972               	goto	i1l695
+  2914                           	line	426
+  2915                           	
+  2916  015D                     i1l735:	
+  2917                           	line	428
+  2918                           	
+  2919  015D                     i1l3906:	
+  2920                           ;Digital_Watch.c: 426: else
+  2921                           ;Digital_Watch.c: 427: {
+  2922                           ;Digital_Watch.c: 428: digits[4]++;
+  2923  015D  3001               	movlw	(01h)
+  2924  015E  00F1               	movwf	(??_Interrupt_Handler+0)+0
+  2925  015F  0871               	movf	(??_Interrupt_Handler+0)+0,w
+  2926  0160  07A4               	addwf	0+(_digits)+04h,f
+  2927  0161  2972               	goto	i1l695
+  2928                           	line	429
+  2929                           	
+  2930  0162                     i1l736:	
+  2931  0162  2972               	goto	i1l695
+  2932                           	
+  2933  0163                     i1l734:	
+  2934                           	line	430
+  2935                           ;Digital_Watch.c: 429: }
+  2936                           ;Digital_Watch.c: 430: break;
+  2937  0163  2972               	goto	i1l695
+  2938                           	line	431
+  2939                           	
+  2940  0164                     i1l3908:	
+  2941                           ;Digital_Watch.c: 431: }
+  2942  0164  2972               	goto	i1l695
+  2943                           	line	368
+  2944                           	
+  2945  0165                     i1l718:	
+  2946                           	
+  2947  0165                     i1l3910:	
+  2948  0165  0832               	movf	(_mode),w
+  2949                           	; Switch size 1, requested type "space"
+  2950                           ; Number of cases is 3, Range of values is 0 to 2
+  2951                           ; switch strategies available:
+  2952                           ; Name         Instructions Cycles
+  2953                           ; simple_byte           10     6 (average)
+  2954                           ; direct_byte           17     8 (fixed)
+  2955                           ; jumptable            260     6 (fixed)
+  2956                           ; rangetable             7     6 (fixed)
+  2957                           ; spacedrange           12     9 (fixed)
+  2958                           ; locatedrange           3     3 (fixed)
+  2959                           ;	Chosen strategy is simple_byte
+  2960                           
+  2961                           	opt asmopt_off
+  2962  0166  3A00               	xorlw	0^0	; case 0
+  2963  0167  1903               	skipnz
+  2964  0168  2906               	goto	i1l3868
+  2965  0169  3A01               	xorlw	1^0	; case 1
+  2966  016A  1903               	skipnz
+  2967  016B  2921               	goto	i1l3880
+  2968  016C  3A03               	xorlw	2^1	; case 2
+  2969  016D  1903               	skipnz
+  2970  016E  293C               	goto	i1l3892
+  2971  016F  2972               	goto	i1l695
+  2972                           	opt asmopt_on
+  2973                           
+  2974                           	line	431
+  2975                           	
+  2976  0170                     i1l724:	
+  2977  0170  2972               	goto	i1l695
+  2978                           	line	432
+  2979                           	
+  2980  0171                     i1l717:	
+  2981  0171  2972               	goto	i1l695
+  2982                           	line	433
+  2983                           	
+  2984  0172                     i1l716:	
+  2985                           	
+  2986  0172                     i1l695:	
+  2987                           	line	434
+  2988                           ;Digital_Watch.c: 432: }
+  2989                           ;Digital_Watch.c: 433: }
+  2990                           ;Digital_Watch.c: 434: RBIF = 0;
+  2991  0172  100B               	bcf	(88/8),(88)&7
+  2992  0173  2974               	goto	i1l697
+  2993                           	line	435
+  2994                           	
+  2995  0174                     i1l692:	
+  2996                           	line	436
+  2997                           	
+  2998  0174                     i1l697:	
+  2999  0174  0875               	movf	(??_Interrupt_Handler+4),w
+  3000  0175  00FF               	movwf	btemp+1
+  3001  0176  0874               	movf	(??_Interrupt_Handler+3),w
+  3002  0177  008A               	movwf	pclath
+  3003  0178  0873               	movf	(??_Interrupt_Handler+2),w
+  3004  0179  0084               	movwf	fsr0
+  3005  017A  0E72               	swapf	(??_Interrupt_Handler+1)^0FFFFFF80h,w
+  3006  017B  0083               	movwf	status
+  3007  017C  0EFE               	swapf	saved_w,f
+  3008  017D  0E7E               	swapf	saved_w,w
+  3009  017E  0009               	retfie
+  3010                           	opt stack 0
+  3011                           GLOBAL	__end_of_Interrupt_Handler
+  3012  017F                     	__end_of_Interrupt_Handler:
+  3013 ;; =============== function _Interrupt_Handler ends ============
+  3014                           
+  3015                           	signat	_Interrupt_Handler,88
+  3016                           	global	_CalculateTime
+  3017                           psect	text306,local,class=CODE,delta=2
+  3018                           global __ptext306
+  3019  0220                     __ptext306:
+  3020                           
+  3021 ;; *************** function _CalculateTime *****************
+  3022 ;; Defined at:
+  3023 ;;		line 160 in file "Digital_Watch.c"
+  3024 ;; Parameters:    Size  Location     Type
+  3025 ;;		None
+  3026 ;; Auto vars:     Size  Location     Type
+  3027 ;;		None
+  3028 ;; Return value:  Size  Location     Type
+  3029 ;;		None               void
+  3030 ;; Registers used:
+  3031 ;;		wreg, status,2, status,0
+  3032 ;; Tracked objects:
+  3033 ;;		On entry : 0/0
+  3034 ;;		On exit  : 0/0
+  3035 ;;		Unchanged: 0/0
+  3036 ;; Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+  3037 ;;      Params:         0       0       0       0       0
+  3038 ;;      Locals:         0       0       0       0       0
+  3039 ;;      Temps:          1       0       0       0       0
+  3040 ;;      Totals:         1       0       0       0       0
+  3041 ;;Total ram usage:        1 bytes
+  3042 ;; Hardware stack levels used:    1
+  3043 ;; This function calls:
+  3044 ;;		Nothing
+  3045 ;; This function is called by:
+  3046 ;;		_Interrupt_Handler
+  3047 ;; This function uses a non-reentrant model
+  3048 ;;
+  3049                           psect	text306
+  3050                           	file	"Digital_Watch.c"
+  3051                           	line	160
+  3052                           	global	__size_of_CalculateTime
+  3053  0072                     	__size_of_CalculateTime	equ	__end_of_CalculateTime-_CalculateTime
+  3054                           	
+  3055  0220                     _CalculateTime:	
+  3056                           	opt	stack 2
+  3057                           ; Regs used in _CalculateTime: [wreg+status,2+status,0]
+  3058                           	line	162
+  3059                           	
+  3060  0220                     i1l3728:	
+  3061                           ;Digital_Watch.c: 162: if(mode == 0)
+  3062  0220  1283               	bcf	status, 5	;RP0=0, select bank0
+  3063  0221  1303               	bcf	status, 6	;RP1=0, select bank0
+  3064  0222  08B2               	movf	(_mode),f
+  3065  0223  1D03               	skipz
+  3066  0224  2A26               	goto	u264_21
+  3067  0225  2A27               	goto	u264_20
+  3068  0226                     u264_21:
+  3069  0226  2A29               	goto	i1l3732
+  3070  0227                     u264_20:
+  3071  0227  2A91               	goto	i1l660
+  3072                           	line	164
+  3073                           	
+  3074  0228                     i1l3730:	
+  3075                           ;Digital_Watch.c: 163: {
+  3076                           ;Digital_Watch.c: 164: return;
+  3077  0228  2A91               	goto	i1l660
+  3078                           	line	165
+  3079                           	
+  3080  0229                     i1l659:	
+  3081                           	line	166
+  3082                           	
+  3083  0229                     i1l3732:	
+  3084                           ;Digital_Watch.c: 165: }
+  3085                           ;Digital_Watch.c: 166: digits[0]++;
+  3086  0229  3001               	movlw	(01h)
+  3087  022A  00F0               	movwf	(??_CalculateTime+0)+0
+  3088  022B  0870               	movf	(??_CalculateTime+0)+0,w
+  3089  022C  07A0               	addwf	(_digits),f
+  3090                           	line	167
+  3091                           	
+  3092  022D                     i1l3734:	
+  3093                           ;Digital_Watch.c: 167: if(digits[0] == 10)
+  3094  022D  0820               	movf	(_digits),w
+  3095  022E  3A0A               	xorlw	0Ah
+  3096  022F  1D03               	skipz
+  3097  0230  2A32               	goto	u265_21
+  3098  0231  2A33               	goto	u265_20
+  3099  0232                     u265_21:
+  3100  0232  2A91               	goto	i1l660
+  3101  0233                     u265_20:
+  3102                           	line	169
+  3103                           	
+  3104  0233                     i1l3736:	
+  3105                           ;Digital_Watch.c: 168: {
+  3106                           ;Digital_Watch.c: 169: digits[0] = 0;
+  3107  0233  01A0               	clrf	(_digits)
+  3108                           	line	170
+  3109                           	
+  3110  0234                     i1l3738:	
+  3111                           ;Digital_Watch.c: 170: digits[1]++;
+  3112  0234  3001               	movlw	(01h)
+  3113  0235  00F0               	movwf	(??_CalculateTime+0)+0
+  3114  0236  0870               	movf	(??_CalculateTime+0)+0,w
+  3115  0237  07A1               	addwf	0+(_digits)+01h,f
+  3116                           	line	171
+  3117                           	
+  3118  0238                     i1l3740:	
+  3119                           ;Digital_Watch.c: 171: if(digits[1] == 6)
+  3120  0238  0821               	movf	0+(_digits)+01h,w
+  3121  0239  3A06               	xorlw	06h
+  3122  023A  1D03               	skipz
+  3123  023B  2A3D               	goto	u266_21
+  3124  023C  2A3E               	goto	u266_20
+  3125  023D                     u266_21:
+  3126  023D  2A91               	goto	i1l660
+  3127  023E                     u266_20:
+  3128                           	line	173
+  3129                           	
+  3130  023E                     i1l3742:	
+  3131                           ;Digital_Watch.c: 172: {
+  3132                           ;Digital_Watch.c: 173: digits[1] = 0;
+  3133  023E  01A1               	clrf	0+(_digits)+01h
+  3134                           	line	174
+  3135                           	
+  3136  023F                     i1l3744:	
+  3137                           ;Digital_Watch.c: 174: if(mode == 1)
+  3138  023F  0832               	movf	(_mode),w
+  3139  0240  3A01               	xorlw	01h
+  3140  0241  1D03               	skipz
+  3141  0242  2A44               	goto	u267_21
+  3142  0243  2A45               	goto	u267_20
+  3143  0244                     u267_21:
+  3144  0244  2A47               	goto	i1l3748
+  3145  0245                     u267_20:
+  3146  0245  2A91               	goto	i1l660
+  3147                           	line	176
+  3148                           	
+  3149  0246                     i1l3746:	
+  3150                           ;Digital_Watch.c: 175: {
+  3151                           ;Digital_Watch.c: 176: return;
+  3152  0246  2A91               	goto	i1l660
+  3153                           	line	177
+  3154                           	
+  3155  0247                     i1l663:	
+  3156                           	line	179
+  3157                           	
+  3158  0247                     i1l3748:	
+  3159                           ;Digital_Watch.c: 177: }
+  3160                           ;Digital_Watch.c: 179: digits[2]++;
+  3161  0247  3001               	movlw	(01h)
+  3162  0248  00F0               	movwf	(??_CalculateTime+0)+0
+  3163  0249  0870               	movf	(??_CalculateTime+0)+0,w
+  3164  024A  07A2               	addwf	0+(_digits)+02h,f
+  3165                           	line	180
+  3166                           	
+  3167  024B                     i1l3750:	
+  3168                           ;Digital_Watch.c: 180: if(digits[2] == 10)
+  3169  024B  0822               	movf	0+(_digits)+02h,w
+  3170  024C  3A0A               	xorlw	0Ah
+  3171  024D  1D03               	skipz
+  3172  024E  2A50               	goto	u268_21
+  3173  024F  2A51               	goto	u268_20
+  3174  0250                     u268_21:
+  3175  0250  2A91               	goto	i1l660
+  3176  0251                     u268_20:
+  3177                           	line	182
+  3178                           	
+  3179  0251                     i1l3752:	
+  3180                           ;Digital_Watch.c: 181: {
+  3181                           ;Digital_Watch.c: 182: digits[2] = 0;
+  3182  0251  01A2               	clrf	0+(_digits)+02h
+  3183                           	line	184
+  3184                           	
+  3185  0252                     i1l3754:	
+  3186                           ;Digital_Watch.c: 184: digits[3]++;
+  3187  0252  3001               	movlw	(01h)
+  3188  0253  00F0               	movwf	(??_CalculateTime+0)+0
+  3189  0254  0870               	movf	(??_CalculateTime+0)+0,w
+  3190  0255  07A3               	addwf	0+(_digits)+03h,f
+  3191                           	line	185
+  3192                           	
+  3193  0256                     i1l3756:	
+  3194                           ;Digital_Watch.c: 185: if(digits[3] == 6)
+  3195  0256  0823               	movf	0+(_digits)+03h,w
+  3196  0257  3A06               	xorlw	06h
+  3197  0258  1D03               	skipz
+  3198  0259  2A5B               	goto	u269_21
+  3199  025A  2A5C               	goto	u269_20
+  3200  025B                     u269_21:
+  3201  025B  2A91               	goto	i1l660
+  3202  025C                     u269_20:
+  3203                           	line	187
+  3204                           	
+  3205  025C                     i1l3758:	
+  3206                           ;Digital_Watch.c: 186: {
+  3207                           ;Digital_Watch.c: 187: digits[3] = 0;
+  3208  025C  01A3               	clrf	0+(_digits)+03h
+  3209                           	line	189
+  3210                           	
+  3211  025D                     i1l3760:	
+  3212                           ;Digital_Watch.c: 189: if(mode == 2)
+  3213  025D  0832               	movf	(_mode),w
+  3214  025E  3A02               	xorlw	02h
+  3215  025F  1D03               	skipz
+  3216  0260  2A62               	goto	u270_21
+  3217  0261  2A63               	goto	u270_20
+  3218  0262                     u270_21:
+  3219  0262  2A65               	goto	i1l3764
+  3220  0263                     u270_20:
+  3221  0263  2A91               	goto	i1l660
+  3222                           	line	191
+  3223                           	
+  3224  0264                     i1l3762:	
+  3225                           ;Digital_Watch.c: 190: {
+  3226                           ;Digital_Watch.c: 191: return;
+  3227  0264  2A91               	goto	i1l660
+  3228                           	line	192
+  3229                           	
+  3230  0265                     i1l666:	
+  3231                           	line	194
+  3232                           	
+  3233  0265                     i1l3764:	
+  3234                           ;Digital_Watch.c: 192: }
+  3235                           ;Digital_Watch.c: 194: digits[4]++;
+  3236  0265  3001               	movlw	(01h)
+  3237  0266  00F0               	movwf	(??_CalculateTime+0)+0
+  3238  0267  0870               	movf	(??_CalculateTime+0)+0,w
+  3239  0268  07A4               	addwf	0+(_digits)+04h,f
+  3240                           	line	195
+  3241                           	
+  3242  0269                     i1l3766:	
+  3243                           ;Digital_Watch.c: 195: if(digits[4] == 4)
+  3244  0269  0824               	movf	0+(_digits)+04h,w
+  3245  026A  3A04               	xorlw	04h
+  3246  026B  1D03               	skipz
+  3247  026C  2A6E               	goto	u271_21
+  3248  026D  2A6F               	goto	u271_20
+  3249  026E                     u271_21:
+  3250  026E  2A80               	goto	i1l3772
+  3251  026F                     u271_20:
+  3252                           	line	197
+  3253                           	
+  3254  026F                     i1l3768:	
+  3255                           ;Digital_Watch.c: 196: {
+  3256                           ;Digital_Watch.c: 197: if(digits[5] == 2)
+  3257  026F  0825               	movf	0+(_digits)+05h,w
+  3258  0270  3A02               	xorlw	02h
+  3259  0271  1D03               	skipz
+  3260  0272  2A74               	goto	u272_21
+  3261  0273  2A75               	goto	u272_20
+  3262  0274                     u272_21:
+  3263  0274  2A91               	goto	i1l660
+  3264  0275                     u272_20:
+  3265                           	line	199
+  3266                           	
+  3267  0275                     i1l3770:	
+  3268                           ;Digital_Watch.c: 198: {
+  3269                           ;Digital_Watch.c: 199: digits[0] = digits[1] = digits[2] = digits[3] = digits[4] = digit
+                                 s[5] = 0;
+  3270  0275  3000               	movlw	(0)
+  3271  0276  00A5               	movwf	0+(_digits)+05h
+  3272  0277  00A4               	movwf	0+(_digits)+04h
+  3273  0278  00A3               	movwf	0+(_digits)+03h
+  3274  0279  00A2               	movwf	0+(_digits)+02h
+  3275  027A  00A1               	movwf	0+(_digits)+01h
+  3276  027B  00F0               	movwf	(??_CalculateTime+0)+0
+  3277  027C  0870               	movf	(??_CalculateTime+0)+0,w
+  3278  027D  00A0               	movwf	(_digits)
+  3279  027E  2A91               	goto	i1l660
+  3280                           	line	200
+  3281                           	
+  3282  027F                     i1l668:	
+  3283                           	line	201
+  3284                           ;Digital_Watch.c: 200: }
+  3285                           ;Digital_Watch.c: 201: }
+  3286  027F  2A91               	goto	i1l660
+  3287                           	line	202
+  3288                           	
+  3289  0280                     i1l667:	
+  3290                           	
+  3291  0280                     i1l3772:	
+  3292                           ;Digital_Watch.c: 202: else if(digits[4] == 10)
+  3293  0280  0824               	movf	0+(_digits)+04h,w
+  3294  0281  3A0A               	xorlw	0Ah
+  3295  0282  1D03               	skipz
+  3296  0283  2A85               	goto	u273_21
+  3297  0284  2A86               	goto	u273_20
+  3298  0285                     u273_21:
+  3299  0285  2A91               	goto	i1l660
+  3300  0286                     u273_20:
+  3301                           	line	204
+  3302                           	
+  3303  0286                     i1l3774:	
+  3304                           ;Digital_Watch.c: 203: {
+  3305                           ;Digital_Watch.c: 204: digits[4] = 0;
+  3306  0286  01A4               	clrf	0+(_digits)+04h
+  3307                           	line	205
+  3308                           	
+  3309  0287                     i1l3776:	
+  3310                           ;Digital_Watch.c: 205: digits[5]++;
+  3311  0287  3001               	movlw	(01h)
+  3312  0288  00F0               	movwf	(??_CalculateTime+0)+0
+  3313  0289  0870               	movf	(??_CalculateTime+0)+0,w
+  3314  028A  07A5               	addwf	0+(_digits)+05h,f
+  3315  028B  2A91               	goto	i1l660
+  3316                           	line	206
+  3317                           	
+  3318  028C                     i1l670:	
+  3319  028C  2A91               	goto	i1l660
+  3320                           	line	207
+  3321                           	
+  3322  028D                     i1l669:	
+  3323  028D  2A91               	goto	i1l660
+  3324                           	
+  3325  028E                     i1l665:	
+  3326  028E  2A91               	goto	i1l660
+  3327                           	line	208
+  3328                           	
+  3329  028F                     i1l664:	
+  3330  028F  2A91               	goto	i1l660
+  3331                           	line	210
+  3332                           	
+  3333  0290                     i1l662:	
+  3334  0290  2A91               	goto	i1l660
+  3335                           	line	211
+  3336                           	
+  3337  0291                     i1l661:	
+  3338                           	line	212
+  3339                           	
+  3340  0291                     i1l660:	
+  3341  0291  0008               	return
+  3342                           	opt stack 0
+  3343                           GLOBAL	__end_of_CalculateTime
+  3344  0292                     	__end_of_CalculateTime:
+  3345 ;; =============== function _CalculateTime ends ============
+  3346                           
+  3347                           	signat	_CalculateTime,88
+  3348                           psect	text307,local,class=CODE,delta=2
+  3349                           global __ptext307
+  3350  0000                     __ptext307:
+  3351                           	global	btemp
+  3352  007E                     	btemp set 07Eh
+  3353                           
+  3354                           	DABS	1,126,2	;btemp
+  3355                           	global	wtemp0
+  3356  007E                     	wtemp0 set btemp
+
+
+HI-TECH Software PICC Macro Assembler V9.83 build 10920 
+Symbol Table                                                                                   Tue Mar 26 21:56:31 2013
+
+                         pc 0002         ??_Interrupt_Handler 0071                          _RD 0C60  
+                        _WR 0C61                          fsr 0004             _OutputAllDigits 036D  
+                       l630 018F                         l631 021F                         l632 01B9  
+                       l640 01A8                         l641 01AC                         l633 0190  
+                       l650 01FA                         l634 01D9                         l642 01B0  
+                       l651 0202                         l643 01B4                         l635 0194  
+                       l627 031E                         l644 020B                         l636 0198  
+                       l645 01DA                         l637 019C                         l646 021F  
+                       l638 01A0                         l654 0378                         l647 01E2  
+                       l639 01A4                         l655 0393                         l648 01EA  
+                       l656 0393                         l649 01F2                         l673 0363  
+                       l674 0369                         l675 036A                         l676 036A  
+                       _GIE 005F                         _RB4 0034                         _RB5 0035  
+                       _RE0 0048                         _RB6 0036                         _RE1 0049  
+                       _RE2 004A                         _PS0 0408                         _PS1 0409  
+                       _PS2 040A                         _PSA 040B                         fsr0 0004  
+                       indf 0000                 lcd_goto@pos 002C                        l1430 0399  
+                      l1423 03D3                        l1431 03B9                        l1432 03B9  
+                      l4000 02FD                        l1441 02EB                        l1426 03E8  
+                      l4010 0319                        l4002 02FF                        l4004 0303  
+                      l4012 0346                        l1429 03AC                        l1438 0404  
+                      l4006 030C                        l4014 0351                        l4008 0310  
+                      l4016 0357                        l3700 01A8                        l3702 01AC  
+                      l3710 01B9                        l3720 01FA                        l3712 01DA  
+                      l3704 01B0                        l3722 0202                        l3714 01E2  
+                      l3706 01B4                        l3724 020A                        l3716 01EA  
+                      l3708 01B8                        l3718 01F2                        l3726 020B  
+                      l3920 0377                        l3690 0194                        l3682 0180  
+                      l3922 0378                        l3930 03BF                        l3692 0198  
+                      l3684 0184                        l3924 0386                        l3916 036D  
+                      l3940 03D2                        l3932 03CC                        l3694 019C  
+                      l3686 018E                        l3926 038C                        l3918 0370  
+                      l3934 03CD                        l3942 03FC                        l3950 03A5  
+                      l3696 01A0                        l3688 0190                        l3936 03CE  
+                      l3928 03BB                        l3944 03FD                        l3952 03AC  
+                      l3960 0292                        l3698 01A4                        l3938 03D1  
+                      l3946 0397                        l3954 03D4                        l3970 02A4  
+                      l3962 029C                        l3948 0399                        l3956 03D7  
+                      l3980 02C5                        l3972 02B2                        l3964 029F  
+                      l3958 03DD                        l3990 02DA                        l3982 02C8  
+                      l3974 02B3                        l3966 02A0                        l3992 02E0  
+                      l3984 02D2                        l3976 02BC                        l3968 02A3  
+                      l3994 02E5                        l3986 02D3                        l3978 02BF  
+                      l3988 02D4                        l3996 02EC                        l3998 02FC  
+                      STR_1 0325                        STR_2 033A                        _T0CS 040D  
+                      u3000 0376                        u3001 0375                        u3010 0392  
+                      u3011 0391                        _T0SE 040C                        u3030 03B8  
+                      u3031 03B7                        u3025 03C2                        u3047 02A9  
+                      u3057 02B8                        u3067 02C2                        u3077 02CB  
+                      u2630 018D                        u2631 018C                        u3087 03E3  
+                      u3097 03BD                        _PEIE 005E                        _RBIE 005B  
+                      _RBIF 0058   __end_of_Interrupt_Handler 017F                        _WREN 0C62  
+                      _Init 02EC                        _main 0346                        _mode 0032  
+                      btemp 007E                        start 0012                       ?_Init 0070  
+                     ?_main 0070                       _EEADR 010D                       _CARRY 0018  
+                     _PCFG0 04F8                       _PCFG1 04F9                       _PCFG2 04FA  
+                     _PCFG3 04FB                       i1l700 009E                       i1l701 00B5  
+                     i1l710 00D3                       i1l702 00B1                       i1l711 00D4  
+                     i1l703 00B4                       i1l720 011B                       i1l712 00EF  
+                     i1l704 00B8                       i1l721 0115                       i1l705 00FF  
+                     i1l713 00E7                       i1l730 013C                       i1l722 011A  
+                     i1l714 00EE                       i1l706 00B9                       i1l731 0151  
+                     i1l723 0120                       i1l715 00F2                       i1l707 00D0  
+                     i1l660 0291                       i1l716 0172                       i1l724 0170  
+                     i1l732 014B                       i1l708 00CC                       i1l661 0291  
+                     i1l717 0171                       i1l733 0150                       i1l725 0121  
+                     i1l709 00CF                       i1l662 0290                       i1l670 028C  
+                     i1l718 0165                       i1l734 0163                       i1l726 0136  
+                     i1l663 0247                       i1l735 015D                       i1l727 0130  
+                     i1l719 0106                       i1l664 028F                       i1l736 0162  
+                     i1l728 0135                       i1l680 0037                       i1l665 028E  
+                     i1l729 013B                       i1l681 0030                       i1l666 0265  
+                     i1l690 0070                       i1l682 0036                       i1l667 0280  
+                     i1l659 0229                       i1l683 0079                       i1l691 0077  
+                     i1l668 027F                       i1l692 0174                       i1l684 0054  
+                     i1l669 028D                       i1l693 0090                       i1l685 004D  
+                     i1l694 008F                       i1l686 0053                       i1l695 0172  
+                     i1l679 007B                       i1l687 0078                       i1l696 0098  
+                     i1l688 0071                       i1l697 0174                       i1l689 006A  
+                     i1l698 0100                       i1l699 00F4                       _PORTA 0005  
+                     _PORTC 0007                       _PORTD 0008                       _TRISA 0085  
+                     _TRISC 0087                       _TRISD 0088                       _TRISE 0089  
+                     pclath 000A                       status 0003                       wtemp0 007E  
+              __end_of_Init 031F     __end_of_OutputAllDigits 0394                __end_of_main 036D  
+                    ??_Init 0031                      ??_main 0078            __end_of_OutDigit 0220  
+                    _ADCON1 009F                      _EEDATA 010C                      _EECON1 018C  
+                    _EECON2 018D  __size_of_Interrupt_Handler 016A                      i1l3800 005F  
+                    i1l3730 0228                      i1l3802 0064                      i1l3810 007B  
+                    i1l3740 0238                      i1l3732 0229                      i1l3900 0151  
+                    i1l3820 0090                      i1l3812 007F                      i1l3804 006A  
+                    i1l3750 024B                      i1l3742 023E                      i1l3734 022D  
+                    i1l3902 0157                      i1l3910 0165                      i1l3830 00A7  
+                    i1l3822 0096                      i1l3814 0083                      i1l3806 0071  
+                    i1l3760 025D                      i1l3752 0251                      i1l3744 023F  
+                    i1l3736 0233                      i1l3728 0220                      i1l3904 0158  
+                    i1l3840 00BE                      i1l3832 00AC                      i1l3824 009D  
+                    i1l3816 0087                      i1l3808 0079                      i1l3770 0275  
+                    i1l3762 0264                      i1l3754 0252                      i1l3746 0246  
+                    i1l3738 0234                      i1l3906 015D                      i1l3850 00D4  
+                    i1l3842 00C2                      i1l3834 00B1                      i1l3826 009E  
+                    i1l3818 008D                      i1l3772 0280                      i1l3764 0265  
+                    i1l3756 0256                      i1l3748 0247                      i1l3908 0164  
+                    i1l3852 00D9                      i1l3860 00EF                      i1l3844 00C7  
+                    i1l3828 00A3                      i1l3836 00B5                      i1l3780 0019  
+                    i1l3774 0286                      i1l3766 0269                      i1l3758 025C  
+                    i1l3870 010C                      i1l3862 00F3                      i1l3854 00DE  
+                    i1l3846 00CC                      i1l3838 00B9                      i1l3790 0037  
+                    i1l3782 001E                      i1l3776 0287                      i1l3768 026F  
+                    i1l3880 0121                      i1l3872 010D                      i1l3856 00E7  
+                    i1l3848 00D0                      i1l3864 00F4                      i1l3792 0042  
+                    i1l3784 0025                      i1l3882 0127                      i1l3890 0136  
+                    i1l3874 0113                      i1l3866 0105                      i1l3858 00EB  
+                    i1l3794 0047                      i1l3786 002A                      i1l3778 0015  
+                    i1l3892 013C                      i1l3884 0128                      i1l3876 0115  
+                    i1l3868 0106                      i1l3796 004D                      i1l3788 0030  
+                    i1l3894 0142                      i1l3886 012E                      i1l3878 011B  
+                    i1l3798 0054                      i1l3896 0148                      i1l3888 0130  
+                    i1l3898 014B                      u270_20 0263                      u270_21 0262  
+                    u271_20 026F                      u271_21 026E                      u272_20 0275  
+                    u264_20 0227                      u280_20 0064                      u272_21 0274  
+                    u264_21 0226                      u280_21 0063                      u273_20 0286  
+                    u265_20 0233                      u281_20 007F                      u273_21 0285  
+                    u265_21 0232                      u281_21 007E                      u266_20 023E  
+                    u290_20 00D9                      u282_20 0083                      u274_20 0019  
+                    u266_21 023D                      u290_21 00D8                      u282_21 0082  
+                    u274_21 0018                      u267_20 0245                      u291_20 00DE  
+                    u283_20 008D                      u275_20 0025                      u267_21 0244  
+                    u291_21 00DD                      u283_21 008C                      u275_21 0024  
+                    u268_20 0251                      u292_20 0104                      u284_20 0096  
+                    u276_20 002A                      u268_21 0250                      u292_21 0103  
+                    u284_21 0095                      u276_21 0029                      u269_20 025C  
+                    u293_20 010C                      u285_20 009C                      u277_20 0042  
+                    u269_21 025B                      u293_21 010B                      u285_21 009B  
+                    u277_21 0041                      u294_20 0113                      u286_20 00A3  
+                    u278_20 0047                      u294_21 0112                      u286_21 00A2  
+                    u278_21 0046                      u295_20 0127                      u287_20 00AC  
+                    u279_20 005F                      u295_21 0126                      u287_21 00AB  
+                    u279_21 005E                      u296_20 012E                      u288_20 00BE  
+                    u296_21 012D                      u288_21 00BD                      u297_20 0142  
+                    u289_20 00C7                      u297_21 0141                      u289_21 00C6  
+                    u298_20 0148                      u298_21 0147                      u299_20 0157  
+                    u299_21 0156                      _TMR0IE 005D                      _TMR0IF 005A  
+    __size_of_CalculateTime 0072            __end_of_lcd_init 02EC            __end_of_lcd_goto 0405  
+          __end_of_lcd_puts 03BA                      _digits 0020                      saved_w 007E  
+          OutputAllDigits@i 002D              __pcstackCOMMON 0070            ?_OutputAllDigits 0070  
+             _CalculateTime 0220          __size_of_lcd_clear 0015          __size_of_lcd_write 001A  
+                __pbssBANK0 0020                   ?_OutDigit 0076                  __pmaintext 0346  
+                __pintentry 0004              ?_CalculateTime 0070                 OutDigit@num 0076  
+                 ?_lcd_init 0070                   ?_lcd_goto 0070                   ?_lcd_puts 0070  
+                ??_OutDigit 0077           __end_of_lcd_clear 03E9           __end_of_lcd_write 03D4  
+                   _visible 0026                  ??_lcd_init 002E                  ??_lcd_goto 0078  
+                ??_lcd_puts 002C        end_of_initialization 03F5               OutDigit@digit 0077  
+           ??_CalculateTime 0070                  lcd_write@c 0077         start_initialization 03E9  
+        lcd_init@init_value 0030           __size_of_OutDigit 00A1    __size_of_OutputAllDigits 0027  
+             __pcstackBANK0 002C           __size_of_lcd_init 005A           __size_of_lcd_goto 000C  
+         __size_of_lcd_puts 0026                   __pnvBANK0 0032                   __ptext300 0394  
+                 __ptext301 03F9                   __ptext302 03BA                   __ptext303 036D  
+                 __ptext304 017F                   __ptext305 0015                   __ptext306 0220  
+                 __ptext307 0000                   __ptext297 02EC                   __ptext298 0292  
+                 __ptext299 03D4                   _lcd_clear 03D4                   __pstrings 031F  
+                 _lcd_write 03BA           interrupt_function 0004                  ?_lcd_clear 0070  
+               __stringbase 0324                  ?_lcd_write 0070                   lcd_puts@s 002D  
+         ??_OutputAllDigits 002C                    _OutDigit 017F       __end_of_CalculateTime 0292  
+                  _lcd_init 0292                    _lcd_goto 03F9                    _lcd_puts 0394  
+             __size_of_Init 0033               __size_of_main 0027                 ??_lcd_clear 002C  
+               ??_lcd_write 0076                    intlevel1 0000                   stringcode 031F  
+                  stringdir 031F                    stringtab 031F           _Interrupt_Handler 0015  
+        ?_Interrupt_Handler 0070  
